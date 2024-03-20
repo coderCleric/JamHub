@@ -1,0 +1,17 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: The Machine
+        Authors: Small Bug
+      </Page>
+      <Page>The Machine is one of the two mods that won second place in the first mod jam hosted by the Outer Wilds modding community.</Page>
+      <Page>This mod takes the player to a new solar system, with its own set of unique planets, dangerous hazards, and cataclysmic events.</Page>
+      <Page>Crucially, The Machine also introduces a new mystery, tasking the player with uncovering the clues needed to prevent the collapse of the system.</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

@@ -1,0 +1,17 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: Real Solar System
+        Author: Xen
+      </Page>
+      <Page>While RSS does exist on the mod database, it is only a preview of what is to come for this mod. It is still being worked on and story elements are planned for the full release.</Page>
+      <Page>Not much is commonly known of RSS’s story as it is not mentioned on the mod page, but it is still a mod that has many (including myself) looking forward to the full release.</Page>
+      <Page>Even without the story elements, RSS is still a lot of fun to fly around. Getting to see our solar system in Outer Wilds in a neat experience, and well worth the download.</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

@@ -1,0 +1,27 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Bird</NameField>
+
+
+	<DialogueNode>
+		<Name>INITIAL</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hey there! I'm Bird.</Page>
+			<Page>Be sure to look out for Extinction, which is a mod that I'm currently working on!</Page>
+			<Page>You can find me on the Outer Wilds modding discord as "Bird"!</Page>
+		</Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Why is that guy locked in a cage?</Text>
+        <DialogueTarget>CAGE</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+	</DialogueNode>
+
+  <DialogueNode>
+    <Name>CAGE</Name>
+    <Dialogue>
+      <Page>Oh, yeah, he was causing trouble so I put him in there. Don't worry about it.</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

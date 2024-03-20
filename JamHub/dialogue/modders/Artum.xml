@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Artum</NameField>
+
+
+	<DialogueNode>
+		<Name>INITIAL</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hey there! I'm Artum.</Page>
+			<Page>I was invited because of my involvement in NomaiVR.</Page>
+			<Page>You can find me on the Outer Wilds modding discord as "artum"!</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

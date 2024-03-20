@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>This platform showcases the winners of the modding community’s second mod jam, held in July of 2023 with the themes of “Bigger on the Inside” and “Hidden in Plain Sight”.</Page>
+      <Page>This jam not only allowed the use of custom code, but also provided nearly twice as much time as the previous. Both of these facts were well reflected by the quality and creativity of the submitted mods.</Page>
+      <Page>With the code restriction lifted, many of the competitors from the previous jam returned to the competition with bright ideas and the means to implement them, creating some of the best story mods that had been seen by the community at the time.</Page>
+      <Page>If you want to, you can meet the creators of these mods at the party on the north pole!</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

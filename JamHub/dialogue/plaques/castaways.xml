@@ -1,0 +1,17 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: Forgotten Castaways
+        Author: coderCleric
+      </Page>
+      <Page>Forgotten Castaways is an upcoming story mod that takes place entirely in Dark Bramble, tasking the player with following the trail of the four Nomai that became stranded there.</Page>
+      <Page>Despite taking place in Dark Bramble, the mod attempts to make the location (somewhat) less intimidating, hoping to allow those who are not fond of the planet to play it.</Page>
+      <Page>(I’m also the one making Forgotten Castaways, so you can’t stop me from including it here!)</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Streetlights Behind the Trees</NameField>
+
+
+	<DialogueNode>
+		<Name>INITIAL</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Oh, hey! Pleasure to meet you, I'm Streetlights Behind the Trees.</Page>
+			<Page>Have you played Outsider? I was actually involved in it, you should give it a try!</Page>
+			<Page>Did you know that there's an unofficial Outer Wilds modding discord? I go by "Streetlights Behind the Trees" over there.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

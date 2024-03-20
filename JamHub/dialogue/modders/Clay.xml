@@ -1,0 +1,15 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Clay</NameField>
+
+
+	<DialogueNode>
+		<Name>INITIAL</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Oh, hey! I don't know if we've met, my name is Clay!</Page>
+			<Page>I'm here because of my work on New Horizons.</Page>
+			<Page>Did you know that I'm also working on Uncertain Futures? I'm looking forward to getting to release it once it's done!</Page>
+			<Page>Did you know that there's an unofficial Outer Wilds modding discord? I go by "clay" over there.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

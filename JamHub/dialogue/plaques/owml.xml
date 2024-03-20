@@ -1,0 +1,17 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: Outer Wilds Mod Loader
+        Authors: Alek and friends
+      </Page>
+      <Page>The backbone of all other mods, OWML is the software responsible for making the code written by modders actually affect the game.</Page>
+      <Page>Not only does OWML allow mods to interface with the game on a basic level, it also provides a number of handy helpers to mod developers, giving them easier ways to influence the game.</Page>
+      <Page>(Some of those helpers were used in the tricker parts of this mod, so I personally have a lot of thanks for OWML’s authors!)</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

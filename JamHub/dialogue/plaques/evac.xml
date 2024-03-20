@@ -1,0 +1,18 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: Evacuation
+        Authors: 2walker2, Texture_Turtle, and Samster68
+      </Page>
+      <Page>Evacuation is one of two mods that won first place in the first mod jam held by the Outer Wilds modding community.</Page>
+      <Page>This mod follows the hypothetical situation where, by some mysterious means, the Hearthians come to learn that their Sun will soon explode and manage to escape to another start system before that can happen.</Page>
+      <Page>Despite this daring escape, the Hearthians may not be out of the woods yet, as the system they’ve found themselves in may prove to be more treacherous than it first appeared…</Page>
+      <Page>Be sure to give this mod a playthrough, it is likely the entry that makes the most creative use of New Horizons’ features to create unique puzzles!</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

@@ -1,0 +1,17 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: New Horizons Examples
+        Author: Xen
+      </Page>
+      <Page>New Horizons Examples is exactly what it sounds like, a mod created to showcase the different features implemented in New Horizons.</Page>
+      <Page>Despite being created as a form of documentation for the usage of New Horizons features, this mod is still fun to explore and is the source of many inside jokes referenced by the community.</Page>
+      <Page>The mod is regularly updated to implement any new features in New Horizons, ensuring that it can serve as a reference for novice and experienced modders alike.</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

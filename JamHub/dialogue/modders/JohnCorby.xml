@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>JohnCorby</NameField>
+
+
+	<DialogueNode>
+		<Name>INITIAL</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Oh, hey! Pleasure to meet you, I'm JohnCorby.</Page>
+			<Page>I'm here because of my work on Quantum Space Buddies and New Horizons.</Page>
+			<Page>You can find me on the Outer Wilds modding discord as "JohnCorby"!</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

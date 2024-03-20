@@ -1,0 +1,17 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: Archipelago
+        Authors: Can’t Afford a Name
+      </Page>
+      <Page>Archipelago is one of the two mods that won second place in the first mod jam hosted by the Outer Wilds modding community.</Page>
+      <Page>This mod has you warp to a new planet covered in a vast ocean and enclosed in a massive stone sphere. Using the clues that you find, you must find a way under the seafloor to solve the mystery surrounding this strange astral body.</Page>
+      <Page>Archipelago is a very interesting mod, combining organic mysteries and puzzles with fantastical environments and fascinating creatures. Definitely play this gem if you haven’t already.</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

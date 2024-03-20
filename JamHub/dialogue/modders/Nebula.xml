@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Nebula</NameField>
+
+
+	<DialogueNode>
+		<Name>INITIAL</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Oh, hey! Pleasure to meet you, I'm Nebula.</Page>
+			<Page>Have you played Quantum Space Buddies and OWML? I was actually involved in it, you should give it a try!</Page>
+			<Page>I go by "_nebula" on the Outer Wilds modding discord (which I happen to have created), feel free to stop by and chat!</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

@@ -1,0 +1,260 @@
+{
+  "name": "Hub Planet",
+  "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "starSystem": "Jam3",
+  "canShowOnTitle": false,
+  "Base": {
+    "groundSize": 0,
+    "surfaceSize": 160,
+    "surfaceGravity": 12,
+    "hasMapMarker": true
+  },
+  "Orbit": {
+    "primaryBody": "Jam 3 Sun"
+  },
+  "Atmosphere": {
+    "atmosphereSunIntensity": 1,
+    "hasOxygen": true,
+    "hasShockLayer": true,
+    "size": 230,
+    "useAtmosphereShader": true,
+    "atmosphereTint": {
+      "r": 140,
+      "b": 228,
+      "g": 255,
+      "a": 255
+    }
+  },
+  "AmbientLights": [
+    {
+      "intensity": 0.4
+    }
+  ],
+  "Props": {
+    "details": [
+      {
+        "keepLoaded": true,
+        "assetBundle": "assetbundles/jam3",
+        "path": "Assets/Prefabs/jam3/jamplanet.prefab"
+      }
+    ],
+    "dialogue": [
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Raicuparta/dialogue_anchor",
+        "xmlFile": "dialogue/modders/Raicuparta.xml",
+        "rename": "Raicuparta_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Artum/dialogue_anchor",
+        "xmlFile": "dialogue/modders/Artum.xml",
+        "rename": "Artum_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Nebula/dialogue_anchor",
+        "xmlFile": "dialogue/modders/Nebula.xml",
+        "rename": "Nebula_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/JohnCorby/dialogue_anchor",
+        "xmlFile": "dialogue/modders/JohnCorby.xml",
+        "rename": "JohnCorby_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/AmazingAlek/dialogue_anchor",
+        "xmlFile": "dialogue/modders/AmazingAlek.xml",
+        "rename": "AmazingAlek_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Idiot/dialogue_anchor",
+        "xmlFile": "dialogue/modders/Idiot.xml",
+        "rename": "Idiot_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Streetlights Behind the Trees/dialogue_anchor",
+        "xmlFile": "dialogue/modders/Streetlights Behind the Trees.xml",
+        "rename": "Streetlights Behind the Trees_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/xen/dialogue_anchor",
+        "xmlFile": "dialogue/modders/xen.xml",
+        "rename": "xen_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Clay/dialogue_anchor",
+        "xmlFile": "dialogue/modders/Clay.xml",
+        "rename": "Clay_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/MegaPiggy/dialogue_anchor",
+        "xmlFile": "dialogue/modders/MegaPiggy.xml",
+        "rename": "MegaPiggy_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Hawkbar/dialogue_anchor",
+        "xmlFile": "dialogue/modders/Hawkbar.xml",
+        "rename": "Hawkbar_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Trifid/dialogue_anchor",
+        "xmlFile": "dialogue/modders/Trifid.xml",
+        "rename": "Trifid_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Book/dialogue_anchor",
+        "xmlFile": "dialogue/modders/Book.xml",
+        "rename": "Book_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Hearth1an/dialogue_anchor",
+        "xmlFile": "dialogue/modders/Hearth1an.xml",
+        "rename": "Hearth1an_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/2walker2/dialogue_anchor",
+        "xmlFile": "dialogue/modders/2walker2.xml",
+        "rename": "2walker2_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Bird/dialogue_anchor",
+        "xmlFile": "dialogue/modders/Bird.xml",
+        "rename": "Bird_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/coderCleric/dialogue_anchor",
+        "xmlFile": "dialogue/modders/coderCleric.xml",
+        "rename": "coderCleric_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Texture_Turtle/dialogue_anchor",
+        "xmlFile": "dialogue/modders/Texture_Turtle.xml",
+        "rename": "Texture_Turtle_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Samster68/dialogue_anchor",
+        "xmlFile": "dialogue/modders/Samster68.xml",
+        "rename": "Samster68_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Insmoshable/dialogue_anchor",
+        "xmlFile": "dialogue/modders/Insmoshable.xml",
+        "rename": "Insmoshable_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Orclecle/dialogue_anchor",
+        "xmlFile": "dialogue/modders/Orclecle.xml",
+        "rename": "Orclecle_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Small Bug/dialogue_anchor",
+        "xmlFile": "dialogue/modders/Small Bug.xml",
+        "rename": "Small Bug_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Can't Afford a Name/dialogue_anchor",
+        "xmlFile": "dialogue/modders/Can't Afford a Name.xml",
+        "rename": "Can't Afford a Name_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/GameWyrm/dialogue_anchor",
+        "xmlFile": "dialogue/modders/GameWyrm.xml",
+        "rename": "GameWyrm_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Endgame Zero/dialogue_anchor",
+        "xmlFile": "dialogue/modders/Endgame Zero.xml",
+        "rename": "Endgame Zero_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Lumine 0409/dialogue_anchor",
+        "xmlFile": "dialogue/modders/Lumine 0409.xml",
+        "rename": "Lumine 0409_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Shoe/dialogue_anchor",
+        "xmlFile": "dialogue/modders/Shoe.xml",
+        "rename": "Shoe_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      }
+    ]
+  }
+}

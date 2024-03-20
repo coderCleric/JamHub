@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Insmoshable</NameField>
+
+
+	<DialogueNode>
+		<Name>INITIAL</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Oh, hey! Pleasure to meet you, I'm Insmoshable.</Page>
+			<Page>I'm glad to see Arcanum Adrift getting some more recognition, makes me proud!</Page>
+			<Page>I go by "Insmoshable" on the Outer Wilds modding discord, feel free to stop by and chat!</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

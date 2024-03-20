@@ -1,0 +1,15 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>xen</NameField>
+
+
+	<DialogueNode>
+		<Name>INITIAL</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Yo, how's it going? My name is xen.</Page>
+			<Page>Have you played New Horizons and NH Examples? I was actually involved in it, you should give it a try!</Page>
+			<Page>Be sure to look out for Real Solar System, which is a mod that I'm currently working on!</Page>
+			<Page>Did you know that there's an unofficial Outer Wilds modding discord? I go by "xen 7" over there.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

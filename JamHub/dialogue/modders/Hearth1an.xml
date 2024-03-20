@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Hearth1an</NameField>
+
+
+	<DialogueNode>
+		<Name>INITIAL</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Yo, how's it going? My name is Hearth1an.</Page>
+			<Page>Have you played The Vision? I was actually involved in it, you should give it a try!</Page>
+			<Page>You can find me on the Outer Wilds modding discord as "hearth1an"!</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Orclecle</NameField>
+
+
+	<DialogueNode>
+		<Name>INITIAL</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>How's it going? My name is Orclecle.</Page>
+			<Page>I was invited because of my involvement in Arcanum Adrift.</Page>
+			<Page>I go by "orclecle" on the Outer Wilds modding discord, feel free to stop by and chat!</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

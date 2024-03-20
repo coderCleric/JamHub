@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Can't Afford a Name</NameField>
+
+
+	<DialogueNode>
+		<Name>INITIAL</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Oh, hey! Pleasure to meet you, I'm Can't Afford a Name.</Page>
+			<Page>I was invited because of my involvement in Archipelago and Tesseract's Secret.</Page>
+			<Page>Did you know that there's an unofficial Outer Wilds modding discord? I go by "Can't Afford a Name" over there.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>2walker2</NameField>
+
+
+	<DialogueNode>
+		<Name>INITIAL</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hey! Welcome to the party! I'm 2walker2, nice to meet you!</Page>
+			<Page>Glad to be here, nice to get some more recognition for my work on Astral Codec and Evacuation.</Page>
+			<Page>You can find me on the Outer Wilds modding discord as "2walker2"!</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>
