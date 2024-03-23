@@ -34,7 +34,7 @@ namespace JamHub
             }
 
             //Get the sector transform of our planet
-            Transform sectorTF = GameObject.Find("HubPlanet_Body/Sector").transform;
+            Transform sectorTF = GameObject.Find("ModJamHub_Body/Sector").transform;
 
             //Make the orrery
             Orrery orrery = sectorTF.Find("jamplanet/computer_area/Orrery").gameObject.AddComponent<Orrery>();
