@@ -142,10 +142,6 @@ namespace JamHub
                 retstr += "<DialogueNode>\n";
                 retstr += "<Name>PAGE" + page + "</Name>\n";
 
-                //If this is the 0th page, need to put it as the default entry
-                if (page == 0)
-                    retstr += "<EntryCondition>DEFAULT</EntryCondition>\n";
-
                 //Make the dialogue line
                 retstr += "<Dialogue>\n";
                 retstr += "<Page>Page " + (page + 1) + "</Page>\n";
