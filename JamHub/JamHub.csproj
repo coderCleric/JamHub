@@ -238,6 +238,7 @@
   <ItemGroup>
     <Reference Include="NewHorizons">
       <HintPath>dependency_storage\NewHorizons.dll</HintPath>
+      <Private>false</Private>
     </Reference>
   </ItemGroup>
 </Project>
