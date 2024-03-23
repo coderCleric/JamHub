@@ -18,7 +18,7 @@ namespace JamHub
             }
 
             //If needed, make the list of other mods
-            if(JamHub.instance.mods == null)
+            if(JamHub.instance.mods.Length == 0)
                 JamHub.instance.GenModList();
 
             //Assign each of the planets to the mods (FindObjects should go through in reverse order compared to the mod load order)

@@ -10,7 +10,7 @@ namespace JamHub
     public class JamHub : ModBehaviour
     {
         public INewHorizons newHorizons = null;
-        public OtherMod[] mods;
+        public OtherMod[] mods = new OtherMod[0];
 
         //Static
         public static JamHub instance;
