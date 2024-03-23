@@ -26,8 +26,11 @@ namespace JamHub
             foreach(NHAstroObject astroObj in Component.FindObjectsOfType<NHAstroObject>())
             {
                 //Make sure it's a planet and not a bramble dimension
-                if (astroObj._type == AstroObject.Type.Planet && astroObj.gameObject.GetComponentInChildren<DarkBrambleRepelVolume>() == null)
+                if (astroObj._type == AstroObject.Type.Planet && astroObj.gameObject.GetComponentInChildren<DarkBrambleRepelVolume>() == null &&
+                    astroObj._primaryBody._customName.Equals("Jam 3 Sun"))
                 {
+                    JamHub.DebugPrint("Size of array: " + JamHub.instance.mods.Length);
+                    JamHub.DebugPrint("Index: " + i);
                     JamHub.instance.mods[i].planet = astroObj.gameObject;
                     i--;
                 }
