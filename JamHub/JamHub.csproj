@@ -40,6 +40,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="assetbundles\jam3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="assetbundles\jam3.manifest">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="dialogue\ernesto\computer.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
