@@ -33,5 +33,9 @@ namespace JamHub
                 }
             }
         }
+
+        /**
+         * Grab the anglerfish animator when it becomes available
+         */
     }
 }

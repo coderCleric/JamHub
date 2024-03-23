@@ -12,5 +12,8 @@
       <Page>Despite the complications, this mod jam was widely enjoyed by participants and audience alike, setting the tone for what was sure to become a beloved tradition of the community.</Page>
       <Page>If you want to, you can meet the creators of these mods at the party on the north pole!</Page>
     </Dialogue>
+    <RevealFacts>
+      <FactID>PARTY_RUMOR_CCL</FactID>
+    </RevealFacts>
   </DialogueNode>
 </DialogueTree>

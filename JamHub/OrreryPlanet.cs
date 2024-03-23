@@ -21,7 +21,7 @@ namespace JamHub
         private void Update()
         {
             //If there's no planet, abort!
-            if (planet == null)
+            if (planet == null || planet.planet == null)
                 return;
 
             //Calculate the true location of the planet

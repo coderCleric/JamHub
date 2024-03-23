@@ -1,0 +1,17 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: Hearth’s Neighbor
+Authors: GameWyrm, EndgameZero, Lumine0409, and FunkyShoeMan
+      </Page>
+      <Page>Hearth’s Neighbor is the mod that won first place in the second mod jam hosted by the Outer Wilds modding community.</Page>
+      <Page>This mod sees the player traveling to a new star system with a single, lonely planet orbiting its star. Don’t let the planets’ size fool you though, it has plenty more to see than initially meets the eye!</Page>
+      <Page>There is good reason that this mod won first place in the jam, as it uses a combination of New Horizons and custom code to introduce more puzzles, mechanics, and exotic locations not seen in the base game.</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

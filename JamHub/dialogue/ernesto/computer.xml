@@ -1,0 +1,40 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>Ernesto</NameField>
+
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>So, yeah, this is the last thing on the tour, its some sort of weird computer.</Page>
+      <Page>I think you can use it to, like, lock onto planets and stuff? Plus there's an orrery, so that's pretty neat.</Page>
+      <Page>But yeah, that's the tour, we're done now.</Page>
+    </Dialogue>
+    <SetCondition>TOUR_COMPLETE_CCL</SetCondition>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>POST-TOUR</Name>
+    <EntryCondition>TOUR_COMPLETE_CCL</EntryCondition>
+    <Dialogue>
+      <Page>Did you have any questions or anything like that?</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Why don't you have collision?</Text>
+        <DialogueTarget>COLLISION</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Nope.</Text>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+  
+  <DialogueNode>
+    <Name>COLLISION</Name>
+    <Dialogue>
+      <Page>The modder didn't feel like bothering dealing with me having physics and stuff.</Page>
+    </Dialogue>
+    <DialogueTarget>POST-TOUR</DialogueTarget>
+  </DialogueNode>
+</DialogueTree>

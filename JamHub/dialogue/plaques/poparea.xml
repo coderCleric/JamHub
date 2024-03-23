@@ -10,5 +10,8 @@
       <Page>Such mods can include new planets, solar systems, and even custom-made assets!</Page>
       <Page>If you want to, you can meet the creators of these mods at the party on the north pole!</Page>
     </Dialogue>
+    <RevealFacts>
+      <FactID>PARTY_RUMOR_CCL</FactID>
+    </RevealFacts>
   </DialogueNode>
 </DialogueTree>

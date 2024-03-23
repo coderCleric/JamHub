@@ -1,0 +1,18 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>Ernesto</NameField>
+
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Cool, you made it.</Page>
+      <Page>So, this is a showcase of some of the popular mods that have been made for Outer Wilds, if you want to read about them.</Page>
+      <Page>There's also three other showcases, they're for popular New Horizons mods, upcoming New Horizons mods, and mods that won the previous jams.</Page>
+      <Page>They're all on the equator, so I'm not gonna bother showing you them. Instead I'm gonna show you the thingamajig at the south pole, so meet me there.</Page>
+    </Dialogue>
+    <RevealFacts>
+      <FactID>SHOWCASE_DETAILS_FACT_CCL</FactID>
+    </RevealFacts>
+  </DialogueNode>
+</DialogueTree>

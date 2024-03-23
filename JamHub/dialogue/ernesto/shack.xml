@@ -1,0 +1,15 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>Ernesto</NameField>
+
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Oh, uh, hey, it's me, Ernesto the magic talking anglerfish.</Page>
+      <Page>I guess I'm supposed to give you a tour of the planet or something, so, yeah, let's do that.</Page>
+      <Page>So, first off, this is the party shack, there's a bunch of modders inside that you can chat with if you want. It's pretty neat.</Page>
+      <Page>... Yeah, that's pretty much all there is to that, so I'm gonna say we should move on. Follow me, or don't, but I'm going to the equator.</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

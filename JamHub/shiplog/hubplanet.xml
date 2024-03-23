@@ -1,0 +1,77 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>HUB_PLANET</ID>
+
+  <!-- Entry for the overall planet -->
+  <Entry>
+    <ID>HUB_PLANET_ENTRY_CCL</ID>
+    <Name>Hub Planet</Name>
+    <Curiosity>HUB_PLANET</Curiosity>
+    <IsCuriosity/>
+
+    <!--Existence rumor-->
+    <ExploreFact>
+      <ID>HUB_PLANET_EXISTENCE_FACT_CCL</ID>
+      <Text>I've heard that there's a planet that acts as a hub for the Outer Wilds modding community. Maybe I should visit it first?</Text>
+    </ExploreFact>
+  </Entry>
+
+  <!-- Entry for the party -->
+  <Entry>
+    <ID>HUB_PARTY_ENTRY_CCL</ID>
+    <Name>Modder Party</Name>
+    <Curiosity>HUB_PLANET</Curiosity>
+
+    <!--Rumor from showcases-->
+    <RumorFact>
+      <ID>PARTY_RUMOR_CCL</ID>
+      <SourceID>HUB_SHOWCASE_ENTRY_CCL</SourceID>
+      <Text>Apparently I can find a big party with a bunch of the modders from the community on the north pole.</Text>
+    </RumorFact>
+
+    <!--Existence-->
+    <ExploreFact>
+      <ID>PARTY_EXISTENCE_FACT_CCL</ID>
+      <Text>I found a big party on the north pole with a bunch of the modders from the community.</Text>
+    </ExploreFact>
+  </Entry>
+
+  <!-- Entry for the showcases -->
+  <Entry>
+    <ID>HUB_SHOWCASE_ENTRY_CCL</ID>
+    <Name>Mod Showcases</Name>
+    <Curiosity>HUB_PLANET</Curiosity>
+    
+    <!--Existence-->
+    <ExploreFact>
+      <ID>SHOWCASE_EXISTENCE_FACT_CCL</ID>
+      <Text>I found a series of mod showcases that circle the equator of the planet.</Text>
+    </ExploreFact>
+
+    <!--Details from Ernesto-->
+    <ExploreFact>
+      <ID>SHOWCASE_DETAILS_FACT_CCL</ID>
+      <IgnoreMoreToExplore/>
+      <Text>Ernesto says there are 4 showcases: one for popular mods, one for popular NH mods, one for upcoming NH mods, and a final one for previous mod jams.</Text>
+    </ExploreFact>
+  </Entry>
+
+  <!-- Entry for the computer -->
+  <Entry>
+    <ID>HUB_COMPUTER_ENTRY_CCL</ID>
+    <Name>Orrery Computer</Name>
+    <Curiosity>HUB_PLANET</Curiosity>
+
+    <!--Existence-->
+    <ExploreFact>
+      <ID>COMPUTER_EXISTENCE_FACT_CCL</ID>
+      <Text>I found a weird computer with a giant, holographic orrery on the south pole.</Text>
+    </ExploreFact>
+
+    <!--Details from interacting-->
+    <ExploreFact>
+      <ID>COMPUTER_DETAILS_FACT_CCL</ID>
+      <Text>Apparently I can use the computer to identify and lock on to the different planets throughout the star system.</Text>
+    </ExploreFact>
+  </Entry>
+  
+</AstroObjectEntry>

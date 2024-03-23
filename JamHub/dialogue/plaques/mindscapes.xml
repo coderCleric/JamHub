@@ -1,0 +1,18 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: Mindscapes
+Authors: coderCleric
+      </Page>
+      <Page>Mindscapes is the mod that won third place in the second mod jam hosted by the Outer Wilds modding community.</Page>
+      <Page>This mod tasks the player with convincing Slate that the imminent death of the Sun is going to happen using a new Nomai artifact that allows one person to invade the mind of another.</Page>
+      <Page>This may turn out not to be a simple task however, as Slate has true mastery over their mind and is able to keep the player secluded to a small area of it. Perhaps there’s a way to break out?</Page>
+      <Page>(Also, yes, I made this mod, but it still got third so I still get to talk about it! Ha!)</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

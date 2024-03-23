@@ -1,0 +1,18 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: Uncertain Futures
+Author: Clay
+      </Page>
+      <Page>Uncertain Futures is an upcoming story mod, with quantum objects playing a central role.</Page>
+      <Page>The mod is designed to emulate the traditional gameplay loop of Outer Wilds as closely as possible, as well as providing an alternate ending to the events that take place in the base game and DLC.</Page>
+      <Page>Not only that, but Uncertain Futures also aims to flesh out an underutilized location, and take advantage of certain opportunities that the base game did not.</Page>
+      <Page>While not much concrete is known about the mod, what is for certain is that it will be an exciting story to experience for the Outer Wilds modding community.</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

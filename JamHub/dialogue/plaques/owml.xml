@@ -7,7 +7,7 @@
     <Dialogue>
       <Page>
         Mod: Outer Wilds Mod Loader
-        Authors: Alek and friends
+Authors: Alek and friends
       </Page>
       <Page>The backbone of all other mods, OWML is the software responsible for making the code written by modders actually affect the game.</Page>
       <Page>Not only does OWML allow mods to interface with the game on a basic level, it also provides a number of handy helpers to mod developers, giving them easier ways to influence the game.</Page>

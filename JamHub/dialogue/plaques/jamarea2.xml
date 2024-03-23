@@ -10,5 +10,8 @@
       <Page>With the code restriction lifted, many of the competitors from the previous jam returned to the competition with bright ideas and the means to implement them, creating some of the best story mods that had been seen by the community at the time.</Page>
       <Page>If you want to, you can meet the creators of these mods at the party on the north pole!</Page>
     </Dialogue>
+    <RevealFacts>
+      <FactID>PARTY_RUMOR_CCL</FactID>
+    </RevealFacts>
   </DialogueNode>
 </DialogueTree>
