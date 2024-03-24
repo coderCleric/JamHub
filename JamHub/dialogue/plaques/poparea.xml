@@ -5,9 +5,8 @@
     <Name>INITIAL</Name>
     <EntryCondition>DEFAULT</EntryCondition>
     <Dialogue>
-      <Page>This area showcases some of the most significant mods related to New Horizons.</Page>
-      <Page>Mods made with New Horizons are generally story-based, providing new content dreamed up by fans of the game.</Page>
-      <Page>Such mods can include new planets, solar systems, and even custom-made assets!</Page>
+      <Page>This area showcases some of the big mods created by the modding community.</Page>
+      <Page>These mods are some of the most popular and the most downloaded, representing hours and hours of effort from some of the best developers the community has to offer.</Page>
       <Page>If you want to, you can meet the creators of these mods at the party on the north pole!</Page>
     </Dialogue>
     <RevealFacts>
