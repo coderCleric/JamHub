@@ -18,34 +18,8 @@ namespace JamHub
                 return;
             }
 
-            //If needed, make the list of other mods
-            if(JamHub.instance.mods.Length == 0)
-                JamHub.instance.GenModList();
-
-            //Assign each of the planets to the mods (FindObjects should go through in reverse order compared to the mod load order)
-            int i = JamHub.instance.mods.Length - 1;
-            foreach(NHAstroObject astroObj in Component.FindObjectsOfType<NHAstroObject>())
-            {
-                //Make sure it's a planet and not a bramble dimension
-                if (astroObj._type == AstroObject.Type.Planet && astroObj.gameObject.GetComponentInChildren<DarkBrambleRepelVolume>() == null &&
-                    astroObj._primaryBody != null && astroObj._primaryBody._customName.Equals("Jam 3 Sun"))
-                {
-                    JamHub.DebugPrint("Size of array: " + JamHub.instance.mods.Length);
-                    JamHub.DebugPrint("Index: " + i);
-                    JamHub.instance.mods[i].planet = astroObj.gameObject;
-                    i--;
-                }
-            }
-
             //Get the sector transform of our planet
             Transform sectorTF = GameObject.Find("ModJamHub_Body/Sector").transform;
-
-            //Make the orrery
-            Orrery orrery = sectorTF.Find("jamplanet/computer_area/Orrery").gameObject.AddComponent<Orrery>();
-            orrery.MakePlanets(JamHub.instance.mods);
-
-            //Make the computer work
-            JamHub.instance.newHorizons.CreateDialogueFromXML("jamhubcomputer", MakeXML(JamHub.instance.mods), jsonStr, sectorTF.parent.gameObject);
 
             //Make the plaques look at the actual displays
             //Get an array of all the roots
@@ -88,6 +62,55 @@ namespace JamHub
 
             //Set up Ernesto
             sectorTF.Find("jamplanet/ernesto_pivot").gameObject.AddComponent<ErnestoController>();
+
+            //If needed, make the list of other mods
+            if (JamHub.instance.mods.Length == 0)
+                JamHub.instance.GenModList();
+
+            //Assign each of the planets to the mods (FindObjects should go through in reverse order compared to the mod load order)
+            int i = JamHub.instance.mods.Length - 1;
+            bool orreryFailed = false;
+            foreach (NHAstroObject astroObj in Component.FindObjectsOfType<NHAstroObject>())
+            {
+                //Make sure it's a planet and not a bramble dimension
+                if (astroObj._type == AstroObject.Type.Planet && astroObj.gameObject.GetComponentInChildren<DarkBrambleRepelVolume>() == null &&
+                    astroObj._primaryBody != null && astroObj._primaryBody._customName.Equals("Jam 3 Sun") && !astroObj._customName.Equals("Starship Community"))
+                {
+                    //If the index is too low, need to abort orrery initialization
+                    if (i < 0)
+                    {
+                        orreryFailed = true;
+                        break;
+                    }
+
+                    JamHub.instance.mods[i].planet = astroObj.gameObject;
+                    i--;
+                }
+            }
+
+            //If i is not EXACTLY -1, that means that we didn't have the right number of planets and need to abort
+            orreryFailed = (i != -1) || orreryFailed;
+
+            //If the orrery setup didn't fail, continue as normal
+            if (!orreryFailed)
+            {
+                //Make the orrery
+                Orrery orrery = sectorTF.Find("jamplanet/computer_area/Orrery").gameObject.AddComponent<Orrery>();
+                orrery.MakePlanets(JamHub.instance.mods);
+
+                //Make the computer work
+                JamHub.instance.newHorizons.CreateDialogueFromXML("jamhubcomputer", MakeXML(JamHub.instance.mods), jsonStr, sectorTF.parent.gameObject);
+            }
+
+            //Otherwise, need to delete orrery-related objects and make a placeholder dialogue
+            else
+            {
+                //Delete the orrery
+                GameObject.Destroy(sectorTF.Find("jamplanet/computer_area/Orrery").gameObject);
+
+                //Make failure dialogue
+                JamHub.instance.newHorizons.CreateDialogueFromXML("jamhubcomputer", MakeFailureXML(i), jsonStr, sectorTF.parent.gameObject);
+            }
         }
 
         /**
@@ -180,6 +203,30 @@ namespace JamHub
                 retstr += "</DialogueOption>\r\n      <DialogueOption>\r\n        <Text>Cancel.</Text>\r\n<DialogueTarget>PAGE" + (int)Mathf.Floor(count/modsPerPage) + "</DialogueTarget>\r\n      </DialogueOption>\r\n    </DialogueOptionsList>\r\n  </DialogueNode>\n";
                 count++;
             }
+
+            //Construct the footer
+            retstr += "</DialogueTree>\n";
+
+            return retstr;
+        }
+
+        /**
+         * Makes failure XML for the computer
+         */
+        private static string MakeFailureXML(int lastIndex)
+        {
+            //Construct the header
+            string retstr = "<DialogueTree xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:noNamespaceSchemaLocation=\"https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd\">\n";
+            retstr += "<NameField>Computer</NameField>\n";
+
+            //Construct the intro dialogue
+            retstr += "<DialogueNode>\r\n    <Name>INITIAL</Name>\r\n    <EntryCondition>DEFAULT</EntryCondition>\r\n    <Dialogue>\r\n      <Page>ORRERY INITIALIZATION ERROR:::\nCRITICAL ERROR ENCOUNTERED, ORRERY INITIALIZATION ABORTED!</Page>\r\n";
+            
+            //Based on the last index, display the error cause
+            if(lastIndex >= 0) //This value means we ran out of planets for mods
+                retstr += "<Page>ERROR CAUSE: ORRERY SCANNED FEWER PLANETS THAN EXPECTED!</Page>\r\n</Dialogue>\r\n</DialogueNode>\n";
+            else //Otherwise, we saw more planets than mods
+                retstr += "<Page>ERROR CAUSE: ORRERY SCANNED MORE PLANETS THAN EXPECTED!</Page>\r\n</Dialogue>\r\n</DialogueNode>\n";
 
             //Construct the footer
             retstr += "</DialogueTree>\n";
