@@ -10,7 +10,7 @@ namespace JamHub
     public class OrreryPlanet : MonoBehaviour
     {
         private static float distScale = 0.001f;
-        private static float scaleScale = 0.01f;
+        private static float scaleScale = 0.004f;
 
         public OtherMod planet = null;
         private bool locked = false;

@@ -1,0 +1,12 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>There's no mod that actually goes here yet, but maybe there will be someday!</Page>
+      <Page>Who knows, it could even be yours! :)</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

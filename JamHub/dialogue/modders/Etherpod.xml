@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Etherpod</NameField>
+
+
+	<DialogueNode>
+		<Name>INITIAL</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>How's it going? My name is Etherpod.</Page>
+			<Page>Be sure to look out for Eyes of the Past, which is a mod that I'm currently working on!</Page>
+			<Page>Did you know that there's an unofficial Outer Wilds modding discord? I go by "Etherpod" over there.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

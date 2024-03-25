@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>pikpik</NameField>
+
+
+	<DialogueNode>
+		<Name>INITIAL</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hey there! I'm pikpik.</Page>
+      <Page>I'm here because I'm the lead developer for the upcoming mod Eyes of the Past!</Page>
+			<Page>I go by "pikpik_carrot" on the Outer Wilds modding discord, feel free to stop by and chat!</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

@@ -238,6 +238,38 @@
         "range": 2
       },
       {
+        "parentPath": "Sector/jamplanet/upcoming_nh_area/showroom/building/display_eotp/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/eotp.xml",
+        "rename": "blank_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/upcoming_nh_area/showroom/building/display_wrongwarp/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/wrongwarp.xml",
+        "rename": "blank_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/upcoming_nh_area/showroom/building/display_blank3/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/blank.xml",
+        "rename": "blank_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/upcoming_nh_area/showroom/building/display_blank4/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/blank.xml",
+        "rename": "blank_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
         "parentPath": "Sector/jamplanet/prev_jam_area/showroom_3slot/building/display_neighbor/plaque/dialogue_anchor",
         "xmlFile": "dialogue/plaques/neighbor.xml",
         "rename": "neighbor_dialogue",
@@ -509,6 +541,70 @@
         "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Shoe/dialogue_anchor",
         "xmlFile": "dialogue/modders/Shoe.xml",
         "rename": "Shoe_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/pikpik/dialogue_anchor",
+        "xmlFile": "dialogue/modders/pikpik.xml",
+        "rename": "pikpik_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Etherpod/dialogue_anchor",
+        "xmlFile": "dialogue/modders/Etherpod.xml",
+        "rename": "Etherpod_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Maya/dialogue_anchor",
+        "xmlFile": "dialogue/modders/Maya.xml",
+        "rename": "Maya_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Viovayo/dialogue_anchor",
+        "xmlFile": "dialogue/modders/Viovayo.xml",
+        "rename": "Viovayo_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Tashizuna/dialogue_anchor",
+        "xmlFile": "dialogue/modders/Tashizuna.xml",
+        "rename": "Tashizuna_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Repcon/dialogue_anchor",
+        "xmlFile": "dialogue/modders/Repcon.xml",
+        "rename": "Repcon_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Ditzy/dialogue_anchor",
+        "xmlFile": "dialogue/modders/Ditzy.xml",
+        "rename": "Ditzy_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/TeamKabuki/dialogue_anchor",
+        "xmlFile": "dialogue/modders/TeamKabuki.xml",
+        "rename": "TeamKabuki_dialogue",
         "isRelativeToParent": true,
         "radius": 0.5,
         "range": 2

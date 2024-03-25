@@ -15,6 +15,7 @@ namespace JamHub
             if(!s.Equals("Jam3"))
             {
                 JamHub.DebugPrint("Not in jam system, aborting prep");
+                return;
             }
 
             //If needed, make the list of other mods
@@ -27,7 +28,7 @@ namespace JamHub
             {
                 //Make sure it's a planet and not a bramble dimension
                 if (astroObj._type == AstroObject.Type.Planet && astroObj.gameObject.GetComponentInChildren<DarkBrambleRepelVolume>() == null &&
-                    astroObj._primaryBody._customName.Equals("Jam 3 Sun"))
+                    astroObj._primaryBody != null && astroObj._primaryBody._customName.Equals("Jam 3 Sun"))
                 {
                     JamHub.DebugPrint("Size of array: " + JamHub.instance.mods.Length);
                     JamHub.DebugPrint("Index: " + i);

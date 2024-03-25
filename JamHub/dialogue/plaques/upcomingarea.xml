@@ -5,7 +5,9 @@
     <Name>INITIAL</Name>
     <EntryCondition>DEFAULT</EntryCondition>
     <Dialogue>
-      <Page>This area showcases some of the anticipated mods currently being developed by the community.</Page>
+      <Page>
+        This area showcases some of the anticipated mods currently being developed by the community.
+      </Page>
       <Page>While these mods haven’t been released yet, that doesn’t mean there isn’t anything to say about them! Developers making larger-scale mods will often post teasers about them, or even create dedicated threads under the nh-addons channel of the modding discord!</Page>
       <Page>If you want to, you can meet the creators of these mods at the party on the north pole!</Page>
     </Dialogue>

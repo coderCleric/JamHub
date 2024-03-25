@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Ditzy</NameField>
+
+
+	<DialogueNode>
+		<Name>INITIAL</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hey! Welcome to the party! I'm Ditzy, nice to meet you!</Page>
+      <Page>I'm here because I'm a contributor to the upcoming mod Eyes of the Past!</Page>
+			<Page>Did you know that there's an unofficial Outer Wilds modding discord? I go by "ditzy" over there.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>
