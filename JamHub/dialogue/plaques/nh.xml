@@ -6,8 +6,7 @@
     <EntryCondition>DEFAULT</EntryCondition>
     <Dialogue>
       <Page>
-        Mod: New Horizons
-Author: Xen, Bwc9876, JohnCorby, MegaPiggy, Clay, Trifid, and friends
+        Mod: New Horizons&#13;&#10;Author: Xen, Bwc9876, JohnCorby, MegaPiggy, Clay, Trifid, and friends
       </Page>
       <Page>New Horizons is the mod enabling almost all of the story mods created by the community, with dozens of mods making use of it.</Page>
       <Page>Allowing the creation of custom planets, systems, text, dialogue, and more with simple json and XML files, this mod enables those not confident in programming to create their own puzzles and stories.</Page>

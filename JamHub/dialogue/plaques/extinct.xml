@@ -6,8 +6,7 @@
     <EntryCondition>DEFAULT</EntryCondition>
     <Dialogue>
       <Page>
-        Mod: Extinction
-Author: Bird
+        Mod: Extinction&#13;&#10;Author: Bird
       </Page>
       <Page>Extinction is one of the story mods that has spent the longest time in development, and is also one of the most anticipated.</Page>
       <Page>The mod has a dedicated thread in the nh-addon-dev channel of the modding discord that gives some idea of what is to come, but much of the development is unknown to those not on the team.</Page>
