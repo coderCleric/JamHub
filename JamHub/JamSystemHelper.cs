@@ -207,7 +207,7 @@ namespace JamHub
             //Construct the footer
             retstr += "</DialogueTree>\n";
 
-            return retstr;
+            return retstr.Replace("&", "&amp;");
         }
 
         /**
