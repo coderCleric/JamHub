@@ -6,9 +6,7 @@
 		<Name>INITIAL</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>Yo, how's it going? My name is Raicuparta.</Page>
-			<Page>Have you played NomaiVR? I was actually involved in it, you should give it a try!</Page>
-			<Page>I go by "Raicuparta" on the Outer Wilds modding discord, feel free to stop by and chat!</Page>
+			<Page>Hey it's me your best friend Rai. I made NomaiVR. I created the mod datbase, the mods website, and the original mod manager. I created your face. Plus I contributed to OWML and early very early versions of QSB. And I made the award winning mod Outer Wives.</Page>
 		</Dialogue>
 	</DialogueNode>
 </DialogueTree>

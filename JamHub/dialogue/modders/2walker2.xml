@@ -6,9 +6,12 @@
 		<Name>INITIAL</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>Hey! Welcome to the party! I'm 2walker2, nice to meet you!</Page>
-			<Page>Glad to be here, nice to get some more recognition for my work on Astral Codec and Evacuation.</Page>
-			<Page>You can find me on the Outer Wilds modding discord as "2walker2"!</Page>
+      <Page>Hello, I'm Walker, the lead developer of Astral Codec. I was also a member of the team that developed Evacuation for the very first modding jam.</Page>
+      <Page>Astral Codec is one of the biggest projects I've ever worked on and it would never have been finished without the help of many other people, several of whom are attending this very party. I'm really proud to be a part of this community.</Page>
+      <Page>If you're reading this and thinking about making a mod yourself, go for it! If you're unsure how to start, ask on the Discord. Or find a team and try making something for the next jam. You never know what you could make.</Page>
+      <Page>I can be found as 2walker2 on the Discord. Ping me if you want to chat.</Page>
+      <Page>Finally, if you're playing with the other mods from this jam installed. My team's entry, Reflections, can be found on Forlorn Project out by the edge of the solar system.</Page>
+			<Page>Go give it a shot of you haven't already. Just try to avoid being sealed away forever.</Page>
 		</Dialogue>
 	</DialogueNode>
 </DialogueTree>

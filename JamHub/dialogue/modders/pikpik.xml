@@ -6,9 +6,7 @@
 		<Name>INITIAL</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>Hey there! I'm pikpik.</Page>
-      <Page>I'm here because I'm the lead developer for the upcoming mod Eyes of the Past!</Page>
-			<Page>I go by "pikpik_carrot" on the Outer Wilds modding discord, feel free to stop by and chat!</Page>
+			<Page>I have never heard of burnout. I don’t get sleep.</Page>
 		</Dialogue>
 	</DialogueNode>
 </DialogueTree>

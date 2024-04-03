@@ -1,12 +1,12 @@
 <DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
-	<NameField>Endgame Zero</NameField>
+	<NameField>EndgameZero</NameField>
 
 
 	<DialogueNode>
 		<Name>INITIAL</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>Yo, how's it going? My name is Endgame Zero.</Page>
+			<Page>Yo, how's it going? My name is EndgameZero.</Page>
 			<Page>I'm here because of my work on Hearth's Neighbor.</Page>
 			<Page>Did you know that there's an unofficial Outer Wilds modding discord? I go by "EndgameZero" over there.</Page>
 		</Dialogue>

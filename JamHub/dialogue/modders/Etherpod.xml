@@ -6,9 +6,8 @@
 		<Name>INITIAL</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>How's it going? My name is Etherpod.</Page>
-			<Page>Be sure to look out for Eyes of the Past, which is a mod that I'm currently working on!</Page>
-			<Page>Did you know that there's an unofficial Outer Wilds modding discord? I go by "Etherpod" over there.</Page>
+      <Page>Hey! I'm Etherpod. I've been helping pikpik_carrot with Eyes of the Past, one of the upcoming mods.</Page>
+			<Page>If you want to find me, I'm known on the Discord modding server as Etherpod. Safe travels!</Page>
 		</Dialogue>
 	</DialogueNode>
 </DialogueTree>

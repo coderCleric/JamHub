@@ -6,10 +6,10 @@
 		<Name>INITIAL</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>Oh, hey! Pleasure to meet you, I'm JohnCorby.</Page>
-			<Page>I'm here because of my work on Quantum Space Buddies and New Horizons.</Page>
-      <Page>Did you know that I'm also working on Eyes of the Past? I'm looking forward to getting to release it once it's done!</Page>
-			<Page>You can find me on the Outer Wilds modding discord as "JohnCorby"!</Page>
+      <Page>yo what up im JohnCorby</Page>
+      <Page>i wrote half of Quantum Space Buddies and a good chunk New Horizons</Page>
+      <Page>i also helped on a buncha other mods and wrote half the Unity tools modern mods use (including this one)</Page>
+			<Page>im on the Outer Wilds modding discord as "JohnCorby". please check out my soundcloud in my "About Me" section on discord. thanks</Page>
 		</Dialogue>
 	</DialogueNode>
 </DialogueTree>

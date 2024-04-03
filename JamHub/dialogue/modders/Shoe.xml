@@ -6,22 +6,9 @@
 		<Name>INITIAL</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>Hey there! I'm Shoe.</Page>
-			<Page>Glad to be here, nice to get some more recognition for my work on Hearth's Neighbor.</Page>
-			<Page>Did you know that there's an unofficial Outer Wilds modding discord? I go by "Shoe" over there.</Page>
+      <Page>hello tis is i the grandmaster of lace magic, shoe.</Page>
+      <Page>...</Page>
+			<Page>shhh this is just a shell to trick bird, you can find my true form in Magistarium, just don't tell that little avian that this is just an illusion.</Page>
 		</Dialogue>
-    <DialogueOptionsList>
-      <DialogueOption>
-        <Text>Why are you locked in a cage?</Text>
-        <DialogueTarget>CAGE</DialogueTarget>
-      </DialogueOption>
-    </DialogueOptionsList>
 	</DialogueNode>
-
-  <DialogueNode>
-    <Name>CAGE</Name>
-    <Dialogue>
-      <Page>Oh. Uh, yeah, Bird put me in here. Don't worry about it.</Page>
-    </Dialogue>
-  </DialogueNode>
 </DialogueTree>

@@ -6,9 +6,10 @@
 		<Name>INITIAL</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>Oh, hey! Pleasure to meet you, I'm Streetlights Behind the Trees.</Page>
-			<Page>Have you played Outsider? I was actually involved in it, you should give it a try!</Page>
-			<Page>Did you know that there's an unofficial Outer Wilds modding discord? I go by "Streetlights Behind the Trees" over there.</Page>
+      <Page>Hello there. People call me Streetlights. That’s not my real name.</Page>
+      <Page>I made The Outsider mod, I guess. But working on it gave me TRAUMA, which my doctor Jaru says makes me psychopathic and genocidal. But only in some timelines.</Page>
+      <Page>Currently, I’m making a game called Protostellar, which contains microtonal music, queer furry characters, and megastructures.</Page>
+			<Page>Have a wonderful day. Or, at least, don’t forget to try to sometimes.</Page>
 		</Dialogue>
 	</DialogueNode>
 </DialogueTree>

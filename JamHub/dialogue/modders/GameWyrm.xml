@@ -6,9 +6,9 @@
 		<Name>INITIAL</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>Yo, how's it going? My name is GameWyrm.</Page>
-			<Page>Have you played Hearth's Neighbor? I was actually involved in it, you should give it a try!</Page>
-			<Page>Did you know that there's an unofficial Outer Wilds modding discord? I go by "wyrm 19" over there.</Page>
+      <Page>Hi! I'm GameWyrm! I'm primarily known for my work on Hearth's Neighbor, and its sequel, Magistarium! </Page>
+      <Page>I'm also involved in the Archipelago Randomizer implementation for Outer Wilds, and I also created Outer Relics!</Page>
+			<Page>Anyway, glad to see you here in the community mod jam! If you went here as one of the first places you visited, well, good choice! I bet we'll see each other again soon...</Page>
 		</Dialogue>
 	</DialogueNode>
 </DialogueTree>
