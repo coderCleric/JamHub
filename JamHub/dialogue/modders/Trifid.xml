@@ -1,15 +1,222 @@
 <DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
-	<NameField>Trifid</NameField>
-
-
-	<DialogueNode>
-		<Name>INITIAL</Name>
-		<EntryCondition>DEFAULT</EntryCondition>
-		<Dialogue>
-			<Page>Hey! Welcome to the party! I'm Trifid, nice to meet you!</Page>
-			<Page>I'm glad to see New Horizons and Real Solar System getting some more recognition, makes me proud!</Page>
-			<Page>Be sure to look out for Real Solar System, which is a mod that I'm currently working on!</Page>
-			<Page>I go by "Trifid" on the Outer Wilds modding discord, feel free to stop by and chat!</Page>
-		</Dialogue>
-	</DialogueNode>
+  <NameField>Trifid</NameField>
+  <DialogueNode>
+    <Name>0a</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Hai.</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>What are you up to?</Text>
+        <DialogueTarget>1</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <RequiredPersistentCondition>ECHO_HIKE_DONE</RequiredPersistentCondition>
+        <Text>I finished Echo Hike!</Text>
+        <DialogueTarget>4</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Meow.</Text>
+        <DialogueTarget>5</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+  
+  <DialogueNode>
+    <Name>0b</Name>
+    <EntryCondition>Meow</EntryCondition>
+    <Dialogue>
+      <Page>Meow?</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>What are you up to?</Text>
+        <DialogueTarget>1</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <RequiredPersistentCondition>ECHO_HIKE_DONE</RequiredPersistentCondition>
+        <Text>I finished Echo Hike!</Text>
+        <DialogueTarget>4</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Meow!</Text>
+        <DialogueTarget>5</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+  
+  <DialogueNode>
+    <Name>1</Name>
+    <Dialogue>
+      <Page>I've contributed to New Horizons, and created numerous small mods. Ship Ball Pit is easily my favorite.</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Aren't you making a story mod?</Text>
+        <DialogueTarget>2</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <RequiredPersistentCondition>SBP_ReadNote</RequiredPersistentCondition>
+        <Text>Hehe I have Ship Ball Pit.</Text>
+        <DialogueTarget>3</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+    <DialogueTarget>2</DialogueTarget>
+  </DialogueNode>
+  
+  <DialogueNode>
+    <Name>2</Name>
+    <Dialogue>
+      <Page>I've made attempts over time...</Page>
+      <Page>But I still hope to achieve one before I'm off to college.</Page>
+      <Page>Whatever ends up happening, it will probably involve the ideas in Echo Hike that I and others are very intrigued by. ;3</Page>
+    </Dialogue>
+  </DialogueNode>
+  
+  <DialogueNode>
+    <Name>3</Name>
+    <Dialogue>
+      <Page>Hehe, what's your favorite type?</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Balls!</Text>
+        <DialogueTarget>3a</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Rubber duckies!</Text>
+        <DialogueTarget>3b</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Ernestos!</Text>
+        <DialogueTarget>3c</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Cacti!</Text>
+        <DialogueTarget>3d</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>There's types?</Text>
+        <DialogueTarget>3e</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+  
+  <DialogueNode>
+    <Name>3a</Name>
+    <Dialogue>
+      <Page>Real and true.</Page>
+    </Dialogue>
+  </DialogueNode>
+  
+  <DialogueNode>
+    <Name>3b</Name>
+    <Dialogue>
+      <Page>Me too. :3</Page>
+    </Dialogue>
+  </DialogueNode>
+  
+  <DialogueNode>
+    <Name>3c</Name>
+    <Dialogue>
+      <Page>He's a real one. Or one hundred thirty six.</Page>
+    </Dialogue>
+  </DialogueNode>
+  
+  <DialogueNode>
+    <Name>3d</Name>
+    <Dialogue>
+      <Page>Oh yeah I never changed the default after April Fool's.</Page>
+      <Page>A perpetual trifle, I suppose.</Page>
+    </Dialogue>
+  </DialogueNode>
+  
+  <DialogueNode>
+    <Name>3e</Name>
+    <Dialogue>
+      <Page>Go to options!</Page>
+    </Dialogue>
+  </DialogueNode>
+  
+  <DialogueNode>
+    <Name>4</Name>
+    <Dialogue>
+      <Page>Yippee! How was the device?</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Fun!</Text>
+        <DialogueTarget>4a</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Odd!</Text>
+        <DialogueTarget>4b</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Buggy!</Text>
+        <DialogueTarget>4c</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+  
+  <DialogueNode>
+    <Name>4a</Name>
+    <Dialogue>
+      <Page>In my unbiased opinion, I agree!</Page>
+      <Page>Echo Hike probably won't receive any new content, but indeed I do wish it continued.</Page>
+      <Page>My upcoming work will likely involve the concept. ;3</Page>
+    </Dialogue>
+  </DialogueNode>
+  
+  <DialogueNode>
+    <Name>4b</Name>
+    <Dialogue>
+      <Page>True! Much of its behavior emerged from it being primarily just a spring joint.</Page>
+      <Page>Plus, while the visuals and crate moving were obviously inspired by the physics gun, I haven't particularly experienced other grappling mechanics in games for comparison.</Page>
+    </Dialogue>
+  </DialogueNode>
+  
+  <DialogueNode>
+    <Name>4c</Name>
+    <Dialogue>
+      <Page>True, twas a jam. Feel free to yap at me in the modding server, if there's something specific broken.</Page>
+    </Dialogue>
+  </DialogueNode>
+  
+  <DialogueNode>
+    <Name>5</Name>
+    <Randomize/>
+    <Dialogue>
+      <Page>Meow.</Page>
+    </Dialogue>
+    <Dialogue>
+      <Page>Meow meow.</Page>
+    </Dialogue>
+    <Dialogue>
+      <Page>Meow, meow meow.</Page>
+    </Dialogue>
+    <Dialogue>
+      <Page>Meow meow meow, meow.</Page>
+    </Dialogue>
+    <Dialogue>
+      <Page>Meow meow, meow. Meow meow.</Page>
+    </Dialogue>
+    <Dialogue>
+      <Page>Meow, meow?</Page>
+    </Dialogue>
+    <Dialogue>
+      <Page>Meow!</Page>
+    </Dialogue>
+    <Dialogue>
+      <Page>Meow meow meow...</Page>
+    </Dialogue>
+    <Dialogue>
+      <Page>Meow meow! Meow, meow meow meow meow.</Page>
+    </Dialogue>
+    <Dialogue>
+      <Page>Meow meow meow meow meow meow.</Page>
+    </Dialogue>
+    <SetCondition>Meow</SetCondition>
+  </DialogueNode>
 </DialogueTree>
