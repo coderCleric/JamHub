@@ -1,6 +1,7 @@
 ﻿using HarmonyLib;
 using OWML.Common;
 using OWML.ModHelper;
+using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
@@ -10,7 +11,7 @@ namespace JamHub
     public class JamHub : ModBehaviour
     {
         public INewHorizons newHorizons = null;
-        public OtherMod[] mods = new OtherMod[0];
+        public List<OtherMod> mods;
 
         //Static
         public static JamHub instance;
@@ -38,32 +39,6 @@ namespace JamHub
         }
 
         /**
-         * Generate the list of NH addons
-         */
-        public void GenModList()
-        {
-            //Retrieve the ID's of all the NH addons
-            string[] idList = newHorizons.GetInstalledAddons();
-            mods = new OtherMod[idList.Length - 2];
-            int ignored = 0;
-
-            //Loop through the retrieved ID's
-            for (int i = 0; i < idList.Length; i++)
-            {
-                //Blacklist NH and the Jam3 mod
-                if (idList[i].Equals("xen.NewHorizons") || idList[i].Equals("xen.ModJam3"))
-                {
-                    ignored++;
-                    continue;
-                }
-
-                //Make a new entry in the array
-                IModManifest manifest = ModHelper.Interaction.TryGetMod(idList[i]).ModHelper.Manifest;
-                mods[i - ignored] = new OtherMod(idList[i], manifest.Name, manifest.Author);
-            }
-        }
-
-        /**
          * Set up Trifid's dialogue stuff
          */
         private void OnceAwake()
@@ -76,17 +51,6 @@ namespace JamHub
             if (Locator.GetShipLogManager().IsFactRevealed("EH_PHOSPHORS_X1"))
                 PlayerData._currentGameSave.SetPersistentCondition("ECHO_HIKE_DONE", true);
             JamHub.DebugPrint("sanity check");
-        }
-
-        private void Update()
-        {
-            if (Keyboard.current[Key.N].wasPressedThisFrame)
-            {
-                foreach(OtherMod mod in mods)
-                {
-                    ModHelper.Console.WriteLine(mod.Name + " : " + mod.Author);
-                }
-            }
         }
 
         public static void DebugPrint(string message)

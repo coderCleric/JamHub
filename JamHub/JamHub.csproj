@@ -76,10 +76,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="dependency_storage\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Reference Include="NewHorizons">
       <HintPath>dependency_storage\NewHorizons.dll</HintPath>
       <Private>false</Private>

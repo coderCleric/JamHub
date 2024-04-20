@@ -21,18 +21,18 @@ namespace JamHub
         private void Update()
         {
             //If there's no planet, abort!
-            if (planet == null || planet.planet == null)
+            if (planet == null || planet.Planet == null)
                 return;
 
             //Calculate the true location of the planet
-            Vector3 rawDist = planet.planet.transform.position - CenterOfTheUniverse.s_instance._staticReferenceFrame.transform.position;
+            Vector3 rawDist = planet.Planet.transform.position - CenterOfTheUniverse.s_instance._staticReferenceFrame.transform.position;
 
             //Update the location of the planet
             transform.localPosition = rawDist * distScale;
 
             //Update the scale of the planet
             //If we find a gravity well, get surface size from that. Otherwise, use a default size
-            GravityVolume grav = planet.planet.GetComponentInChildren<GravityVolume>();
+            GravityVolume grav = planet.Planet.GetComponentInChildren<GravityVolume>();
             float scale = 1;
             if(grav != null)
                 scale = grav._upperSurfaceRadius * scaleScale;
@@ -40,7 +40,7 @@ namespace JamHub
 
             //Update the material
             bool planetLocked = Locator.GetPlayerBody() != null && Locator.GetPlayerBody().gameObject.GetComponent<ReferenceFrameTracker>()._currentReferenceFrame ==
-                planet.planet.GetAttachedOWRigidbody().GetReferenceFrame();
+                planet.Planet.GetAttachedOWRigidbody().GetReferenceFrame();
             if (planetLocked && !locked)
             {
                 gameObject.GetComponent<Renderer>().sharedMaterial = Orrery.selectedMat;

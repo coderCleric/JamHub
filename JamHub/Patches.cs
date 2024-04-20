@@ -24,7 +24,7 @@ namespace JamHub
                 {
                     if(conditionName.Equals(mod.ID))
                     {
-                        OWRigidbody body = mod.planet.GetAttachedOWRigidbody();
+                        OWRigidbody body = mod.Planet.GetAttachedOWRigidbody();
                         if(body.IsTargetable())
                             Locator.GetPlayerBody().gameObject.GetComponent<ReferenceFrameTracker>().TargetReferenceFrame(body.GetReferenceFrame());
 
@@ -33,9 +33,5 @@ namespace JamHub
                 }
             }
         }
-
-        /**
-         * Grab the anglerfish animator when it becomes available
-         */
     }
 }

@@ -1,6 +1,7 @@
 ﻿using NewHorizons.Components.Orbital;
 using OWML.Common;
 using OWML.ModHelper;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace JamHub
@@ -69,65 +70,36 @@ namespace JamHub
             //Set up Ernesto
             sectorTF.Find("jamplanet/ernesto_pivot").gameObject.AddComponent<ErnestoController>();
 
-            //If needed, make the list of other mods
-            if (JamHub.instance.mods.Length == 0)
-                JamHub.instance.GenModList();
-
-            //Assign each of the planets to the mods (FindObjects should go through in reverse order compared to the mod load order)
-            int i = JamHub.instance.mods.Length - 1;
-            bool orreryFailed = false;
+            //Go through each valid planet and make a mod object for it
+            JamHub.instance.mods = new List<OtherMod>();
             foreach (NHAstroObject astroObj in Component.FindObjectsOfType<NHAstroObject>())
             {
-                //Make sure it's a planet and not a bramble dimension
+                //Make sure it's a valid planet
                 if (astroObj._type == AstroObject.Type.Planet && astroObj.gameObject.GetComponentInChildren<DarkBrambleRepelVolume>() == null &&
-                    astroObj._primaryBody != null && astroObj._primaryBody._customName.Equals("Jam 3 Sun") && !astroObj._customName.Equals("Starship Community"))
+                    astroObj._primaryBody != null && astroObj._primaryBody._customName.Equals("Jam 3 Sun"))
                 {
-                    //If the index is too low, need to abort orrery initialization
-                    if (i < 0)
-                    {
-                        orreryFailed = true;
-                        break;
-                    }
-
-                    JamHub.instance.mods[i].planet = astroObj.gameObject;
-                    i--;
+                    IModManifest manifest = JamHub.instance.ModHelper.Interaction.TryGetMod(astroObj.modUniqueName).ModHelper.Manifest;
+                    JamHub.instance.mods.Add(new OtherMod(astroObj.modUniqueName, manifest.Name, manifest.Author, astroObj.gameObject));
                 }
             }
 
-            //If i is not EXACTLY -1, that means that we didn't have the right number of planets and need to abort
-            orreryFailed = (i != -1) || orreryFailed;
+            //Make the orrery
+            Orrery orrery = sectorTF.Find("jamplanet/computer_area/Orrery").gameObject.AddComponent<Orrery>();
+            orrery.MakePlanets(JamHub.instance.mods);
 
-            //If the orrery setup didn't fail, continue as normal
-            if (!orreryFailed)
-            {
-                //Make the orrery
-                Orrery orrery = sectorTF.Find("jamplanet/computer_area/Orrery").gameObject.AddComponent<Orrery>();
-                orrery.MakePlanets(JamHub.instance.mods);
-
-                //Make the computer work
-                JamHub.instance.newHorizons.CreateDialogueFromXML("jamhubcomputer", MakeXML(JamHub.instance.mods), jsonStr, sectorTF.parent.gameObject);
-            }
-
-            //Otherwise, need to delete orrery-related objects and make a placeholder dialogue
-            else
-            {
-                //Delete the orrery
-                GameObject.Destroy(sectorTF.Find("jamplanet/computer_area/Orrery").gameObject);
-
-                //Make failure dialogue
-                JamHub.instance.newHorizons.CreateDialogueFromXML("jamhubcomputer", MakeFailureXML(i), jsonStr, sectorTF.parent.gameObject);
-            }
+            //Make the computer work
+            JamHub.instance.newHorizons.CreateDialogueFromXML("jamhubcomputer", MakeXML(JamHub.instance.mods), jsonStr, sectorTF.parent.gameObject);
         }
 
         /**
          * Make the dialogue xml for the computer from the list of planets
          */
-        private static string MakeXML(OtherMod[] mods)
+        private static string MakeXML(List<OtherMod> mods)
         {
             //Figure out how many full pages we have, and how many are on the partial
             int modsPerPage = 3;
-            int fullPages = (int)Mathf.Floor(mods.Length / modsPerPage);
-            int partialPage = mods.Length - (fullPages * modsPerPage);
+            int fullPages = (int)Mathf.Floor(mods.Count / modsPerPage);
+            int partialPage = mods.Count - (fullPages * modsPerPage);
 
             //Construct the header
             string retstr = "<DialogueTree xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:noNamespaceSchemaLocation=\"https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd\">\n";
@@ -204,7 +176,7 @@ namespace JamHub
                 retstr += "<DialogueNode>\n";
                 retstr += "<Name>" + mod.ID + "</Name>\n";
                 retstr += "<Dialogue>\n";
-                retstr += "<Page>Mod Name: " + mod.Name + "\nMod Author: " + mod.Author + "\nPlanet Name: " + mod.planet.GetComponent<AstroObject>()._customName + "\nUnique ID: " + mod.ID + "</Page>";
+                retstr += "<Page>Mod Name: " + mod.Name + "\nMod Author: " + mod.Author + "\nPlanet Name: " + mod.Planet.GetComponent<AstroObject>()._customName + "\nUnique ID: " + mod.ID + "</Page>";
                 retstr += "</Dialogue>\r\n    <DialogueOptionsList>\r\n      <DialogueOption>\r\n        <Text>Lock on to planet.</Text>\r\n<ConditionToSet>" + mod.ID + "</ConditionToSet>\n";
                 retstr += "</DialogueOption>\r\n      <DialogueOption>\r\n        <Text>Cancel.</Text>\r\n<DialogueTarget>PAGE" + (int)Mathf.Floor(count/modsPerPage) + "</DialogueTarget>\r\n      </DialogueOption>\r\n    </DialogueOptionsList>\r\n  </DialogueNode>\n";
                 count++;
@@ -214,30 +186,6 @@ namespace JamHub
             retstr += "</DialogueTree>\n";
 
             return retstr.Replace("&", "&amp;");
-        }
-
-        /**
-         * Makes failure XML for the computer
-         */
-        private static string MakeFailureXML(int lastIndex)
-        {
-            //Construct the header
-            string retstr = "<DialogueTree xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:noNamespaceSchemaLocation=\"https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd\">\n";
-            retstr += "<NameField>Computer</NameField>\n";
-
-            //Construct the intro dialogue
-            retstr += "<DialogueNode>\r\n    <Name>INITIAL</Name>\r\n    <EntryCondition>DEFAULT</EntryCondition>\r\n    <Dialogue>\r\n      <Page>ORRERY INITIALIZATION ERROR:::\nCRITICAL ERROR ENCOUNTERED, ORRERY INITIALIZATION ABORTED!</Page>\r\n";
-            
-            //Based on the last index, display the error cause
-            if(lastIndex >= 0) //This value means we ran out of planets for mods
-                retstr += "<Page>ERROR CAUSE: ORRERY SCANNED FEWER PLANETS THAN EXPECTED!</Page>\r\n</Dialogue>\r\n</DialogueNode>\n";
-            else //Otherwise, we saw more planets than mods
-                retstr += "<Page>ERROR CAUSE: ORRERY SCANNED MORE PLANETS THAN EXPECTED!</Page>\r\n</Dialogue>\r\n</DialogueNode>\n";
-
-            //Construct the footer
-            retstr += "</DialogueTree>\n";
-
-            return retstr;
         }
     }
 }

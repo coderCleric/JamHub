@@ -28,13 +28,13 @@ namespace JamHub
         /**
          * Make the orrery planets from the given list of mods
          */
-        public void MakePlanets(OtherMod[] mods)
+        public void MakePlanets(List<OtherMod> mods)
         {
             //Initialize the empty array
-            planets = new OrreryPlanet[mods.Length];
+            planets = new OrreryPlanet[mods.Count];
 
             //For each mod, make an orrery planet
-            for(int i = 0; i < mods.Length; i++)
+            for(int i = 0; i < mods.Count; i++)
             {
                 GameObject planetObj = GameObject.Instantiate(sunSphere, transform);
                 planets[i] = planetObj.AddComponent<OrreryPlanet>();
