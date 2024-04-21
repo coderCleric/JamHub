@@ -17,12 +17,12 @@ namespace JamHub
         [HarmonyPatch(typeof(DialogueConditionManager), nameof(DialogueConditionManager.SetConditionState))]
         public static void DialogueLockOn(string conditionName, bool conditionState)
         {
-            if(conditionState)
+            if(conditionState && JamHub.instance.mods != null)
             {
                 //Look for an ID matching the condition
                 foreach(OtherMod mod in JamHub.instance.mods)
                 {
-                    if(conditionName.Equals(mod.ID))
+                    if(conditionName.Equals(mod.ID) && mod.Planet != null)
                     {
                         OWRigidbody body = mod.Planet.GetAttachedOWRigidbody();
                         if(body.IsTargetable())
