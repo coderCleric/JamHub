@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
+	"initialReveal": [ "HUB_PLANET_EXISTENCE_FACT_CCL" ],
+	"curiosities": [
+		{
+			"id": "HUB_PLANET",
+			"color": {
+				"r": 51,
+				"g": 163,
+				"b": 69,
+				"a": 255
+			},
+			"highlightColor": {
+				"r": 86,
+				"g": 191,
+				"b": 103,
+				"a": 255
+			}
+		}
+	],
+	"entryPositions": [
+		{
+			"id": "HUB_PLANET_ENTRY_CCL",
+			"position": {
+				"x": 0,
+				"y": 0
+			}
+		},
+		{
+			"id": "HUB_PARTY_ENTRY_CCL",
+			"position": {
+				"x": 0,
+				"y": 250
+			}
+		},
+		{
+			"id": "HUB_SHOWCASE_ENTRY_CCL",
+			"position": {
+				"x": 250,
+				"y": 0
+			}
+		},
+		{
+			"id": "HUB_COMPUTER_ENTRY_CCL",
+			"position": {
+				"x": 0,
+				"y": -250
+			}
+		}
+	]
+}

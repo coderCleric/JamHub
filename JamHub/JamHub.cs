@@ -38,13 +38,25 @@ namespace JamHub
             ModHelper.Console.WriteLine($"My mod {nameof(JamHub)} is loaded!", MessageType.Success);
         }
 
+        public bool IsInValidSystem()
+        {
+            if (newHorizons.GetCurrentStarSystem().Equals("Jam3") || newHorizons.GetCurrentStarSystem().Equals("Jam5"))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
         /**
          * Set up Trifid's dialogue stuff
          */
         private void OnceAwake()
         {
             //Return early if in the wrong system
-            if (!newHorizons.GetCurrentStarSystem().Equals("Jam3"))
+            if (IsInValidSystem())
                 return;
 
             //Trigger the condition

@@ -1,9 +1,8 @@
 {
   "name": "Mod Jam Hub",
   "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
-  "starSystem": "Jam3",
+  "starSystem": "Jam5",
   "canShowOnTitle": false,
-
   "ShipLog": {
     "xmlFile": "shiplog/hubplanet.xml",
     "spriteFolder": "shiplog/images",
@@ -18,7 +17,8 @@
     "hasMapMarker": true
   },
   "Orbit": {
-    "primaryBody": "Jam 3 Sun"
+    "primaryBody": "Jam Hub Star",
+    "semiMajorAxis": 1200
   },
   "Atmosphere": {
     "atmosphereSunIntensity": 1,
@@ -35,7 +35,7 @@
   },
   "AmbientLights": [
     {
-      "intensity": 1
+      "intensity": 0.4
     }
   ],
   "Props": {
@@ -66,6 +66,21 @@
         "rename": "hub_computer_marker",
         "parentPath": "Sector/jamplanet/computer_area/log_location_anchor",
         "isRelativeToParent": true
+      }
+    ],
+    "warpReceivers": [
+      {
+        "position": {
+          "x": -6.248936,
+          "y": 153.3932,
+          "z": 40.20845
+        },
+        "rotation": {
+          "x": 12.86049,
+          "y": 1.756293,
+          "z": 2.25806
+        },
+        "frequency": "ClericJam5Hub"
       }
     ],
     "dialogue": [
