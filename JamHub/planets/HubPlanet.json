@@ -1237,6 +1237,14 @@
         "isRelativeToParent": true,
         "radius": 0.5,
         "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/TheLoweDown/dialogue_anchor",
+        "xmlFile": "dialogue/modders/TLD256.xml",
+        "rename": "TheLoweDown_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
       }
     ],
     "singularities": [

@@ -1,0 +1,60 @@
+﻿<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>TheLoweDown256</NameField>
+
+
+	<DialogueNode>
+		<Name>START</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hello! I'm TheLoweDown256.</Page>
+			<Page>I made Core Collapse for the 5th Outer Wilds Mod Jam.</Page>
+			<Page>I also have some half-finished projects and mod ideas (mostly gameplay additions/non-story) I might eventualy finish and release.</Page>
+			<Page>You can also find me on the Outer Wilds Modding discord server as "TheLoweDown256".</Page>
+			<Page>...</Page>
+			<Page>I don't really have anything else to say right now...</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<RequiredPersistentCondition>TLD256_CORECOLLAPSE_DONE_FORJAMHUB</RequiredPersistentCondition>
+				<Text>I beat Core Collapse!</Text>
+				<DialogueTarget>BeatCoreCollapse</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Ok bye</Text>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>BeatCoreCollapse</Name>
+		<Dialogue>
+			<Page>Oh cool! Did you enjoy it?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Yes</Text>
+				<DialogueTarget>DidEnjoy</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>No</Text>
+				<DialogueTarget>Enjoyednt</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>DidEnjoy</Name>
+		<Dialogue>
+			<Page>:)</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Enjoyednt</Name>
+		<Dialogue>
+			<Page>:(</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>
