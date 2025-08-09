@@ -1,0 +1,16 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: Intervention&#13;&#10;Authors: hearth1an
+      </Page>
+      <Page>Intervention is a mod made for the first Outer Wilds Mod Jam. It tells us a story of faith, destiny, and darkness.</Page>
+	  <Page>The mod takes place in a new realm called "The Void" in which the player was brought to by a being beyond your comprehension.</Page>
+      <Page>While it didn't win any awards, it is an experience worth trying!</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

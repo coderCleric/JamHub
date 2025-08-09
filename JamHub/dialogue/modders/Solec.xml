@@ -1,0 +1,12 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Solec</NameField>
+
+
+	<DialogueNode>
+		<Name>INITIAL</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>hey, i'm solec. i fell off a rock 50 times, made a weather mod, and made every planet in outer wilds a comet. that's basically it for me</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

@@ -1,0 +1,16 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: The Stranger They Are&#13;&#10;Author: Anonymous
+      </Page>
+      <Page>The Stranger They Are is a story mod that greatly expands the Echoes of the Eye DLC, which unveils the darkest secrets of the Stranger's Inhabitants.</Page>
+      <Page>It's difficult to explain the mod any more outside of that because the mod itself is filled with a lot of huge surprises, unlike other mods.</Page>
+      <Page>Currently, The Stranger They Are is the longest mod on the database, with reports of playtime lasting at an average of 10 hours.</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

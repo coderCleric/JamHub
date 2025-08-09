@@ -1,0 +1,16 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: Lonesome Lake&#13;&#10;Authors: Asymmetrical Cavern
+      </Page>
+      <Page>Lonesome Lake is a mod made for the fourth mod jam hosted by the Outer Wilds modding community. The mod is very short, yet impactful.</Page>
+      <Page>While I can't say much about the mod without spoiling it entirely, it takes place on a vessel constructed by a group of Inhabitants.</Page>
+      <Page>While it didn't win any awards, it is an experience worth trying!</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

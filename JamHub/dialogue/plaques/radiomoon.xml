@@ -1,0 +1,16 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: Under a Radio Moon&#13;&#10;Authors: Etherpod, Ditzy, harperlr, Ernst
+	  </Page>
+      <Page>Under a Radio Moon is a mod made for the fifth mod jam hosted by the Outer Wilds modding community. The mod takes place on an abandoned, rusty moon with a signal coming from one of the structures.</Page>
+      <Page>The mod is one of two mods in Jam 5 that feature completely new species, and provides the player with intriguing puzzles to solve.</Page>
+      <Page>Perhaps this mod will find itself on the leaderboard?</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

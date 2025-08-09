@@ -1,0 +1,15 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: Mystery of the Missing Cake&#13;&#10;Authors: Boreas
+	  </Page>
+      <Page>Mystery of the Missing Cake is a mod made for the fifth mod jam hosted by the Outer Wilds modding community.</Page>
+      <Page>As the title suggests, the mod tasks the player with finding a missing cake for a Nomai.</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

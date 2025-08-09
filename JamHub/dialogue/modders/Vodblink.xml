@@ -1,0 +1,131 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Vodblink</NameField>
+
+	<DialogueNode>
+		<Name>Entry</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hello player! My name is Vodblink, and I am a member of Team Geswaldo.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>What mods have you made?</Text>
+				<DialogueTarget>modmade</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Are you planning to make any more mods in the future?</Text>
+				<DialogueTarget>modfuture</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>How did you get here?</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Who else was in Team Geswaldo?</Text>
+				<DialogueTarget>teamgeswaldo</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What was your role in Team Geswaldo?</Text>
+				<DialogueTarget>megeswaldo</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Did you just refer to me, instead of the hatchling?</Text>
+				<DialogueTarget>4thwall</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Goodbye.</Text>
+				<DialogueTarget>byebye</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Entry2</Name>
+		<Dialogue>
+			<Page>Anything else?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>What mods have you made?</Text>
+				<DialogueTarget>modmade</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Are you planning to make any more mods in the future?</Text>
+				<DialogueTarget>modfuture</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>How did you get here?</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Who else was in Team Geswaldo?</Text>
+				<DialogueTarget>teamgeswaldo</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What was your role in Team Geswaldo?</Text>
+				<DialogueTarget>megeswaldo</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Did you refer to me, instead of the hatchling?</Text>
+				<DialogueTarget>4thwall</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Goodbye.</Text>
+				<DialogueTarget>byebye</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>modmade</Name>
+		<Dialogue>
+			<Page>Me and Team Geswaldo made Powerfail, a mod for Jam 5.</Page>
+			<Page>In Powerfail you explore a <![CDATA[<color=orange>miniature</color>]]> system and learn about a group of Nomai that were there first.</Page>
+		</Dialogue>
+		<DialogueTarget>Entry2</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>modfuture</Name>
+		<Dialogue>
+			<Page>Currently, no, there are no plans for future mods, however there is always a possibility of a future mod for Jam 6, or just as a fun project.</Page>
+		</Dialogue>
+		<DialogueTarget>Entry2</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>teamgeswaldo</Name>
+		<Dialogue>
+			<Page>The other team members are: Solec, T3rtu, and Heroplays.</Page>
+			<Page>Solec was the coder of Team Geswaldo, and does most of the work. They look a bit like Gabbro in this dimension.</Page>
+			<Page>T3rtu makes the models for everything, as well as having most of the ideas for it. They look a lot like your avatar for this world.</Page>
+			<Page>Heroplays makes music, and made Powerfail much more lively with some of the songs. They became a chess piece for some reason.</Page>
+		</Dialogue>
+		<DialogueTarget>Entry2</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>megeswaldo</Name>.
+		<Dialogue>
+			<Page>I am moral support, as well as the one to keep people on task.</Page>
+			<Page>(I got into this building on a technicality, I did almost no real modding.)</Page>
+		</Dialogue>
+		<DialogueTarget>Entry2</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>4thwall</Name>.
+		<Dialogue>
+			<Page>I did! Unlike a lot of people here, I can see past the rectangle called a screen and outside of it!</Page>
+			<Page>For instance, I can tell by looking at you that you need to go outside and interact with some foliage.</Page>
+		</Dialogue>
+		<DialogueTarget>Entry2</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>byebye</Name>
+		<Dialogue>
+			<Page>Goodbye!</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

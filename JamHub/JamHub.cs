@@ -16,9 +16,11 @@ namespace JamHub
         //Static
         public static JamHub instance;
 
+        private bool hasKilledPlayer;
+
         private void Start()
         {
-
+            
             // Get the New Horizons API and load configs
             newHorizons = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
             newHorizons.LoadConfigs(this);
@@ -36,6 +38,8 @@ namespace JamHub
             // Say that we're done
             instance = this;
             ModHelper.Console.WriteLine($"My mod {nameof(JamHub)} is loaded!", MessageType.Success);
+
+            hasKilledPlayer = false;
         }
 
         public bool IsInValidSystem()
@@ -65,9 +69,23 @@ namespace JamHub
             JamHub.DebugPrint("sanity check");
         }
 
+        private void Update()
+        {
+            if (!hasKilledPlayer && IsPlayerDying())
+            {
+                Locator.GetDeathManager().KillPlayer(DeathType.CrushedByElevator);
+            }
+        }
+
         public static void DebugPrint(string message)
         {
             instance.ModHelper.Console.WriteLine(message);
         }
+
+        private bool IsPlayerDying()
+        {
+            return DialogueConditionManager.SharedInstance.GetConditionState("JamHub_KillPlayer");
+        }
+
     }
 }

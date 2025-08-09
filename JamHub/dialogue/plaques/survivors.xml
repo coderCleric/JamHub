@@ -1,0 +1,16 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: Survivors&#13;&#10;Authors: Hawkbar, Insmoshable, Team Kabuki
+	  </Page>
+      <Page>Survivors is a mod made for the second mod jam hosted by the Outer Wilds modding community. The mod explores a group of Nomai who fled the Vessel to safety.</Page>
+      <Page>The mod adds new dimensions into Dark Bramble and adds an interesting gimmick to these new areas. But this mod is not for those who have an extreme fear of insects.</Page>
+      <Page>While it didn't win any awards, it is an experience worth trying! If you don't mind the bugs, of course.</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

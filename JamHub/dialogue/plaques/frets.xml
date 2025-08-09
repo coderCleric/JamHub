@@ -1,0 +1,16 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: Fret's Quest&#13;&#10;Author: Samster68
+      </Page>
+      <Page>Fret's Quest is one of the first story mod for Outer Wilds, sending players on a quest to find a magical banjo which was stolen from a Nomai named Fret.</Page>
+      <Page>The mod may seem like it's a bit of a joke, but it's much more than that. It has lore, surprises, characters, and was the first mod to do quite a few things.</Page>
+      <Page>What's certain is that Fret's Quest is a mod worth playing, and that it was a milestone for the Outer Wilds modding community.</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

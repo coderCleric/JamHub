@@ -1,0 +1,16 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: Eye of the Storm&#13;&#10;Authors: Nolram, JohnCorby, and friends
+      </Page>
+      <Page>Eye of the Storm was a cancelled mod for Outer Wilds that unveils a new Nomai project called the WASP that was built after the Ash Twin Project before the Interloper came.</Page>
+      <Page>The mod was in pre-development stage for two years and several arguments between the developers over design choices caused the mod to ultimately be cancelled.</Page>
+      <Page>Not much of it is very well known by the Outer Wilds modding community, but there's no reason for this mod with great potential to be forgotten.</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

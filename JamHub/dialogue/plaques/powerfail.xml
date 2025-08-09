@@ -1,0 +1,15 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: Powerfail&#13;&#10;Authors: T3rtu, Vodblink, Solec, HeroPlays1122
+	  </Page>
+      <Page>Powerfail is a mod made for the fifth mod jam hosted by the Outer Wilds modding community. It takes place in a planetary system with a gas giant in the center.</Page>
+      <Page>This team in particular was pretty new to Outer Wilds Modding and it surprisingly has somewhat of a story and some puzzles to solve.</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

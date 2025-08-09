@@ -1,0 +1,16 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: On A Rail!&#13;&#10;Authors: Can't Afford a Name
+	  </Page>
+      <Page>On A Rail! is a mod made for the fifth mod jam hosted by the Outer Wilds modding community, taking place on a miniature solar system on rails.</Page>
+      <Page>Like Heliostudy and a few other entries, On A Rail! quickly gained appreciation from the modding community for its great creativity and clever puzzles.</Page>
+      <Page>Perhaps this mod will find itself on the leaderboard?</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

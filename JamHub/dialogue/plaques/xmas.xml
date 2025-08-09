@@ -1,0 +1,16 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: Christmas Story&#13;&#10;Author: hearth1an
+      </Page>
+      <Page>Christmas Story is a holiday-themed story mod that tasks you with bringing home the travelers for the holidays.</Page>
+      <Page>While there isn't much of a story compared to most other story mods, the puzzles and interactions with other characters is what makes this mod a great experience.</Page>
+      <Page>The mod also comes with cool new modifications to your tools, such as attaching a gravity crystal to your scout, allowing you to walk up walls!</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

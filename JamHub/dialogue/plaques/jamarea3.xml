@@ -1,0 +1,17 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>This platform showcases the winners of the modding community’s third mod jam, held in March of 2024 with the theme of “Community”.</Page>
+      <Page>This jam had a special restriction confining each submission to only one planet. All Jam 3 mods orbit around the same star in the Jam 3 system.</Page>
+      <Page>With this new restriction, players can go from one mod to the next without leaving the system, enhancing the experience for both modders and players alike.</Page>
+      <Page>If you want to, you can meet the creators of these mods at the party on the north pole!</Page>
+    </Dialogue>
+    <RevealFacts>
+      <FactID>PARTY_RUMOR_CCL</FactID>
+    </RevealFacts>
+  </DialogueNode>
+</DialogueTree>

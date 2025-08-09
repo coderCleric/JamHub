@@ -1,0 +1,16 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: Echo Hike&#13;&#10;Authors: Trifid
+	  </Page>
+      <Page>Echo Hike is a mod made for the third mod jam hosted by the Outer Wilds modding community. It takes place beneath the crust of a ringed ice world.</Page>
+      <Page>While the mod is small and does not have many puzzles, there was a brilliant mechanic that left many players amazed.</Page>
+      <Page>While it didn't win any awards, it is an experience worth trying!</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

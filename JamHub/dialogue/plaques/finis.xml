@@ -1,0 +1,16 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: Finis&#13;&#10;Authors: orclecle
+	  </Page>
+      <Page>Finis is a mod made for the third mod jam hosted by the Outer Wilds modding community, which asks if it's ethical to end the Eye's cycle.</Page>
+      <Page>The mod explores a story of a fallen alien kingdom discovered by a clan of Nomai, and has a central mechanic around a special vision-altering item.</Page>
+      <Page>While it didn't win any awards, it is an experience worth trying!</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

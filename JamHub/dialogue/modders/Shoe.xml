@@ -6,9 +6,94 @@
 		<Name>INITIAL</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-      <Page>hello tis is i the grandmaster of lace magic, shoe.</Page>
-      <Page>...</Page>
-			<Page>shhh this is just a shell to trick bird, you can find my true form in Magistarium, just don't tell that little avian that this is just an illusion.</Page>
+        <Page>GET ME OUT OF HERE!!! They haven't fed me in days, please just get me out of this cage</Page>
+        <Page>...</Page>
+		<Page>Even if your not able to get me out, do you want to know a little secret?</Page>
 		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Sure, why not?</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>No!</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>Ok then...</Page>
+			<Page>*ahem*</Page>
+			<Page>Nagareteku toki no naka de demo kedarusa ga hora guruguru mawatte</Page>
+			<Page>Watashi kara hanareru kokoro mo mienaiwa sou shiranai?</Page>
+			<Page>Jibun kara ugoku koto mo naku toki no sukima ni nagasare tsuzukete</Page>
+			<Page>Shiranai wa mawari no koto nado watashi wa watashi sore dake</Page>
+			<Page>Yume miteru? Nani mo mitenai? Kataru mo muda na jibun no kotoba</Page>
+			<Page>Kanashimu nante tsukareru dake yo nani mo kanjizu sugoseba ii no</Page>
+			<Page>Tomadou kotoba ataerarete mo jibun no kokoro tada uwa no sora</Page>
+			<Page>Moshi watashi kara ugoku no naraba subete kaeru no nara kuro ni suru</Page>
+			<Page>Konna jibun ni mirai wa aru no? Konna sekai ni watashi wa iru no?</Page>
+			<Page>Ima setsunai no? Ima kanashii no? Jibun no koto mo wakaranai mama</Page>
+			<Page>Ayumu koto sae tsukareru dake yo hito no koto nado shiri mo shinaiwa</Page>
+			<Page>Konna watashi mo kawareru no nara moshi kawareru no nara shiro ni naru</Page>
+			<Page>Nagareteku toki no naka de demo kedarusa ga hora guruguru mawatte</Page>
+			<Page>Watashi kara hanareru kokoro mo mienaiwa sou shiranai?</Page>
+			<Page>Jibun kara ugoku koto mo naku toki no sukima ni nagasare tsuzukete</Page>
+			<Page>Shiranai wa mawari no koto nado watashi wa watashi sore dake</Page>
+			<Page>Yume miteru? Nani mo mitenai? Kataru mo muda na jibun no kotoba</Page>
+			<Page>Kanashimu nante tsukareru dake yo nani mo kanjizu sugoseba ii no</Page>
+			<Page>Tomadou kotoba ataerarete mo jibun no kokoro tada uwa no sora</Page>
+			<Page>Moshi watashi kara ugoku no naraba subete kaeru no nara kuro ni suru</Page>
+			<Page>Konna jibun ni mirai wa aru no? Konna sekai ni watashi wa iru no?</Page>
+			<Page>Watashi no koto wo iitai naraba kotoba ni suru no nara [rokudenashi]</Page>
+			<Page>Konna jibun ni mirai wa aru no? Konna sekai ni watashi wa iru no?</Page>
+			<Page>Konna watashi mo kawareru no nara moshi kawareru no nara shiro ni naru</Page>
+			<Page>Ima yume miteru? Nani mo mitenai? Kataru mo muda na jibun no kotoba</Page>
+			<Page>Kanashimu nante tsukareru dake yo nani mo kanjizu sugoseba ii no</Page>
+			<Page>Tomadou kotoba ataeraretemo jibun no kokoro tada uwa no sora</Page>
+			<Page>Moshi watashi kara ugoku no naraba subete kaeru no nara kuro ni suru</Page>
+			<Page>Ugoku no naraba ugoku no naraba subete kowasuwa subete kowasuwa</Page>
+			<Page>Kanashimu naraba kanashimu naraba watashi no kokoro shiroku kawareru?</Page>
+			<Page>Anata no koto mo watashi no koto mo subete no koto mo mada shiranai no</Page>
+			<Page>Omoi mabuta wo aketa no naraba subete kowasu no nara kuro ni nare!!!</Page>
+			<Page>...</Page>
+			<Page>What did you think of that?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>It was pretty good!</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>It was shit!</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>Who said you had a choice?</Page>
+		</Dialogue>
+		<SetCondition>JamHub_KillPlayer</SetCondition>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page>Epic.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>4</Name>
+		<Dialogue>
+			<Page>Fuck you!</Page>
+		</Dialogue>
+		<SetCondition>JamHub_KillPlayer</SetCondition>
 	</DialogueNode>
 </DialogueTree>

@@ -1,0 +1,17 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>This platform showcases the winners of the modding community’s fifth mod jam, held in July of 2025 with the theme of “Miniature”.</Page>
+      <Page>This jam had a special restriction, modders were required to make a small star system that is no bigger than 2500 meters in radius, all of which were in one shared system.</Page>
+      <Page>Much like Jam 3, this allowed for a more connected experience, and allowed all the modders to do some rich worldbuilding for the once lonely Nomai Vessel in the center.</Page>
+      <Page>If you want to, you can meet the creators of these mods at the party on the north pole!</Page>
+    </Dialogue>
+    <RevealFacts>
+      <FactID>PARTY_RUMOR_CCL</FactID>
+    </RevealFacts>
+  </DialogueNode>
+</DialogueTree>

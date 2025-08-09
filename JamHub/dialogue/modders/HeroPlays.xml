@@ -1,0 +1,12 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>HeroPlays1122</NameField>
+
+
+	<DialogueNode>
+		<Name>INITIAL</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hi, I'm HeroPlays1122. I was the musician for the powerfail mod in Jam 5! Unfortunately I got turned into a chess piece due to forgetting to make the Geswaldo theme song.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

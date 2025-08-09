@@ -1,0 +1,68 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>T3rtu</NameField>
+
+
+	<DialogueNode>
+		<Name>INITIAL</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hi it's me Tertu!</Page>
+			<Page>I was the moddeler for powerfail, came up with the for that mod puzzles, the story and the whole mod.. actually.</Page>
+			<Page>(It was my first time modeling for real.. pls no hate)</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Why is Powerfail so shit?</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What was the hardest thing to make in Powerfail?</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>CHOOSEAGAIN</Name>
+		<Dialogue>
+			<Page>Anything else?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Why is Powerfail so shit?</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What was the hardest thing to make in Powerfail?</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Goodbye</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>uhh, probably cuz i worked on it? But being honest- Powerfail was mostly a learning expirience. never expected it to be perfect</Page>
+		</Dialogue>
+		<DialogueTarget>CHOOSEAGAIN</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>uhh, probably cuz i worked on it? But being honest- Powerfail was mostly a learning expirience. never expected it to be perfect</Page>
+		</Dialogue>
+		<DialogueTarget>CHOOSEAGAIN</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page>Goodbyeeeee</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

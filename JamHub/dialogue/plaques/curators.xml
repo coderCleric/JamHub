@@ -1,0 +1,16 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: The Cosmic Curators&#13;&#10;Authors: pikpik, Echatsum, Anonymous, Repcon, cOa Rex
+      </Page>
+      <Page>The Cosmic Curators is a mod made for the fifth mod jam hosted by the Outer Wilds modding community. The mod takes place in a vessel of alien origin in orbit around a pulsar.</Page>
+      <Page>This mod is one of two Jam 5 mods to feature a completely new species, and has an array of puzzles for the player to solve and a bunch of new lore to explore.</Page>
+      <Page>Perhaps this mod will find itself on the leaderboard?</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

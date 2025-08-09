@@ -42,7 +42,7 @@
     "details": [
       {
         "keepLoaded": true,
-        "assetBundle": "assetbundles/jam3",
+        "assetBundle": "assetbundles/cleric_jamhub_bundle",
         "path": "Assets/Prefabs/jam3/jamplanet.prefab"
       }
     ],

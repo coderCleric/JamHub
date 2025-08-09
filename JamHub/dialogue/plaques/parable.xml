@@ -1,0 +1,15 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: The Hearthian Parable&#13;&#10;Authors: Vambok
+	  </Page>
+      <Page>The Hearthian Parable is a mod made for the fifth mod jam hosted by the Outer Wilds modding community. It was a small mod thrown together in the last three days of the jam.</Page>
+      <Page>While Vambok's team decided to quit the jam, Vambok decided to make something out of what was left. Now, it's a fully voice acted experience with lots of funny moments and five endings.</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

@@ -1,0 +1,16 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: Time Dilator&#13;&#10;Authors: orbital32
+      </Page>
+      <Page>Time Dilator is a mod made for the first Outer Wilds Mod Jam, which explores a new star system with a strange property.</Page>
+	  <Page>Originally, orbital32 intended to release Unnamed Mystery as a jam submission, but instead worked on a new mod because the former did not fit with the theme.</Page>
+      <Page>While it didn't win any awards, it is an experience worth trying!</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

@@ -1,0 +1,16 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField>
+
+	<DialogueNode>
+		<Name>INITIAL</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>
+				Mod: Halcyon Nexus Zero&#13;&#10;Authors: GameWyrm, Shoe, and Friends
+			</Page>
+			<Page>Halcyon Nexus Zero is an upcoming prequel to the original Hearth's Neighbor, taking place in an entirely new system with a handful of planets.</Page>
+			<Page>The mod will contain several puzzles and expand the lore for both Hearth's Neighbor mods.</Page>
+			<Page>As of writing, the mod is now in hiatus until the lead dev GameWyrm is out of a creative drought and regains the will to mod .</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

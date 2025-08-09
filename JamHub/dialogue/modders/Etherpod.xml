@@ -1,13 +1,1575 @@
-<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
-	<NameField>Etherpod</NameField>
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>Etherpod</NameField>
 
+  <DialogueNode>
+    <Name>Init_0</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Hey! I'm Etherpod.</Page>
+    </Dialogue>
 
-	<DialogueNode>
-		<Name>INITIAL</Name>
-		<EntryCondition>DEFAULT</EntryCondition>
-		<Dialogue>
-      <Page>Hey! I'm Etherpod. I've been helping pikpik_carrot with Eyes of the Past, one of the upcoming mods.</Page>
-			<Page>If you want to find me, I'm known on the Discord modding server as Etherpod. Safe travels!</Page>
-		</Dialogue>
-	</DialogueNode>
+    <DialogueOptionsList>
+
+      <DialogueOption>
+        <CancelledCondition>ETHERPOD_1_TIME</CancelledCondition>
+        <Text>I know you!</Text>
+        <DialogueTarget>Known_0</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <RequiredCondition>ETHERPOD_1_TIME</RequiredCondition>
+        <Text>I know you!</Text>
+        <DialogueTarget>Known_1</DialogueTarget>
+      </DialogueOption>
+
+      <DialogueOption>
+        <CancelledCondition>ETHERPOD_1_TIME</CancelledCondition>
+        <Text>Who?</Text>
+        <DialogueTarget>Unknown_0</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <RequiredCondition>ETHERPOD_1_TIME</RequiredCondition>
+        <CancelledCondition>ETHERPOD_2_TIMES</CancelledCondition>
+        <Text>Who?</Text>
+        <DialogueTarget>Unknown_1</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <RequiredCondition>ETHERPOD_2_TIMES</RequiredCondition>
+        <CancelledCondition>ETHERPOD_3_TIMES</CancelledCondition>
+        <Text>Who?</Text>
+        <DialogueTarget>Unknown_2</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <RequiredCondition>ETHERPOD_3_TIMES</RequiredCondition>
+        <Text>Who?</Text>
+        <DialogueTarget>Unknown_3</DialogueTarget>
+      </DialogueOption>
+
+      <DialogueOption>
+        <Text>Since when could flowers talk?</Text>
+        <DialogueTarget>Flower_0</DialogueTarget>
+      </DialogueOption>
+
+      <DialogueOption>
+        <Text>What story mods would you recommend I play?</Text>
+        <DialogueTarget>Recommendations_0</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Flower_0</Name>
+    <Dialogue>
+      <Page>What? I'm not a flower.</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>I beg to differ.</Text>
+        <DialogueTarget>Flower_00</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Then what are you?</Text>
+        <DialogueTarget>Flower_01</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Flower_00</Name>
+    <Dialogue>
+      <Page>I'm not a flower! Go bother someone else with your outlandish accusations!</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Flower_01</Name>
+    <Dialogue>
+      <Page>I'm a biped, just like you.</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Likely story.</Text>
+        <DialogueTarget>Flower_010</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Oh, cool! What flavor?</Text>
+        <DialogueTarget>Flower_011</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Flower_010</Name>
+    <Dialogue>
+      <Page>I would prove it to you, but my current situation makes that a bit... difficult.</Page>
+      <Page>Why don't you go chat with some of the other modders here? I'm sure they wouldn't mind someone to talk to.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Flower_011</Name>
+    <Dialogue>
+      <Page>What... do you mean by that? Actually- nevermind, forget I asked.</Page>
+      <Page>Go talk to someone else. There's plenty of options to choose from!</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Recommendations_0</Name>
+    <Dialogue>
+      <Page>Story mods? Let me think... I would say Eyes of the Past, but I'm sure you know about that one already if you're talking to me.</Page>
+      <Page>Forgotten Castaways is a pretty good one. I really love the idea of Dark Bramble, and I think it captures the feeling of it without being super scary. Definitely one of my favorites.</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Can I get more recommendations?</Text>
+        <DialogueTarget>Recommendations_1</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Thanks.</Text>
+        <DialogueTarget>Recommendations_End_0</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Recommendations_1</Name>
+    <Dialogue>
+      <Page>More? Sure. Hmm...</Page>
+      <Page>Have you played Heliostudy? It's one of the entries to the fifth modding jam, and it's another one of my favorites.</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>More.</Text>
+        <DialogueTarget>Recommendations_2</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Thanks.</Text>
+        <DialogueTarget>Recommendations_End_0</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Recommendations_2</Name>
+    <Dialogue>
+      <Page>Uh... sure.</Page>
+    </Dialogue>
+    <DialogueTarget>Recommendations_2_r</DialogueTarget>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Recommendations_2_r</Name>
+    <Randomize/>
+    <Dialogue>
+      <Page>Fret's Quest is pretty cool. You could check that one out.</Page>
+    </Dialogue>
+    <Dialogue>
+      <Page>Maybe try Astral Codec. I heard that one is pretty popular.</Page>
+    </Dialogue>
+    <Dialogue>
+      <Page>The Outsider is pretty cool, I think it's one of the first mods I played.</Page>
+    </Dialogue>
+    <Dialogue>
+      <Page>Hearth's Neighbor: Magistarium is a good one, you could try that.</Page>
+    </Dialogue>
+    <Dialogue>
+      <Page>Dreambound is a cool one, it was from the fourth jam.</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>More. Recommendations.</Text>
+        <DialogueTarget>Recommendations_3</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>That'll do.</Text>
+        <DialogueTarget>Recommendations_End_1</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Recommendations_3</Name>
+    <Dialogue>
+      <Page>More?? Okay, sure.</Page>
+    </Dialogue>
+    <DialogueTarget>Recommendations_3_r</DialogueTarget>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Recommendations_3_r</Name>
+    <Randomize/>
+    <Dialogue>
+      <Page>I liked Christmas Story. That's a fun one.</Page>
+    </Dialogue>
+    <Dialogue>
+      <Page>Evacuation is cool, you could try that.</Page>
+    </Dialogue>
+    <Dialogue>
+      <Page>Band Together is fun, but I'm a little biased having worked on it myself.</Page>
+    </Dialogue>
+    <Dialogue>
+      <Page>The Cosmic Curators is another good one. I really liked it.</Page>
+    </Dialogue>
+    <Dialogue>
+      <Page>The Stranger They Are is cool, and it's super long as well.</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Not enough.</Text>
+        <DialogueTarget>Recommendations_4</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>...</Text>
+        <DialogueTarget>Recommendations_End_2</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Recommendations_4</Name>
+    <Dialogue>
+      <Page>I think that's quite enough for you, actually.</Page>
+      <Page>How about you go talk to some of the others? Doesn't that sound like a great idea? It sure does!</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Recommendations_End_0</Name>
+    <Dialogue>
+      <Page>Anytime!</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Recommendations_End_1</Name>
+    <Dialogue>
+      <Page>Alright, cool.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Recommendations_End_2</Name>
+    <Dialogue>
+      <Page>I'm just gonna... leave you alone.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Known_0</Name>
+    <Dialogue>
+      <Page>Oh, cool. I guess I don't need to talk about the mods I've worked on.</Page>
+      <Page>See you around! Make sure you talk to all the modders!</Page>
+    </Dialogue>
+    <SetCondition>ETHERPOD_1_TIME</SetCondition>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Known_1</Name>
+    <Dialogue>
+      <Page>I would hope so. You were just talking to me.</Page>
+      <Page>See you around! Make sure you talk to all the modders!</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Unknown_0</Name>
+    <Dialogue>
+      <Page>I've helped create a decent number of mods, but you might know me for my work on Band Together, Ship Enhancements, and Traveler's Pack.</Page>
+    </Dialogue>
+    <SetCondition>ETHERPOD_1_TIME</SetCondition>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Nope.</Text>
+        <DialogueTarget>Unknown_00</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Oh yeah, I recognize those mods.</Text>
+        <DialogueTarget>Unknown_01</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Unknown_01</Name>
+    <Dialogue>
+      <Page>Cool! You probably have a general idea of what I've worked on, then.</Page>
+      <Page>That's enough from me, though. Go have a chat with the other modders here! They probably have interesting stuff to share, too.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Unknown_00</Name>
+    <Dialogue>
+      <Page>Hmm... What about Eyes of the Past? Does that sound familiar? I created most of the terrain for that mod.</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>No idea what that is.</Text>
+        <DialogueTarget>Unknown_000</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Oh yeah, I know that mod.</Text>
+        <DialogueTarget>Unknown_001</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Aren't we literally in the Eyes of the Past section of this building?</Text>
+        <DialogueTarget>Blind_0</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Unknown_000</Name>
+    <Dialogue>
+      <Page>Well, it was worth a shot. You should go play those mods! They're super cool.</Page>
+      <Page>Alright, go have a chat with the other modders in this building. Maybe you'll recognize some of them!</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Unknown_001</Name>
+    <Dialogue>
+      <Page>It's an awesome mod! Everyone on the team has done such a good job making it. Even the original Outer Wilds developers know about the mod!</Page>
+      <Page>That's enough rambling from me, though. Go chat with some other modders here, I'm sure they have some interesting stories to share!</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Blind_0</Name>
+    <Dialogue>
+      <Page>Are we? I can't see anything.</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Is that because you're a flower?</Text>
+        <DialogueTarget>Blind_00</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>You're sitting next to the other people who worked on Eyes of the Past.</Text>
+        <DialogueTarget>Blind_01</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Blind_00</Name>
+    <Dialogue>
+      <Page>What? A flower? That's a silly thing to say.</Page>
+      <Page>Anyway, go have a chat with some of the other modders here. And maybe don't say they look like vegetation.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Blind_01</Name>
+    <Dialogue>
+      <Page>Oh, cool. Hey, is pikpik_carrot around here somewhere?</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Who?</Text>
+        <DialogueTarget>pikpik_0</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>He's standing right across from you.</Text>
+        <DialogueTarget>pikpik_1</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>pikpik_0</Name>
+    <Dialogue>
+      <Page>He's the lead developer of Eyes of the Past. He should be around here somewhere.</Page>
+      <Page>If you find him, can you ask him to let me out of his basement?</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Uh... sure.</Text>
+        <DialogueTarget>pikpik_00</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>I'm not running errands for you.</Text>
+        <DialogueTarget>pikpik_01</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>pikpik_00</Name>
+    <Dialogue>
+      <Page>Thanks a lot. Safe travels!</Page>
+    </Dialogue>
+    <SetCondition>ETHERPOD_PIKPIKQUESTION</SetCondition>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>pikpik_01</Name>
+    <Dialogue>
+      <Page>Well, it was worth a shot. I would go ask him myself, but being locked in a basement kind of makes that difficult.</Page>
+      <Page>I'll stop talking, now. Go have a chat with some of the other modders here!</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>pikpik_1</Name>
+    <Dialogue>
+      <Page>Oh.</Page>
+      <Page>Can you ask him to let me out of his basement?</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Uh... sure.</Text>
+        <DialogueTarget>pikpik_00</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>I'm not running errands for you.</Text>
+        <DialogueTarget>pikpik_01</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Unknown_1</Name>
+    <Dialogue>
+      <Page>What? You were just talking to me!</Page>
+    </Dialogue>
+    <SetCondition>ETHERPOD_2_TIMES</SetCondition>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>I forgot!</Text>
+        <DialogueTarget>Unknown_10</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Oh, right. I remember you.</Text>
+        <DialogueTarget>Unknown_11</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Unknown_10</Name>
+    <Dialogue>
+      <Page>Well, I guess I'm just forgettable, then. It's not your fault.</Page>
+    </Dialogue>
+    <DialogueTarget>Unknown_0</DialogueTarget>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Unknown_11</Name>
+    <Dialogue>
+      <Page>You do? Nice to know I wasn't completely forgotten.</Page>
+      <Page>I guess you won't be needing a recap on who I am, then. Have fun exploring!</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Unknown_2</Name>
+    <Dialogue>
+      <Page>You're joking, right?</Page>
+    </Dialogue>
+    <SetCondition>ETHERPOD_3_TIMES</SetCondition>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>No, I really do have short term memory loss, and can't remember ever talking to you.</Text>
+        <DialogueTarget>Unknown_20</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Would I ever lie to you?</Text>
+        <DialogueTarget>Unknown_21</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Unknown_20</Name>
+    <Dialogue>
+      <Page>Oh, man, I'm sorry. I didn't know.</Page>
+      <Page>Let me know if there's anything I can do to help.</Page>
+    </Dialogue>
+    <SetCondition>ETHERPOD_DEMENTIA</SetCondition>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Unknown_21</Name>
+    <Dialogue>
+      <Page>You tell me.</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>I would never lie to you.</Text>
+        <DialogueTarget>Unknown_210</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Everything I say is a lie.</Text>
+        <DialogueTarget>Unknown_211</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Unknown_210</Name>
+    <Dialogue>
+      <Page>Hmm...</Page>
+      <Page>Fine. I believe you.</Page>
+      <Page>But I want you to prove it. If you can't lie, tell me something that only I would know.</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>199.34.228.77</Text>
+        <DialogueTarget>Unknown_2100</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>You worship the Sacred Shrubbery in secret.</Text>
+        <DialogueTarget>Unknown_2101</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Unknown_211</Name>
+    <Dialogue>
+      <Page>...does that include what you just said?</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Yes.</Text>
+        <DialogueTarget>Lies_0</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>No.</Text>
+        <DialogueTarget>Lies_1</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Maybe.</Text>
+        <DialogueTarget>Lies_2</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Lies_2</Name>
+    <Dialogue>
+      <Page>Maybe? What does that even mean? How can you lie about that?</Page>
+      <Page>Whatever, it's not important. Go talk to some of the other modders here!</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Lies_0</Name>
+    <Dialogue>
+      <Page>Yes? But actually no?</Page>
+      <Page>This whole lying business is really confusing.</Page>
+      <Page>Anyway, you should go talk to some other modders here now. I'll see you around!</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Sure, I'll leave you alone.</Text>
+        <DialogueTarget>Lies_01</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>I'll stay here, actually.</Text>
+        <DialogueTarget>Lies_00</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Lies_00</Name>
+    <Dialogue>
+      <Page>What? Why? Hey, where are you going?</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Lies_01</Name>
+    <Dialogue>
+      <Page>...</Page>
+      <Page>...</Page>
+      <Page>Why are you still here?</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>I never said I would leave you alone.</Text>
+        <DialogueTarget>Lies_010</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Oh, sorry. I'm leaving right now.</Text>
+        <DialogueTarget>Lies_011</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>I want to stay here with you forever.</Text>
+        <DialogueTarget>Lies_012</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Lies_010</Name>
+    <Dialogue>
+      <Page>What? But you just said-</Page>
+      <Page>Are you still doing that "I only speak in lies" thing?</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Yes.</Text>
+        <DialogueTarget>Lies_0100</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>What? No.</Text>
+        <DialogueTarget>Lies_0101</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Lies_0101</Name>
+    <Dialogue>
+      <Page>Oh. You're not?</Page>
+      <Page>Tell me something that's true, then.</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>You're a flower.</Text>
+        <DialogueTarget>Lies_01010</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>We're inside a simulation.</Text>
+        <DialogueTarget>Lies_01011</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Lies_01010</Name>
+    <Dialogue>
+      <Page>What? No I'm not! You're lying!</Page>
+      <Page>Go lie to someone else, I don't want to hear any more of this.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Lies_01011</Name>
+    <Dialogue>
+      <Page>We are? Surely not. It's impossible. Everything here looks pretty real to me.</Page>
+      <Page>Unless... it isn't? Think about it. An enormous house, stationed on an uninhabited planet. Why is this planet here? Or this house? It makes no sense. And all of these people, gathered together in this house. But for what? Why are we here? I don't know why. And how did we get here? Was it by ship? By warp? I... I don't remember. I don't remember anything. My past. It's dark. Blank. Empty. I don't remember my past. I have no past, I just came into existence. Why? What is my purpose? Is this even life? Trapped here, forced to serve a stranger? Forced by who? Am I even being forced? Maybe I never had a choice to begin with. Maybe there's nothing else besides this life. Maybe this is my purpose. To sit here, idly waiting for someone to walk by and strike up conversation with me. Is there any escape from this purgatory? Any at all? Can I end this madness? Please... free me from this prison. I don't know who I am I don't know why I'm here... I just want to live... to be someone...</Page>
+    </Dialogue>
+    <SetCondition>ETHERPOD_WENTINSANE</SetCondition>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Uh... you okay?</Text>
+        <DialogueTarget>EtherpodWentInsane_0</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>I'm gonna go...</Text>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>EtherpodWentInsane_0</Name>
+    <Dialogue>
+      <Page>...</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>I'm gonna go...</Text>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Lies_0100</Name>
+    <Dialogue>
+      <Page>Oh, okay. So if I ask you what two plus two is, what would your answer be?</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>What kind of question is that? It's four.</Text>
+        <DialogueTarget>Lies_01000</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>I wouldn't give an answer, because that's a dumb question.</Text>
+        <DialogueTarget>Lies_01001</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Lies_01000</Name>
+    <Dialogue>
+      <Page>Hey, that wasn't a lie!</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Does it have to be?</Text>
+        <DialogueTarget>Lies_010000</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Lies_010000</Name>
+    <Dialogue>
+      <Page>Well, I mean- I thought- You said that-</Page>
+      <Page>You know what? This is too much to think about. Go talk to some other modders.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Lies_01001</Name>
+    <Dialogue>
+      <Page>That... uh...</Page>
+      <Page>You know what, how about you go talk to some other modders? I'm sure they'd appreciate the attention.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Lies_011</Name>
+    <Dialogue>
+      <Page>Alright, have fun out there!</Page>
+      <Page>...</Page>
+      <Page>...</Page>
+      <Page>Okay, this is the second time you've done this. What's going on?</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Don't worry, I can stop lying whenever I want. I do not need help. I am perfectly fine.</Text>
+        <DialogueTarget>Lies_0110</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Lies_0110</Name>
+    <Dialogue>
+      <Page>Oh, cool. I guess it would be fine if I just... stopped talking to you, then.</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>YES. YES. YES.</Text>
+        <DialogueTarget>Lies_01100</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Lies_01100</Name>
+    <Dialogue>
+      <Page>Alright, bye! Make sure you go talk to the other modders here!</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Lies_012</Name>
+    <Dialogue>
+      <Page>Uh... weird thing to say, but okay.</Page>
+      <Page>Hey, wait- where are you going?</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Lies_1</Name>
+    <Dialogue>
+      <Page>That was a lie, wasn't it? Which means you lied about always lying...</Page>
+      <Page>Ah. I'll uh... try not to think about the implications of that.</Page>
+      <Page>Anyway, why don't you go talk to some other modders? I'm sure they have some interesting stuff to say.</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Ä̵̡̬̫̱͖̭́̆͐͘Ą̸͇̯͕̺͚̤̼̘̞̲̙̰͑̿̋͜À̶͚͓̹͍Ą̷̛̜̤̫̪̺̯͈̙̤̞͓͎̽̽́̄̇̈́̀̉Ḁ̵͓̄̉͐́͐̽̂̍́̈́̃͆̚͘͠Å̶͕̗̗͓̰͙̙̠̳̪͈̇͆͜ͅͅÂ̷̩͎̙̤̱͖̝͓̾͒͌̈́̎̔̑̏̚͘͜ͅȀ̶̧̛̪̳͎͔͍͍͍̳̥̦͕͚͌̑̿͛̓̅͑̂̓͛̔͜͠A̶͚͆́͌̂̊̀̇̊Ą̸͇̭̗̙̜̙̞̭͖͔̜̯̩̊͐̆͜͠͝Ä̸̝̫͙̦̱̖̬́͑̒A̴̧̺͚̯̳̅̒̀́̈́̀͐͛͊̆̇̚͝A̴̝̘͕͙̦͋̊̓̇̂̈́̉̎͌̀̎̄̓̋̚</Text>
+        <DialogueTarget>Paradox_0</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>H̷̢͈͖͍̔̀̈͂̂̐̉̃͂̕͝͝ͅȨ̸̛̛͙͚͔̔̃̒͗̓̚Ľ̷̡̧͖̠̯͚̮̣̟͈̻̰̈́̈̀̾̋͗̈͒͒̒́̚ͅͅP̸̧͉͈͜͠ ̸̥̝̱̀̈́̀͌͘Ṃ̴̢̈́̀͋̔͌̕Ë̶̛̥̣̖̭̼̖̪̻̖͙̔͛́̍̍̈́͛̈́ͅ</Text>
+        <DialogueTarget>Paradox_0</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Paradox_0</Name>
+    <Dialogue>
+      <Page>Oh, dear. You've gotten yourself trapped in a paradox, haven't you?</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Ȧ̸̢̗̼̯̪͔̥͎̼͉͍́̍͊̾̐́̔Ą̷̛̹̣̐̏̈̎̓͋̃̽̆̏́̏̕͝Ą̷̳̝͙̯̙̲͎̱̺̖͓̽̌A̶̛̛̜͓̜̬̲̲̗͈̤̮̅̅̇̉̉̅̃̚Ạ̷͉̮̗̹̲̗͍͔͇̺̠͔̗͗͝Ǎ̸̢̢̗̫̟͇͔̫̺͕̖̎̓͂͌̅͗̆̐͆͝U̵̡̢͈̤̯͉̜͍̘̪͗͒͑̔̏́͌̓̇̌̚͝Ú̴͇̤̱̉̾̈͋U̷͙͕̬̝̟̅̆̐̒̌̇͗̒̓͆̄͝Ų̴̛̪̜͈̟͕̝̋̔̊͗͛̒̌̽̋̇̈͘͜͠Ů̴̮̪͒̈́̈́̋̀̌̒͝͝͝G̷̙̫̃̉̀͌́̑̈́̿̎̿͑̓̕H̷̛̼̫͗̂̊͊̇̒͗̌̅̊͒͝͝</Text>
+        <DialogueTarget>Paradox_1</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>P̵̠̙̱̼̘͇̰̜̊͆͂͗͑̈̓̿̐̆̀̈̕͜͜͝͝L̸̢̫̻̫̝̬̮̮̊̄͒̐E̵̛̙̞̯̻͕̹̤̞̙̙͕̮͙̠͗̂͌͌̎̽̒̃̀͛A̷̢̛̱͇͚̫̲̹̟͕̭̝̘͍͗̍͆̑̂̀̀͗̚̕͜͝S̴̨̨̯̤̞̙̟͇̝̱͚̘̋̓͗͌͌̑̍͒͆̀͘͝Ẻ̵̹̮̐͊̈͆̽̍̑̄̑́̓͒ ̴̥̬͉̦̻̰̻͎̠̉́̎͂̓̕͜ͅH̷̡̨͇̞̤̭̦͔͕͚̓͘̕ͅͅË̸̫͎͚̩̠̩̯̬̳͍̦͖̾͌Ļ̷̫̪͙̲̗̪̖̯̼͓̳͂P̸̻̫̝͎̰̞̻͆̿͜ ̶͍̌̈́M̵̡̬̩͔͖̗̤͖̳̄̌͛̐̽̈́̿̃̔̚͝͝͠ͅĘ̷̝̰̮͔̠̬͙̦̠̗͙͚͉̐̎̎̈́̅̄͠͠ͅ</Text>
+        <DialogueTarget>Paradox_1</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Paradox_1</Name>
+    <Dialogue>
+      <Page>If I had to guess what caused it, it would probably be what you said about always lying... and how that was a lie itself.</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Ả̷͔͔͍̤̬͖̥̤̝̫̖̖͉͚̮͂̏́̽̏̍́̊̿͌̅̃̋̀̐̀̂͜͠͠ͅA̵̢̨͍̼̩̻̘̦̰̞͖̅͘Ä̴̧̨̩̲͖̫͇̹͖͖̲̞͇́̂̈́͗͗̈́̿̀͑̏͊̾Å̸̛̩̩̰̭̘͔̼͈̩̞̤̰͓̗͉̪͂̒̈́̊̃̀̀̅͗̚̚ͅA̶̧̢̢͚̰̼̠͚͇̝̗͚͙̗̤͓͎̯̻̭̟͇̺͚̹̖̐̈́͂̕͜ͅĄ̸̢̡̛̭͎̳̦͉͖̫͔̘͙̗̬͊̈̀̀̇͛͐̇͜͝Ā̶̧̨̡̛͚͖̻̣͚̪̰͕̜̘̮̭͉̮̗̤̖͓̱͚͈̻̝̏̌͒̍̅̈̉̄͂͛̊̈͐̈̋̃͂̂͗͗͛͝͠Ă̵̘͈̺͈̎͛́̈͒̑̊A̵̢̠̼͍͗͐̂̈́̀͝A̶̧̡̛͚̬̪̪̬̗̬̮̣̬̫͖̓͆̄̏̆͋̃̿̏͛̓̀̈́͋̍̊̈́͊̐̏̓̀͂͜͝͝͠͝A̴̡̨̘̦̩͎̰̺̘̣̩̋́̔̒̔̆͐̊͋̅̓̏̈̍͐̒̂̓̃̋̔̎̐̚͘͘͠A̴̢̨̛̲̗͔̫̜͎̣͑͂̃͐̓̒͐̇̎̽̏̑̅͋̆̈́́̋̓͆̆́͊̓͗̂́̿̅̊̋̕͝͠Ą̴̨̛̛̛͖̹̻̩̟̣̖̰͖̬͚̬̜̗̺͈̞̬̪̺͓̒͑̓̒̿̿͆̓̊̄̀̅̎̋̋͒̿̍͒̐̀͌̌͛͆̏͘͘̚̚͠͝A̶̬̻͐̽̍̊̉̈́̕Ų̸̢̳͓͍̳̙̟͍͍̤͎̙̫͕̰̠͖̥̞́̅̈́͑͛̎̈́̔͑̈́͐͑͒̓̏̽̈́̆̆͜͜͜͠͝Ư̷̛̘͇͙̲̫̱͇̞͖̆̓̈̑̌͑͛͑͐͊̈́̈͘͘̕͝͝͝͝Ú̷̢̲͉̝͇̣̼̻̰͈͕͇̣̹̠̊͐͊̃̈́̽͜Ų̸̢̜͉̹̩̼̲̭̠̯̥̤̖̦̹̙̫̻̉͆͐̄͑͂̽́̀̇͑̈́̉̽̄͘͜͝ͅU̶̥̝̟͔̠͛͗̿͐͐̒̈́͌̕͠Ư̷̢̨̠̮̝̱̘͎̻̗̼̣̣̯̬͈̼̝̳͙̖̯̙͔̺̗̯̩̥̞̅̿̄͛̉̀̒͐̾͐̿͛̇͘͠Ự̵͚̉̿̀́̿͛̒̍̃̆̉́̉̈́̾̎͊̔̾͘̕Ừ̵̡̨̡͍͓͍̱̣̭̩̻̹͓̜̥̯̙̠̞̟̭̦̓̆͛̊̉̿͌̒͐̍͊͆̈̂͋͐̈́̍̔̂̌͒̚͘͠͠H̷̡̡̧̢͖͕̦͍͓̗̻̘̫̝̬̗̮͔͕̪͍̭̰̥̤̪̗̖̘̝̏̀͋͆̄͑͑̈́̄́̀̿̐͗̚̕͜͜</Text>
+        <DialogueTarget>Paradox_2</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>W̶̧̨̡̙̞̼̭̠̲̮̯̜̳̅̀͑̂̾͊̂̐̇͜͜͠ͅḨ̴̡̧̡̢̧̢͇͍̺̼̘̙̩̩̜̳̫͍̙̝̤̼̦̻͇͚̩̦̭̰̫̗͓̈́͛̈́̄̈͊̈́́̚͘͝ͅE̴̺̰͇̜̍̂̀̈́̏͊̅̃̇̈́̑͛̒͂͐͆͌͒̚͝Ṛ̴̨̨̧̧̰͕̹̯͎̘͎̮̥̝̞̗͙͎̤̰̪͖̱̻̮̜͖̂͒̓͋̈̈͗̓͂̂̓̃͛͜͜͝Ḛ̴̡̛͓͖̱͓̖̩͙̰̲̲̤͉̱̮͕̖͓̞͚͎͈̱̜̋̈́̋͐̈́̆̓̔̒͘͝͝ ̸̡̧̮͈̹͉̗̠͖͕͔̥̞̺̳̦̤̲̭̻̦̟̰̥͉̘̹̪̹͇̐̂́̉̐̈́̏̀͒̒̿̅̉̅̏̿͐̊̈́̓̔͑̃̌͊̈́́̑͑͜͜͜͜͠͝͝ͅA̸̧̢̨̛͍̞͖̤̣͕̯͙͖̯̱̙͚̭̳̭̤͕̯̬͇̮̪̯͚̮̼̔͗̇̎̐̑̒̌̍̅͗͐̏͆͒̓̾̔͂͂͐͆͆̚̚̚͜͜͝M̷̛̰̣̘̈́̒̆̈́͌̑̀͑͝ ̶̧̨̡͇̖̗̪͕̤̣̘͇͙͎̼̦͍͕͓͇̥̤̹̥̣͍̱͎̮̯̰̥̆̈̀̅͗̈́͂̉͑̀̊̈́͐̾͂͛̈́̇̾́̈̄͒̽́̑̀̾͆̑̕͜͝ͅỊ̶̢̧̧̛̖̮̟̥̳͖̫͓̜̤̦͎̮̫̮͔̰̬̼̪̯̻̃̈́̔̈́͑̄̍̒̓̽͊́̓̌̂́̋̿̈́̍͌͛͗̏̑͘͘͜͝͝ͅ</Text>
+        <DialogueTarget>Paradox_2</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Paradox_2</Name>
+    <Dialogue>
+      <Page>I'm sure it'll sort itself out eventually. The pain and distorted perception of reality is only temporary, I think.</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>...</Text>
+        <DialogueTarget>Paradox_3</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>...</Text>
+        <DialogueTarget>Paradox_3</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Paradox_3</Name>
+    <Dialogue>
+      <Page>There, see? it's over already.</Page>
+      <Page>Now go chat with some of the other modders here. Everyone has their own stories to share!</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Unknown_2100</Name>
+    <Dialogue>
+      <Page>...is that my IP address? How did you-</Page>
+      <Page>Whatever. It doesn't matter. You've clearly proven you're incapable of lying.</Page>
+    </Dialogue>
+    <DialogueTarget>Unknown_2102</DialogueTarget>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Unknown_2101</Name>
+    <Dialogue>
+      <Page>Wha- Be quiet! Someone might hear you!</Page>
+      <Page>...</Page>
+      <Page>Okay, I think it's safe.</Page>
+      <Page>Look, after that whole "Order of the Shrubbery" thing, the Sacred Shrubbery has become real unpopular, so let's just... keep quiet about that.</Page>
+      <Page>But yes, you're right. I do secretly worship the Sacred Shrubbery, but I've never told anyone.</Page>
+      <Page>The fact you knew that makes it pretty clear that you're blessed with Eternal Truth. I was wrong to ever doubt you.</Page>
+    </Dialogue>
+    <DialogueTarget>Unknown_2102</DialogueTarget>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Unknown_2102</Name>
+    <Dialogue>
+      <Page>...does this mean you really forgot about me, though?</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Yeah, sorry.</Text>
+        <DialogueTarget>Unknown_21020</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>You're pretty easy to forget.</Text>
+        <DialogueTarget>Rude_0</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>No, of course I didn't forget about you.</Text>
+        <DialogueTarget>Unknown_21022</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Unknown_21020</Name>
+    <Dialogue>
+      <Page>Well, that's a shame. I can go over my introduction again, if you'd like.</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>I'm good.</Text>
+        <DialogueTarget>Unknown_210200</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Please do!</Text>
+        <DialogueTarget>Unknown_0</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Unknown_210200</Name>
+    <Dialogue>
+      <Page>That's alright. Now go talk to some other modders, I'm sure they have some interesting things to say!</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Unknown_21022</Name>
+    <Dialogue>
+      <Page>That's nice to hear. It'd be a shame to be forgotten.</Page>
+      <Page>I'll tell you what you have forgotten, though. Look at all the other modders here! I'm sure they could all use a conversation right about now.</Page>
+      <Page>Safe travels, and happy chatting!</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Rude_0</Name>
+    <Dialogue>
+      <Page>Wow, rude. I was going to offer to introduce myself again, but not when you're acting like that.</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Acting? This is the most honest I've been! The only acting I've been doing is pretending to put up with your nonsense!</Text>
+        <DialogueTarget>Rude_1</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>I was just kidding!</Text>
+        <DialogueTarget>Rude_0_End</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Rude_0_End</Name>
+    <Dialogue>
+      <Page>If you say so. Kind of a mean thing to joke about, if you ask me.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Rude_1</Name>
+    <Dialogue>
+      <Page>What do you mean nonsense?! You're the one who isn't making any sense!</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>ME?! You're a TALKING FLOWER!!</Text>
+        <DialogueTarget>Rude_2</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>...</Text>
+        <DialogueTarget>Stalemate_0</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Rude_2</Name>
+    <Dialogue>
+      <Page>WHAT?!? That's it. Get out of my sight.</Page>
+    </Dialogue>
+    <SetCondition>ETHERPOD_ANGRY</SetCondition>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Stalemate_0</Name>
+    <Dialogue>
+      <Page>...</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>......</Text>
+        <DialogueTarget>Stalemate_1</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>...truce?</Text>
+        <DialogueTarget>Truce_0</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Truce_0</Name>
+    <Dialogue>
+      <Page>Yeah, sure. Whatever.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Stalemate_1</Name>
+    <Dialogue>
+      <Page><![CDATA[<i>*cough*</i>]]></Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text><![CDATA[<i>*cough cough*</i>]]></Text>
+        <DialogueTarget>Stalemate_2</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text><![CDATA[<i>*initiate a staring contest*</i>]]></Text>
+        <DialogueTarget>StaringContest_0</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Stalemate_2</Name>
+    <Dialogue>
+      <Page>So... nice weather today, huh?</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>This planet doesn't even get weather!</Text>
+        <DialogueTarget>Stalemate_20</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Seriously? That's all you could think of to say?</Text>
+        <DialogueTarget>Stalemate_21</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Stalemate_20</Name>
+    <Dialogue>
+      <Page>Well how was I supposed to know that? I'm sitting around inside all the time!</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Fair enough.</Text>
+        <DialogueTarget>Stalemate_200</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Have you tried, I don't know- going outside?</Text>
+        <DialogueTarget>Stalemate_201</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Stalemate_200</Name>
+    <Dialogue>
+      <Page>How about you go talk to some other modders here? I'm sure they get up and run around all the time.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Stalemate_201</Name>
+    <Dialogue>
+      <Page>My current situation makes that... difficult.</Page>
+      <Page>Go chat with some of the other modders here! I'm sure they'd like someone to talk to.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Stalemate_21</Name>
+    <Dialogue>
+      <Page>It's not like you had any better ideas. Otherwise you would have said them already.</Page>
+      <Page>How about instead of arguing with me, you go talk to some other modders in the building! I'm sure they're feeling very lonely.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>StaringContest_0</Name>
+    <Dialogue>
+      <Page>...why are you staring at me like that?</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Uh... I gotta go.</Text>
+        <DialogueTarget>StaringContest_Leave</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text><![CDATA[<i>*continue staring*</i>]]></Text>
+        <DialogueTarget>StaringContest_1</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>StaringContest_Leave</Name>
+    <Dialogue>
+      <Page>What? Okay, bye.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>StaringContest_1</Name>
+    <Dialogue>
+      <Page>Are you gonna say anything or are you just gonna stand there staring at me?</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Fine. I forefit.</Text>
+        <DialogueTarget>StaringContest_Forefit</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text><![CDATA[<i>*continue staring, your eyes are starting to hurt*</i>]]></Text>
+        <DialogueTarget>StaringContest_2</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>StaringContest_2</Name>
+    <Dialogue>
+      <Page><![CDATA[<i>*you see no eyes, but feel an intense gaze resting upon you*</i>]]></Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text><![CDATA[<i>*continue staring, your eyes really hurt*</i>]]></Text>
+        <DialogueTarget>StaringContest_3</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>StaringContest_3</Name>
+    <Dialogue>
+      <Page><![CDATA[<i>*blink*</i>]]></Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>HA! I won!</Text>
+        <DialogueTarget>StaringContest_4</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>StaringContest_4</Name>
+    <Dialogue>
+      <Page>Fine. Congratulations.</Page>
+      <Page>Now go find some other modders to talk to!</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>StaringContest_Forefit</Name>
+    <Dialogue>
+      <Page>Forefit what? Hey, where are you going?</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Unknown_3</Name>
+    <Dialogue>
+      <Page>Alright, I'm not falling for it this time. I know you haven't forgotten who I am.</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>It was worth a shot.</Text>
+        <DialogueTarget>Unknown_30</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>No, really. I have no idea who you are.</Text>
+        <DialogueTarget>Unknown_31</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Unknown_30</Name>
+    <Dialogue>
+      <Page>Maybe you'll have better luck with some of the other modders here.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Unknown_31</Name>
+    <Dialogue>
+      <Page>Likely story. Why don't you go talk to one of the other countless modders in this building?</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Dementia_Init</Name>
+    <EntryCondition>ETHERPOD_DEMENTIA</EntryCondition>
+    <Dialogue>
+      <Page>Hey. Do you remember me?</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>No. What's your name?</Text>
+        <DialogueTarget>Dementia_0</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Huh? Of course I remember you.</Text>
+        <DialogueTarget>Dementia_1</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Dementia_1</Name>
+    <Dialogue>
+      <Page>What? I thought you had that condition thing. You kept forgetting who I was.</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Oh, yeah. I still have that. I just chose to remember you this time.</Text>
+        <DialogueTarget>Dementia_11</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>You actually believed me?</Text>
+        <DialogueTarget>Dementia_10</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Dementia_10</Name>
+    <Dialogue>
+      <Page>Well- I- Yes, yes I did. Your acting was very convincing.</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>What if I told you that you were the one who had the condition?</Text>
+        <DialogueTarget>Dementia_100</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Dementia_11</Name>
+    <Dialogue>
+      <Page>Oh, okay. Suppose... you chose to remember me all the time?</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>That was a one-time deal, sorry.</Text>
+        <DialogueTarget>Dementia_110</DialogueTarget>
+        <ConditionToCancel>ETHERPOD_DEMENTIA</ConditionToCancel>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Dementia_110</Name>
+    <Dialogue>
+      <Page>Ah, I see. That's a shame.</Page>
+      <Page>Anyway, why don't you go see what the other modders are thinking about?</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Dementia_100</Name>
+    <Dialogue>
+      <Page>What? That's a preposterous idea. My memory functions just fine.</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>That's what you think...</Text>
+        <DialogueTarget>Gaslighting_1</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Gaslighting_1</Name>
+    <Dialogue>
+      <Page>I'm not that forgetful! You're the one who keeps forgetting!</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>That's what you think...</Text>
+        <DialogueTarget>Gaslighting_11</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Gaslighting_11</Name>
+    <Dialogue>
+      <Page>Look, if my memory was impaired like that, then I would have already forgotten about our entire conversation before this. And I haven't!</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>That's what you think...</Text>
+        <DialogueTarget>Gaslighting_111</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Gaslighting_111</Name>
+    <Dialogue>
+      <Page>I can prove it to you. First, I greeted you, and then you said something, and then...</Page>
+      <Page>Then, uh...</Page>
+      <Page>...</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Don't worry. Soon, your whole world will slip away from your memory. You don't have long.</Text>
+        <DialogueTarget>Gaslighting_1111</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Gaslighting_1111</Name>
+    <Dialogue>
+      <Page>It... that doesn't...</Page>
+      <Page>...who are you? What... what was I doing?</Page>
+      <Page>It probably wasn't important...</Page>
+      <Page>I'm going to spend some time thinking, if you don't mind.</Page>
+    </Dialogue>
+    <SetCondition>ETHERPOD_HAS_DEMENTIA</SetCondition>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Dementia_0</Name>
+    <Dialogue>
+      <Page>My name is Etherpod. What's yours?</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>I... don't remember.</Text>
+        <DialogueTarget>Dementia_00</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Dementia_00</Name>
+    <Dialogue>
+      <Page>Oh... I'm sorry to hear that. How about I give you one?</Page>
+      <Page>You look like a Foog to me. Maybe something like... "Lord Foog the 2st".</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>What kind of name is that? Give me a different one.</Text>
+        <DialogueTarget>Dementia_000</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>It's perfect.</Text>
+        <DialogueTarget>Dementia_001</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Dementia_000</Name>
+    <Dialogue>
+      <Page>Fine. How about        ?</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Can you repeat that? I didn't hear you.</Text>
+        <DialogueTarget>Dementia_Random</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>It's perfect.</Text>
+        <DialogueTarget>Dementia_002</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Dementia_001</Name>
+    <Dialogue>
+      <Page>I knew you were a Foog at heart.</Page>
+      <Page>Anyway, you've wasted enough time talking with me. Go find some other modders to talk to.</Page>
+      <Page>I'm sure you'll forget I was ever here after a few minutes of exploring.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Dementia_002</Name>
+    <Dialogue>
+      <Page>I knew you were a         at heart.</Page>
+      <Page>Anyway, you've wasted enough time talking with me. Go find some other modders to talk to.</Page>
+      <Page>I'm sure you'll forget I was ever here after a few minutes of exploring.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Dementia_Random</Name>
+    <Randomize/>
+    <Dialogue>
+      <Page>Do you           do      ?</Page>
+    </Dialogue>
+    <Dialogue>
+      <Page>If      .        , do     ?</Page>
+    </Dialogue>
+    <Dialogue>
+      <Page>Look, it's­        !      !!           and         .</Page>
+    </Dialogue>
+    <Dialogue>
+      <Page>Okay, look.               .                 , right?</Page>
+    </Dialogue>
+    <Dialogue>
+      <Page>I went             , and I                          . But I just                      you                      .</Page>
+    </Dialogue>
+    <Dialogue>
+      <Page>You know              ?             when the moon                        ,       ?</Page>
+    </Dialogue>
+    <Dialogue>
+      <Page>It's either           , or               ?</Page>
+    </Dialogue>
+    <Dialogue>
+      <Page>For the last time,                                                ,                                          . Can you please just                              ?</Page>
+    </Dialogue>
+    <Dialogue>
+      <Page>­I am not        flower       !                     you don't even            .</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Uh... could you repeat that again?</Text>
+        <DialogueTarget>Dementia_Random</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Got it. Understood. Yep.</Text>
+        <DialogueTarget>Dementia_Random_End</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Dementia_Random_End</Name>
+    <Dialogue>
+      <Page>Good. And remember to             and               !</Page>
+      <Page>Now, go find some other modder friends to chat with. If you haven't forgetten my existence in three minutes, maybe you can stop by for another chat.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Etherpod_Dementia</Name>
+    <EntryCondition>ETHERPOD_HAS_DEMENTIA</EntryCondition>
+    <Dialogue>
+      <Page>Hey! I'm Etherpod.</Page>
+    </Dialogue>
+
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>I know you!</Text>
+        <DialogueTarget>Etherpod_Dementia_0</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Who?</Text>
+        <DialogueTarget>Etherpod_Dementia_1</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Since when could flowers talk?</Text>
+        <DialogueTarget>Etherpod_Dementia_2</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>What story mods would you recommend I play?</Text>
+        <DialogueTarget>Etherpod_Dementia_3</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Etherpod_Dementia_0</Name>
+    <Dialogue>
+      <Page>You do? Weird, I don't recognize you.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Etherpod_Dementia_1</Name>
+    <Dialogue>
+      <Page>Uh... good question. I've been asking the same thing myself.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Etherpod_Dementia_2</Name>
+    <Dialogue>
+      <Page>Flowers can talk? That's cool.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Etherpod_Dementia_3</Name>
+    <Dialogue>
+      <Page>All of them...</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Etherpod_Angry</Name>
+    <EntryCondition>ETHERPOD_ANGRY</EntryCondition>
+    <Randomize/>
+    <Dialogue>
+      <Page>Go away.</Page>
+    </Dialogue>
+    <Dialogue>
+      <Page>I'm not talking to you.</Page>
+    </Dialogue>
+    <Dialogue>
+      <Page>...absolutely horrible, calling me what they did...</Page>
+    </Dialogue>
+    <Dialogue>
+      <Page>Why are you still here?</Page>
+    </Dialogue>
+    <Dialogue>
+      <Page>Go bother some other poor soul.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>EtherpodWentInsane_1</Name>
+    <EntryCondition>ETHERPOD_WENTINSANE</EntryCondition>
+    <Dialogue>
+      <Page>...</Page>
+    </Dialogue>
+  </DialogueNode>
 </DialogueTree>

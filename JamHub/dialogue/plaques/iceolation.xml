@@ -1,0 +1,16 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: Iceolation&#13;&#10;Authors: pikpik, Shoe, TextureTurtle, ThyToxic
+      </Page>
+      <Page>Iceolation is a mod made for the fourth mod jam hosted by the Outer Wilds modding community. While the mod was sadly released in an unfinished state, the mod still has a lot of potential.</Page>
+      <Page>The mod has no functioning puzzles, but has a small story and five shiplog entries put together. It tells the story of a new, aquatic species living beneath the ice of a frozen planet that discovered the Eye's signal.</Page>
+      <Page>While it didn't win any awards or release in a finished state, it's still worth checking out!</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

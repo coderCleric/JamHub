@@ -1,0 +1,16 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: Symbiosis&#13;&#10;Authors: Bird
+	  </Page>
+      <Page>Symbiosis is a mod made for the third mod jam hosted by the Outer Wilds modding community, exploring an eerie, alternate Timber Hearth.</Page>
+      <Page>The mod has an interesting mechanic, spectacular writing, and has even won the prize for the best Ernesto easter egg in all of Jam 3.</Page>
+      <Page>While it didn't win any other awards, it is an experience worth trying!</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

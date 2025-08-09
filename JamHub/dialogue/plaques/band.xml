@@ -1,0 +1,17 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: Band Together&#13;&#10;Authors: pikpik, Etherpod, Ditzy, TheHipOne
+	  </Page>
+      <Page>Band Together is a mod made for the third mod jam hosted by the Outer Wilds modding community. It takes place on a planet with four divided tribes.</Page>
+      <Page>The player's main goal is to unite the four tribes together to figure out how to open a long-locked ancient door.</Page>
+	  <Page>While the mod was left in an unfinished state by the jam deadline, updates followed and fixed the mod, turning it into the wonderful mod it is today.</Page>
+      <Page>While it didn't win any awards, it is an experience worth trying!</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

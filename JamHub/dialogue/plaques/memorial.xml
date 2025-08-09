@@ -1,0 +1,17 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>This area showcases story mods that have been scrapped, abandoned, or cancelled.</Page>
+      <Page>While this may not seem like a thing to celebrate, we must appreciate their potential and remember them.</Page>
+      <Page>Who knows? Maybe someone out there might want to revive these abandoned mods. It could even be you! :)</Page>
+      <Page>If you want to, you can meet the creators of these mods at the party on the north pole!</Page>
+    </Dialogue>
+    <RevealFacts>
+      <FactID>PARTY_RUMOR_CCL</FactID>
+    </RevealFacts>
+  </DialogueNode>
+</DialogueTree>

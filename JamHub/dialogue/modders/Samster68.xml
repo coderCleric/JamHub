@@ -6,9 +6,97 @@
 		<Name>INITIAL</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>Hey! Welcome to the party! I'm Samster68, nice to meet you!</Page>
-			<Page>I'm glad to see Evacuation getting some more recognition, makes me proud!</Page>
-			<Page>You can find me on the Outer Wilds modding discord as "Samster68"!</Page>
+			<Page>Welcome to the party! I'm Samster68. It's nice to meet you! I am an Outer Wilds modder and YouTuber.</Page>
+			<Page>I'm so happy that Evacuation scored so well in the New Horizons Mod Jam!</Page>
+		</Dialogue>
+		<DialogueTarget>NODE_2</DialogueTarget>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>NODE_2</Name>
+		<Dialogue>
+			<Page>Anything on your mind?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>What else have you worked on?</Text>
+				<DialogueTarget>NODE_3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>How can I contact you or find your content?</Text>
+				<DialogueTarget>NODE_4</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What is your favorite Geometric Theorem?</Text>
+				<DialogueTarget>NODE_5</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Can you give me a hint about your upcoming story mod?</Text>
+				<DialogueTarget>NODE_6</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>See ya later!</Text>
+				<DialogueTarget>EXIT_NODE</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>NODE_3</Name>
+		<Dialogue>
+			<Page>I first played Outer Wilds in 2019, and instantly fell in love with the game. I have since introduced it to many of my closest friends.</Page>
+			<Page>I discovered the modding community in early 2022 and messed around with an earlier version of New Horizons to understand how it worked. I knew I wanted to make my own story mod after playing <![CDATA[<color=orange>The Vision</color>]]> (by hearth1an) and worked on it for a month straight.</Page>
+			<Page>The end result was <![CDATA[<color=orange>Fret's Quest</color>]]>, a mod where you also help a Nomai recover a powerful artifact. It also features a giant...</Page>
+			<Page>...well you know what it is if you've played it.</Page>
+			<Page>Then I teamed up with 2walker2 and Texture_Turtle in 2023 for the New Horzions Mod Jam. We created <![CDATA[<color=orange>Evacuation</color>]]>, a look at what would happen if the Hearthains had to leave their home solar system.</Page>
+			<Page>I really got busy in 2024, where I started my own YouTube channel centered around Outer Wilds modding. Every month I create a recap video going over what cool projects the community has been working on!</Page>
+			<Page>In late 2024 I released a smaller mod called <![CDATA[<color=orange>Hearthian Golf</color>]]>. I've heard rumors that people have played it.</Page>
+			<Page>Finally, in 2025 I was asked to be a judge in the Mini Star Systems Jam!</Page>
+			<Page>And now you're pretty much caught up!</Page>
+			<Page>I'm currently still running the YouTube channel and am working on a <![CDATA[<color=orange>new story mod</color>]]>.</Page>
+		</Dialogue>
+		<DialogueTarget>NODE_2</DialogueTarget>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>NODE_4</Name>
+		<Dialogue>
+			<Page>You can contact me on the Outer Wilds Modding Discord Server as <![CDATA[<color=orange>Samster68</color>]]>. You can also find me on YouTube under the name <![CDATA[<color=orange>Half a Man Videos</color>]]>.</Page>
+		</Dialogue>
+		<DialogueTarget>NODE_2</DialogueTarget>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>NODE_5</Name>
+		<Dialogue>
+			<Page>What an interesting and unique question!</Page>
+			<Page>I'm a big fan of the <![CDATA[<color=orange>Triangle Inequality Theorem</color>]]>. It states that for any triangle, the sum of the lengths of any two sides must be greater than or equal to the length of the remaining side.</Page>
+			<Page>It so easily explains how our brains calculate the shortest route between two points.</Page>
+			<Page>I'm not sure how you're going to put that in your ship log.</Page>
+		</Dialogue>
+		<DialogueTarget>NODE_2</DialogueTarget>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>NODE_6</Name>
+		<Dialogue>
+			<Page><![CDATA[<color=orange>GENERATION</color>]]>. That's all I can say.</Page>
+		</Dialogue>
+		<DialogueTarget>NODE_2</DialogueTarget>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>EXIT_NODE</Name>
+		<Dialogue>
+			<Page>Bye! Enjoy the party!</Page>
 		</Dialogue>
 	</DialogueNode>
+
+
 </DialogueTree>

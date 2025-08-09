@@ -1,0 +1,16 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: Quasar Project&#13;&#10;Authors: JohnCorby, Trifid, Turtle, Tetraminus
+      </Page>
+      <Page>Quasar Project is a mod made for the second mod jam hosted by the Outer Wilds modding community. The mod begins with a mysterious probe crashed on the surface of Timber Hearth.</Page>
+      <Page>On the other side are a series of dark, empty hallways with series of trials. The mod has a special central mechanic, clever puzzles, and a shocking ending.</Page>
+      <Page>While it didn't win any awards, it is an experience worth trying!</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

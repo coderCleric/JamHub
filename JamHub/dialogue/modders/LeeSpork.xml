@@ -1,0 +1,77 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+	<NameField>LeeSpork</NameField>
+
+	<DialogueNode>
+		<Name>START</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hello! I am LeeSpork. I am new here.</Page>
+			<Page>The guys at this party make really cool Outer Wilds mods!</Page>
+			<Page>They also inspired me to get into Outer Wilds mod making myself. I figured what better way is there to show my appreciation for the modding scene, than by joining it?</Page>
+			<Page>And now I am too have created a mod, yay!</Page>
+			<Page><![CDATA[The mod jams are awesome, and I am so glad I was able to take part in one! My Mod Jam 5 entry is titled <i>The Mystery of I Cannot Find My Cat.</i>]]></Page>
+		</Dialogue>
+		<DialogueTarget>HUB</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>HUB</Name>
+		<Dialogue>
+			<Page>...</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Tell me more about your mod.</Text>
+				<DialogueTarget>ABOUT_MOD</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Why are you a spork?</Text>
+				<DialogueTarget>SPORK</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>I made it through your entire developer commentary in The Mystery of I Cannot Find My Cat.</Text>
+				<RequiredPersistentCondition>LEESPORK_JAM5_COMPLETED_DEV_COMM</RequiredPersistentCondition>
+				<DialogueTarget>LISTENER</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Goodbye.</Text>
+				<DialogueTarget>BYE</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>ABOUT_MOD</Name>
+		<Dialogue>
+			<Page>If you haven't played it yet, it is called "The Mystery of I Cannot Find My Cat," and it is part of the Mod Jam 5 B-Side pack.</Page>
+			<Page>If you want to hear more about it from me, see my developer commentary in my mod: the option to ask Leuc about the mod will be unlocked if you have completed the mod before in the current save file. Just please make sure to turn off the "freeze time while talking to others" option first.</Page>
+		</Dialogue>
+		<SetPersistentCondition>LEESPORK_JAM5_HUB_TOLD_DEV_COMM</SetPersistentCondition>
+		<DialogueTarget>HUB</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>SPORK</Name>
+		<Dialogue>
+			<Page>You see it is actually a very subtle reference to how my username contains the word "spork", which is itself actually an incredibly deep artistic representation of how I feel like I don't fit in. Nah, just kidding, that's just a coincidence. Child me chose this username because they thought it sounded cool or something.</Page>
+		</Dialogue>
+		<DialogueTarget>HUB</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>LISTENER</Name>
+		<Dialogue>
+			<Page>Wait, did you actually listen through all that?! Now I feel embarrassed...</Page>
+		</Dialogue>
+		<DialogueTarget>HUB</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>BYE</Name>
+		<Dialogue>
+			<Page>b</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

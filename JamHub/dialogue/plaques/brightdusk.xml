@@ -1,0 +1,15 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: Brightdusk&#13;&#10;Authors: Multiverse
+	  </Page>
+      <Page>Brightdusk is a mod made for the first Outer Wilds Mod Jam. It adds a new planet to the Outer Wilds system called Brightdusk to explore.</Page>
+	  <Page>The planet itself has a series of liquid oceans with a yellow tint to them, all stacked up into various layers.</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

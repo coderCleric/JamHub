@@ -1,0 +1,16 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: Project ARC&#13;&#10;Authors: MegaPiggy
+	  </Page>
+      <Page>Project ARC is a mod made for the fifth mod jam hosted by the Outer Wilds modding community, taking place aboard a Nomai vessel dedicated to researching anomalies.</Page>
+      <Page>The puzzles are very creative and innovative, and the ending is quite the surprise. It's definitely worth checking out, and provides quite the experience.</Page>
+      <Page>Perhaps this mod will find itself on the leaderboard?</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

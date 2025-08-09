@@ -1,0 +1,16 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>
+        Mod: Solar Rangers&#13;&#10;Authors: Hawkbar, Insmoshable
+	  </Page>
+      <Page>Solar Rangers is the mod that won third place in the third mod jam hosted by the Outer Wilds modding community.</Page>
+      <Page>The mod takes a complete unexpected turn for an Outer Wilds mod, turning the open-world space exploration game into a space warfare game.</Page>
+      <Page>While Solar Rangers isn't exactly "Outer Wilds-y", it's quite fun and does something incredibly creative.</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>
