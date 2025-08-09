@@ -6,10 +6,10 @@
 		<Name>INITIAL</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-      <Page>How's it going? My name is orclecle.</Page>
-      <Page>I made Translation and Patches for The Outsider, and now it is integrated into The Outsider itself.</Page>
-      <Page>Also, I am making Pick Up Chert now. After releasing, please pick them up, and go to everywhere!</Page>
-			<Page>I go by "orclecle" on the Outer Wilds modding discord, feel free to stop by and chat!</Page>
+		<Page>Hi, I’m orclecle.</Page>
+		<Page>I was an author of Translation and Patches for The Outsider, and this addon has already been integrated into The Outsider.</Page>
+		<Page>My main contribution was making Japanese translations of some mods, and I also made some jam mods: Finis, Guardian, and Diorama. (The time difference issue makes me hesitate to join some team.)</Page>
+		<Page>.....Of course, I know I should reboot Pick Up Chert. This is the time.</Page>
 		</Dialogue>
 	</DialogueNode>
 </DialogueTree>
