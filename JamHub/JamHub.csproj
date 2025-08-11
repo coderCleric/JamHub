@@ -59,6 +59,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="dialogue\modders\cOaRex.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="dialogue\modders\Stache.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

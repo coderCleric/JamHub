@@ -1245,6 +1245,36 @@
         "isRelativeToParent": true,
         "radius": 0.5,
         "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/cOaRex/dialogue_anchor",
+        "xmlFile": "dialogue/modders/cOaRex.xml",
+        "rename": "cOaRex_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "attentionPoint": {
+          "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/cOaRex/dialogue_anchor",
+          "isRelativeToParent": true,
+          "offset": {
+            "y": 1
+          }
+        },
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/AnonDomain/GhostBirds/Nodes/NODE/Prefab_IP_GhostBird_Anon/AnonDialogue",
+        "xmlFile": "dialogue/modders/anonymous.xml",
+        "rename": "anonymous_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "attentionPoint": {
+          "parentPath": "Sector/jamplanet/AnonDomain/GhostBirds/NODES/NODE1/Prefab_IP_GhostBird_Anon/AnonDialogue",
+          "isRelativeToParent": true,
+          "offset": {
+            "y": 1
+          }
+        },
+        "range": 2
       }
     ],
     "singularities": [
@@ -1300,6 +1330,25 @@
         "uniqueID": "Ditzy_WH",
         "type": "whiteHole",
         "pairedSingularity": "Ditzy_BH"
+      }
+    ]
+  },
+  "Volumes": {
+    "conditionTriggerVolumes": [
+      {
+        "condition": "DITZY_WARPED",
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Ditzy/npc_socket",
+        "isRelativeToParent": true,
+        "rename": "DITZY_TRIGGER",
+        "position": {
+          "y": 1
+        },
+        "ship": false,
+        "player": true,
+        "probe": false,
+        "radius": 0.6,
+        "persistent": false,
+        "reversible": false
       }
     ]
   },

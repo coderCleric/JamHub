@@ -1,14 +1,440 @@
-<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
-	<NameField>Ditzy</NameField>
-
-
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+							xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>ditzy</NameField>
 	<DialogueNode>
-		<Name>INITIAL</Name>
+		<Name>MH_D_DITZY_DEFAULT_1</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>Hey! Welcome to the party! I'm Ditzy, nice to meet you!</Page>
-      <Page>I'm here because I'm a contributor to the upcoming mod Eyes of the Past!</Page>
-			<Page>Did you know that there's an unofficial Outer Wilds modding discord? I go by "ditzy" over there.</Page>
+			<Page>...</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<CancelledCondition>MH_C_DITZY_BAD_A</CancelledCondition>
+				<Text>Hello?</Text>
+				<DialogueTarget>MH_D_DITZY_DEFAULT_11</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<CancelledCondition>MH_C_DITZY_BAD_A</CancelledCondition>
+				<Text>What are you?</Text>
+				<DialogueTarget>MH_D_DITZY_DEFAULT_12</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<CancelledCondition>MH_C_DITZY_BAD_A</CancelledCondition>
+				<Text>Who are you?</Text>
+				<DialogueTarget>MH_D_DITZY_DEFAULT_13</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredCondition>MH_C_DITZY_BAD_A</RequiredCondition>
+				<CancelledCondition>MH_C_DITZY_BAD_B</CancelledCondition>
+				<Text>I'm sorry! I was just kidding!</Text>
+				<DialogueTarget>MH_D_DITZY_BAD_END_A</DialogueTarget>
+				<ConditionToSet>MH_C_DITZY_BAD_B</ConditionToSet>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredCondition>MH_C_DITZY_BAD_B</RequiredCondition>
+				<CancelledCondition>MH_C_DITZY_NO_MORE</CancelledCondition>
+				<Text>Really, I promise I won't go through you.</Text>
+				<DialogueTarget>MH_D_DITZY_BAD_END_B</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<CancelledCondition>MH_C_DITZY_NO_MORE</CancelledCondition>
+				<Text>Uh...nevermind.</Text>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>MH_D_DITZY_BAD_END_A</Name>
+		<Dialogue>
+			<Page>please leave me alone.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>MH_D_DITZY_BAD_END_B</Name>
+		<Dialogue>
+			<Page>ok. now please leave.</Page>
+		</Dialogue>
+		<SetCondition>MH_C_DITZY_NO_MORE</SetCondition>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>MH_D_DITZY_DEFAULT_11</Name>
+		<Dialogue>
+			<Page>hi.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>You can talk?</Text>
+				<DialogueTarget>MH_D_DITZY_DEFAULT_111</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What are you?</Text>
+				<DialogueTarget>MH_D_DITZY_DEFAULT_12</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Who are you?</Text>
+				<DialogueTarget>MH_D_DITZY_DEFAULT_13</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>MH_D_DITZY_DEFAULT_111</Name>
+		<Dialogue>
+			<Page>yes?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Oh, sorry, I just didn't expect a...blackhole?...to be able to talk.</Text>
+				<DialogueTarget>MH_D_DITZY_DEFAULT_1111</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>How are you talking?</Text>
+				<DialogueTarget>MH_D_DITZY_DEFAULT_1112</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>MH_D_DITZY_DEFAULT_1111</Name>
+		<Dialogue>
+			<Page>yeah, i've heard that plenty of times.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>How can you talk?</Text>
+				<DialogueTarget>MH_D_DITZY_DEFAULT_11111</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>MH_D_DITZY_DEFAULT_11111</Name>
+		<Dialogue>
+			<Page>i mean, how can <![CDATA[<i>you</i>]]> talk?</Page>
+			<Page>i was just born this way.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Oh I see. I guess that makes sense.</Text>
+				<DialogueTarget>MH_D_DITZY_EXIT_PATH_1</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>MH_D_DITZY_DEFAULT_1112</Name>
+		<Dialogue>
+			<Page>how are <![CDATA[<i>you</i>]]> talking?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Fair point.</Text>
+				<DialogueTarget>MH_D_DITZY_EXIT_PATH_1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>It's just something Hearthians can do.</Text>
+				<DialogueTarget>MH_D_DITZY_DEFAULT_11122</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>MH_D_DITZY_DEFAULT_11122</Name>
+		<Dialogue>
+			<Page>well it's just something <![CDATA[<i>i</i>]]> can do</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Okay, okay.</Text>
+				<DialogueTarget>MH_D_DITZY_EXIT_PATH_1</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>MH_D_DITZY_DEFAULT_12</Name>
+		<Dialogue>
+			<Page>ugh. i'm a person, you know.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>I beg to differ. You're clearly a blackhole.</Text>
+				<DialogueTarget>MH_D_DITZY_DEFAULT_121</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Oh sorry. But you're a blackhole?</Text>
+				<DialogueTarget>MH_D_DITZY_DEFAULT_122</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>MH_D_DITZY_DEFAULT_121</Name>
+		<Dialogue>
+			<Page>ok. beg.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Huh?</Text>
+				<DialogueTarget>MH_D_DITZY_DEFAULT_1211</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Uh, no thanks.</Text>
+				<DialogueTarget>MH_D_DITZY_EXIT_PATH_1</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>MH_D_DITZY_DEFAULT_1211</Name>
+		<Dialogue>
+			<Page>you said you beg to differ.</Page>
+			<Page>so beg.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>What? That's not...</Text>
+				<DialogueTarget>MH_D_DITZY_EXIT_PATH_1</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>MH_D_DITZY_DEFAULT_122</Name>
+		<Dialogue>
+			<Page>yep.</Page>
+			<Page>certainly not a common sight, a talking blackhole.</Page>
+			<Page>but i can hardly control my own birth, right?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>And you helped with Eyes of the Past?</Text>
+				<DialogueTarget>MH_D_DITZY_DEFAULT_1221</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>MH_D_DITZY_DEFAULT_1221</Name>
+		<Dialogue>
+			<Page>i did! although only a little bit, for such a big mod.</Page>
+			<Page>i also contributed to some jam entries: band together, lumina terra, and under a radio moon.</Page>
+			<Page>would you like to hear about any of them?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>No, I'm good.</Text>
+				<DialogueTarget>MH_D_DITZY_EXIT_PATH_1B</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Eyes of the Past.</Text>
+				<DialogueTarget>MH_D_DITZY_DEFAULT_12212</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Band Together.</Text>
+				<DialogueTarget>MH_D_DITZY_DEFAULT_12213</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Lumina Terra.</Text>
+				<DialogueTarget>MH_D_DITZY_DEFAULT_12214</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Under a Radio Moon.</Text>
+				<DialogueTarget>MH_D_DITZY_DEFAULT_12215</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>MH_D_DITZY_DEFAULT_1221B</Name>
+		<Dialogue>
+			<Page>would you like to hear about any others?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>No, I'm good.</Text>
+				<DialogueTarget>MH_D_DITZY_EXIT_PATH_1B</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Eyes of the Past.</Text>
+				<DialogueTarget>MH_D_DITZY_DEFAULT_12212</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Band Together.</Text>
+				<DialogueTarget>MH_D_DITZY_DEFAULT_12213</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Lumina Terra.</Text>
+				<DialogueTarget>MH_D_DITZY_DEFAULT_12214</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Under a Radio Moon.</Text>
+				<DialogueTarget>MH_D_DITZY_DEFAULT_12215</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>MH_D_DITZY_DEFAULT_12212</Name>
+		<Dialogue>
+			<Page>eyes of the past is the first mod i ever helped with.</Page>
+			<Page>i haven't done too much for it, but i'm very glad for it getting me into modding!</Page>
+			<Page>you should ask pikpik more about it, though, as it's really his big vision.</Page>
+		</Dialogue>
+		<DialogueTarget>MH_D_DITZY_DEFAULT_1221B</DialogueTarget>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>MH_D_DITZY_DEFAULT_12213</Name>
+		<Dialogue>
+			<Page>band together was my first game jam ever!</Page>
+			<Page>it was a really ambitious mod, thanks largely to pikpik, hehe.</Page>
+			<Page>it's also where i met etherpod, who i worked on other mods with afterward!</Page>
+		</Dialogue>
+		<DialogueTarget>MH_D_DITZY_DEFAULT_1221B</DialogueTarget>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>MH_D_DITZY_DEFAULT_12214</Name>
+		<Dialogue>
+			<Page>lumina terra was a really challenging jam, because of the "no text" restriction.</Page>
+			<Page>i worked on it with etherpod, and while we never got to bring the full idea into being, i really love what we came up with!</Page>
+		</Dialogue>
+		<DialogueTarget>MH_D_DITZY_DEFAULT_1221B</DialogueTarget>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>MH_D_DITZY_DEFAULT_12215</Name>
+		<Dialogue>
+			<Page>under a radio moon is the latest jam entry i worked on!</Page>
+			<Page>this one was really wild for us, and my first bigger team (me, etherpod, harper, and ernest).</Page>
+			<Page>we really tried to push some of our skills with this entry, and that made the process a lot of fun!</Page>
+		</Dialogue>
+		<DialogueTarget>MH_D_DITZY_DEFAULT_1221B</DialogueTarget>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>MH_D_DITZY_DEFAULT_13</Name>
+		<Dialogue>
+			<Page>i'm ditzy, a programmer.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>And you're a blackhole?</Text>
+				<DialogueTarget>MH_D_DITZY_DEFAULT_122</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>MH_D_DITZY_EXIT_PATH_1</Name>
+		<Dialogue>
+			<Page>anyway, please don't try to enter me. i'm not just an object to be used.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>I don't know. You <![CDATA[<i>are</i>]]> a blackhole. It's kind of what you're meant for.</Text>
+				<DialogueTarget>MH_D_DITZY_EXIT_PATH_1_EXIT_1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Where do you lead to?</Text>
+				<DialogueTarget>MH_D_DITZY_EXIT_PATH_12</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Oh, okay. I can respect that.</Text>
+				<DialogueTarget>MH_D_DITZY_EXIT_PATH_13</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>MH_D_DITZY_EXIT_PATH_1B</Name>
+		<Dialogue>
+			<Page>okay. well just do me a favor and please don't try to enter me. i'm not just an object to be used.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>I don't know. You <![CDATA[<i>are</i>]]> a blackhole. It's kind of what you're meant for.</Text>
+				<DialogueTarget>MH_D_DITZY_EXIT_PATH_1_EXIT_1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Where do you lead to?</Text>
+				<DialogueTarget>MH_D_DITZY_EXIT_PATH_12</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Oh, okay. I can respect that.</Text>
+				<DialogueTarget>MH_D_DITZY_EXIT_PATH_13</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>MH_D_DITZY_EXIT_PATH_1_EXIT_1</Name>
+		<Dialogue>
+			<Page>...</Page>
+		</Dialogue>
+		<SetCondition>MH_C_DITZY_BAD_A</SetCondition>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>MH_D_DITZY_EXIT_PATH_12</Name>
+		<Dialogue>
+			<Page>no clue. somewhere in this room.</Page>
+			<Page>i don't control the exit, i can just sense where it is and it's nearby.</Page>
+			<Page>so you gain nothing from going through me but you inconvenience me quite a lot.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Oh, okay.</Text>
+				<DialogueTarget>MH_D_DITZY_EXIT_PATH_1_EXIT_2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>I don't know. You <![CDATA[<i>are</i>]]> a blackhole. It's kind of what you're meant for.</Text>
+				<DialogueTarget>MH_D_DITZY_EXIT_PATH_1_EXIT_1</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>MH_D_DITZY_EXIT_PATH_13</Name>
+		<Dialogue>
+			<Page>thank you.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Do you mind me asking where you lead to?</Text>
+				<DialogueTarget>MH_D_DITZY_EXIT_PATH_131</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Just curious, but what <![CDATA[<i>does</i>]]> happen if someone enters you?</Text>
+				<DialogueTarget>MH_D_DITZY_EXIT_PATH_132</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>MH_D_DITZY_EXIT_PATH_131</Name>
+		<Dialogue>
+			<Page>it's somewhere in this room, but i don't know where.</Page>
+			<Page>i don't control it, i can just roughly sense where the exit is.</Page>
+		</Dialogue>
+		<SetCondition>MH_C_DITZY_EXIT_PATH_131_SEEN</SetCondition>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<CancelledCondition>MH_C_DITZY_EXIT_PATH_132_SEEN</CancelledCondition>
+				<Text>Ah. So what does happen if someone enters you?</Text>
+				<DialogueTarget>MH_D_DITZY_EXIT_PATH_132</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Oh, okay.</Text>
+				<DialogueTarget>MH_D_DITZY_EXIT_PATH_1_EXIT_2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>MH_D_DITZY_EXIT_PATH_132</Name>
+		<Dialogue>
+			<Page>they exit from some whitehole like normal.</Page>
+			<Page>it's just a very unpleasant sensation to me. so i would appreciate for people to not do it.</Page>
+		</Dialogue>
+		<SetCondition>MH_C_DITZY_EXIT_PATH_132_SEEN</SetCondition>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<CancelledCondition>MH_C_DITZY_EXIT_PATH_131_SEEN</CancelledCondition>
+				<Text>Do you mind me asking where you lead to?</Text>
+				<DialogueTarget>MH_D_DITZY_EXIT_PATH_131</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Oh, okay.</Text>
+				<DialogueTarget>MH_D_DITZY_EXIT_PATH_1_EXIT_2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>MH_D_DITZY_EXIT_PATH_1_EXIT_2</Name>
+		<Dialogue>
+			<Page>you should go chat with some of the other mod contributors.</Page>
 		</Dialogue>
 	</DialogueNode>
 </DialogueTree>

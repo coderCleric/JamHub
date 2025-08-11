@@ -47,5 +47,21 @@
 				"y": -250
 			}
 		}
+	],
+	"conditionalChecks": [
+		{
+			"check": {
+				"allConditionsSet": [
+					"DITZY_WARPED"
+				]
+			},
+			"then": {
+				"setConditions": [
+					"MH_C_DITZY_NO_MORE",
+					"MH_C_DITZY_BAD_A",
+					"MH_C_DITZY_BAD_B"
+				]
+			}
+		}
 	]
 }
