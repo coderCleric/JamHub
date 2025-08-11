@@ -26,10 +26,15 @@ namespace JamHub
             //Get an array of all the roots
             Transform[] platforms = {
                 sectorTF.Find("jamplanet/pop_mods_area/showroom/building"),
-                sectorTF.Find("jamplanet/pop_nh_area/showroom/building"),
+                sectorTF.Find("jamplanet/pop_mods_area/showroom_storymods/building"),
+                sectorTF.Find("jamplanet/memorial_area/showroom/building"),
+                //sectorTF.Find("jamplanet/pop_nh_area/showroom/building"),
                 sectorTF.Find("jamplanet/upcoming_nh_area/showroom/building"),
-                sectorTF.Find("jamplanet/prev_jam_area/showroom/building"),
-                sectorTF.Find("jamplanet/prev_jam_area/showroom_3slot/building")
+                sectorTF.Find("jamplanet/prev_jam_area/showroom_jam1/building"),
+                sectorTF.Find("jamplanet/prev_jam_area/showroom_jam2/building"),
+                sectorTF.Find("jamplanet/prev_jam_area/showroom_jam3/building"),
+                sectorTF.Find("jamplanet/prev_jam_area/showroom_jam4/building"),
+                sectorTF.Find("jamplanet/prev_jam_area/showroom_jam5/building")
             };
 
             //Loop through each, looking for names with "display"

@@ -113,14 +113,6 @@
         "range": 2
       },
       {
-        "parentPath": "Sector/jamplanet/upcoming_nh_area/showroom/building/central_plaque/dialogue_anchor",
-        "xmlFile": "dialogue/plaques/upcomingarea.xml",
-        "rename": "upcomingarea_dialogue",
-        "isRelativeToParent": true,
-        "radius": 0.5,
-        "range": 2
-      },
-      {
         "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam1/building/central_plaque/dialogue_anchor",
         "xmlFile": "dialogue/plaques/jamarea1.xml",
         "rename": "jamarea1_dialogue",
@@ -1268,7 +1260,7 @@
         "isRelativeToParent": true,
         "radius": 0.5,
         "attentionPoint": {
-          "parentPath": "Sector/jamplanet/AnonDomain/GhostBirds/NODES/NODE1/Prefab_IP_GhostBird_Anon/AnonDialogue",
+          "parentPath": "Sector/jamplanet/AnonDomain/GhostBirds/Nodes/NODE/Prefab_IP_GhostBird_Anon/AnonDialogue",
           "isRelativeToParent": true,
           "offset": {
             "y": 1
