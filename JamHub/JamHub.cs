@@ -4,7 +4,9 @@ using OWML.ModHelper;
 using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine.Events;
-using UnityEngine.InputSystem;
+using UnityEngine;
+using NewHorizons.Utility;
+
 
 namespace JamHub
 {
@@ -40,6 +42,13 @@ namespace JamHub
             ModHelper.Console.WriteLine($"My mod {nameof(JamHub)} is loaded!", MessageType.Success);
 
             hasKilledPlayer = false;
+
+            ModHelper.Events.Unity.FireInNUpdates(() =>
+            {
+                //AnonHandler anon = SearchUtilities.Find("AnonDomain_Body/Sector/AnonDomain/GhostBirds").GetComponent<AnonHandler>();
+                //anon.InitiateGhost();
+            }, 15);
+
         }
 
         public bool IsInValidSystem()

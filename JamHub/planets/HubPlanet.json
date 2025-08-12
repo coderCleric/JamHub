@@ -44,6 +44,11 @@
         "keepLoaded": true,
         "assetBundle": "assetbundles/cleric_jamhub_bundle",
         "path": "Assets/Prefabs/jam3/jamplanet.prefab"
+      },
+      {
+        "path": "RingWorld_Body/Sector_RingWorld/Sector_SecretEntrance/Interactibles_SecretEntrance/Prefab_IP_DreamLanternItem_2",
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/ArtifactSocket",
+        "isRelativeToParent": true
       }
     ],
     "entryLocation": [
@@ -66,6 +71,13 @@
         "rename": "hub_computer_marker",
         "parentPath": "Sector/jamplanet/computer_area/log_location_anchor",
         "isRelativeToParent": true
+      }
+    ],
+    "dreamCampfires": [
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/DreamCampfireSocket",
+        "isRelativeToParent": true,
+        "id": "AnonSim"
       }
     ],
     "dialogue": [
@@ -1254,55 +1266,36 @@
         "range": 2
       },
       {
-        "parentPath": "Sector/jamplanet/AnonDomain/GhostBirds/Nodes/NODE/Prefab_IP_GhostBird_Anon/AnonDialogue",
-        "xmlFile": "dialogue/modders/anonymous.xml",
-        "rename": "anonymous_dialogue",
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/cOaRex/dialogue_anchor",
+        "xmlFile": "dialogue/modders/cOaRemote.xml",
+        "blockAfterPersistentCondition": "cOaDialogueDone",
+        "rename": "cOaRex_remotedialogue",
         "isRelativeToParent": true,
-        "radius": 0.5,
+        "radius": 0,
         "attentionPoint": {
+<<<<<<< Updated upstream
           "parentPath": "Sector/jamplanet/AnonDomain/GhostBirds/Nodes/NODE/Prefab_IP_GhostBird_Anon/AnonDialogue",
+=======
+          "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/cOaRex/dialogue_anchor",
+>>>>>>> Stashed changes
           "isRelativeToParent": true,
           "offset": {
             "y": 1
           }
         },
-        "range": 2
+        "remoteTrigger": {
+          "position": {
+            "x": -6.23333,
+            "y": 186.07,
+            "z": 6.02476
+          },
+          "prereqCondition": "AnonPissed",
+          "radius": 1,
+          "rename": "cOaRex_remotetrigger"
+        }
       }
     ],
     "singularities": [
-      {
-        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/AnonWarpSocket",
-        "isRelativeToParent": true,
-        "rename": "AnonWarpIn_BH",
-        "uniqueID": "AnonWarpIn_BH",
-        "type": "blackHole",
-        "pairedSingularity": "AnonWarpIn_WH"
-      },
-      {
-        "parentPath": "Sector/jamplanet/AnonDomain/Interactables/AnonWarpSocket",
-        "isRelativeToParent": true,
-        "rename": "AnonWarpIn_WH",
-        "uniqueID": "AnonWarpIn_WH",
-        "type": "whiteHole",
-        "pairedSingularity": "AnonWarpIn_BH"
-      },
-      {
-        "parentPath": "Sector/jamplanet/AnonDomain/Interactables/AnonWarpSocket2",
-        "isRelativeToParent": true,
-        "rename": "AnonWarpOut_BH",
-        "uniqueID": "AnonWarpOut_BH",
-        "type": "blackHole",
-        "horizonRadius": 0.5,
-        "pairedSingularity": "AnonWarpOut_WH"
-      },
-      {
-        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/AnonWarpSocket2",
-        "isRelativeToParent": true,
-        "rename": "AnonWarpOut_WH",
-        "uniqueID": "AnonWarpOut_WH",
-        "type": "whiteHole",
-        "pairedSingularity": "AnonWarpOut_BH"
-      },
       {
         "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Ditzy/npc_socket",
         "isRelativeToParent": true,
@@ -1316,7 +1309,7 @@
         "pairedSingularity": "Ditzy_WH"
       },
       {
-        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/AnonWarpSocket2",
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/DitzyWarpSocket",
         "isRelativeToParent": true,
         "rename": "Ditzy_WH",
         "uniqueID": "Ditzy_WH",
@@ -1362,22 +1355,10 @@
     ]
   },
   "removeChildren": [
-    "Sector/jamplanet/modder_shack_area/moddershack/building/modders/AnonWarpSocket/AnonWarpIn_BH/BlackHoleAmbience",
-    "Sector/jamplanet/modder_shack_area/moddershack/building/modders/AnonWarpSocket/AnonWarpIn_BH/BlackHoleEmissionOneShot",
-
-    "Sector/jamplanet/AnonDomain/Interactables/AnonWarpSocket2/AnonWarpOut_BH/BlackHoleAmbience",
-    "Sector/jamplanet/AnonDomain/Interactables/AnonWarpSocket2/AnonWarpOut_BH/BlackHoleEmissionOneShot",
-
     "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Ditzy/npc_socket/Ditzy_BH/BlackHoleAmbience",
     "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Ditzy/npc_socket/Ditzy_BH/BlackHoleEmissionOneShot",
 
-    "Sector/jamplanet/modder_shack_area/moddershack/building/modders/AnonWarpSocket2/Ditzy_WH/WhiteHoleRenderer",
-    "Sector/jamplanet/modder_shack_area/moddershack/building/modders/AnonWarpSocket2/Ditzy_WH/WhiteHoleAmbience",
-
-    "Sector/jamplanet/modder_shack_area/moddershack/building/modders/AnonWarpSocket2/AnonWarpOut_WH/WhiteHoleRenderer",
-    "Sector/jamplanet/modder_shack_area/moddershack/building/modders/AnonWarpSocket2/AnonWarpOut_WH/WhiteHoleAmbience",
-
-    "Sector/jamplanet/AnonDomain/Interactables/AnonWarpSocket/AnonWarpIn_WH/WhiteHoleRenderer",
-    "Sector/jamplanet/AnonDomain/Interactables/AnonWarpSocket/AnonWarpIn_WH/WhiteHoleAmbience"
+    "Sector/jamplanet/modder_shack_area/moddershack/building/modders/DitzyWarpSocket/Ditzy_WH/WhiteHoleRenderer",
+    "Sector/jamplanet/modder_shack_area/moddershack/building/modders/DitzyWarpSocket/Ditzy_WH/WhiteHoleAmbience"
   ]
 }
