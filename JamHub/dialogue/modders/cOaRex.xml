@@ -22,7 +22,7 @@
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
-				<CancelledPersistentCondition>cOaDialogueDone</CancelledPersistentCondition>
+				<RequiredCondition>AnonPissed</RequiredCondition>
 				<Text>What was that about Anon, again?</Text>
 				<DialogueTarget>anon</DialogueTarget>
 			</DialogueOption>

@@ -6,10 +6,12 @@
 		<Name>INITIAL</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>Yo, how's it going? My name is xen.</Page>
-			<Page>Have you played New Horizons and NH Examples? I was actually involved in it, you should give it a try!</Page>
-			<Page>Be sure to look out for Real Solar System, which is a mod that I'm currently working on!</Page>
-			<Page>Did you know that there's an unofficial Outer Wilds modding discord? I go by "xen 7" over there.</Page>
+			<Page>Hey it's me xen.</Page>
+			<Page>If you've played any story mod ever I probably helped get it made - I'm the lead developer of the New Horizons story mod framework! I also organized the first 5 community mod jams.</Page>
+			<Page>I always wanted to make story mods, but got so caught up in helping others make them that I never really got around to it myself. The only story mods I've actually made were Escape the Dreamstalker and Granite's Invitation.</Page>
+			<Page>I also helped make Escape Room and Christmas Story.</Page>
+			<Page>That said, my greatest contribution to Outer Wilds modding has to be creating the magic talking anglerfish Ernesto.</Page>
+			<Page>Okay bye.</Page>
 		</Dialogue>
 	</DialogueNode>
 </DialogueTree>

@@ -1268,7 +1268,6 @@
       {
         "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/cOaRex/dialogue_anchor",
         "xmlFile": "dialogue/modders/cOaRemote.xml",
-        "blockAfterPersistentCondition": "cOaDialogueDone",
         "rename": "cOaRex_remotedialogue",
         "isRelativeToParent": true,
         "radius": 0,
