@@ -13,58 +13,26 @@ namespace JamHub
 
         public static void PrepSystem(string s)
         {
-            if(!s.Equals("Jam3"))
+            if(s.Equals("Jam3"))
             {
-                JamHub.DebugPrint("Not in jam system, aborting prep");
+                JamHub.DebugPrint("Jam 3 system detected, doing prep");
+                PrepJam3();
                 return;
             }
 
+            
+        }
+
+        /**
+         * Does all of the changes needed for the jam 3 version to work
+         */
+        private static void PrepJam3()
+        {
             //Get the sector transform of our planet
             Transform sectorTF = GameObject.Find("ModJamHub_Body/Sector").transform;
 
-            //Make the plaques look at the actual displays
-            //Get an array of all the roots
-            Transform[] platforms = {
-                sectorTF.Find("jamplanet/pop_mods_area/showroom/building"),
-                sectorTF.Find("jamplanet/pop_mods_area/showroom_storymods/building"),
-                sectorTF.Find("jamplanet/memorial_area/showroom/building"),
-                //sectorTF.Find("jamplanet/pop_nh_area/showroom/building"),
-                sectorTF.Find("jamplanet/upcoming_nh_area/showroom/building"),
-                sectorTF.Find("jamplanet/prev_jam_area/showroom_jam1/building"),
-                sectorTF.Find("jamplanet/prev_jam_area/showroom_jam2/building"),
-                sectorTF.Find("jamplanet/prev_jam_area/showroom_jam3/building"),
-                sectorTF.Find("jamplanet/prev_jam_area/showroom_jam4/building"),
-                sectorTF.Find("jamplanet/prev_jam_area/showroom_jam5/building")
-            };
-
-            //Loop through each, looking for names with "display"
-            foreach(Transform platform in  platforms)
-            {
-                foreach(Transform tf in platform)
-                {
-                    if(tf.name.Contains("display"))
-                    {
-                        //We found one, set the dialogue to look where we want
-                        tf.gameObject.GetComponentInChildren<CharacterDialogueTree>()._attentionPoint = tf.Find("image");
-                    }
-                }
-            }
-
-            //Change all of the animator speeds for the modder NPC's so its offset
-            foreach(Animator animator in sectorTF.Find("jamplanet/modder_shack_area/moddershack/building/modders").gameObject.GetComponentsInChildren<Animator>())
-            {
-                float newSpeed = Random.Range(0.9f, 1.1f);
-                int invScale = Random.Range(0, 2);
-                
-                //Set the random speed
-                animator.speed = newSpeed;
-
-                //Randomly swap hands
-                int xScale = 1;
-                if (invScale == 1)
-                    xScale = -1;
-                animator.transform.localScale = new Vector3(xScale, 1, 1);
-            }
+            //Do all of the general prep
+            GeneralPrep(sectorTF);
 
             //Go through each valid planet and make a mod object for it
             JamHub.instance.mods = new List<OtherMod>();
@@ -84,13 +52,63 @@ namespace JamHub
             orrery.MakePlanets(JamHub.instance.mods);
 
             //Make the computer work
-            JamHub.instance.newHorizons.CreateDialogueFromXML("jamhubcomputer", MakeXML(JamHub.instance.mods), jsonStr, sectorTF.parent.gameObject);
+            JamHub.instance.newHorizons.CreateDialogueFromXML("jam3hubcomputer", MakeJam3XML(JamHub.instance.mods), jsonStr, sectorTF.parent.gameObject);
+        }
+
+        /**
+         * Does the prep that will be needed in every system with our planet
+         */
+        private static void GeneralPrep(Transform sectorTF)
+        {
+            //Make the plaques look at the actual displays
+            //Get an array of all the roots
+            Transform[] platforms = {
+                sectorTF.Find("jamplanet/pop_mods_area/showroom/building"),
+                sectorTF.Find("jamplanet/pop_mods_area/showroom_storymods/building"),
+                sectorTF.Find("jamplanet/memorial_area/showroom/building"),
+                //sectorTF.Find("jamplanet/pop_nh_area/showroom/building"),
+                sectorTF.Find("jamplanet/upcoming_nh_area/showroom/building"),
+                sectorTF.Find("jamplanet/prev_jam_area/showroom_jam1/building"),
+                sectorTF.Find("jamplanet/prev_jam_area/showroom_jam2/building"),
+                sectorTF.Find("jamplanet/prev_jam_area/showroom_jam3/building"),
+                sectorTF.Find("jamplanet/prev_jam_area/showroom_jam4/building"),
+                sectorTF.Find("jamplanet/prev_jam_area/showroom_jam5/building")
+            };
+
+            //Loop through each, looking for names with "display"
+            foreach (Transform platform in platforms)
+            {
+                foreach (Transform tf in platform)
+                {
+                    if (tf.name.Contains("display"))
+                    {
+                        //We found one, set the dialogue to look where we want
+                        tf.gameObject.GetComponentInChildren<CharacterDialogueTree>()._attentionPoint = tf.Find("image");
+                    }
+                }
+            }
+
+            //Change all of the animator speeds for the modder NPC's so its offset
+            foreach (Animator animator in sectorTF.Find("jamplanet/modder_shack_area/moddershack/building/modders").gameObject.GetComponentsInChildren<Animator>())
+            {
+                float newSpeed = Random.Range(0.9f, 1.1f);
+                int invScale = Random.Range(0, 2);
+
+                //Set the random speed
+                animator.speed = newSpeed;
+
+                //Randomly swap hands
+                int xScale = 1;
+                if (invScale == 1)
+                    xScale = -1;
+                animator.transform.localScale = new Vector3(xScale, 1, 1);
+            }
         }
 
         /**
          * Make the dialogue xml for the computer from the list of planets
          */
-        private static string MakeXML(List<OtherMod> mods)
+        private static string MakeJam3XML(List<OtherMod> mods)
         {
             //Figure out how many full pages we have, and how many are on the partial
             int modsPerPage = 3;
