@@ -64,16 +64,7 @@ namespace JamHub
                 if (invScale == 1)
                     xScale = -1;
                 animator.transform.localScale = new Vector3(xScale, 1, 1);
-
-                //If it's nebula, set up the vanish event
-                if(animator.transform.parent.name.Equals("Nebula"))
-                {
-                    animator.transform.parent.gameObject.AddComponent<NebulaVanisher>();
-                }
             }
-
-            //Set up Ernesto
-            sectorTF.Find("jamplanet/ernesto_pivot").gameObject.AddComponent<ErnestoController>();
 
             //Go through each valid planet and make a mod object for it
             JamHub.instance.mods = new List<OtherMod>();
