@@ -34,9 +34,6 @@ namespace JamHub
             //Make all of the patches
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
 
-            //Set up things to happen once the player wakes up
-            GlobalMessenger.AddListener("WakeUp", OnceAwake);
-
             // Say that we're done
             instance = this;
             ModHelper.Console.WriteLine($"My mod {nameof(JamHub)} is loaded!", MessageType.Success);
@@ -49,33 +46,6 @@ namespace JamHub
                 //anon.InitiateGhost();
             }, 15);
 
-        }
-
-        public bool IsInValidSystem()
-        {
-            if (newHorizons.GetCurrentStarSystem().Equals("Jam3") || newHorizons.GetCurrentStarSystem().Equals("Jam5"))
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
-
-        /**
-         * Set up Trifid's dialogue stuff
-         */
-        private void OnceAwake()
-        {
-            //Return early if in the wrong system
-            if (IsInValidSystem())
-                return;
-
-            //Trigger the condition
-            if (Locator.GetShipLogManager().IsFactRevealed("EH_PHOSPHORS_X1"))
-                PlayerData._currentGameSave.SetPersistentCondition("ECHO_HIKE_DONE", true);
-            JamHub.DebugPrint("sanity check");
         }
 
         private void Update()

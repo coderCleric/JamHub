@@ -1,4 +1,5 @@
-﻿using NewHorizons.Components.Orbital;
+﻿using NewHorizons;
+using NewHorizons.Components.Orbital;
 using OWML.Common;
 using OWML.ModHelper;
 using System.Collections.Generic;
@@ -11,16 +12,35 @@ namespace JamHub
         private static string jsonStr =
             "{\r\n        \"parentPath\": \"Sector/jamplanet/computer_area/mod_computer/Capsule\",\r\n        \"rename\": \"computer_dialogue\",\r\n        \"isRelativeToParent\": true,\r\n        \"radius\": 0.5,\r\n        \"range\": 2\r\n      }";
 
+        public static bool IsInValidSystem() => IsInValidSystem(JamHub.instance.newHorizons.GetCurrentStarSystem());
+        public static bool IsInValidSystem(string s) => IsInJam3(s) || IsInJam5(s);
+
+        public static bool IsInJam3() => IsInJam3(JamHub.instance.newHorizons.GetCurrentStarSystem());
+        public static bool IsInJam3(string s) => s.Equals("Jam3");
+
+        public static bool IsInJam5() => IsInJam5(JamHub.instance.newHorizons.GetCurrentStarSystem());
+        public static bool IsInJam5(string s) => s.Equals("Jam3");
+
+        public static bool IsFactRevealed(string id)
+        {
+            return (PlayerData.GetShipLogFactSave(id)?.revealOrder ?? -1) > -1;
+        }
+
         public static void PrepSystem(string s)
         {
-            if(s.Equals("Jam3"))
+            if (IsInJam3(s))
             {
                 JamHub.DebugPrint("Jam 3 system detected, doing prep");
                 PrepJam3();
                 return;
             }
-
             
+            if (IsInJam5(s))
+            {
+                JamHub.DebugPrint("Jam 5 system detected, doing prep");
+                PrepJam5();
+                return;
+            }
         }
 
         /**
@@ -53,6 +73,18 @@ namespace JamHub
 
             //Make the computer work
             JamHub.instance.newHorizons.CreateDialogueFromXML("jam3hubcomputer", MakeJam3XML(JamHub.instance.mods), jsonStr, sectorTF.parent.gameObject);
+        }
+
+        /**
+         * Does all of the changes needed for the jam 5 version to work
+         */
+        private static void PrepJam5()
+        {
+            //Get the sector transform of our planet
+            Transform sectorTF = GameObject.Find("ModJamHub_Body/Sector").transform;
+
+            //Do all of the general prep
+            GeneralPrep(sectorTF);
         }
 
         /**
@@ -102,6 +134,18 @@ namespace JamHub
                 if (invScale == 1)
                     xScale = -1;
                 animator.transform.localScale = new Vector3(xScale, 1, 1);
+
+                //If it's trifid, set up their controller
+                if (animator.transform.parent.name.Equals("Trifid"))
+                {
+                    animator.transform.parent.gameObject.AddComponent<TrifidController>();
+                }
+
+                //If it's piggy, set up their controller
+                if (animator.transform.parent.name.Equals("MegaPiggy"))
+                {
+                    animator.transform.parent.gameObject.AddComponent<MegaPiggyController>();
+                }
             }
         }
 

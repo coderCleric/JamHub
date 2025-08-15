@@ -1,15 +1,158 @@
 <DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
 	<NameField>MegaPiggy</NameField>
 
-
 	<DialogueNode>
 		<Name>INITIAL</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>Yo, how's it going? My name is MegaPiggy.</Page>
-			<Page>Glad to be here, nice to get some more recognition for my work on New Horizons and Real Solar System.</Page>
-      <Page>Be sure to look out for Real Solar System, which is a mod that I'm currently working on!</Page>
-			<Page>I go by "MegaPiggy" on the Outer Wilds modding discord, feel free to stop by and chat!</Page>
+			<Page>Hi, I'm MegaPiggy.</Page>
+			<Page>I've been part of the Outer Wilds modding scene since 2021, way back before we even had our own discord server. I didn’t start making mods right away, but once I did, I never really stopped.</Page>
+			<Page>I've contributed a lot to this community over the years, and while college has made modding a bit less of a priority, I'm not planning on disappearing anytime soon.</Page>
+		</Dialogue>
+		<DialogueTarget>OPTIONS</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>OPTIONS</Name>
+		<Dialogue>
+			<Page>If you want to know more about what I've done, ask away!</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>What mods have you made?</Text>
+				<DialogueTarget>MODS</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What’s New Horizons?</Text>
+				<DialogueTarget>NEW_HORIZONS</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What are you working on now?</Text>
+				<DialogueTarget>STOWAWAY</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What’s this about maintaining other people’s mods?</Text>
+				<DialogueTarget>JANITOR</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Any other Outer Wilds mods you’ve worked on?</Text>
+				<DialogueTarget>MISC</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredCondition>AxiomEscapePod</RequiredCondition>
+				<Text>I finished Axiom's Refuge!</Text>
+				<DialogueTarget>AXIOM_AICALE</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredCondition>ARCBox</RequiredCondition>
+				<Text>I finished Project ARC!</Text>
+				<DialogueTarget>PROJECT_ARC</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Have you modded other games too?</Text>
+				<DialogueTarget>OTHER_GAMES</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Actually, I think I’ve heard enough for now.</Text>
+				<DialogueTarget>BYE</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>MODS</Name>
+		<Dialogue>
+			<Page>I’ve made a bunch of mods over the years. Project ARC was my Jam 5 entry, Axiom’s Refuge was for Jam 3, and The Box was a surprise drop during Jam 4 even though I was judging at the time.</Page>
+			<Page>I’ve also made mods like Discord Rich Presence, Ghost Translations, Involuntary Blink... <![CDATA[<Pause=2/>]]>and a few weird ones that barely anyone downloaded.</Page>
+		</Dialogue>
+		<DialogueTarget>OPTIONS</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>NEW_HORIZONS</Name>
+		<Dialogue>
+			<Page>I’m one of the main developers behind New Horizons, the modding framework that powers all of the big story mods (except The Outsider).</Page>
+			<Page>I’ve added features like Vessel Warping, Eye of the Universe support, custom title screens, and lots of other stuff under the hood that helps mods work.</Page>
+		</Dialogue>
+		<DialogueTarget>OPTIONS</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>STOWAWAY</Name>
+		<Dialogue>
+			<Page>Right now, I’m working on Stowaway with atk and Repcon. It’s a mod centered on Giants Deep, though it goes way beyond just that planet.</Page>
+			<Page>Hope you check it out when it is released!</Page>
+		</Dialogue>
+		<DialogueTarget>OPTIONS</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>JANITOR</Name>
+		<Dialogue>
+			<Page>I kind of ended up as a janitor for old or abandoned mods. If someone doesn’t want to maintain theirs, I try to keep it running.</Page>
+			<Page>Stuff like The Stranger They Are, General Enhancements, Cheats Mod, Camera Shake, and more. I didn't make them, but I keep them playable.</Page>
+		</Dialogue>
+		<DialogueTarget>OPTIONS</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>MISC</Name>
+		<Dialogue>
+			<Page>I’ve worked on a lot of the code for The Vision, the first story mod ever made for Outer Wilds.</Page>
+			<Page>It laid the groundwork for what story-driven mods could be, and now we have amazing story mods that far surpass what we had back then.</Page>
+			<Page>I also worked on Real Solar System for a long time. I "stole" the mod from xen and added a bunch of dwarf planets and moons.</Page>
+			<Page>Eventually Trifid stole it from me, and of course, he never finished the story. Just left it orbiting aimlessly just like Quasar Project and Echo Hike. Typical Trifid.</Page>
+			<Page>...<![CDATA[<Pause=2/>]]>That was a joke if you couldn't catch it. I understand why they weren't finished because I too fall victim to overscoping and demotivation.</Page>
+		</Dialogue>
+		<DialogueTarget>OPTIONS</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>AXIOM_AICALE</Name>
+		<Dialogue>
+			<Page>I made that mod in just 3 days straight.</Page>
+			<Page>It started as an ice planet and a moon, but then I had an idea to make the Alpha version of Outer Wilds was a parallel universe.</Page>
+			<Page>The Alpha Hearthians (that sounds weird now) tried to escape their supernova using a Nomai escape pod... and ended up in your universe by some unknown reason.</Page>
+			<Page>It was the first story mod (if you can even call it that) that I finished entirely on my own.</Page>
+			<Page>Not gonna lie, I kinda cringe at it now. I don’t really like touching it anymore.</Page>
+			<Page>Funny enough, I was originally going to be a judge for Jam 3, but xen kicked me off the judges last minute to make me submit the mod officially instead.</Page>
+		</Dialogue>
+		<DialogueTarget>OPTIONS</DialogueTarget>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>PROJECT_ARC</Name>
+		<Dialogue>
+			<Page>You finished Project ARC? That one was a bit of a journey, I kind of threw everything I had at the wall and hoped it worked. Hopefully the station didn’t break too many brains along the way.</Page>
+			<Page>This time I actually started when the jam began, but something came up halfway through that made it hard to keep working on it consistently.</Page>
+			<Page>I originally joked about making "The Box 2" since people kept pressuring me, but I had no clue what that would even be. Eventually I landed on an SCP-style Nomai space station prequel instead.</Page>
+			<Page>I loved making the station itself. Honestly it's probably the best 3D model I’ve ever made. And I even tried remixing some music for the first time, which was a new experience.</Page>
+			<Page>There are definitely weak points though. Emerald Reverie was supposed to have more content, but I ran out of time and it ended up just being where you get the battery.</Page>
+			<Page>atk said it felt like I was flexing my coding skills, but really coding is just what I’m best at. Story, music, and environments are tough for me, and I spent most of the jam struggling with those.</Page>
+			<Page>That left me very little time for the puzzles, so they ended up being simpler than I originally planned.</Page>
+			<Page>I didn’t think I could compete with the big jam teams anyway, so I just made whatever I could. But seeing all the mods, it kinda makes me think maybe I shouldn’t go solo next time.</Page>
+			<Page>Maybe I’ll update Project ARC to finish what I visioned... but no promises. I said that about Axiom’s Refuge too, and, well...</Page>
+		</Dialogue>
+		<DialogueTarget>OPTIONS</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>OTHER_GAMES</Name>
+		<Dialogue>
+			<Page>Outside of Outer Wilds, I’ve been involved in modding for quite a few games.</Page>
+			<Page>I started out coding on Roblox for a few years, then started modding Slime Rancher where my mods actually blew up for a while. I tried to make a huge one called Elior Forest but never finished it.</Page>
+			<Page>Eventually I ended up here, since I’ve always loved space. Later I also modded DREDGE (thanks to xen for recommending it) and it quickly became one of my favorite games.</Page>
+			<Page>I worked on a Minecraft mod called Peaceful Progression with xen, and I’ve done a few Lethal Company mods too. A couple of those hit over a million downloads, even if they’re pretty simple.</Page>
+			<Page>Funny enough, the Slime Rancher ones actually gave me revenue. The Lethal Company ones? Not a dime. Modding is weird like that.</Page>
+		</Dialogue>
+		<DialogueTarget>OPTIONS</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>BYE</Name>
+		<Dialogue>
+			<Page>No worries! Thanks for stopping by.</Page>
+			<Page>If you ever want to hear more, I’ll be right here.</Page>
 		</Dialogue>
 	</DialogueNode>
 </DialogueTree>
