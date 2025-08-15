@@ -3,6 +3,7 @@
   "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
   "starSystem": "Jam5",
   "canShowOnTitle": false,
+
   "ShipLog": {
     "xmlFile": "shiplog/hubplanet.xml",
     "spriteFolder": "shiplog/images",
@@ -44,6 +45,11 @@
         "keepLoaded": true,
         "assetBundle": "assetbundles/cleric_jamhub_bundle",
         "path": "Assets/Prefabs/jam3/jamplanet.prefab"
+      },
+      {
+        "path": "RingWorld_Body/Sector_RingWorld/Sector_SecretEntrance/Interactibles_SecretEntrance/Prefab_IP_DreamLanternItem_2",
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/ArtifactSocket",
+        "isRelativeToParent": true
       }
     ],
     "entryLocation": [
@@ -66,6 +72,13 @@
         "rename": "hub_computer_marker",
         "parentPath": "Sector/jamplanet/computer_area/log_location_anchor",
         "isRelativeToParent": true
+      }
+    ],
+    "dreamCampfires": [
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/DreamCampfireSocket",
+        "isRelativeToParent": true,
+        "id": "AnonSim"
       }
     ],
     "warpReceivers": [
@@ -120,7 +133,7 @@
         "range": 2
       },
       {
-        "parentPath": "Sector/jamplanet/pop_nh_area/showroom/building/central_plaque/dialogue_anchor",
+        "parentPath": "Sector/jamplanet/pop_mods_area/showroom/building/central_plaque/dialogue_anchor",
         "xmlFile": "dialogue/plaques/nharea.xml",
         "rename": "nharea_dialogue",
         "isRelativeToParent": true,
@@ -128,15 +141,7 @@
         "range": 2
       },
       {
-        "parentPath": "Sector/jamplanet/upcoming_nh_area/showroom/building/central_plaque/dialogue_anchor",
-        "xmlFile": "dialogue/plaques/upcomingarea.xml",
-        "rename": "upcomingarea_dialogue",
-        "isRelativeToParent": true,
-        "radius": 0.5,
-        "range": 2
-      },
-      {
-        "parentPath": "Sector/jamplanet/prev_jam_area/showroom/building/central_plaque/dialogue_anchor",
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam1/building/central_plaque/dialogue_anchor",
         "xmlFile": "dialogue/plaques/jamarea1.xml",
         "rename": "jamarea1_dialogue",
         "isRelativeToParent": true,
@@ -144,9 +149,33 @@
         "range": 2
       },
       {
-        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_3slot/building/central_plaque/dialogue_anchor",
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam2/building/central_plaque/dialogue_anchor",
         "xmlFile": "dialogue/plaques/jamarea2.xml",
         "rename": "jamarea2_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam3/building/central_plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/jamarea3.xml",
+        "rename": "jamarea3_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam4/building/central_plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/jamarea4.xml",
+        "rename": "jamarea4_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam5/building/central_plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/jamarea5.xml",
+        "rename": "jamarea5_dialogue",
         "isRelativeToParent": true,
         "radius": 0.5,
         "range": 2
@@ -181,15 +210,7 @@
         "range": 2
       },
       {
-        "parentPath": "Sector/jamplanet/pop_mods_area/showroom/building/display_outsider/plaque/dialogue_anchor",
-        "xmlFile": "dialogue/plaques/outsider.xml",
-        "rename": "outsider_dialogue",
-        "isRelativeToParent": true,
-        "radius": 0.5,
-        "range": 2
-      },
-      {
-        "parentPath": "Sector/jamplanet/pop_nh_area/showroom/building/display_nh/plaque/dialogue_anchor",
+        "parentPath": "Sector/jamplanet/pop_mods_area/showroom/building/display_nh/plaque/dialogue_anchor",
         "xmlFile": "dialogue/plaques/nh.xml",
         "rename": "nh_dialogue",
         "isRelativeToParent": true,
@@ -197,15 +218,7 @@
         "range": 2
       },
       {
-        "parentPath": "Sector/jamplanet/pop_nh_area/showroom/building/display_vision/plaque/dialogue_anchor",
-        "xmlFile": "dialogue/plaques/vision.xml",
-        "rename": "vision_dialogue",
-        "isRelativeToParent": true,
-        "radius": 0.5,
-        "range": 2
-      },
-      {
-        "parentPath": "Sector/jamplanet/pop_nh_area/showroom/building/display_examples/plaque/dialogue_anchor",
+        "parentPath": "Sector/jamplanet/pop_mods_area/showroom/building/display_examples/plaque/dialogue_anchor",
         "xmlFile": "dialogue/plaques/examples.xml",
         "rename": "examples_dialogue",
         "isRelativeToParent": true,
@@ -213,15 +226,7 @@
         "range": 2
       },
       {
-        "parentPath": "Sector/jamplanet/pop_nh_area/showroom/building/display_codec/plaque/dialogue_anchor",
-        "xmlFile": "dialogue/plaques/codec.xml",
-        "rename": "codec_dialogue",
-        "isRelativeToParent": true,
-        "radius": 0.5,
-        "range": 2
-      },
-      {
-        "parentPath": "Sector/jamplanet/upcoming_nh_area/showroom/building/display_rss/plaque/dialogue_anchor",
+        "parentPath": "Sector/jamplanet/pop_mods_area/showroom/building/display_rss/plaque/dialogue_anchor",
         "xmlFile": "dialogue/plaques/rss.xml",
         "rename": "rss_dialogue",
         "isRelativeToParent": true,
@@ -229,7 +234,94 @@
         "range": 2
       },
       {
-        "parentPath": "Sector/jamplanet/upcoming_nh_area/showroom/building/display_futures/plaque/dialogue_anchor",
+        "parentPath": "Sector/jamplanet/pop_mods_area/showroom/building/display_usc/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/usc.xml",
+        "rename": "usc_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/pop_mods_area/showroom/building/display_voicemod/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/voice.xml",
+        "rename": "voicemod_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+
+
+
+      {
+        "parentPath": "Sector/jamplanet/pop_mods_area/showroom_storymods/building/display_outsider/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/outsider.xml",
+        "rename": "outsider_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/pop_mods_area/showroom_storymods/building/display_vision/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/vision.xml",
+        "rename": "vision_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/pop_mods_area/showroom_storymods/building/display_codex/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/codec.xml",
+        "rename": "codec_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/pop_mods_area/showroom_storymods/building/display_castaways/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/castaways.xml",
+        "rename": "castaways_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/pop_mods_area/showroom_storymods/building/display_tsta/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/tsta.xml",
+        "rename": "tsta_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/pop_mods_area/showroom_storymods/building/display_xmas/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/xmas.xml",
+        "rename": "xmas_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/pop_mods_area/showroom_storymods/building/display_unnamedmystery/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/unnamedmystery.xml",
+        "rename": "unnamedmystery_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/pop_mods_area/showroom_storymods/building/display_frets/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/frets.xml",
+        "rename": "frets_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+
+
+
+
+      {
+        "parentPath": "Sector/jamplanet/memorial_area/showroom/building/display_futures/plaque/dialogue_anchor",
         "xmlFile": "dialogue/plaques/futures.xml",
         "rename": "futures_dialogue",
         "isRelativeToParent": true,
@@ -237,7 +329,7 @@
         "range": 2
       },
       {
-        "parentPath": "Sector/jamplanet/upcoming_nh_area/showroom/building/display_extinct/plaque/dialogue_anchor",
+        "parentPath": "Sector/jamplanet/memorial_area/showroom/building/display_extinct/plaque/dialogue_anchor",
         "xmlFile": "dialogue/plaques/extinct.xml",
         "rename": "extinct_dialogue",
         "isRelativeToParent": true,
@@ -245,13 +337,57 @@
         "range": 2
       },
       {
-        "parentPath": "Sector/jamplanet/upcoming_nh_area/showroom/building/display_castaways/plaque/dialogue_anchor",
-        "xmlFile": "dialogue/plaques/castaways.xml",
-        "rename": "castaways_dialogue",
+        "parentPath": "Sector/jamplanet/memorial_area/showroom/building/display_adoh/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/adoh.xml",
+        "rename": "adoh_dialogue",
         "isRelativeToParent": true,
         "radius": 0.5,
         "range": 2
       },
+      {
+        "parentPath": "Sector/jamplanet/memorial_area/showroom/building/display_storm/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/storm.xml",
+        "rename": "storm_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/memorial_area/showroom/building/display_nerves/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/nerves.xml",
+        "rename": "nerves_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/memorial_area/showroom/building/display_blank2/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/blankmemorial.xml",
+        "rename": "blank_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/memorial_area/showroom/building/display_blank3/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/blankmemorial.xml",
+        "rename": "blank_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/memorial_area/showroom/building/display_blank4/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/blankmemorial.xml",
+        "rename": "blank_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+
+
+
+
       {
         "parentPath": "Sector/jamplanet/upcoming_nh_area/showroom/building/display_eotp/plaque/dialogue_anchor",
         "xmlFile": "dialogue/plaques/eotp.xml",
@@ -269,47 +405,27 @@
         "range": 2
       },
       {
-        "parentPath": "Sector/jamplanet/upcoming_nh_area/showroom/building/display_blank3/plaque/dialogue_anchor",
-        "xmlFile": "dialogue/plaques/blank.xml",
-        "rename": "blank_dialogue",
+        "parentPath": "Sector/jamplanet/upcoming_nh_area/showroom/building/display_hn0/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/hn0.xml",
+        "rename": "hn0_dialogue",
         "isRelativeToParent": true,
         "radius": 0.5,
         "range": 2
       },
       {
-        "parentPath": "Sector/jamplanet/upcoming_nh_area/showroom/building/display_blank4/plaque/dialogue_anchor",
-        "xmlFile": "dialogue/plaques/blank.xml",
-        "rename": "blank_dialogue",
+        "parentPath": "Sector/jamplanet/upcoming_nh_area/showroom/building/display_stowaway/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/stowaway.xml",
+        "rename": "stowaway_dialogue",
         "isRelativeToParent": true,
         "radius": 0.5,
         "range": 2
       },
+
+
+
+
       {
-        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_3slot/building/display_neighbor/plaque/dialogue_anchor",
-        "xmlFile": "dialogue/plaques/neighbor.xml",
-        "rename": "neighbor_dialogue",
-        "isRelativeToParent": true,
-        "radius": 0.5,
-        "range": 2
-      },
-      {
-        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_3slot/building/display_tesseract/plaque/dialogue_anchor",
-        "xmlFile": "dialogue/plaques/tesseract.xml",
-        "rename": "tesseract_dialogue",
-        "isRelativeToParent": true,
-        "radius": 0.5,
-        "range": 2
-      },
-      {
-        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_3slot/building/display_mindscapes/plaque/dialogue_anchor",
-        "xmlFile": "dialogue/plaques/mindscapes.xml",
-        "rename": "mindscapes_dialogue",
-        "isRelativeToParent": true,
-        "radius": 0.5,
-        "range": 2
-      },
-      {
-        "parentPath": "Sector/jamplanet/prev_jam_area/showroom/building/display_evac/plaque/dialogue_anchor",
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam1/building/display_evac/plaque/dialogue_anchor",
         "xmlFile": "dialogue/plaques/evac.xml",
         "rename": "evac_dialogue",
         "isRelativeToParent": true,
@@ -317,7 +433,7 @@
         "range": 2
       },
       {
-        "parentPath": "Sector/jamplanet/prev_jam_area/showroom/building/display_arcanum/plaque/dialogue_anchor",
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam1/building/display_arcanum/plaque/dialogue_anchor",
         "xmlFile": "dialogue/plaques/arcanum.xml",
         "rename": "arcanum_dialogue",
         "isRelativeToParent": true,
@@ -325,7 +441,7 @@
         "range": 2
       },
       {
-        "parentPath": "Sector/jamplanet/prev_jam_area/showroom/building/display_machine/plaque/dialogue_anchor",
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam1/building/display_machine/plaque/dialogue_anchor",
         "xmlFile": "dialogue/plaques/machine.xml",
         "rename": "machine_dialogue",
         "isRelativeToParent": true,
@@ -333,9 +449,443 @@
         "range": 2
       },
       {
-        "parentPath": "Sector/jamplanet/prev_jam_area/showroom/building/display_archi/plaque/dialogue_anchor",
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam1/building/display_archi/plaque/dialogue_anchor",
         "xmlFile": "dialogue/plaques/archi.xml",
         "rename": "archi_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam1/building/display_dilator/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/dilator.xml",
+        "rename": "dilator_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam1/building/display_scav/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/scav.xml",
+        "rename": "scav_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam1/building/display_intervention/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/intervention.xml",
+        "rename": "intervention_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam1/building/display_divergence/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/divergence.xml",
+        "rename": "divergence_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam1/building/display_daylightsavings/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/daylightsavings.xml",
+        "rename": "daylightsavings_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam1/building/display_spiral/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/spiral.xml",
+        "rename": "spiral_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam1/building/display_brightdusk/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/brightdusk.xml",
+        "rename": "brightdusk_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam1/building/display_orrery/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/orrery.xml",
+        "rename": "orrery_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam1/building/display_brokenbalance/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/brokenbalance.xml",
+        "rename": "brokenbalance_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam1/building/display_march/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/march.xml",
+        "rename": "march_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+
+
+
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam2/building/display_hn1/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/neighbor.xml",
+        "rename": "neighbor_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam2/building/display_tesseract/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/tesseract.xml",
+        "rename": "tesseract_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam2/building/display_mindscapes/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/mindscapes.xml",
+        "rename": "mindscapes_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam2/building/display_origins/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/origins.xml",
+        "rename": "origins_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam2/building/display_quasar/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/quasar.xml",
+        "rename": "quasar_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam2/building/display_bigdayoff/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/dayoff.xml",
+        "rename": "dayoff_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam2/building/display_survivors/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/survivors.xml",
+        "rename": "survivors_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+
+
+
+
+
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam3/building/display_hn2/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/hn2.xml",
+        "rename": "hn2_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam3/building/display_reflections/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/reflections.xml",
+        "rename": "reflections_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam3/building/display_rangers/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/rangers.xml",
+        "rename": "rangers_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam3/building/display_band/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/band.xml",
+        "rename": "band_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam3/building/display_finis/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/finis.xml",
+        "rename": "finis_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam3/building/display_echohike/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/echo.xml",
+        "rename": "echohike_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam3/building/display_symbiosis/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/symbiosis.xml",
+        "rename": "symbiosis_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam3/building/display_axiom/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/axiom.xml",
+        "rename": "axiom_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam3/building/display_callis/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/callis.xml",
+        "rename": "callis_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam3/building/display_granite/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/granite.xml",
+        "rename": "granite_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+
+
+
+
+
+
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam4/building/display_dreambound/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/dreambound.xml",
+        "rename": "dreambound_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam4/building/display_luminaterra/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/luminaterra.xml",
+        "rename": "luminaterra_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam4/building/display_rootaccess/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/rootaccess.xml",
+        "rename": "rootaccess_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam4/building/display_misfiredjump/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/misfiredjump.xml",
+        "rename": "misfiredjump_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam4/building/display_lake/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/lake.xml",
+        "rename": "lake_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam4/building/display_iceolation/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/iceolation.xml",
+        "rename": "iceolation_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam4/building/display_escape/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/escape.xml",
+        "rename": "escape_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam4/building/display_liason/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/liason.xml",
+        "rename": "liason_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam4/building/display_box/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/box.xml",
+        "rename": "box_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+
+
+
+
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam5/building/display_heliostudy/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/heliostudy.xml",
+        "rename": "heliostudy_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam5/building/display_curators/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/curators.xml",
+        "rename": "curators_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam5/building/display_eden/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/eden.xml",
+        "rename": "eden_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam5/building/display_core/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/core.xml",
+        "rename": "core_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam5/building/display_rail/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/rail.xml",
+        "rename": "rail_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam5/building/display_radiomoon/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/radiomoon.xml",
+        "rename": "radiomoon_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam5/building/display_scale/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/scale.xml",
+        "rename": "scale_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam5/building/display_arc/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/arc.xml",
+        "rename": "arc_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam5/building/display_diorama/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/diorama.xml",
+        "rename": "diorama_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam5/building/display_powerfail/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/powerfail.xml",
+        "rename": "powerfail_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam5/building/display_cat/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/cat.xml",
+        "rename": "cat_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam5/building/display_apollo/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/apollo.xml",
+        "rename": "apollo_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam5/building/display_cake/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/cake.xml",
+        "rename": "cake_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam5/building/display_parable/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/parable.xml",
+        "rename": "parable_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam5/building/display_brightspark/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/brightspark.xml",
+        "rename": "brightspark_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/prev_jam_area/showroom_jam5/building/display_catastrophe/plaque/dialogue_anchor",
+        "xmlFile": "dialogue/plaques/catastrophe.xml",
+        "rename": "catastrophe_dialogue",
         "isRelativeToParent": true,
         "radius": 0.5,
         "range": 2
@@ -470,7 +1020,14 @@
         "rename": "Bird_dialogue",
         "isRelativeToParent": true,
         "radius": 0.5,
-        "range": 2
+        "range": 2,
+        "attentionPoint": {
+          "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Bird/dialogue_anchor",
+          "isRelativeToParent": true,
+          "offset": {
+            "y": 1
+          }
+        }
       },
       {
         "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/coderCleric/dialogue_anchor",
@@ -566,6 +1123,13 @@
         "rename": "pikpik_dialogue",
         "isRelativeToParent": true,
         "radius": 0.5,
+        "attentionPoint": {
+          "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/pikpik/dialogue_anchor",
+          "isRelativeToParent": true,
+          "offset": {
+            "y": 1
+          }
+        },
         "range": 2
       },
       {
@@ -590,7 +1154,14 @@
         "rename": "Viovayo_dialogue",
         "isRelativeToParent": true,
         "radius": 0.5,
-        "range": 2
+        "range": 2,
+        "attentionPoint": {
+          "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Viovayo/dialogue_anchor",
+          "isRelativeToParent": true,
+          "offset": {
+            "y": 1
+          }
+        }
       },
       {
         "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Tashizuna/dialogue_anchor",
@@ -598,7 +1169,14 @@
         "rename": "Tashizuna_dialogue",
         "isRelativeToParent": true,
         "radius": 0.5,
-        "range": 2
+        "range": 2,
+        "attentionPoint": {
+          "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Tashizuna/dialogue_anchor",
+          "isRelativeToParent": true,
+          "offset": {
+            "y": 1
+          }
+        }
       },
       {
         "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Repcon/dialogue_anchor",
@@ -623,7 +1201,175 @@
         "isRelativeToParent": true,
         "radius": 0.5,
         "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Onbvb/dialogue_anchor",
+        "xmlFile": "dialogue/modders/Onbvb.xml",
+        "rename": "Onbvb_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Solec/dialogue_anchor",
+        "xmlFile": "dialogue/modders/Solec.xml",
+        "rename": "Solec_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Vodblink/dialogue_anchor",
+        "xmlFile": "dialogue/modders/Vodblink.xml",
+        "rename": "Vodblink_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/HeroPlays/dialogue_anchor",
+        "xmlFile": "dialogue/modders/HeroPlays.xml",
+        "rename": "HeroPlays_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/LeeSpork/dialogue_anchor",
+        "xmlFile": "dialogue/modders/LeeSpork.xml",
+        "rename": "LeeSpork_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/T3rtu/dialogue_anchor",
+        "xmlFile": "dialogue/modders/T3rtu.xml",
+        "rename": "T3rtu_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Stache/dialogue_anchor",
+        "xmlFile": "dialogue/modders/Stache.xml",
+        "rename": "Stache_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/TheLoweDown/dialogue_anchor",
+        "xmlFile": "dialogue/modders/TLD256.xml",
+        "rename": "TheLoweDown_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/cOaRex/dialogue_anchor",
+        "xmlFile": "dialogue/modders/cOaRex.xml",
+        "rename": "cOaRex_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "attentionPoint": {
+          "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/cOaRex/dialogue_anchor",
+          "isRelativeToParent": true,
+          "offset": {
+            "y": 1
+          }
+        },
+        "range": 2
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/cOaRex/dialogue_anchor",
+        "xmlFile": "dialogue/modders/cOaRemote.xml",
+        "rename": "cOaRex_remotedialogue",
+        "isRelativeToParent": true,
+        "radius": 0,
+        "attentionPoint": {
+          "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/cOaRex/dialogue_anchor",
+          "isRelativeToParent": true,
+          "offset": {
+            "y": 1
+          }
+        },
+        "remoteTrigger": {
+          "position": {
+            "x": -6.23333,
+            "y": 186.07,
+            "z": 6.02476
+          },
+          "prereqCondition": "AnonPissed",
+          "radius": 1,
+          "rename": "cOaRex_remotetrigger"
+        }
+      }
+    ],
+    "singularities": [
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Ditzy/npc_socket",
+        "isRelativeToParent": true,
+        "position": {
+          "y": 1
+        },
+        "rename": "Ditzy_BH",
+        "uniqueID": "Ditzy_BH",
+        "horizonRadius": 0.5,
+        "type": "blackHole",
+        "pairedSingularity": "Ditzy_WH"
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/DitzyWarpSocket",
+        "isRelativeToParent": true,
+        "rename": "Ditzy_WH",
+        "uniqueID": "Ditzy_WH",
+        "type": "whiteHole",
+        "pairedSingularity": "Ditzy_BH"
       }
     ]
-  }
+  },
+  "Volumes": {
+      "conditionTriggerVolumes": [
+          {
+              "condition": "DITZY_WARPED",
+              "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Ditzy/npc_socket",
+              "isRelativeToParent": true,
+              "rename": "DITZY_TRIGGER",
+              "position": {
+                  "y": 1
+              },
+              "ship": false,
+              "player": true,
+              "probe": false,
+              "radius": 0.6,
+              "persistent": false,
+              "reversible": false
+          }
+      ]
+  },
+  "Spawn": {
+    "playerSpawnPoints": [
+      {
+        "rename": "_JamHub_PartyHouse",
+        "position": {
+          "x": -16,
+          "y": 158,
+          "z": 19
+        },
+        "rotation": {
+          "x": 5,
+          "y": 13,
+          "z": 7
+        }
+      }
+    ]
+  },
+  "removeChildren": [
+    "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Ditzy/npc_socket/Ditzy_BH/BlackHoleAmbience",
+    "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Ditzy/npc_socket/Ditzy_BH/BlackHoleEmissionOneShot",
+
+    "Sector/jamplanet/modder_shack_area/moddershack/building/modders/DitzyWarpSocket/Ditzy_WH/WhiteHoleRenderer",
+    "Sector/jamplanet/modder_shack_area/moddershack/building/modders/DitzyWarpSocket/Ditzy_WH/WhiteHoleAmbience"
+  ]
 }
