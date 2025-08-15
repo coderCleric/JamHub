@@ -7,21 +7,23 @@
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
 			<Page>Hey there! I'm Bird.</Page>
-			<Page>Be sure to look out for Extinction, which is a mod that I'm currently working on!</Page>
+			<Page>Extinction is a mod I started working on a few years ago. I got about halfway through it, but I eventually stopped because I had lost a lot of ambition and was moving on to other things.</Page>
+			<Page>Most of what was left involved coding and writing, implementing puzzles and text, connecting everything, finishing a few structures, and playtesting.</Page>
+			<Page>Some ideas from Extinction ended up inspiring my Jam 3 mod, Symbiosis, so go check that out.</Page>
 			<Page>You can find me on the Outer Wilds modding discord as "Bird"!</Page>
 		</Dialogue>
-    <DialogueOptionsList>
-      <DialogueOption>
-        <Text>Why is that guy locked in a cage?</Text>
-        <DialogueTarget>CAGE</DialogueTarget>
-      </DialogueOption>
-    </DialogueOptionsList>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Why is that guy locked in a cage?</Text>
+				<DialogueTarget>CAGE</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
 	</DialogueNode>
 
-  <DialogueNode>
-    <Name>CAGE</Name>
-    <Dialogue>
-      <Page>Oh, yeah, he was causing trouble so I put him in there. Don't worry about it.</Page>
-    </Dialogue>
-  </DialogueNode>
+	<DialogueNode>
+		<Name>CAGE</Name>
+		<Dialogue>
+			<Page>Oh, yeah, he was causing trouble so I put him in there. Don't worry about it.</Page>
+		</Dialogue>
+	</DialogueNode>
 </DialogueTree>
