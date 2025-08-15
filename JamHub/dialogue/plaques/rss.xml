@@ -6,11 +6,13 @@
     <EntryCondition>DEFAULT</EntryCondition>
     <Dialogue>
       <Page>
-        Mod: Real Solar System&#13;&#10;Authors: Trifid, MegaPiggy, and xen
+        Mod: Real Solar System&#13;&#10;Authors: xen, MegaPiggy, and Trifid
       </Page>
-      <Page>While RSS does exist on the mod database, it is only a preview of what is to come for this mod. It is still being worked on and story elements are planned for the full release.</Page>
-      <Page>Not much is commonly known of RSS’s story as it is not mentioned on the mod page, but it is still a mod that has many (including myself) looking forward to the full release.</Page>
-      <Page>Even without the story elements, RSS is still a lot of fun to fly around. Getting to see our solar system in Outer Wilds in a neat experience, and well worth the download.</Page>
+      <Page>Real Solar System is a recreation of our solar system within Outer Wilds. This mod has been worked on by 3 people.</Page>
+      <Page>Starting with xen’s original work adding the planets, notable moons, and the nearby Alpha/Proxima Centauri star system.</Page>
+      <Page>MegaPiggy added dwarf planets, more moons, a few satellites, and additional nearby star systems like Barnard’s Star, Luhman 16, and WISE 0855−0714.</Page>
+      <Page>Trifid improved planet visuals with better maps, characters, a new skybox, Bramble dimensions, warp stations, a monumental number of satellites, and the Sirius AB system.</Page>
+      <Page>Even without its abandoned story plans, RSS is still a lot of fun to fly around. Getting to see our solar system in Outer Wilds in a neat experience, and well worth the download.</Page>
     </Dialogue>
   </DialogueNode>
 </DialogueTree>
