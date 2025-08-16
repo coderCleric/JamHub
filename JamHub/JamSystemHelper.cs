@@ -2,6 +2,7 @@
 using NewHorizons;
 using NewHorizons.Components.Orbital;
 using NewHorizons.External;
+using NewHorizons.Handlers;
 using Newtonsoft.Json.Linq;
 using OWML.Common;
 using OWML.ModHelper;
@@ -74,7 +75,7 @@ namespace JamHub
             Orrery orrery = sectorTF.Find("jamplanet/computer_area/Orrery").gameObject.AddComponent<Jam3Orrery>();
 
             //Make the computer work
-            JamHub.instance.newHorizons.CreateDialogueFromXML("jam3hubcomputer", MakeJam3XML(JamHub.instance.mods), jsonStr, sectorTF.parent.gameObject);
+            JamHub.instance.newHorizons.CreateDialogueFromXML("jam3hubcomputer", MakeComputerXML(JamHub.instance.mods), jsonStr, sectorTF.parent.gameObject);
         }
 
         /**
@@ -119,6 +120,9 @@ namespace JamHub
 
             //Make the orrery
             Orrery orrery = sectorTF.Find("jamplanet/computer_area/Orrery").gameObject.AddComponent<Jam5Orrery>();
+
+            //Make the computer work
+            JamHub.instance.newHorizons.CreateDialogueFromXML("jam5hubcomputer", MakeComputerXML(JamHub.instance.mods), jsonStr, sectorTF.parent.gameObject);
         }
 
         /**
@@ -186,7 +190,7 @@ namespace JamHub
         /**
          * Make the dialogue xml for the computer from the list of planets
          */
-        private static string MakeJam3XML(List<OtherMod> mods)
+        private static string MakeComputerXML(List<OtherMod> mods)
         {
             //Figure out how many full pages we have, and how many are on the partial
             int modsPerPage = 3;
@@ -195,10 +199,10 @@ namespace JamHub
 
             //Construct the header
             string retstr = "<DialogueTree xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:noNamespaceSchemaLocation=\"https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd\">\n";
-            retstr += "<NameField>Computer</NameField>\n";
+            retstr += "<NameField>Orrery Computer</NameField>\n";
 
             //Construct the intro dialogue
-            retstr += "<DialogueNode>\r\n    <Name>INITIAL</Name>\r\n    <EntryCondition>DEFAULT</EntryCondition>\r\n    <Dialogue>\r\n      <Page>Hey there! I'm a computer dedicated to scanning and tracking all of the different planets in this system.</Page>\r\n      <Page>You can use my orrery above us to track the relative positions of different planets.</Page>\r\n      <Page>I can even give you a bit of information on the different mods that are installed, and lock on to the planets of each mod!</Page>\r\n    </Dialogue>\r\n    <DialogueTarget>PAGE0</DialogueTarget>\r\n <RevealFacts><FactID>COMPUTER_DETAILS_FACT_CCL</FactID></RevealFacts>  </DialogueNode>\n";
+            retstr += "<DialogueNode>\r\n    <Name>INITIAL</Name>\r\n    <EntryCondition>DEFAULT</EntryCondition>\r\n    <Dialogue>\r\n      <Page>Hey there! I'm a computer dedicated to scanning and tracking all of the different mods in this system.</Page>\r\n      <Page>You can use my orrery above us to track the relative positions of different bodies.</Page>\r\n      <Page>I can even give you a bit of information on the different mods that are installed, and lock on to the main bodies of each mod!</Page>\r\n    </Dialogue>\r\n    <DialogueTarget>PAGE0</DialogueTarget>\r\n <RevealFacts><FactID>COMPUTER_DETAILS_FACT_CCL</FactID></RevealFacts> <SetCondition>ORRERY_COMPUTER_TALKED</SetCondition> </DialogueNode>\n";
 
             //Construct the full pages
             int page;
@@ -207,6 +211,8 @@ namespace JamHub
                 //Make the header for the dialogue node
                 retstr += "<DialogueNode>\n";
                 retstr += "<Name>PAGE" + page + "</Name>\n";
+                if(page == 0)
+                    retstr += "<EntryCondition>ORRERY_COMPUTER_TALKED</EntryCondition>";
 
                 //Make the dialogue line
                 retstr += "<Dialogue>\n";
@@ -238,6 +244,8 @@ namespace JamHub
                 //Make the header for the dialogue node
                 retstr += "<DialogueNode>\n";
                 retstr += "<Name>PAGE" + page + "</Name>\n";
+                if (fullPages == 0)
+                    retstr += "<EntryCondition>ORRERY_COMPUTER_TALKED</EntryCondition>";
 
                 //Make the dialogue line
                 retstr += "<Dialogue>\n";
@@ -268,8 +276,8 @@ namespace JamHub
                 retstr += "<DialogueNode>\n";
                 retstr += "<Name>" + mod.ID + "</Name>\n";
                 retstr += "<Dialogue>\n";
-                retstr += "<Page>Mod Name: " + mod.Name + "\nMod Author: " + mod.Author + "\nPlanet Name: " + mod.Planet.GetComponent<AstroObject>()._customName + "\nUnique ID: " + mod.ID + "</Page>";
-                retstr += "</Dialogue>\r\n    <DialogueOptionsList>\r\n      <DialogueOption>\r\n        <Text>Lock on to planet.</Text>\r\n<ConditionToSet>" + mod.ID + "</ConditionToSet>\n";
+                retstr += "<Page>Mod Name: " + mod.Name + "\nMod Author: " + mod.Author + "\nBody Name: " + TranslationHandler.GetTranslation(mod.Planet.GetComponent<AstroObject>()._customName, TranslationHandler.TextType.UI) + "\nUnique ID: " + mod.ID + "</Page>";
+                retstr += "</Dialogue>\r\n    <DialogueOptionsList>\r\n      <DialogueOption>\r\n        <Text>Lock on to body.</Text>\r\n<ConditionToSet>" + mod.ID + "</ConditionToSet>\n";
                 retstr += "</DialogueOption>\r\n      <DialogueOption>\r\n        <Text>Cancel.</Text>\r\n<DialogueTarget>PAGE" + (int)Mathf.Floor(count/modsPerPage) + "</DialogueTarget>\r\n      </DialogueOption>\r\n    </DialogueOptionsList>\r\n  </DialogueNode>\n";
                 count++;
             }
