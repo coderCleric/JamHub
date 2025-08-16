@@ -1,5 +1,8 @@
-﻿using NewHorizons;
+﻿using JamHub.orrery;
+using NewHorizons;
 using NewHorizons.Components.Orbital;
+using NewHorizons.External;
+using Newtonsoft.Json.Linq;
 using OWML.Common;
 using OWML.ModHelper;
 using System.Collections.Generic;
@@ -19,7 +22,7 @@ namespace JamHub
         public static bool IsInJam3(string s) => s.Equals("Jam3");
 
         public static bool IsInJam5() => IsInJam5(JamHub.instance.newHorizons.GetCurrentStarSystem());
-        public static bool IsInJam5(string s) => s.Equals("Jam3");
+        public static bool IsInJam5(string s) => s.Equals("Jam5");
 
         public static bool IsFactRevealed(string id)
         {
@@ -68,8 +71,7 @@ namespace JamHub
             }
 
             //Make the orrery
-            Orrery orrery = sectorTF.Find("jamplanet/computer_area/Orrery").gameObject.AddComponent<Orrery>();
-            orrery.MakePlanets(JamHub.instance.mods);
+            Orrery orrery = sectorTF.Find("jamplanet/computer_area/Orrery").gameObject.AddComponent<Jam3Orrery>();
 
             //Make the computer work
             JamHub.instance.newHorizons.CreateDialogueFromXML("jam3hubcomputer", MakeJam3XML(JamHub.instance.mods), jsonStr, sectorTF.parent.gameObject);
@@ -85,6 +87,38 @@ namespace JamHub
 
             //Do all of the general prep
             GeneralPrep(sectorTF);
+
+            //Find the name of each mini-system's center
+            List<NewHorizonsBody> bodyList = Main.BodyDict["Jam5"];
+            List<string> nameList = new List<string>();
+            foreach (NewHorizonsBody body in bodyList)
+            {
+                // stolen code from Heliostudy, which stole from the Jam5 mod
+                var dict = new Dictionary<string, object>();
+                if (body.Config.extras is JObject jObject)
+                {
+                    dict = jObject.ToObject<Dictionary<string, object>>();
+                }
+
+                if (dict.TryGetValue("isCenterOfMiniSystem", out var isCenter) && isCenter is bool isCenterBool && isCenterBool)
+                {
+                    nameList.Add(body.Config.name);
+                }
+            }
+
+            //Compose a list of other mods
+            JamHub.instance.mods = new List<OtherMod>(); 
+            foreach (NHAstroObject astroObj in Component.FindObjectsOfType<NHAstroObject>())
+            {
+                if (nameList.Contains(astroObj._customName))
+                {
+                    IModManifest manifest = JamHub.instance.ModHelper.Interaction.TryGetMod(astroObj.modUniqueName).ModHelper.Manifest;
+                    JamHub.instance.mods.Add(new OtherMod(astroObj.modUniqueName, manifest.Name, manifest.Author, astroObj.gameObject));
+                }
+            }
+
+            //Make the orrery
+            Orrery orrery = sectorTF.Find("jamplanet/computer_area/Orrery").gameObject.AddComponent<Jam5Orrery>();
         }
 
         /**

@@ -5,12 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace JamHub
+namespace JamHub.orrery
 {
     public class OrreryPlanet : MonoBehaviour
     {
-        private static float distScale = 0.001f;
-        private static float scaleScale = 0.004f;
+        public float distScale = 0.001f;
+        public float sizeScale = 0.004f;
 
         public OtherMod planet = null;
         private bool locked = false;
@@ -35,7 +35,7 @@ namespace JamHub
             GravityVolume grav = planet.Planet.GetComponentInChildren<GravityVolume>();
             float scale = 1;
             if(grav != null)
-                scale = grav._upperSurfaceRadius * scaleScale;
+                scale = grav._upperSurfaceRadius * sizeScale;
             transform.localScale = new Vector3(scale, scale, scale);
 
             //Update the material

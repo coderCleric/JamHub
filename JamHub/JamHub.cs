@@ -6,6 +6,9 @@ using System.Reflection;
 using UnityEngine.Events;
 using UnityEngine;
 using NewHorizons.Utility;
+using NewHorizons.External;
+using NewHorizons;
+using Newtonsoft.Json.Linq;
 
 
 namespace JamHub
@@ -45,7 +48,6 @@ namespace JamHub
                 //AnonHandler anon = SearchUtilities.Find("AnonDomain_Body/Sector/AnonDomain/GhostBirds").GetComponent<AnonHandler>();
                 //anon.InitiateGhost();
             }, 15);
-
         }
 
         private void Update()
@@ -65,6 +67,5 @@ namespace JamHub
         {
             return DialogueConditionManager.SharedInstance.GetConditionState("JamHub_KillPlayer");
         }
-
     }
 }
