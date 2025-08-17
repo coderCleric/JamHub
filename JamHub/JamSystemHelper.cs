@@ -224,7 +224,7 @@ namespace JamHub
                 for(int i = 0; i < modsPerPage; i++)
                 {
                     retstr += "<DialogueOption>\n";
-                    retstr += "<Text>" + mods[(page * modsPerPage) + i].Name + "</Text>\n";
+                    retstr += "<Text><![CDATA[<color=orange>" + mods[(page * modsPerPage) + i].Name + "</color>]]></Text>\n";
                     retstr += "<DialogueTarget>" + mods[(page * modsPerPage) + i].ID + "</DialogueTarget>\n";
                     retstr += "</DialogueOption>";
                 }
