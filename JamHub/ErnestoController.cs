@@ -9,8 +9,8 @@ namespace JamHub
 {
     public class ErnestoController : MonoBehaviour
     {
-        private Animator animator = null;
-        private CharacterDialogueTree[] dialogues = null;
+        [SerializeField]private Animator animator = null;
+        [SerializeField]private CharacterDialogueTree[] dialogues = null;
         private int conIndex = 0;
 
         /**
@@ -18,10 +18,6 @@ namespace JamHub
          */
         private void Awake()
         {
-            //Grab the components
-            animator = GetComponent<Animator>();
-            dialogues = GetComponentsInChildren<CharacterDialogueTree>();
-
             //Disable all but the first dialogue
             for(int i = 1; i < dialogues.Length; i++)
                 dialogues[i].gameObject.SetActive(false);

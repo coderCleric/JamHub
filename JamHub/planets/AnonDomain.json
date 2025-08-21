@@ -48,23 +48,6 @@
         "generateSimulationMeshes": true,
         "id": "AnonSim"
       }
-    ],
-    "dialogue": [
-      {
-        "parentPath": "Sector/AnonDomain/GhostBirds/Nodes/Prefab_IP_GhostBird_Anon/AnonDialogue",
-        "xmlFile": "dialogue/modders/anonymous.xml",
-        "rename": "anonymous_dialogue",
-        "isRelativeToParent": true,
-        "radius": 0.5,
-        "attentionPoint": {
-          "parentPath": "Sector/AnonDomain/GhostBirds/Nodes/Prefab_IP_GhostBird_Anon/AnonDialogue",
-          "isRelativeToParent": true,
-          "offset": {
-            "y": 1
-          }
-        },
-        "range": 2
-      }
     ]
   }
 } 
