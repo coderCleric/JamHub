@@ -55,9 +55,6 @@ namespace JamHub
             //Get the sector transform of our planet
             Transform sectorTF = GameObject.Find("ModJamHub_Body/Sector").transform;
 
-            //Do all of the general prep
-            GeneralPrep(sectorTF);
-
             //Go through each valid planet and make a mod object for it
             JamHub.instance.mods = new List<OtherMod>();
             foreach (NHAstroObject astroObj in Component.FindObjectsOfType<NHAstroObject>())
@@ -85,9 +82,6 @@ namespace JamHub
         {
             //Get the sector transform of our planet
             Transform sectorTF = GameObject.Find("ModJamHub_Body/Sector").transform;
-
-            //Do all of the general prep
-            GeneralPrep(sectorTF);
 
             //Find the name of each mini-system's center
             List<NewHorizonsBody> bodyList = Main.BodyDict["Jam5"];
@@ -123,40 +117,6 @@ namespace JamHub
 
             //Make the computer work
             JamHub.instance.newHorizons.CreateDialogueFromXML("jam5hubcomputer", MakeComputerXML(JamHub.instance.mods), jsonStr, sectorTF.parent.gameObject);
-        }
-
-        /**
-         * Does the prep that will be needed in every system with our planet
-         */
-        private static void GeneralPrep(Transform sectorTF)
-        {
-            //Make the plaques look at the actual displays
-            //Get an array of all the roots
-            Transform[] platforms = {
-                sectorTF.Find("jamplanet/pop_mods_area/showroom/building"),
-                sectorTF.Find("jamplanet/pop_mods_area/showroom_storymods/building"),
-                sectorTF.Find("jamplanet/memorial_area/showroom/building"),
-                //sectorTF.Find("jamplanet/pop_nh_area/showroom/building"),
-                sectorTF.Find("jamplanet/upcoming_nh_area/showroom/building"),
-                sectorTF.Find("jamplanet/prev_jam_area/showroom_jam1/building"),
-                sectorTF.Find("jamplanet/prev_jam_area/showroom_jam2/building"),
-                sectorTF.Find("jamplanet/prev_jam_area/showroom_jam3/building"),
-                sectorTF.Find("jamplanet/prev_jam_area/showroom_jam4/building"),
-                sectorTF.Find("jamplanet/prev_jam_area/showroom_jam5/building")
-            };
-
-            //Loop through each, looking for names with "display"
-            foreach (Transform platform in platforms)
-            {
-                foreach (Transform tf in platform)
-                {
-                    if (tf.name.Contains("display"))
-                    {
-                        //We found one, set the dialogue to look where we want
-                        tf.gameObject.GetComponentInChildren<CharacterDialogueTree>()._attentionPoint = tf.Find("image");
-                    }
-                }
-            }
         }
 
         /**
