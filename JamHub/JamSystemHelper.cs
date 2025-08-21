@@ -157,34 +157,6 @@ namespace JamHub
                     }
                 }
             }
-
-            //Change all of the animator speeds for the modder NPC's so its offset
-            foreach (Animator animator in sectorTF.Find("jamplanet/modder_shack_area/moddershack/building/modders").gameObject.GetComponentsInChildren<Animator>())
-            {
-                float newSpeed = Random.Range(0.9f, 1.1f);
-                int invScale = Random.Range(0, 2);
-
-                //Set the random speed
-                animator.speed = newSpeed;
-
-                //Randomly swap hands
-                int xScale = 1;
-                if (invScale == 1)
-                    xScale = -1;
-                animator.transform.localScale = new Vector3(xScale, 1, 1);
-
-                //If it's trifid, set up their controller
-                if (animator.transform.parent.name.Equals("Trifid"))
-                {
-                    animator.transform.parent.gameObject.AddComponent<TrifidController>();
-                }
-
-                //If it's piggy, set up their controller
-                if (animator.transform.parent.name.Equals("MegaPiggy"))
-                {
-                    animator.transform.parent.gameObject.AddComponent<MegaPiggyController>();
-                }
-            }
         }
 
         /**
