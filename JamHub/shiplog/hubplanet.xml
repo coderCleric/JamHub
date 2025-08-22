@@ -51,7 +51,7 @@
     <ExploreFact>
       <ID>SHOWCASE_DETAILS_FACT_CCL</ID>
       <IgnoreMoreToExplore/>
-      <Text>Ernesto says there are 4 showcases: one for popular mods, one for popular NH mods, one for upcoming NH mods, and a final one for previous mod jams.</Text>
+      <Text>Ernesto says there are 5 showcases: one for popular mods, one for upcoming mods, one for abandoned mods, one for utility mods, and a final one for mod jam entries.</Text>
     </ExploreFact>
   </Entry>
 
@@ -70,7 +70,7 @@
     <!--Details from interacting-->
     <ExploreFact>
       <ID>COMPUTER_DETAILS_FACT_CCL</ID>
-      <Text>Apparently I can use the computer to identify and lock on to the different planets throughout the star system.</Text>
+      <Text>Apparently I can use the computer to identify and lock on to the different planets throughout the star system, provided I'm in a jam system.</Text>
     </ExploreFact>
   </Entry>
   
