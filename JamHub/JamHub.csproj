@@ -57,10 +57,4 @@
       <Private>false</Private>
     </Reference>
   </ItemGroup>
-
-  <ItemGroup>
-    <None Update="dialogue\plaques\adoh.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
 </Project>

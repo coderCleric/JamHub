@@ -28,7 +28,7 @@ namespace JamHub.orrery
             Vector3 rawDist = planet.Planet.transform.position - CenterOfTheUniverse.s_instance._staticReferenceFrame.transform.position;
 
             //Update the location of the planet
-            transform.localPosition = rawDist * distScale;
+            transform.localPosition = rawDist * distScale * -1; //Need to account for being on the south pole
 
             //Update the scale of the planet
             //If we find a gravity well, get surface size from that. Otherwise, use a default size

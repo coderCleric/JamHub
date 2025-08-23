@@ -1,0 +1,165 @@
+{
+  "name": "Mod Jam Hub",
+  "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "starSystem": "Jam5",
+  "canShowOnTitle": false,
+
+  "ShipLog": {
+    "xmlFile": "shiplog/hubplanet.xml",
+    "spriteFolder": "shiplog/images",
+    "mapMode": {
+      "revealedSprite": "shiplog/planet_image.png"
+    }
+  },
+  "Base": {
+    "groundSize": 0,
+    "surfaceSize": 160,
+    "surfaceGravity": 12
+  },
+  "MapMarker": {"enabled": true},
+  "Orbit": {
+    "primaryBody": "Jam Hub Star",
+    "semiMajorAxis": 1200
+  },
+  "Atmosphere": {
+    "atmosphereSunIntensity": 1,
+    "hasOxygen": true,
+    "hasShockLayer": true,
+    "size": 230,
+    "useAtmosphereShader": true,
+    "atmosphereTint": {
+      "r": 140,
+      "b": 228,
+      "g": 255,
+      "a": 255
+    }
+  },
+  "AmbientLights": [
+    {
+      "intensity": 0.4
+    }
+  ],
+  "Props": {
+    "details": [
+      {
+        "keepLoaded": true,
+        "assetBundle": "assetbundles/cleric_jamhub_bundle",
+        "path": "Assets/Prefabs/jam3/jamplanet.prefab"
+      },
+      {
+        "path": "RingWorld_Body/Sector_RingWorld/Sector_SecretEntrance/Interactibles_SecretEntrance/Prefab_IP_DreamLanternItem_2",
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/ArtifactSocket",
+        "isRelativeToParent": true
+      }
+    ],
+    "entryLocation": [
+      {
+        "id": "HUB_PLANET_ENTRY_CCL",
+        "rename": "hub_log_marker"
+      },
+      {
+        "id": "HUB_SHOWCASE_ENTRY_CCL",
+        "rename": "hub_showcase_marker"
+      },
+      {
+        "id": "HUB_PARTY_ENTRY_CCL",
+        "rename": "hub_party_marker",
+        "parentPath": "Sector/jamplanet/modder_shack_area/log_location_anchor",
+        "isRelativeToParent": true
+      },
+      {
+        "id": "HUB_COMPUTER_ENTRY_CCL",
+        "rename": "hub_computer_marker",
+        "parentPath": "Sector/jamplanet/computer_area/log_location_anchor",
+        "isRelativeToParent": true
+      }
+    ],
+    "dreamCampfires": [
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/DreamCampfireSocket",
+        "isRelativeToParent": true,
+        "id": "AnonSim"
+      }
+    ],
+    "warpReceivers": [
+      {
+        "position": {
+          "x": -6.248936,
+          "y": 153.3932,
+          "z": 40.20845
+        },
+        "rotation": {
+          "x": 12.86049,
+          "y": 1.756293,
+          "z": 2.25806
+        },
+        "frequency": "ClericJam5Hub"
+      }
+    ],
+    "singularities": [
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Ditzy/npc_socket",
+        "isRelativeToParent": true,
+        "position": {
+          "y": 1
+        },
+        "rename": "Ditzy_BH",
+        "uniqueID": "Ditzy_BH",
+        "horizonRadius": 0.5,
+        "type": "blackHole",
+        "pairedSingularity": "Ditzy_WH"
+      },
+      {
+        "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/DitzyWarpSocket",
+        "isRelativeToParent": true,
+        "rename": "Ditzy_WH",
+        "uniqueID": "Ditzy_WH",
+        "type": "whiteHole",
+        "pairedSingularity": "Ditzy_BH"
+      }
+    ]
+  },
+  "Volumes": {
+      "conditionTriggerVolumes": [
+          {
+              "condition": "DITZY_WARPED",
+              "parentPath": "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Ditzy/npc_socket",
+              "isRelativeToParent": true,
+              "rename": "DITZY_TRIGGER",
+              "position": {
+                  "y": 1
+              },
+              "ship": false,
+              "player": true,
+              "probe": false,
+              "radius": 0.6,
+              "persistent": false,
+              "reversible": false
+          }
+      ]
+  },
+  "Spawn": {
+    "playerSpawnPoints": [
+      {
+        "rename": "_JamHub_PartyHouse",
+        "position": {
+          "x": -16,
+          "y": 158,
+          "z": 19
+        },
+        "rotation": {
+          "x": 5,
+          "y": 13,
+          "z": 7
+        }
+      }
+    ]
+  },
+  "removeChildren": [
+    "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Ditzy/npc_socket/Ditzy_BH/BlackHoleAmbience",
+    "Sector/jamplanet/modder_shack_area/moddershack/building/modders/Ditzy/npc_socket/Ditzy_BH/BlackHoleEmissionOneShot",
+
+    "Sector/jamplanet/modder_shack_area/moddershack/building/modders/DitzyWarpSocket/Ditzy_WH/WhiteHoleRenderer",
+    "Sector/jamplanet/modder_shack_area/moddershack/building/modders/DitzyWarpSocket/Ditzy_WH/WhiteHoleAmbience"
+  ]
+}

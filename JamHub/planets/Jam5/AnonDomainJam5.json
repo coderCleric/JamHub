@@ -1,7 +1,7 @@
 {
   "name": "AnonDomain",
   "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
-  "starSystem": "Jam3",
+  "starSystem": "Jam5",
   "canShowOnTitle": false,
   "Dream": {
     "inDreamWorld": true,
@@ -10,15 +10,18 @@
   "Base": {
     "groundSize": 0,
     "surfaceSize": 160,
-    "surfaceGravity": 12,
-    "hasMapMarker": false
+    "surfaceGravity": 12
   },
+  "MapMarker": {"enabled": false},
   "Orbit": {
     "isStatic": true,
     "isMoon": true,
     "primaryBody": "Mod Jam Hub",
-    "trueAnomaly": 180,
-    "semiMajorAxis": 600
+    "staticPosition": {
+      "x": 0,
+      "y": 500,
+      "z": 0
+    }
   },
   "Atmosphere": {
     "atmosphereSunIntensity": 1,
