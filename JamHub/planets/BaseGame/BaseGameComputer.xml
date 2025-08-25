@@ -1,0 +1,13 @@
+﻿<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>Orrery Computer</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Hey there! I'm a computer dedicated to tracking all of the different mods in jam systems.</Page>
+      <Page>If you go to a system hosting a mod jam (such as the jam 3 system), I can help you keep track of the mods and the bodies associated with them!</Page>
+      <Page>Unfortunately, the base-game system doesn't have much for me to do. You can still check out the other landmarks on the planet though!</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

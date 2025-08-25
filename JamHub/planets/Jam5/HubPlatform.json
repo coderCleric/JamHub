@@ -6,14 +6,22 @@
     "isPlatform": true
   },
   "Props": {
-    "warpTransmitters": [
+    "details": [
       {
-        "alignmentWindow": 360,
+        "assetBundle": "assetbundles/cleric_jamhub_bundle",
+        "path": "Assets/Prefabs/jam3/JamHubPlatform.prefab",
         "position": {
           "x": 0,
           "y": 0,
           "z": 60
-        },
+        }
+      }
+    ],
+    "warpTransmitters": [
+      {
+        "parentPath": "Sector/JamHubPlatform/WarpAnchor",
+        "isRelativeToParent": true,
+        "alignmentWindow": 360,
         "frequency": "ClericJam5Hub"
       }
     ]

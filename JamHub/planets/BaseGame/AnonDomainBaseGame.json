@@ -1,0 +1,55 @@
+{
+  "name": "AnonDomain",
+  "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "starSystem": "SolarSystem",
+  "canShowOnTitle": false,
+  "Dream": {
+    "inDreamWorld": true,
+    "generateSimulationMeshes": false
+  },
+  "Base": {
+    "groundSize": 0,
+    "surfaceSize": 160,
+    "surfaceGravity": 12
+  },
+  "MapMarker": {"enabled": false},
+  "Orbit": {
+    "isStatic": true,
+    "isMoon": true,
+    "staticPosition": {
+      "x": 0,
+      "y": 5000,
+      "z": 0
+    }
+  },
+  "Atmosphere": {
+    "atmosphereSunIntensity": 1,
+    "hasOxygen": true,
+    "hasShockLayer": true,
+    "size": 230,
+    "useAtmosphereShader": true,
+    "atmosphereTint": {
+      "r": 140,
+      "b": 228,
+      "g": 255,
+      "a": 255
+    }
+  },
+  "Props": {
+    "details": [
+      {
+        "keepLoaded": true,
+        "assetBundle": "assetbundles/cleric_jamhub_bundle",
+        "path": "Assets/Prefabs/jam3/AnonDomain.prefab"
+      }
+    ],
+    "dreamArrivalPoints": [
+      {
+        "parentPath": "Sector/AnonDomain/Interactables/DreamFireSocket",
+        "isRelativeToParent": true,
+        "generateSimulationMeshes": true,
+        "id": "AnonSim"
+      }
+    ]
+  }
+} 

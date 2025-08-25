@@ -1,0 +1,67 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
+	"initialReveal": [ "HUB_PLANET_EXISTENCE_FACT_CCL" ],
+	"curiosities": [
+		{
+			"id": "HUB_PLANET",
+			"color": {
+				"r": 51,
+				"g": 163,
+				"b": 69,
+				"a": 255
+			},
+			"highlightColor": {
+				"r": 86,
+				"g": 191,
+				"b": 103,
+				"a": 255
+			}
+		}
+	],
+	"entryPositions": [
+		{
+			"id": "HUB_PLANET_ENTRY_CCL",
+			"position": {
+				"x": 800,
+				"y": 1200
+			}
+		},
+		{
+			"id": "HUB_PARTY_ENTRY_CCL",
+			"position": {
+				"x": 800,
+				"y": 1450
+			}
+		},
+		{
+			"id": "HUB_SHOWCASE_ENTRY_CCL",
+			"position": {
+				"x": 1050,
+				"y": 1200
+			}
+		},
+		{
+			"id": "HUB_COMPUTER_ENTRY_CCL",
+			"position": {
+				"x": 800,
+				"y": 950
+			}
+		}
+	],
+	"conditionalChecks": [
+		{
+			"check": {
+				"allConditionsSet": [
+					"DITZY_WARPED"
+				]
+			},
+			"then": {
+				"setConditions": [
+					"MH_C_DITZY_NO_MORE",
+					"MH_C_DITZY_BAD_A",
+					"MH_C_DITZY_BAD_B"
+				]
+			}
+		}
+	]
+}
