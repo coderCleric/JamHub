@@ -1,4 +1,9 @@
 # ![JamHub](banner.png)
 
 # OW Mod Jam Hub
-A little mod made for the March 2024 mod jam to celebrate the Outer Wilds modding community. No story or anything like that, but it adds the "Mod Jam Hub" planet which has a few things to check out!
+A hub dedicated to celebrating the Outer Wilds modding community. Compatible with the base-game system, the jam 3 system, and the jam 5 system.
+
+# Features
+- A party house on the north pole with many modders from the community.
+- A series of exhibits around the equator showing off some of the mods made by the community.
+- A computer and orrery on the south pole that helps track mods in the two jam systems.
