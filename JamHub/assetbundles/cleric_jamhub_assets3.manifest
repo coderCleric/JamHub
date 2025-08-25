@@ -1,0 +1,452 @@
+ManifestFileVersion: 0
+CRC: 3618766639
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a93f05d81aa4131135c8a2bc86f2c64f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 332abf173d85f055c33ce9642397f384
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 121
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GAMERIP/Avatar/Villager_HEA_Tuff_ANIM_MineAvatar.asset
+- Assets/GAMERIP/AnimatorController/Rutile_Rocker.controller
+- Assets/GAMERIP/AnimationClip/Take 001.anim
+- Assets/GAMERIP/AnimationClip/Hal_Museum.anim
+- Assets/GAMERIP/AnimatorController/Traveller_Chert_EYE.controller
+- Assets/GAMERIP/Material/Structure_DW_Mangrove_Wood_Light_mat.mat
+- Assets/GAMERIP/AnimatorController/Traveller_Gabbro_EYE.controller
+- Assets/GAMERIP/Material/Structure_DW_Mangrove_Wood_mat.mat
+- Assets/AnimationClip/Arkose_IdleRock.anim
+- Assets/GAMERIP/Material/Structure_HEA_VillageCloth_mat.mat
+- Assets/AnimationClip/Ghostbird_SeePlayer_Scream_v2.anim
+- Assets/GAMERIP/AnimatorController/NPC_Player.controller
+- Assets/Owlk Ruins/materials/Ghostbird_DW_RUGREDClothing_mat.mat
+- Assets/Material/Structure_HEA_VillageCloth_mat.mat
+- Assets/WalkerModJamHubNPC/Materials/Pentagon.mat
+- Assets/Texture2D/Props_IP_LightBulb_e.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Hal_Clothes_n.png
+- Assets/GAMERIP/Material/Structure_NOM_SandStone_Darker_mat.mat
+- Assets/Material/Props_IP_LightBulb_mat.mat
+- Assets/Owlk Ruins/materials/Structure_IP_Mangrove_Wood_mat.mat
+- Assets/GAMERIP/Material/Structure_DW_Mangrove_Wood_Bleached_mat.mat
+- Assets/GAMERIP/Texture2D/LOD_Structure_EYE_Steel_ao.png
+- Assets/Material/Beast_EYE_Jellyfish_Interior_v3_mat.mat
+- Assets/GAMERIP/Materials/character/nomai/Character_NOM_Nomai_v2_d.png
+- Assets/GAMERIP/AnimatorController/Villager_Tuff.controller
+- Assets/AnimatorController/Anglerfish.controller
+- Assets/Material/Effects_NOM_TractorBeamRing_Dithered_mat.mat
+- Assets/Texture2D/Structure_NOM_SilverPorcelain_s.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Esker_Clothes_n.png
+- Assets/AnimationClip/Ghostbird_Walk_Left_Stalking.anim
+- Assets/AnimationClip/Ghostbird_Run_Right_Chase.anim
+- Assets/AnimatorController/Villager_Hornfels_Idle.controller
+- Assets/GAMERIP/Material/Villager_HEA_Hornfels_Skin_mat.mat
+- Assets/GAMERIP/Materials/environment/giantsDeep/props/Tree_GD_Coral_n.png
+- Assets/Materials/character/bukrad/bukrad2.png
+- Assets/AnimatorController/Character_IP_Ghost.controller
+- Assets/GAMERIP/AnimationClip/GabbroHammock_Float.anim
+- Assets/Owlk Ruins/materials/Structure_DW_Mangrove_Wood_Dark_mat.mat
+- Assets/Owlk Ruins/materials/Terrain_IP_DreamGridVP_mat.mat
+- Assets/GAMERIP/Material/Structure_NOM_SandStone_mat.mat
+- Assets/GAMERIP/Material/Clouds_GD_Top_mat.mat
+- Assets/TurtleFinalChar/Borked Porce 2.mat
+- Assets/GAMERIP/Materials/character/travellers/Traveller_HEA_Gabbro_d.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Rutile_Clothes_n.png
+- Assets/GAMERIP/Avatar/Villager_HEA_Rutile_ANIM_RockingAvatar.asset
+- Assets/GAMERIP/Material/Ghostbird_DW_Accessories_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_GravityCrystal_mat.mat
+- Assets/GAMERIP/Material/Traveller_HEA_Riebeck_Banjo_mat.mat
+- Assets/AnimationClip/Ghostbird_WalkForwardUnaware.anim
+- Assets/Materials/slateplank.mat
+- Assets/Material/Structure_NOM_SilverPorcelain_mat.mat
+- Assets/GAMERIP/Material/Villager_HEA_Rutile_Clothes_mat.mat
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Marl_Clothes_d.png
+- Assets/GAMERIP/Materials/character/nomai/Character_NOM_Nomai_v2_n.png
+- Assets/Shader/Legacy Shaders_VertexLit.asset
+- Assets/HN2/Materials/TurtleSkin.mat
+- Assets/GAMERIP/Avatar/Traveller_HEA_Chert_ANIM_Chatter_ChipperAvatar.asset
+- Assets/GAMERIP/AnimationClip/Arkose_IdleRock.anim
+- Assets/GAMERIP/Material/Props_HEA_CampsiteProps_mat.mat
+- Assets/GAMERIP/AnimationClip/Tuff_Idle.anim
+- Assets/Owlk Ruins/materials/Terrain_IP_SimulationInteractible_mat.mat
+- Assets/Resources/editor/textures/BoxShape.png
+- Assets/Nomai Ruins/Resources/Shaders/Standard.asset
+- Assets/GAMERIP/Material/Villager_HEA_Slate_Skin_mat.mat
+- Assets/Owlk Ruins/materials/Ghostbird_DW_Antlers_mat.mat
+- Assets/GAMERIP/AnimatorController/Traveller_Feldspar.controller
+- Assets/HN2/Materials/TurtleShell.mat
+- Assets/GAMERIP/Material/Structure_NOM_WhiteBoardTile_mat.mat
+- Assets/cleric_anims/jam3_ernesto/shack_to_equator.anim
+- Assets/Texture_Turtle/Silver.mat
+- Assets/GAMERIP/Materials/character/travellers/Traveller_HEA_Riebeck_Banjo_s.png
+- Assets/Materials/environment/invisiblePlanet/decals/dreamWorldOnly/Decal_DW_GhostPortraits_d.png
+- Assets/Material/Props_HEA_Lightbulb_mat.mat
+- Assets/GAMERIP/Texture2D/LOD_Structure_EYE_Mangrove_Wood_Dark_n.png
+- Assets/GAMERIP/Material/Props_HEA_JetpackTimeClone_mat.mat
+- Assets/GAMERIP/Texture2D/LOD_Structure_EYE_Mangrove_Wood_Dark_d.png
+- Assets/Texture2D/Structure_HEA_VillageCloth_d.png
+- Assets/Material/ObservatoryInterior_HEA_VillagePlanks_mat.mat
+- Assets/GAMERIP/Texture2D/Clouds_GD_Top_ramp.png
+- Assets/Material/Structure_NOM_Silver_mat.mat
+- Assets/Texture2D/Effects_IP_Grain16_n.png
+- Assets/Texture2D/Structure_IP_DullGlass_n.png
+- Assets/GAMERIP/AnimationClip/Riebeck_Playing.anim
+- Assets/GAMERIP/AnimationClip/Gossan_Polish.anim
+- Assets/GAMERIP/Material/Structure_NOM_CopperOld_mat.mat
+- Assets/GAMERIP/Material/Villager_HEA_Marl_Skin_mat.mat
+- Assets/GAMERIP/Material/Structure_EYE_Iron_mat.mat
+- Assets/GAMERIP/Material/Effects_DarkMatterImpact_mat.mat
+- Assets/Shader/Outer Wilds_Effects_Nomai Vessel Computer Text.asset
+- Assets/GAMERIP/Texture2D/Villager_HEA_Skin_taos.png
+- Assets/GAMERIP/Material/Villager_HEA_Gossan_Skin_mat.mat
+- Assets/Texture2D/Effects_NOM_TextAdult_Shadow_d.png
+- Assets/GAMERIP/Material/Props_NOM_Computer_mat.mat
+- Assets/GAMERIP/Texture2D/Structure_HEA_VillageCloth_d.png
+- Assets/AnimationClip/Ghostbird_TurnLeft.anim
+- Assets/AnimationClip/Ghostbird_LiftPlayer_BlowOut_Fast.anim
+- Assets/GAMERIP/Material/black_mat.mat
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Slate_Skin_d.png
+- Assets/Texture2D/Props_NOM_LargeTractorBeam_mask.png
+- Assets/GAMERIP/Material/Effects_Impact_Rock_mat.mat
+- Assets/GAMERIP/Material/Structure_NOM_CopperOld_Dark_mat.mat
+- Assets/Owlk Ruins/materials/Terrain_IP_DreamLightVP_mat.mat
+- Assets/Owlk Ruins/materials/Structure_DW_Trim_Wood_mat.mat
+- Assets/GAMERIP/Materials/character/travellers/Traveller_HEA_Chert_d.png
+- Assets/GAMERIP/Materials/character/travellers/Traveller_HEA_Feldspar_d.png
+- Assets/GAMERIP/Texture2D/Effects_GM_AuroraMask_d.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Hornfels_Skin_d.png
+- Assets/GAMERIP/Material/Villager_HEA_Galena_Skin_mat.mat
+- Assets/Material/Structure_NOM_SilverPorcelainGlow_mat.mat
+- Assets/GAMERIP/Avatar/Villager_HEA_Hornfels_ANIM_WorkingAvatar.asset
+- Assets/Texture2D/Effects_IP_Gem_d.png
+- Assets/Material/Props_NOM_LargeTractorBeam_mat.mat
+- Assets/Texture2D/LOD_Effects_IP_SIM_DreamfireDataParticles.png
+- Assets/AnimationClip/Ghostbird_LiftPlayer_BlowOut.anim
+- Assets/GAMERIP/Material/Villager_HEA_Tektite_Clothes_mat.mat
+- Assets/Texture2D/LOD_ObservatoryInterior_AO.png
+- Assets/GAMERIP/AnimatorController/Esker_Rocker.controller
+- Assets/GAMERIP/Material/Traveller_HEA_Riebeck_mat.mat
+- Assets/Owlk Ruins/materials/Structure_DW_Mangrove_Wood_Red_mat.mat
+- Assets/GAMERIP/AnimationClip/Hornfels_Talking.anim
+- Assets/GAMERIP/Texture2D/Props_NOM_Computer_mask.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Porcelain_mat.mat
+- Assets/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_Eyes_e.png
+- Assets/GAMERIP/Texture2D/LOD_Structure_EYE_VillageMetal_n.png
+- Assets/Resources/editor/textures/CapsuleShape.png
+- Assets/Shader/Outer Wilds_Effects_Dark Matter.asset
+- Assets/GAMERIP/AnimationClip/GabbroHammock_Drop.anim
+- Assets/Material/newgrass.mat
+- Assets/GAMERIP/Material/Villager_HEA_Slate_Clothes_mat.mat
+- Assets/Owlk Ruins/materials/Decal_DW_GhostPortraits_mat.mat
+- Assets/Resources/editor/textures/Sector.png
+- Assets/GAMERIP/AnimationClip/NPC_Player_Screaming.anim
+- Assets/AnimationClip/Ghostbird_Walk_Forward_Stalking.anim
+- Assets/AnimationClip/Ghostbird_Walk_Right_Stalking.anim
+- Assets/Owlk Ruins/materials/Props_DW_CandlePaper_mat.mat
+- Assets/Materials/character/Traveller_HEA_Gabblowe_mat.mat
+- Assets/GAMERIP/Material/Traveller_HEA_Player_Skin_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_TrimPatternLines_mat.mat
+- Assets/GAMERIP/Avatar/Villager_HEA_Rutile_ANIM_RockerAvatar.asset
+- Assets/Avatar/Beast_AnglerfishAvatar.asset
+- Assets/GAMERIP/Material/Villager_HEA_Mica_Clothes_mat.mat
+- Assets/GAMERIP/Material/Tree_GD_CoralLeaves_mat.mat
+- Assets/HearthsNeighbor/shoe.png
+- Assets/Owlk Ruins/materials/Structure_DW_Trim_Wood_Decal_mat.mat
+- Assets/Owlk Ruins/materials/Structure_DW_TheaterScreen_Wood_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_WovenGrooves_s.png
+- Assets/Owlk Ruins/materials/Structure_DW_Mangrove_Wood_Lacquer_mat.mat
+- Assets/GAMERIP/Avatar/Props_HEA_Gabbro_ANIM_IdleFluteAvatar.asset
+- Assets/Texture_Turtle/GooGooBabies.mat
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Slate_Skin_n.png
+- Assets/GAMERIP/Shader/Outer Wilds_Effects_Dark Matter.asset
+- Assets/GAMERIP/AnimatorController/Villager_Porphy.controller
+- Assets/GAMERIP/AnimatorController/Villager_Arkose.controller
+- Assets/GAMERIP/Material/Villager_HEA_Arkose_Clothes_mat.mat
+- Assets/GAMERIP/Material/Structure_HEA_VillageCabin_mat.mat
+- Assets/Materials/Modified OW Mats/orrery_selected.mat
+- Assets/GAMERIP/Shader/Legacy Shaders_VertexLit.asset
+- Assets/GAMERIP/Material/Structure_NOM_SandStone_Dark_mat.mat
+- Assets/GAMERIP/Material/Effects_HGT_VoidShadow_mat.mat
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Mica_Clothes_d.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Hornfels_Skin_n.png
+- Assets/GAMERIP/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_REDClothing_d.png
+- Assets/AnimationClip/Ghostbird_Idle_Unaware.anim
+- Assets/GAMERIP/Texture2D/LOD_Structure_EYE_Mangrove_Wood_Dark_s.png
+- Assets/GAMERIP/Texture2D/ExtinctionGradient_TH_Sapwine_d.png
+- Assets/GAMERIP/Material/Terrain_TH_Sapwine_mat.mat
+- Assets/Texture2D/NoiseSubtle_d.png
+- Assets/GAMERIP/Texture2D/Structure_NOM_Whiteboard_d.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Slate_Clothes_d.png
+- Assets/AnimationClip/Ghostbird_DeathFast.anim
+- Assets/Material/Props_IP_Rug_DW_mat.mat
+- Assets/TurtleFinalChar/TurtleGuyGreen.mat
+- Assets/GAMERIP/AnimationClip/Prisoner_Idle_HoldTorch.anim
+- Assets/Texture2D/Effects_NOM_TractorBeamSprite_d.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Glass_Opaque_mat.mat
+- Assets/Resources/textures/Black_d.png
+- Assets/GAMERIP/AnimatorController/Hammock.controller
+- Assets/GAMERIP/Material/Villager_HEA_Mica_Skin_mat.mat
+- Assets/GAMERIP/Shader/Outer Wilds_Utility_Clouds Top Layer Stencil.asset
+- Assets/shitandshit/Shader/Standard_0.asset
+- Assets/Owlk Ruins/materials/Structure_DW_Mangrove_Wood_Bleached_mat.mat
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Iron_s.png
+- Assets/Material/ObservatoryInterior_HEA_VillageMetal_mat.mat
+- Assets/GAMERIP/AnimationClip/Hal_Whittling2.anim
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Silver_mat.mat
+- Assets/Material/Ghostbird_DW_Skin_mat.mat
+- Assets/cleric_anims/jam3_ernesto/idle_at_computer.anim
+- Assets/GAMERIP/Avatar/Villager_HEA_Galena_ANIM_IdleAvatar.asset
+- Assets/GAMERIP/AnimatorController/Villager_Hal_Museum.controller
+- Assets/GAMERIP/Material/Villager_HEA_Hal_Skin_mat.mat
+- Assets/GAMERIP/AnimationClip/Esker_Rocker.anim
+- Assets/Material/Exterior_IP_Iron_DarkPaint_Old_mat.mat
+- Assets/Owlk Ruins/materials/Structure_IP_Iron_mat.mat
+- Assets/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_BLUEClothing_d.png
+- Assets/Shader/Outer Wilds_Effects_Tractor Beam Particles (Dithered).asset
+- Assets/GAMERIP/AnimatorController/Traveller_Riebeck_EYE.controller
+- Assets/Owlk Ruins/materials/Ghostbird_DW_RUGGREENClothing_mat.mat
+- Assets/WalkerModJamHubNPC/Materials/Chime Redesign/Foil.mat
+- Assets/AnimationClip/Hornfels_Talking.anim
+- Assets/Materials/Modified OW Mats/orrery_unselected.mat
+- Assets/Texture2D/Effects_GM_AuroraMask_d.png
+- Assets/GAMERIP/Material/Props_HEA_CampfireRocks_mat.mat
+- Assets/GAMERIP/Materials/environment/timberHearth/props/Tree_TH_Stump_h.png
+- Assets/GAMERIP/Material/Villager_HEA_Arkose_Skin_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_TrimPattern_s.png
+- Assets/HearthsNeighbor/Materials/shoe.mat
+- Assets/Texture2D/Structure_NOM_TrimPattern_s.png
+- Assets/AnimationClip/Ghostbird_Idle_Grab_v2.anim
+- Assets/GAMERIP/Resources/textures/White_d.png
+- Assets/GAMERIP/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Iron_s.png
+- Assets/Materials/Textures/cleric_plank.png
+- Assets/GAMERIP/Material/Villager_HEA_Marl_Clothes_mat.mat
+- Assets/GAMERIP/Texture2D/LOD_Structure_EYE_VillageMetal_d.png
+- Assets/GAMERIP/Material/Villager_HEA_Esker_Skin_mat.mat
+- Assets/Material/Effects_NOM_VesselRecorderRing_mat.mat
+- Assets/Texture2D/Effects_IP_CyberspaceGlitterLinesGrayscale_d.png
+- Assets/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_RUGGREENClothing_d.png
+- Assets/GAMERIP/Material/Default-Material.mat
+- Assets/GAMERIP/Avatar/Traveller_HEA_Feldspar_ANIM_TalkingAvatar.asset
+- Assets/Texture2D/Effects_IP_LanternMask_d.png
+- Assets/GAMERIP/AnimationClip/Rutile_Rocker.anim
+- Assets/GAMERIP/Material/Villager_HEA_Rutile_Skin_mat.mat
+- Assets/GAMERIP/AnimationClip/Slate_FloorSit.anim
+- Assets/Texture2D/Props_DW_CandlePaper_e.png
+- Assets/GAMERIP/Material/Structure_NOM_TrimPattern_mat.mat
+- Assets/GAMERIP/Avatar/Villager_HEA_Porphy_ANIM_TasteAvatar.asset
+- Assets/GAMERIP/AnimatorController/Villager_Slate.controller
+- Assets/GAMERIP/Material/Villager_HEA_Hal_Clothes_mat.mat
+- Assets/GAMERIP/Materials/character/travellers/Traveller_HEA_Riebeck_s.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Arkose_Clothes_d.png
+- Assets/Material/Tree_TH_RedwoodLeaves_mat.mat
+- Assets/GAMERIP/Material/Structure_DW_Iron_mat.mat
+- Assets/Texture2D/Structure_NOM_WovenGrooves_s.png
+- Assets/Shader/Outer Wilds_Effects_Flame.asset
+- Assets/cleric_anims/jam3_ernesto/equator_to_computer.anim
+- Assets/GAMERIP/Avatar/Villager_HEA_Arkose_ANIM_RockThrowAvatar.asset
+- Assets/shitandshit/Shader/Legacy Shaders_VertexLit.asset
+- Assets/GAMERIP/Material/Props_HEA_RoastingStick_mat.mat
+- Assets/GAMERIP/Material/Traveller_HEA_Player_Clothes_mat.mat
+- Assets/AnimationClip/Ghostbird_Death.anim
+- Assets/GAMERIP/Avatar/Villager_HEA_Slate_ANIM_LogSitAvatar.asset
+- Assets/Texture2D/Structure_NOM_Grooves_s.png
+- Assets/GAMERIP/AnimationClip/Porphy_Taste.anim
+- Assets/owlk_planet/Materials/Ghostbird_DW_PURPELClothing_mat 2.mat
+- Assets/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_RUGBLUEClothing_d.png
+- Assets/GAMERIP/Avatar/Villager_HEA_Mica_ANIMAvatar.asset
+- Assets/Material/Ghostbird_DW_BLUEClothing_mat.mat
+- Assets/Shader/Outer Wilds_Effects_Tractor Beam (Dithered).asset
+- Assets/Owlk Ruins/materials/Structure_DW_Mangrove_Wood_Light_mat.mat
+- Assets/Material/Structure_HEA_PlayerShip_SignsDecal_mat.mat
+- Assets/Owlk Ruins/materials/Terrain_IP_DreamGrid_mat.mat
+- Assets/GAMERIP/Texture2D/LOD_Structure_EYE_Steel_d.png
+- Assets/Shader/Standard (Decal).asset
+- Assets/Owlk Ruins/materials/Ghostbird_DW_RUGBLUEClothing_mat.mat
+- Assets/GAMERIP/Texture2D/LOD_Structure_EYE_Iron_n.png
+- Assets/GAMERIP/AnimationClip/Chert_Drum_Panicked.anim
+- Assets/Material/Structure_NOM_Copper_mat.mat
+- Assets/Texture2D/Character_NOM_Nomai_v2_d 1.png
+- Assets/GAMERIP/Avatar/Villager_HEA_Esker_ANIM_RockerAvatar.asset
+- Assets/GAMERIP/Material/Character_NOM_Nomai_v2_mat.mat
+- Assets/GAMERIP/Material/Traveller_HEA_Feldspar_mat.mat
+- Assets/GAMERIP/Material/Structure_DW_Mangrove_Wood_Dark_mat.mat
+- Assets/GAMERIP/Material/Structure_EYE_VillageMetal_mat.mat
+- Assets/GAMERIP/Material/Villager_HEA_Galena_Clothes_mat.mat
+- Assets/GAMERIP/Material/Clouds_EYE_TopStencil_mat.mat
+- Assets/GAMERIP/Texture2D/LOD_Structure_EYE_Steel_s.png
+- Assets/GAMERIP/Material/Tree_TH_Stump_mat.mat
+- Assets/GAMERIP/Shader/Standard_0.asset
+- Assets/cleric_anims/jam3_ernesto/idle_at_equator.anim
+- Assets/AnimationClip/Ghostbird_LiftPlayer_SnapNeck.anim
+- Assets/GAMERIP/Materials/character/travellers/Traveller_HEA_Riebeck_d.png
+- Assets/GAMERIP/Avatar/Villager_HEA_Hal_ANIM_MuseumAvatar.asset
+- Assets/AnimationClip/Ghostbird_Run_Forward_Chase.anim
+- Assets/Texture2D/Effects_GM_Aurora2_d.png
+- Assets/WalkerModJamHubNPC/Materials/Eyes.mat
+- Assets/GAMERIP/AnimatorController/Villager_Hornfels_Statue.controller
+- Assets/GAMERIP/Material/Effects_Impact_Wood_mat.mat
+- Assets/WalkerModJamHubNPC/Materials/Chime Redesign/Scanner 1.mat
+- Assets/GAMERIP/Avatar/Traveller_HEA_Player_v2Avatar.asset
+- Assets/GAMERIP/Material/Traveller_HEA_Chert_mat.mat
+- Assets/Material/Effects_NOM_TractorBeam_Dithered_mat.mat
+- Assets/GAMERIP/AnimatorController/Villager_Gossan.controller
+- Assets/Owlk Ruins/materials/Structure_IP_Mangrove_Wood_Bleached_mat.mat
+- Assets/Material/Ghostbird_DW_Accessories_mat.mat
+- Assets/Owlk Ruins/materials/Structure_DW_Iron_mat.mat
+- Assets/Owlk Ruins/materials/Structure_DW_Steel_mat.mat
+- Assets/GAMERIP/Shader/Outer Wilds_Effects_Reality Shadow.asset
+- Assets/GAMERIP/Texture2D/AlphaSmoothRadialMask.png
+- Assets/GAMERIP/Texture2D/Effects_GM_Aurora2_d.png
+- Assets/GAMERIP/Avatar/Villager_HEA_Esker_ANIM_RockingAvatar.asset
+- Assets/Shader/Outer Wilds_Particles_Additive.asset
+- Assets/GAMERIP/Texture2D/LOD_Structure_EYE_Iron_d.png
+- Assets/GAMERIP/Material/Structure_DW_Mangrove_Wood_Lacquer_mat.mat
+- Assets/GAMERIP/Material/Traveller_HEA_PlayerTimeClone_mat.mat
+- Assets/Shader/Outer Wilds_Environment_Invisible Planet_Cyberspace Interactible.asset
+- Assets/cleric_anims/jam3_ernesto/jam3_ernesto.controller
+- Assets/GAMERIP/Texture2D/Props_HEA_RoastingStick_n.png
+- Assets/GAMERIP/Material/ObservatoryExterior_HEA_CampsiteProps_mat.mat
+- Assets/AnimationClip/Ghostbird_Death_v2.anim
+- Assets/GAMERIP/AnimatorController/Villager_Tektite.controller
+- Assets/GAMERIP/Texture2D/Structure_NOM_TrimPattern_s.png
+- Assets/WalkerModJamHubNPC/Materials/Chime Redesign/Metal 3.mat
+- Assets/Owlk Ruins/materials/Foliage_DW_Ground_mat.mat
+- Assets/GAMERIP/AnimationClip/Mica_Idle.anim
+- Assets/GAMERIP/Material/Villager_HEA_Porphy_Clothes_mat.mat
+- Assets/Flare/DreamLanternFlare.flare
+- Assets/GAMERIP/Material/Structure_DW_Trim_Wood_Decal_mat.mat
+- Assets/Karvi/Buildings/importedStuff2/Material/Props_HEA_CampsiteProps_mat.mat
+- Assets/Shader/Outer Wilds_Environment_Invisible Planet_Cyberspace.asset
+- Assets/GAMERIP/AnimatorController/Villager_Rutile.controller
+- Assets/TurtleFinalChar/TexTurtCrtl.controller
+- Assets/GAMERIP/AnimatorController/Villager_Mica.controller
+- Assets/GAMERIP/Material/Structure_HEA_VillagePlanks_mat.mat
+- Assets/Materials/character/beasts/anglerfish/Beast_Anglerfish_e.png
+- Assets/Texture2D/Character_NOM_Nomai_v2_n.png
+- Assets/Materials/advanced_nomai.mat
+- Assets/Resources/editor/textures/CompoundShape.png
+- Assets/GAMERIP/Shader/Legacy Shaders_Self-Illumin_VertexLit.asset
+- Assets/GAMERIP/Material/Ghostbird_DW_REDClothing_mat.mat
+- Assets/GAMERIP/Material/Ghostbird_DW_Antlers_mat.mat
+- Assets/Shader/Standard_0.asset
+- Assets/Material/Tree_TH_Redwood_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_TrimPattern_mat.mat
+- Assets/Texture2D/Effects_DW_LanternFlare_d.png
+- Assets/Materials/character/bukrad/Materials/bukrad2.mat
+- Assets/Material/Structure_HEA_VillageMetal_mat.mat
+- Assets/GAMERIP/Material/Structure_EYE_Steel_mat.mat
+- Assets/GAMERIP/AnimatorController/Villager_Marl.controller
+- Assets/GAMERIP/Material/Structure_EYE_Mangrove_Wood_Dark_mat.mat
+- Assets/Material/Structure_NOM_Porcelain_mat.mat
+- Assets/Material/Beast_Anglerfish_mat.mat
+- Assets/Material/Effects_IP_SIM_GhostDeathParticle_mat.mat
+- Assets/GAMERIP/Material/Traveller_HEA_PlayerSuit_mat.mat
+- Assets/Texture2D/Structure_IP_Iron_s.png
+- Assets/GAMERIP/Material/Tree_TH_Redwood_mat.mat
+- Assets/GAMERIP/AnimatorController/Solanum_v2.controller
+- Assets/GAMERIP/Avatar/Villager_HEA_Tektite_ANIM_IdleAvatar.asset
+- Assets/GAMERIP/Material/Ghostbird_DW_Skin_COA_mat.mat
+- Assets/GAMERIP/Material/Villager_HEA_Hornfels_Clothes_mat.mat
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Mica_Skin_n.png
+- Assets/GAMERIP/Texture2D/LOD_Structure_EYE_Iron_s.png
+- Assets/GAMERIP/Avatar/Traveller_HEA_Gabbro_ANIM_IdleFluteAvatar.asset
+- Assets/Materials/environment/invisiblePlanet/Props/dreamWorldOnly/Props_DW_Candle_n.png
+- Assets/Material/Ghostbird_DW_Eyes_mat.mat
+- Assets/GAMERIP/AnimatorController/Villager_Hal_Outside.controller
+- Assets/GAMERIP/Material/Structure_HEA_VillageMetal_mat.mat
+- Assets/AnimationClip/Ghostbird_Walk_Backward_Stalking.anim
+- Assets/Texture2D/Effects_NOM_TextAdult_d.png
+- Assets/GAMERIP/Material/Villager_HEA_Tuff_Skin_mat.mat
+- Assets/GAMERIP/Texture2D/LOD_Structure_EYE_Iron_ao.png
+- Assets/Materials/environment/invisiblePlanet/Props/dreamWorldOnly/Props_DW_CandlePaperBase_e.png
+- Assets/AnimationClip/Ghostbird_DeathFast_Jittery.anim
+- Assets/GAMERIP/Material/Villager_HEA_Gossan_Clothes_mat.mat
+- Assets/GAMERIP/Material/Villager_HEA_Tuff_Clothes_mat.mat
+- Assets/Materials/character/bukrad/Materials/bukrad.mat
+- Assets/GAMERIP/Material/Tree_GD_Coral_mat.mat
+- Assets/Texture2D/Effects_IP_DreamFlames_d.png
+- Assets/Texture_Turtle/Turtle.png
+- Assets/GAMERIP/Materials/character/travellers/Traveller_HEA_Riebeck_n.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_SandStone_mat.mat
+- Assets/Owlk Ruins/materials/Structure_DW_Mangrove_Wood_mat.mat
+- Assets/Texture2D/Structure_IP_DullGlass_d.png
+- Assets/GAMERIP/Material/Ghostbird_DW_Skin_mat.mat
+- Assets/GAMERIP/AnimationClip/Tuff_Mine.anim
+- Assets/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_RUGREDClothing_d.png
+- Assets/GAMERIP/Texture2D/Traveller_HEA_PlayerSuit_d.png
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_GravityCrystal_n.png
+- Assets/GAMERIP/Material/Structure_DW_Steel_mat.mat
+- Assets/GAMERIP/Avatar/Villager_HEA_Marl_ANIM_StareDwnAvatar.asset
+- Assets/AnimationClip/anglernew mouth open.anim
+- Assets/GAMERIP/AnimationClip/Galena_Idle.anim
+- Assets/Owlk Ruins/materials/Structure_IP_Trim_Wood_mat.mat
+- Assets/Owlk Ruins/materials/Structure_IP_Trim_Iron_mat.mat
+- Assets/GAMERIP/Material/Ghostbird_DW_Eyes_mat.mat
+- Assets/GAMERIP/Avatar/Traveller_HEA_Riebeck_ANIM_TalkingAvatar.asset
+- Assets/Owlk Ruins/materials/Structure_IP_DullGlass_mat.mat
+- Assets/AnimationClip/Ghostbird_Idle_LanternUp.anim
+- Assets/AnimationClip/Ghostbird_TurnRight.anim
+- Assets/GAMERIP/Texture2D/Structure_NOM_CopperOld_s.png
+- Assets/Material/Effects_IP_LanternFlame_mat.mat
+- Assets/Materials/character/bukrad/bukrad.png
+- Assets/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_INVERSEClothing_d.png
+- Assets/Texture2D/Structure_NOM_SilverPorcelain_n.png
+- Assets/Texture2D/Effects_IP_GhostDeathParticles.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Arkose_Clothes_n.png
+- Assets/Material/Effects_DarkMatterImpact_mat.mat
+- Assets/GAMERIP/Texture2D/Props_HEA_RoastingStick_t.png
+- Assets/Material/Props_HEA_MuseumWords_mat.mat
+- Assets/GAMERIP/AnimatorController/Villager_Esker.controller
+- Assets/Texture2D/AlphaSmoothRadialMask.png
+- Assets/Owlk Ruins/materials/Ghostbird_DW_BLACKClothing_mat.mat
+- Assets/shitandshit/Shader/Standard (Decal).asset
+- Assets/GAMERIP/Material/Villager_HEA_Porphy_Skin_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Floor_mat.mat
+- Assets/GAMERIP/AnimatorController/Villager_Galena.controller
+- Assets/AnimationClip/anglernew idle.anim
+- Assets/WalkerModJamHubNPC/Textures/Pentagon.png
+- Assets/GAMERIP/AnimationClip/Tektite_Idle.anim
+- Assets/Materials/environment/invisiblePlanet/Props/dreamWorldOnly/Props_DW_Candle_s.png
+- Assets/GAMERIP/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_Eyes_e.png
+- Assets/Material/Effects_IP_SIM_DreamfireDataParticle_mat.mat
+- Assets/Texture2D/Foliage_IP_Ground_t.png
+- Assets/TurtleFinalChar/LOD_Structure_EYE_SilverPorcelain_d.png
+- Assets/GAMERIP/Avatar/Villager_HEA_Gossan_ANIM_PolishAvatar.asset
+- Assets/GAMERIP/Material/Traveller_HEA_Gabbro_mat.mat
+- Assets/GAMERIP/Material/Props_NOM_Mask_Trim_mat.mat
+- Assets/Resources/editor/textures/SphereShape.png
+- Assets/GAMERIP/AnimatorController/Character_IP_Prisoner_EYE.controller
+- Assets/cleric_anims/jam3_ernesto/idle_at_shack.anim
+- Assets/GAMERIP/Materials/character/travellers/Traveller_HEA_Gabbro_n.png
+- Assets/GAMERIP/Material/Villager_HEA_Tektite_Skin_mat.mat
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Tektite_Clothes_d.png
+- Assets/GAMERIP/Materials/character/travellers/Traveller_HEA_Feldspar_n.png
+- Assets/WalkerModJamHubNPC/Materials/Chime Redesign/Probe/Scanner 3.mat
+- Assets/GAMERIP/Material/Villager_HEA_Esker_Clothes_mat.mat
+- Assets/GAMERIP/Texture2D/LOD_Structure_EYE_Steel_n.png
+Dependencies:
+- C:/Users/wesca/source/repos/JamHub/Mod/JamHub/assetbundles/cleric_jamhub_assets1
+- C:/Users/wesca/source/repos/JamHub/Mod/JamHub/assetbundles/cleric_jamhub_assets2
+- C:/Users/wesca/source/repos/JamHub/Mod/JamHub/assetbundles/cleric_jamhub_assets4
+- C:/Users/wesca/source/repos/JamHub/Mod/JamHub/assetbundles/cleric_jamhub_bundle

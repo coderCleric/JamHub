@@ -1,0 +1,153 @@
+ManifestFileVersion: 0
+CRC: 3368125476
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8813cf294a937d3bf2b85e026f69fd5b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f229c0af8a01b519deaa020067f0a16b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_Accessories_n.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Arkose_Clothes_s.png
+- Assets/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_Clothing_n.png
+- Assets/Materials/character/beasts/anglerfish/Beast_Anglerfish_n.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_Light_d.png
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_IP_Iron_DarkPaint_Old_s.png
+- Assets/GAMERIP/Shader/Outer Wilds_Character_Clothes.asset
+- Assets/Texture2D/Structure_IP_Iron_d.png
+- Assets/GAMERIP/AnimationClip/Gabbro_DreamIdle.anim
+- Assets/GAMERIP/Texture2D/Props_HEA_Jetpack_s.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Hal_Clothes_ao.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Esker_Clothes_ao.png
+- Assets/GAMERIP/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_d.png
+- Assets/GAMERIP/AnimationClip/Esker_DreamIdle.anim
+- Assets/Materials/environment/timberHearth/terrain/Terrain_TH_GrassDetailV1_normal.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Iron_n.png
+- Assets/GAMERIP/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_Clothing_n.png
+- Assets/Texture2D/Tree_TH_Redwood_02_AO.png
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_IP_Mangrove_Wood_ao.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Porphy_Clothes_ao.png
+- Assets/GAMERIP/Materials/environment/hearthian/observatory/ObservatoryExterior_AO.png
+- Assets/GAMERIP/Materials/environment/timberHearth/props/Tree_TH_Redwood_02_AO.png
+- Assets/Shader/Outer Wilds_Character_Ghostbird Skin.asset
+- Assets/GAMERIP/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_Lacquer_d.png
+- Assets/GAMERIP/AnimationClip/Mica_Duck.anim
+- Assets/Materials/character/beasts/anglerfish/Beast_Anglerfish_s.png
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_IP_Iron_DarkPaint_Old_n.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Galena_Clothes_d.png
+- Assets/GAMERIP/Materials/character/travellers/Traveller_HEA_Chert_ao.png
+- Assets/GAMERIP/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Iron_ao.png
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_RW_Mangrove_Wood_s.png
+- Assets/GAMERIP/Texture2D/Props_HEA_Jetpack_ao.png
+- Assets/GAMERIP/Texture2D/Clouds_GD_TopCap_n.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Iron_ao.png
+- Assets/WalkerModJamHubNPC/Textures/Chime Redesign/Structure_DW_Iron_DarkPaint_New_d.png
+- Assets/GAMERIP/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_Dark_d.png
+- Assets/Texture2D/Structure_IP_Iron_ao.png
+- Assets/GAMERIP/AnimationClip/Esker_Rocking.anim
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Marl_Clothes_ao.png
+- Assets/GAMERIP/Materials/environment/timberHearth/props/Tree_TH_Redwood_02_d.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Arkose_Clothes_ao.png
+- Assets/GAMERIP/Texture2D/Clouds_GD_TopOverlay_h.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Tektite_Clothes_ao.png
+- Assets/GAMERIP/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Iron_n.png
+- Assets/GAMERIP/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Iron_d.png
+- Assets/GAMERIP/Texture2D/Clouds_GD_TopCap_d.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Galena_Clothes_s.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Tektite_Clothes_s.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Rutile_Clothes_d.png
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_RW_Mangrove_Wood_d.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_PorcelainClean_d.png
+- Assets/GAMERIP/Texture2D/Traveller_HEA_Player_Clothes_s.png
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_IP_Trim_Iron_s.png
+- Assets/Texture2D/Structure_HEA_VillageCloth_s.png
+- Assets/GAMERIP/Materials/character/travellers/Traveller_HEA_Feldspar_s.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_Red_d.png
+- Assets/GAMERIP/Materials/character/travellers/Traveller_HEA_Chert_s.png
+- Assets/GAMERIP/Texture2D/Props_HEA_CampfireRocks_d.png
+- Assets/GAMERIP/AnimationClip/Tektite_Look.anim
+- Assets/TurtleFinalChar/Structure_NOM_PorcelainBroken_d.png
+- Assets/GAMERIP/Materials/character/travellers/Traveller_HEA_Feldspar_ao.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Esker_Clothes_s.png
+- Assets/GAMERIP/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Steel_d.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Hornfels_Clothes_s.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Tuff_Clothes_ao.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Mica_Clothes_s.png
+- Assets/GAMERIP/AnimationClip/Mica_Stand.anim
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Esker_Clothes_d.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Hornfels_Clothes_ao.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Gossan_Clothes_ao.png
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_IP_Mangrove_Wood_Bleached_s.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Slate_Clothes_s.png
+- Assets/GAMERIP/Texture2D/Props_HEA_Jetpack_n.png
+- Assets/Texture2D/Structure_DW_TheaterScreen_Wood_d.png
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_IP_Iron_DarkPaint_Old_d.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Hal_Clothes_d.png
+- Assets/GAMERIP/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_Light_d.png
+- Assets/GAMERIP/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_Bleached_s.png
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_RW_Mangrove_Wood_n.png
+- Assets/Materials/environment/timberHearth/props/Tree_TH_Redwood_02_n.png
+- Assets/GAMERIP/Shader/Outer Wilds_Character_Ghostbird Skin.asset
+- Assets/Materials/environment/timberHearth/props/Tree_TH_Redwood_02_d.png
+- Assets/Texture2D/Structure_NOM_Porcelain_d.png
+- Assets/GAMERIP/Texture2D/Traveller_HEA_PlayerSuit_s.png
+- Assets/GAMERIP/AnimationClip/Tektite_Stand.anim
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_Bleached_d.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Mica_Clothes_ao.png
+- Assets/GAMERIP/AnimationClip/Tektite_LookToIdle.anim
+- Assets/GAMERIP/AnimationClip/Rutile_Rockin.anim
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_d.png
+- Assets/GAMERIP/AnimationClip/Chert_Dream.anim
+- Assets/GAMERIP/AnimationClip/Arkose_SitUp.anim
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Rutile_Clothes_ao.png
+- Assets/GAMERIP/AnimationClip/Arkose_Idle.anim
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_Lacquer_d.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_Dark_d.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_Bleached_s.png
+- Assets/GAMERIP/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_Skin_COA_n.png
+- Assets/GAMERIP/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_Accessories_n.png
+- Assets/GAMERIP/Materials/character/travellers/Traveller_HEA_Gabbro_s.png
+- Assets/GAMERIP/Materials/environment/giantsDeep/props/Tree_GD_Coral_s.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Marl_Clothes_s.png
+- Assets/Texture2D/Structure_IP_Mangrove_Wood_Bleached_d.png
+- Assets/WalkerModJamHubNPC/Textures/Chime Redesign/Structure_IP_Iron_DarkPaint_Old_n.png
+- Assets/GAMERIP/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_Bleached_d.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Tuff_Clothes_s.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Porphy_Clothes_s.png
+- Assets/GAMERIP/AnimationClip/Riebeck_DreamIdle.anim
+- Assets/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_Skin_n.png
+- Assets/GAMERIP/Texture2D/Structure_HEA_VillageCloth_s.png
+- Assets/Texture2D/Structure_HEA_VillagePlanks_n.png
+- Assets/Texture2D/Structure_IP_Iron_n.png
+- Assets/GAMERIP/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_Skin_n.png
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_IP_Trim_Iron_n.png
+- Assets/GAMERIP/Materials/environment/timberHearth/props/Tree_TH_Redwood_02_n.png
+- Assets/Texture_Turtle/Character_NOM_NomaiDirtHoles_Advanced_d.png
+- Assets/GAMERIP/Texture2D/Traveller_HEA_PlayerSuit_ao.png
+- Assets/Texture_Turtle/Character_NOM_NomaiDirtHoles_Advanced_d2.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Galena_Clothes_ao.png
+- Assets/GAMERIP/Texture2D/Structure_HEA_VillagePlanks_n.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Hal_Clothes_s.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Rutile_Clothes_s.png
+- Assets/GAMERIP/AnimationClip/Solanum_LookAtPlayer_Idle.anim
+- Assets/WalkerModJamHubNPC/Textures/Chime Redesign/NormalMap (15).png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Gossan_Clothes_s.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Iron_DarkPaint_New_d.png
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_IP_Mangrove_Wood_n.png
+- Assets/GAMERIP/Texture2D/Traveller_HEA_Player_Clothes_ao.png
+- Assets/GAMERIP/Texture2D/Traveller_HEA_Player_Skin_ao.png
+- Assets/GAMERIP/AnimationClip/NPC_Player_Talking.anim
+- Assets/Materials/environment/invisiblePlanet/Props/dreamWorldOnly/Props_IP_Rug_DW_d.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Steel_d.png
+Dependencies:
+- C:/Users/wesca/source/repos/JamHub/Mod/JamHub/assetbundles/cleric_jamhub_assets3

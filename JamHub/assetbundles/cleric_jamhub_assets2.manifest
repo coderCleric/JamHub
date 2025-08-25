@@ -1,0 +1,67 @@
+ManifestFileVersion: 0
+CRC: 877645810
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1b82db688d9f83289ec138fdee482b02
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 12fed48dfc3885ae5fff0ad2491ddbca
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Galena_Skin_n.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Tektite_Skin_n.png
+- Assets/GAMERIP/Texture2D/Traveller_HEA_Player_Skin_d.png
+- Assets/Texture2D/Structure_NOM_Silver_n.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Tuff_Skin_n.png
+- Assets/Texture2D/Structure_NOM_Silver_d.png
+- Assets/WalkerModJamHubNPC/Textures/Chime Redesign/Structure_IP_metalHammered_n.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Gossan_Skin_n.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Silver_n.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Silver_d.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Porphy_Clothes_n.png
+- Assets/GAMERIP/Texture2D/Props_HEA_RoastingStick_d.png
+- Assets/GAMERIP/Texture2D/Traveller_HEA_Player_Skin_n.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Arkose_Skin_d.png
+- Assets/Texture_Turtle/Structure_NOM_Silver_n.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Galena_Skin_d.png
+- Assets/Texture2D/Structure_NOM_Silver_s.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Rutile_Skin_n.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Marl_Skin_n.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Silver_s.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Slate_Clothes_n.png
+- Assets/GAMERIP/Materials/character/travellers/Traveller_HEA_Riebeck_ao.png
+- Assets/GAMERIP/Texture2D/Traveller_HEA_PlayerSuit_n.png
+- Assets/AnimationClip/Ghostbird_Run_Left_Chase.anim
+- Assets/AnimationClip/Ghostbird_Walk_Forward_Unaware_StairsUp.anim
+- Assets/AnimationClip/Ghostbird_Grab_v2.anim
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Tuff_Clothes_n.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Tektite_Skin_d.png
+- Assets/AnimationClip/Ghostbird_Walk_Forward_Unaware_StairsDown.anim
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Gossan_Skin_d.png
+- Assets/GAMERIP/Texture2D/Traveller_HEA_Player_Clothes_n.png
+- Assets/Texture_Turtle/Structure_NOM_Silver_s.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Mica_Skin_d.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Hornfels_Clothes_n.png
+- Assets/GAMERIP/AnimationClip/Arkose_RockTrhow.anim
+- Assets/GAMERIP/Texture2D/Structure_NOM_CopperOld_d.png
+- Assets/GAMERIP/AnimationClip/Slate_LogSit.anim
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Marl_Clothes_n.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Esker_Skin_d.png
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_IP_metalHammered_n.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Hal_Skin_n.png
+- Assets/GAMERIP/Texture2D/Clouds_GD_Top_h.png
+- Assets/Texture_Turtle/Structure_NOM_Silver_d.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Esker_Skin_n.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Porphy_Skin_n.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Tektite_Clothes_n.png
+- Assets/GAMERIP/AnimationClip/Gabbro_Flute.anim
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Marl_Skin_d.png
+- Assets/GAMERIP/Materials/environment/giantsDeep/props/Tree_GD_Coral_d.png
+Dependencies: []

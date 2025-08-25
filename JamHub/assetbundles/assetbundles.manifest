@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+CRC: 1083900827
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: cleric_jamhub_bundle
+      Dependencies:
+        Dependency_0: cleric_jamhub_assets1
+        Dependency_1: cleric_jamhub_assets3
+        Dependency_2: cleric_jamhub_assets2
+        Dependency_3: cleric_jamhub_assets4
+        Dependency_4: cleric_jamhub_textandbanners
+    Info_1:
+      Name: cleric_jamhub_assets1
+      Dependencies:
+        Dependency_0: cleric_jamhub_assets3
+    Info_2:
+      Name: cleric_jamhub_assets3
+      Dependencies:
+        Dependency_0: cleric_jamhub_bundle
+        Dependency_1: cleric_jamhub_assets1
+        Dependency_2: cleric_jamhub_assets2
+        Dependency_3: cleric_jamhub_assets4
+    Info_3:
+      Name: cleric_jamhub_assets2
+      Dependencies: {}
+    Info_4:
+      Name: cleric_jamhub_assets4
+      Dependencies:
+        Dependency_0: cleric_jamhub_assets3
+    Info_5:
+      Name: cleric_jamhub_textandbanners
+      Dependencies:
+        Dependency_0: cleric_jamhub_assets3
+        Dependency_1: cleric_jamhub_assets4

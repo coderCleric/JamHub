@@ -1,0 +1,353 @@
+ManifestFileVersion: 0
+CRC: 1782535494
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a3454b124c7f28b831c7b63212c4d2cb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f9eb05fb361b702eaeed6cef4d20c19b
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Dialogue/Plaques/scav.xml
+- Assets/Dialogue/Plaques/intervention.xml
+- Assets/Materials/mod_banners/misfired jump.mat
+- Assets/Materials/mod_banners/textures/curators.png
+- Assets/Dialogue/Plaques/apollo.xml
+- Assets/Materials/mod_banners/textures/castaways.png
+- Assets/Dialogue/Plaques/rail.xml
+- Assets/Dialogue/Plaques/brightdusk.xml
+- Assets/Materials/mod_banners/textures/machine.png
+- Assets/Dialogue/Plaques/evac.xml
+- Assets/Dialogue/Modders/2walker2.xml
+- Assets/Dialogue/Modders/TeamKabuki.xml
+- Assets/Dialogue/Plaques/dilator.xml
+- Assets/Materials/mod_banners/textures/adoh.png
+- Assets/Materials/mod_banners/codec_mat.mat
+- Assets/Dialogue/Plaques/arcanum.xml
+- Assets/Dialogue/Plaques/poparea.xml
+- Assets/Materials/mod_banners/textures/origins.png
+- Assets/Dialogue/Modders/Book.xml
+- Assets/Dialogue/Plaques/symbiosis.xml
+- Assets/Materials/mod_banners/apollo.mat
+- Assets/Dialogue/Plaques/stowaway.xml
+- Assets/Dialogue/Plaques/misfiredjump.xml
+- Assets/Materials/mod_banners/evac_mat.mat
+- Assets/Materials/mod_banners/textures/liason.png
+- Assets/Dialogue/Modders/Orclecle.xml
+- Assets/Dialogue/Modders/Hawkbar.xml
+- Assets/Dialogue/Plaques/callis.xml
+- Assets/Dialogue/Plaques/storm.xml
+- Assets/Materials/mod_banners/ernesto bigdayoff.mat
+- Assets/Dialogue/Plaques/eotp.xml
+- Assets/Dialogue/Plaques/origins.xml
+- Assets/Dialogue/Plaques/jamarea1.xml
+- Assets/Dialogue/Plaques/tsta.xml
+- Assets/Materials/mod_banners/textures/heliostudy.png
+- Assets/Dialogue/Modders/MegaPiggy.xml
+- Assets/Materials/mod_banners/textures/unnamed mystery.png
+- Assets/Dialogue/Plaques/parable.xml
+- Assets/Dialogue/Modders/Insmoshable.xml
+- Assets/Materials/mod_banners/textures/nmvr.png
+- Assets/Dialogue/Plaques/adoh.xml
+- Assets/Dialogue/Plaques/spiral.xml
+- Assets/Materials/mod_banners/owml_mat.mat
+- Assets/Dialogue/Modders/HeroPlays.xml
+- Assets/Materials/mod_banners/textures/lumina terra.png
+- Assets/Dialogue/Plaques/rootaccess.xml
+- Assets/Materials/mod_banners/saveeditor.mat
+- Assets/Dialogue/Modders/Stache.xml
+- Assets/Materials/mod_banners/textures/outsider.png
+- Assets/Materials/mod_banners/nerves of darkness.mat
+- Assets/Dialogue/Plaques/hn0.xml
+- Assets/Materials/mod_banners/eye storm.mat
+- Assets/Materials/mod_banners/hn0.mat
+- Assets/Materials/mod_banners/textures/box.png
+- Assets/Dialogue/Modders/Ditzy.xml
+- Assets/Dialogue/Plaques/arc.xml
+- Assets/Materials/mod_banners/textures/symbiosis.png
+- Assets/Dialogue/Plaques/voice.xml
+- Assets/Dialogue/Modders/TLD256.xml
+- Assets/Materials/mod_banners/scavhunt.mat
+- Assets/Materials/mod_banners/textures/parable.png
+- Assets/Materials/mod_banners/on a rail.mat
+- Assets/Dialogue/Plaques/iceolation.xml
+- Assets/Dialogue/Ernesto/computer.xml
+- Assets/Materials/mod_banners/textures/callis.png
+- Assets/Dialogue/Modders/Etherpod.xml
+- Assets/Dialogue/Plaques/blank.xml
+- Assets/Materials/mod_banners/parable.mat
+- Assets/Dialogue/Plaques/radiomoon.xml
+- Assets/Materials/mod_banners/textures/usc.png
+- Assets/Dialogue/Plaques/core.xml
+- Assets/Dialogue/Plaques/orrery.xml
+- Assets/Materials/mod_banners/textures/qsb.png
+- Assets/Materials/mod_banners/mindscape_mat.mat
+- Assets/Materials/mod_banners/reflections.mat
+- Assets/Materials/mod_banners/rss_mat.mat
+- Assets/Materials/mod_banners/spiral.mat
+- Assets/Dialogue/Plaques/archi.xml
+- Assets/Materials/mod_banners/stowaway.mat
+- Assets/Dialogue/Modders/Trifid.xml
+- Assets/Materials/mod_banners/intervention.mat
+- Assets/Materials/mod_banners/dreambound.mat
+- Assets/Dialogue/Plaques/liason.xml
+- Assets/Materials/mod_banners/textures/echo hike.png
+- Assets/Dialogue/Plaques/extinct.xml
+- Assets/Materials/mod_banners/textures/codec.png
+- Assets/Materials/mod_banners/textures/escape room.png
+- Assets/Materials/mod_banners/textures/cake.png
+- Assets/Materials/mod_banners/cake.mat
+- Assets/Materials/mod_banners/lumina terra.mat
+- Assets/Dialogue/Plaques/dreambound.xml
+- Assets/Materials/mod_banners/heliostudy.mat
+- Assets/Dialogue/Modders/Bird.xml
+- Assets/Materials/mod_banners/usc.mat
+- Assets/Dialogue/Plaques/nharea.xml
+- Assets/Materials/mod_banners/hub.mat
+- Assets/Dialogue/Plaques/jamarea4.xml
+- Assets/Materials/mod_banners/brightdusk.mat
+- Assets/Materials/mod_banners/nh_mat.mat
+- Assets/Materials/mod_banners/echo hike.mat
+- Assets/Dialogue/Plaques/echo.xml
+- Assets/Materials/mod_banners/hn1_mat.mat
+- Assets/Dialogue/Plaques/collidervisualizer.xml
+- Assets/Dialogue/Plaques/unnamedmystery.xml
+- Assets/Materials/mod_banners/textures/rss.png
+- Assets/Materials/mod_banners/textures/catastrophe.png
+- Assets/Materials/mod_banners/textures/on a rail.png
+- Assets/Dialogue/Modders/Samster68.xml
+- Assets/Dialogue/Plaques/diorama.xml
+- Assets/Materials/mod_banners/textures/project arc.png
+- Assets/Materials/mod_banners/textures/arcanum.jpg
+- Assets/Dialogue/Plaques/guardian.xml
+- Assets/Materials/mod_banners/textures/eotp.jpg
+- Assets/Dialogue/Modders/xen.xml
+- Assets/Materials/mod_banners/wrongwarp_mat.mat
+- Assets/Dialogue/Modders/Lumine 0409.xml
+- Assets/Dialogue/Ernesto/shack.xml
+- Assets/Dialogue/Plaques/march.xml
+- Assets/Dialogue/Plaques/castaways.xml
+- Assets/Dialogue/Plaques/xmas.xml
+- Assets/Materials/mod_banners/corecollapse.mat
+- Assets/Materials/mod_banners/textures/guardian.png
+- Assets/Dialogue/Modders/JohnCorby.xml
+- Assets/Dialogue/Modders/Raicuparta.xml
+- Assets/Materials/mod_banners/textures/archi.png
+- Assets/Materials/mod_banners/liason.mat
+- Assets/Dialogue/Modders/AmazingAlek.xml
+- Assets/Dialogue/Plaques/luminaterra.xml
+- Assets/Dialogue/Plaques/usc.xml
+- Assets/Materials/mod_banners/textures/hn2.png
+- Assets/Dialogue/Plaques/blankmemorial.xml
+- Assets/Dialogue/Plaques/jamarea5.xml
+- Assets/Dialogue/Modders/Small Bug.xml
+- Assets/Dialogue/Plaques/cake.xml
+- Assets/Materials/mod_banners/quasar.mat
+- Assets/Materials/mod_banners/origins.mat
+- Assets/Materials/mod_banners/castaways_mat.mat
+- Assets/Materials/mod_banners/collidervisualizer.mat
+- Assets/Dialogue/Modders/Solec.xml
+- Assets/Materials/mod_banners/outsider_mat.mat
+- Assets/Materials/mod_banners/textures/powerfail.png
+- Assets/Materials/mod_banners/textures/brightspark.png
+- Assets/Dialogue/Plaques/eden.xml
+- Assets/Materials/mod_banners/textures/divergence.png
+- Assets/Materials/mod_banners/textures/nh.png
+- Assets/Materials/mod_banners/band together.mat
+- Assets/Materials/mod_banners/futures_mat.mat
+- Assets/Dialogue/Plaques/futures.xml
+- Assets/Materials/mod_banners/textures/corecollapse.png
+- Assets/Dialogue/Plaques/daylightsavings.xml
+- Assets/Dialogue/Plaques/codec.xml
+- Assets/Materials/mod_banners/textures/ernesto bigdayoff.png
+- Assets/Materials/mod_banners/textures/tsta.png
+- Assets/Dialogue/Plaques/saveeditor.xml
+- Assets/Dialogue/Modders/anonymous.xml
+- Assets/Materials/mod_banners/extinct_mat.mat
+- Assets/Dialogue/Modders/LeeSpork.xml
+- Assets/Dialogue/Modders/T3rtu.xml
+- Assets/Materials/mod_banners/textures/radiomoon.png
+- Assets/Dialogue/Plaques/frets.xml
+- Assets/Dialogue/Plaques/memorial.xml
+- Assets/Materials/mod_banners/finis.mat
+- Assets/Dialogue/Plaques/hub.xml
+- Assets/Materials/mod_banners/lonesome lake.mat
+- Assets/Materials/mod_banners/textures/axiom.png
+- Assets/Materials/mod_banners/textures/lonesome lake.png
+- Assets/Dialogue/Modders/Hearth1an.xml
+- Assets/Materials/mod_banners/textures/survivors.jpg
+- Assets/Materials/mod_banners/granite.mat
+- Assets/Materials/mod_banners/textures/tesseract.png
+- Assets/Materials/mod_banners/textures/root access.png
+- Assets/Materials/mod_banners/catastrophe.mat
+- Assets/Materials/mod_banners/textures/nerves of darkness.png
+- Assets/Materials/mod_banners/marchgears.mat
+- Assets/Dialogue/Modders/Repcon.xml
+- Assets/Materials/mod_banners/textures/reflections.png
+- Assets/Materials/mod_banners/textures/wrongwarp.png
+- Assets/Dialogue/Plaques/jamarea2.xml
+- Assets/Dialogue/Modders/Streetlights Behind the Trees.xml
+- Assets/Dialogue/Plaques/cat.xml
+- Assets/Materials/mod_banners/voiceacting.mat
+- Assets/Materials/mod_banners/examples_mat.mat
+- Assets/Materials/mod_banners/textures/diorama.png
+- Assets/Dialogue/Plaques/granite.xml
+- Assets/Materials/mod_banners/archi_mat.mat
+- Assets/Materials/mod_banners/callis.mat
+- Assets/Dialogue/Plaques/curators.xml
+- Assets/Dialogue/Plaques/jam5_platform.xml
+- Assets/Materials/mod_banners/diorama.mat
+- Assets/Dialogue/Modders/Onbvb.xml
+- Assets/Materials/mod_banners/brokenbalance.mat
+- Assets/Materials/mod_banners/textures/brightdusk.png
+- Assets/Dialogue/Plaques/tesseract.xml
+- Assets/Materials/mod_banners/daylightsavings.mat
+- Assets/Materials/mod_banners/textures/frets.png
+- Assets/Materials/mod_banners/textures/hn0.png
+- Assets/Materials/mod_banners/textures/dreambound.png
+- Assets/Materials/mod_banners/eden.mat
+- Assets/Dialogue/Plaques/scale.xml
+- Assets/Dialogue/Modders/Can't Afford a Name.xml
+- Assets/Dialogue/Plaques/mindscapes.xml
+- Assets/Dialogue/Plaques/machine.xml
+- Assets/Materials/mod_banners/symbiosis.mat
+- Assets/Dialogue/Plaques/nh.xml
+- Assets/Dialogue/Plaques/quasar.xml
+- Assets/Dialogue/Modders/Artum.xml
+- Assets/Materials/mod_banners/arcanum_mat.mat
+- Assets/Materials/mod_banners/tsta.mat
+- Assets/Materials/mod_banners/textures/quasar.png
+- Assets/Dialogue/Plaques/utilityarea.xml
+- Assets/Dialogue/Plaques/catastrophe.xml
+- Assets/Materials/mod_banners/textures/intervention.png
+- Assets/Dialogue/Modders/Endgame Zero.xml
+- Assets/Materials/mod_banners/root access.mat
+- Assets/Dialogue/Modders/cOaRex.xml
+- Assets/Materials/mod_banners/textures/evac.png
+- Assets/Materials/mod_banners/textures/unityexplorer.png
+- Assets/Dialogue/Plaques/neighbor.xml
+- Assets/Materials/mod_banners/scale.mat
+- Assets/Materials/mod_banners/axiom.mat
+- Assets/Materials/mod_banners/textures/spiral.png
+- Assets/Materials/mod_banners/textures/cat.png
+- Assets/Materials/mod_banners/powerfail.mat
+- Assets/Dialogue/Plaques/cheatmenu.xml
+- Assets/Dialogue/Modders/coderCleric.xml
+- Assets/Materials/mod_banners/iceolation.mat
+- Assets/Materials/mod_banners/textures/christmas story.png
+- Assets/Dialogue/Modders/Clay.xml
+- Assets/Dialogue/Plaques/divergence.xml
+- Assets/Materials/mod_banners/textures/misfired jump.png
+- Assets/Dialogue/Modders/Texture_Turtle.xml
+- Assets/Materials/mod_banners/project arc.mat
+- Assets/Materials/mod_banners/christmas story.mat
+- Assets/Dialogue/Plaques/box.xml
+- Assets/Materials/mod_banners/debugmenu.mat
+- Assets/Dialogue/Plaques/examples.xml
+- Assets/Dialogue/Plaques/nmvr.xml
+- Assets/Dialogue/Plaques/upcomingarea.xml
+- Assets/Materials/mod_banners/textures/voiceacting.png
+- Assets/Dialogue/Plaques/jamarea3.xml
+- Assets/Materials/mod_banners/textures/extinction.jpg
+- Assets/Dialogue/Plaques/dayoff.xml
+- Assets/Materials/mod_banners/solarrangers.mat
+- Assets/Materials/mod_banners/textures/debugmenu.png
+- Assets/Dialogue/Plaques/heliostudy.xml
+- Assets/Materials/mod_banners/orrery.mat
+- Assets/Materials/mod_banners/box.mat
+- Assets/Materials/mod_banners/textures/orrery.png
+- Assets/Materials/mod_banners/textprinter.mat
+- Assets/Dialogue/Plaques/axiom.xml
+- Assets/Materials/mod_banners/cat.mat
+- Assets/Materials/mod_banners/textures/collidervisualizer.png
+- Assets/Dialogue/Plaques/nerves.xml
+- Assets/Materials/mod_banners/screenshottool.mat
+- Assets/Materials/mod_banners/textures/brokenbalance.png
+- Assets/Materials/mod_banners/textures/futures.png
+- Assets/Materials/mod_banners/textures/eye storm.png
+- Assets/Dialogue/Modders/Maya.xml
+- Assets/Dialogue/Plaques/rss.xml
+- Assets/Materials/mod_banners/textures/eden.png
+- Assets/Dialogue/Modders/Shoe.xml
+- Assets/Materials/mod_banners/textures/neighbor.png
+- Assets/Materials/mod_banners/textures/examples.png
+- Assets/Materials/mod_banners/textures/iceolation.png
+- Assets/Materials/mod_banners/textures/scale.png
+- Assets/Materials/mod_banners/vision_mat.mat
+- Assets/Materials/mod_banners/textures/textprinter.png
+- Assets/Dialogue/Plaques/escape.xml
+- Assets/Materials/mod_banners/textures/vision.PNG
+- Assets/Dialogue/Modders/Nebula.xml
+- Assets/Dialogue/Plaques/rangers.xml
+- Assets/Materials/mod_banners/textures/apollo.png
+- Assets/Materials/mod_banners/survivors.mat
+- Assets/Dialogue/Modders/Viovayo.xml
+- Assets/Materials/mod_banners/escape room.mat
+- Assets/Materials/mod_banners/textures/finis.png
+- Assets/Dialogue/Modders/GameWyrm.xml
+- Assets/Dialogue/Modders/cOaRemote.xml
+- Assets/Dialogue/Plaques/textprinter.xml
+- Assets/Dialogue/Plaques/screenshottool.xml
+- Assets/Materials/mod_banners/textures/solarrangers.png
+- Assets/Materials/mod_banners/textures/mindscape.png
+- Assets/Materials/mod_banners/guardian.mat
+- Assets/Dialogue/Modders/pikpik.xml
+- Assets/Dialogue/Plaques/brightspark.xml
+- Assets/Materials/mod_banners/textures/daylightsavings.png
+- Assets/Materials/mod_banners/machine_mat.mat
+- Assets/Materials/mod_banners/textures/saveeditor.png
+- Assets/Materials/mod_banners/textures/time dilator.png
+- Assets/Dialogue/Plaques/vision.xml
+- Assets/Materials/mod_banners/textures/marchgears.png
+- Assets/Materials/mod_banners/radiomoon.mat
+- Assets/Dialogue/Plaques/wrongwarp.xml
+- Assets/Dialogue/Plaques/hn2.xml
+- Assets/Materials/mod_banners/textures/owml.png
+- Assets/Materials/mod_banners/unityexplorer.mat
+- Assets/Dialogue/Plaques/lake.xml
+- Assets/Dialogue/Plaques/outsider.xml
+- Assets/Materials/mod_banners/nmvr_mat.mat
+- Assets/Dialogue/Plaques/reflections.xml
+- Assets/Dialogue/Plaques/owml.xml
+- Assets/Materials/mod_banners/textures/band together.png
+- Assets/Materials/mod_banners/curators.mat
+- Assets/Materials/mod_banners/brightspark.mat
+- Assets/Materials/mod_banners/frets.mat
+- Assets/Dialogue/Plaques/powerfail.xml
+- Assets/Materials/mod_banners/eotp_mat.mat
+- Assets/Dialogue/Plaques/unityexplorer.xml
+- Assets/Materials/mod_banners/qsb_mat.mat
+- Assets/Materials/mod_banners/time dilator.mat
+- Assets/Materials/mod_banners/adoh.mat
+- Assets/Dialogue/Modders/Idiot.xml
+- Assets/Dialogue/Plaques/band.xml
+- Assets/Dialogue/Plaques/brokenbalance.xml
+- Assets/Materials/mod_banners/unnamed mystery.mat
+- Assets/Dialogue/Plaques/finis.xml
+- Assets/Materials/mod_banners/tesseract_mat.mat
+- Assets/Materials/mod_banners/textures/scavhunt.png
+- Assets/Materials/mod_banners/textures/granite.png
+- Assets/Materials/mod_banners/textures/screenshottool.png
+- Assets/Materials/mod_banners/divergence.mat
+- Assets/Dialogue/Plaques/survivors.xml
+- Assets/Materials/mod_banners/hn2.mat
+- Assets/Materials/mod_banners/textures/jamhub.png
+- Assets/Dialogue/Modders/Vodblink.xml
+- Assets/Dialogue/Modders/Tashizuna.xml
+- Assets/Dialogue/Ernesto/equator.xml
+- Assets/Materials/mod_banners/textures/stowaway.png
+- Assets/Dialogue/Plaques/qsb.xml
+Dependencies:
+- C:/Users/wesca/source/repos/JamHub/Mod/JamHub/assetbundles/cleric_jamhub_assets3
+- C:/Users/wesca/source/repos/JamHub/Mod/JamHub/assetbundles/cleric_jamhub_assets4

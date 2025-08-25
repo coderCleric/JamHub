@@ -1,0 +1,594 @@
+ManifestFileVersion: 0
+CRC: 298508133
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 41f85a4c0c19497bd9dd9d5532b4413a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5afbc1b03dd8448d77a9d0ee2d25edee
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1336033313, guid: 331da60cdc7456d41a3327bc6b1dc2c3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3e2cd530bcd6ab93471c4405ca1c5b6a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: be20ece023b752a4f571059e8252fa3a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cd0f35f01bb6bcaf4cb712c9e244fa54, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3c40262156d82f34a77fd77af5176011, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fbb2498122f7e23a2e87544333cb528f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b16c2c028878adfb8ab327ff50dec23b, type: 3}
+- Class: 114
+  Script: {fileID: -1113860629, guid: b2c86e620b0054d4c8488b85e453de55, type: 3}
+- Class: 114
+  Script: {fileID: -669758043, guid: b2c86e620b0054d4c8488b85e453de55, type: 3}
+- Class: 114
+  Script: {fileID: 2037443098, guid: b2c86e620b0054d4c8488b85e453de55, type: 3}
+- Class: 114
+  Script: {fileID: 1641654141, guid: b2c86e620b0054d4c8488b85e453de55, type: 3}
+- Class: 114
+  Script: {fileID: 1954458776, guid: b2c86e620b0054d4c8488b85e453de55, type: 3}
+- Class: 114
+  Script: {fileID: 1125713625, guid: b2c86e620b0054d4c8488b85e453de55, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0a5bc582e4f904dcec905aaf2f0c035a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b446aa63b809cb3da1921800cd416866, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 080fd57337ba036bac50db3c89b1be74, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b409018305dd6f6cfaa650800ebec19a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a0995fd312c767e6ef77263c2e4bbc69, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d3e77ae3309b6f323de07b456da83fb0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 808a7d04dc573a59d7187a0d9c6947b4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 441dee14925eff2e81cbc554282f1bc1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ae101e74c1ac7ac7f3867d7e18597ede, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a223d69493f03f4a8e6bda998c52d250, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d524b5c40feca59baa8a8578e54dc448, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 337b70057b4927524988bbd5bb99b34b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f96335c5c53e887c3d120581320feedf, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1beb2a46e0dd133c749d1f6530e10662, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b178abe66f0dd2519bfa341d78f0fd54, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2ca598178f775e7dc1b937bc0b32aae7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 397c7e8798badd9a667dc8d5270c9f17, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d0b46f87957d67cf3ace514870d9c92c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a2adb6a7c0b6f38b89302bd508f68a0d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 72404cc71eebb9a2ac16b3dfa59130cb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2c94440872a61048cae6eef2bf0a1a80, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b7bc1228a33a64798dea9fa5e72efdb8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c1e03d384261f6f301ef6513a478c3a8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f913c288c393f80a7e923fc1c775f4fb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b8880e8825af4fcbf1dab71021f8c869, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 892a6b987a18588fe03a5937388e4a4d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0053d129d589d30957bcc3b1958fc878, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7bd78149d73d6f659e5cb13cb6ce3cce, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 25b7e56961bf1df33ed31b8c786ab1c3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1705947949ad4856b01f494b45a65a9f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dbb1a999b02ac78c56c6fe79f7b5129f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 651bf6a97f095be1000b67022b3d85c7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3e5dd00ad282e5b5a086d075fcc01407, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2145ed3a866d4bd5a94d98ee05d0fa4f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7b80504a0aa9946ddb29be5e95e7256c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9250218a8a25e77e3671d3545aa77462, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 82d6ff9ac3325b114213581627497e75, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6b881cca0a4f51aa22e82eb3e1338126, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: be70791bd5a493208dd35e87c0687e7d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6e9d3e4ba5250ee03f7ec71ed7705726, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3764d89beefddfb963f973f9a1e29bad, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7aba6c2ce49844631cfc871c69533e25, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fc68a83cc3a06cf2982dc49f137097bc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7f2e3f7cc6baeb3499f9963353d7b458, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4b7baaec1993ecc687542a4bb9c1dc71, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4d37ab8d4d1e425918e8172c84cb8288, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f1207ecdc9977473579b57e1e274dc71, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3012cc3eaf0dd0af29c84b341c2ae8c1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3e0de66e03838de0e7de10d18ef7f26d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 62389b8e30976189aff1020795052659, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5b69738f164a5a2451d76a672bae5943, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a1f326afd8115cd8f4068186646cea5d, type: 3}
+- Class: 114
+  Script: {fileID: -1817415489, guid: b352a24374144844ba951b91ef7f77de, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 121
+  Script: {instanceID: 0}
+- Class: 123
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GAMERIP/Mesh/Quad.asset
+- Assets/GAMERIP/Scenes/QuantumMoon/Streamingmeshes_characters/Nomai_Mesh_Props_NOM_Mask_GearNew_Geo.asset
+- Assets/GAMERIP/Mesh/Ghostbird_Skin_01_Ghostbird_v004_Antler_Forward_0.asset
+- Assets/TravlerKit/Props/Props_HEA_Spork1.prefab
+- Assets/Prefabs/jam3/showroom_jam3.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Railing_L.asset
+- Assets/Models/exhibit_parts.fbx
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Pillar 1.asset
+- Assets/GAMERIP/Mesh/Riebeck_Rig2_Traveler_Reiback_mesh.asset
+- Assets/GAMERIP/Mesh/Ghostbird_Skin_01_Ghostbird_v004_Antler_Broken.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/elevator_door01.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Wall_IP_Full.prefab
+- Assets/Models/jam3planet.fbx
+- Assets/HearthsNeighbor/DevRoomCharacters.fbx
+- Assets/GAMERIP/Mesh/Traveller_Mesh_v01_PlayerSuit_Body.asset
+- Assets/Mesh/panel_lense.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/SIM_GhostBirdWrist_L.asset
+- Assets/GAMERIP/Mesh/Ghostbird_Skin_01_Ghostbird_v004_Ghostbird_Merged.asset
+- Assets/Scenes/RingWorld/Streamingmeshes_props/Props_IP_JewelryBox.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Effects_IP_SIM_Vase.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Props_IP_Chair.asset
+- Assets/TurtleFinalChar/nonogsolanum4.fbx
+- Assets/Mesh/COL_Stilt.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Structure_IP_BreakfastNook_Table.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/rutile_skin_Esker_Mesh_Esker_Skin.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Props_HEA_Pickaxe_Props_HEA_Pickaxe.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Village_HEA_Mica_Mica_Mesh_Villager_HEA_Mica_Skin.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Chair_Back.asset
+- Assets/Owlk Ruins/Prefabs/Prefab_IP_GhostBird_Zote.prefab
+- Assets/Mesh/COL_Floor_IP_Beam.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Porphy_Skin_01_Porphy_Mesh_Porphy_Clothes.asset
+- Assets/GAMERIP/Mesh/RoastingStick_Stick.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Props_HEA_RockingChair_Props_HEA_RochingChair_Collider
+  1.asset
+- Assets/GAMERIP/Mesh/Ghostbird_Skin_01_Ghostbird_v004_Antler_Forward.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_characters/Ghostbird_Skin_01_Ghostbird_v004_Antler_Sturdy.asset
+- Assets/Owlk Ruins/meshes/SimRoofs.fbx
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Props_HEA_Ladle.asset
+- Assets/Mesh/Cover_05.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Props_HEA_Helmet.asset
+- Assets/GAMERIP/Mesh/Traveller_Mesh_v01_PlayerSuit_Helmet.asset
+- Assets/Prefabs/jam3/BasicDialogue.prefab
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Props_HEA_RockingChair_Props_HEA_RockingChair_metal
+  3.asset
+- Assets/GAMERIP/Mesh/stand_bottom.asset
+- Assets/GAMERIP/Mesh/Traveler_Reiback_BanjoStrings.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Props_IP_BoardGame.prefab
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Props_HEA_RockingChair_Props_HEA_RockingChair_textile
+  3.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Props_HEA_Hatchet.asset
+- Assets/Mesh/Ghostbird_Skin_01_Ghostbird_v004_Antler_Upward_0.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Arkose_Skin_01_Arkose_Mesh_Arkose_Clothes.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Stairs_IP_Half_Railing.prefab
+- Assets/Prefabs/props/Prefab_HEA_FuelTank.prefab
+- Assets/GAMERIP/Mesh/Ghostbird_Skin_01_Ghostbird_v004_Antler_Upward.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Floor.asset
+- Assets/Scenes/TimberHearth/Streamingmeshes_props/Redwood_Leaves_2.asset
+- Assets/GAMERIP/Mesh/Gabbro_Hammock02_polySurface2_0.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/CandleCover_Large_Frame.asset
+- Assets/GAMERIP/Mesh/Ring2.asset
+- Assets/Prefabs/jam3/showroom_popular.prefab
+- Assets/GAMERIP/Mesh/Ring5.asset
+- Assets/GAMERIP/Mesh/RoastingStick_Arm_NoSuit.asset
+- Assets/GAMERIP/Mesh/Ghostbird_Skin_01_Ghostbird_v004_Antler_Broken_0.asset
+- Assets/Owlk Ruins/meshes/LongRoof.fbx
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Props_HEA_RockingChair_Props_HEA_RockingChair_wood
+  4.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Props_IP_Vase.asset
+- Assets/Mesh/Props_HEA_FuelTank_Collider.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/SIM_GhostBirdWrist_R.asset
+- Assets/Mesh/panel_lense_3.asset
+- Assets/Mesh/Ghostbird_Skin_01_Ghostbird_v004_Ghostbird_Merged.asset
+- Assets/GAMERIP/Mesh/Traveller_Mesh_v01_PlayerSuit_LeftArm.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Props_HEA_SapwinePot_geo.asset
+- Assets/GAMERIP/Mesh/Props_TH_ClutterLarge.asset
+- Assets/HN2/Meshes/ChairRedeye.fbx
+- Assets/Models/kevin.fbx
+- Assets/Mesh/panel_lense_2.asset
+- Assets/Models/bukrad.fbx
+- Assets/Owlk Ruins/Prefabs/Clean/Prefab_IP_PictureFrame.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/BoardGame_Eye.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Marl_Skin_01_Marl_Mesh_Marl_Clothes.asset
+- Assets/GAMERIP/OWNPC/Villager_HEA_Arkose_GhostMatter.prefab
+- Assets/Owlk Ruins/Prefabs/Clean/Stilt_IP_Support.prefab
+- Assets/GAMERIP/OWNPC/Villager_HEA_Gossan.prefab
+- Assets/Prefabs/props/showroom.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_characters/Ghostbird_Skin_01_Ghostbird_v004_Bracelet_Left.asset
+- Assets/Mesh/Door02_col.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Props_IP_Plate.asset
+- Assets/Prefabs/jam3/JamHubPlatform.prefab
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Porphy_Skin_01_Porphy_Mesh_Porphy_Skin.asset
+- Assets/Mesh/SingleSlideProjector_Stool.asset
+- Assets/Prefabs/jam3/showroom_jam2.prefab
+- Assets/GAMERIP/Scenes/QuantumMoon/Streamingmeshes_characters/Nomai_Mesh_Nomai_Pants.asset
+- Assets/GAMERIP/Mesh/CampfireLog_03.asset
+- Assets/Mesh/panel_geo.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/BoardGame_Antler.asset
+- Assets/GAMERIP/Mesh/Ring1.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Effects_IP_SIM_JewelryBox.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/player_v01_Traveller_Mesh_v01_Tuff_Skin.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Archway.asset
+- Assets/GAMERIP/Mesh/Ghostbird_Skin_01_Ghostbird_v004_Antler_Sturdy.asset
+- Assets/Prefabs/jam3/showroom_memorial.prefab
+- Assets/Mesh/Redwood_TrunkBark_Collider.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Gossan_Skin_Gossan_Mesh_Gossan_Skin.asset
+- Assets/Mesh/artifact_geo.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Stilt.asset
+- Assets/GAMERIP/Mesh/Traveller_Mesh_v01_Props_HEA_Jetpack.asset
+- Assets/GAMERIP/Mesh/polySurface39_Sep_26.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Floor_IP.prefab
+- Assets/Prefabs/jam3/showroom_upcoming.prefab
+- Assets/Scenes/RingWorld/Streamingmeshes_props/Prop_IP_Lantern_Railing.asset
+- Assets/GAMERIP/Mesh/Collider_3.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/DoorWall.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Tektite_Skin_Tektite_Mesh_Tektite_Skin.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/rutile_skin_Traveller_Mesh_v01_Rutile_Skin.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/CandleCover_Paper.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/CandleCover_Large_Paper.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Roof_IP_10M_End_R.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_ShortColumn_Square_Geo.asset
+- Assets/GAMERIP/Scenes/DarkBramble/Streamingmeshes_characters/Feldspar_Skin_Feldspar_Mesh_Traveller_HEA_Feldspar.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Railing_R 1.asset
+- Assets/GAMERIP/Mesh/Ghostbird_Skin_01_Ghostbird_v004_Antler_Upward_0.asset
+- Assets/Owlk Ruins/meshes/SupportArch_SIM.fbx
+- Assets/GAMERIP/Mesh/stand_top.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Wall_IP_Full.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/elevator_body.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_characters/Ghostbird_Skin_01_Ghostbird_v004_Antler_Forward.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Archway.asset
+- Assets/Prefabs/jam3/modder_npc.prefab
+- Assets/GAMERIP/Mesh/Ring7.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Props_IP_Stool.prefab
+- Assets/Models/jam3_base.blend
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/player_v01_Traveller_Mesh_v01_Tuff_Clothes.asset
+- Assets/Scenes/RingWorld/Streamingmeshes_structures/DoorWall 1.asset
+- Assets/Mesh/Ghostbird_Skin_01_Ghostbird_v004_Necklace.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/BoardGame_Blocker.asset
+- Assets/TurtleFinalChar/TextureTurtle.prefab
+- Assets/Mesh/panel_lense_0.asset
+- Assets/Mesh/COL_Stair_1.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_characters/Ghostbird_Skin_01_Ghostbird_v004_Antler_Curvy.asset
+- Assets/GAMERIP/OWNPC/Nomai_ANIM_SkyWatching_Idle.prefab
+- Assets/Mesh/panel_geo_3.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Slate_Skin_01_Slate_Mesh_Slate_Skin.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Railing_R.asset
+- Assets/GAMERIP/Mesh/GeodesicSphere12k_sphereUV.asset
+- Assets/Mesh/Cover_06.asset
+- Assets/GAMERIP/Mesh/Ghostbird_Skin_01_Ghostbird_v004_Bracelet_Right.asset
+- Assets/Mesh/Ghostbird_Skin_01_Ghostbird_v004_Antler_Curvy.asset
+- Assets/GAMERIP/Mesh/Props_HEA_RockingChair_Props_HEA_RochingChair_Collider_2.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Props_HEA_ArkoseRock1.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Arkose_Skin_01_Arkose_Mesh_Arkose_Skin.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Floor_Half.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Roof_IP_10M_Mid.prefab
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Props_HEA_Ladle_Props_HEA_Ladle.asset
+- Assets/GAMERIP/Mesh/stand_middle.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Effects_IP_SIM_BoatPole.asset
+- Assets/Mesh/Candle_Ground_Structure.asset
+- Assets/Mesh/Cover_03.asset
+- Assets/Prefabs/props/LightColumn.prefab
+- Assets/Owlk Ruins/Prefabs/Clean/Prefab_IP_Candle_CoveredHanging.prefab
+- Assets/GAMERIP/Mesh/Gabbro_Hammock02_Props_GD_Hammock_V2_Geo_0.asset
+- Assets/Mesh/Ghostbird_Skin_01_Ghostbird_v004_Antler_Broken.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Railing_L 1.asset
+- Assets/Mesh/Cover_02.asset
+- Assets/Scenes/RingWorld/Streamingmeshes_props/Bulb.asset
+- Assets/GAMERIP/Mesh/Chert_Skin_02_Chert_Mesh_Traveller_HEA_Chert.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Structure_IP_NookTableFull.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Wall.asset
+- Assets/GAMERIP/Mesh/Ring3.asset
+- Assets/Mesh/Candle_Hanging_Collider.asset
+- Assets/Mesh/COL_Side_B.asset
+- Assets/Mesh/artifact_glass.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_characters/Ghostbird_Skin_01_Ghostbird_v004_Antler_Backward.asset
+- Assets/GAMERIP/Mesh/Props_HEA_RockingChair_Props_HEA_RochingChair_Collider_1.asset
+- Assets/GAMERIP/PrefabInstance/DarkMatterSplash_Rock.prefab
+- Assets/Mesh/COL_Pillar_4.asset
+- Assets/GAMERIP/OWNPC/Villager_HEA_Porphy.prefab
+- Assets/Owlk Ruins/Prefabs/Clean/Prop_IP_Rug_Round_4M.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Effects_IP_SIM_Jug_Empty.asset
+- Assets/Mesh/COL_Railing_R_0.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Props_IP_Vase.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Railing2.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Props_IP_BoardGame.asset
+- Assets/WalkerModJamHubNPC/ModJamHubNPC.prefab
+- Assets/Mesh/panel_geo_1.asset
+- Assets/Mesh/Candle_Wall_Collider.asset
+- Assets/Mesh/Door01_col.asset
+- Assets/GAMERIP/Mesh/Props_HEA_Flute_polySurface39_Sep_26.asset
+- Assets/GAMERIP/Mesh/Traveller_Mesh_v01_PlayerSuit_RightArm.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Floor_IP_Half_Vert.prefab
+- Assets/GAMERIP/Scenes/QuantumMoon/Streamingmeshes_characters/Nomai_Mesh_Nomai_Boots.asset
+- Assets/Prefabs/props/showroom_3slot.prefab
+- Assets/GAMERIP/Scenes/QuantumMoon/Streamingmeshes_characters/Nomai_Mesh_Nomai_Cowl.asset
+- Assets/GAMERIP/Scenes/QuantumMoon/Streamingmeshes_characters/Nomai_Mesh_Nomai_Gloves.asset
+- Assets/Prefabs/jam3/jamplanet.prefab
+- Assets/Owlk Ruins/Prefabs/Clean/Prefab_IP_DoorWall.prefab
+- Assets/Prefabs/props/Prefab_TH_Sapling.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Effects_IP_SIM_Stool.asset
+- Assets/GAMERIP/Mesh/Chert_DrumStick_Geo1.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_characters/Ghostbird_Skin_01_Ghostbird_v004_Antler_Broken.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Effects_IP_SIM_GhostBirdVisionConeFocused.asset
+- Assets/HearthsNeighbor/shoe.fbx
+- Assets/Mesh/COL_Railing_L_0.asset
+- Assets/Prefabs/props/showroom_base.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/CandleCover_Frame.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Props_IP_JewelryBox.prefab
+- Assets/GAMERIP/Mesh/CampfireLog_02.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Side_A.asset
+- Assets/GAMERIP/OWNPC/Villager_HEA_Tuff.prefab
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Props_HEA_Hatchet_Props_HEA_Hatchet.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Structure_IP_NookTableFull.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/SIM_GhostBirdHand_L.asset
+- Assets/GAMERIP/Mesh/Ghostbird_Skin_01_Ghostbird_v004_Antler_Backward_0.asset
+- Assets/Owlk Ruins/meshes/CurvedRoofSupport.fbx
+- Assets/Mesh/Effects_IP_SIM_Light.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Props_IP_Plate.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Candle_Hanging_Chains.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Stilt_IP_Corner_In.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/panel_side2.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Effects_IP_SIM_PictureFrame.asset
+- Assets/WalkerModJamHubNPC/Models/Transmitter.fbx
+- Assets/GAMERIP/Mesh/gabbro_OW_V02_gabbro_mesh_Gabbro_Main.asset
+- Assets/Owlk Ruins/meshes/DoubleSupportStilt.fbx
+- Assets/Prefabs/jam3/moddershack.prefab
+- Assets/GAMERIP/Mesh/CampfireLog_01.asset
+- Assets/WalkerModJamHubNPC/Models/Suicune.fbx
+- Assets/Mesh/Props_NOM_LargeTractorBeam_Collider.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_props/Props_HEA_Pickaxe.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/hal_skin_HEA_Villagers_Hal_Clothes.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/SIM_GhostBirdHand_R.asset
+- Assets/Mesh/Effects_NOM_TractorBeamRing_Large.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Effects_IP_SIM_WallLight.asset
+- Assets/GAMERIP/Mesh/Ghostbird_Skin_01_Ghostbird_v004_Antler_Curvy.asset
+- Assets/GAMERIP/OWNPC/Villager_HEA_Mica.prefab
+- Assets/GAMERIP/OWNPC/Pioneer_Characters.prefab
+- Assets/Scenes/RingWorld/Streamingmeshes_structures/Floor_IP_Beam.asset
+- Assets/Scenes/HourglassTwins/Streamingmeshes_props/Redwood_TrunkBark.asset
+- Assets/GAMERIP/OWNPC/Villager_HEA_Marl.prefab
+- Assets/GAMERIP/OWNPC/Riebeck.prefab
+- Assets/Mesh/COL_Railing_0.asset
+- Assets/Scenes/GiantsDeep/Streamingmeshes_props/Props_NOM_LargeTractorBeam_Geo.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Props_HEA_RockingChair_Props_HEA_RockingChair_metal
+  4.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Floor.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Prop_IP_DW_Rug_Long_B_6M.asset
+- Assets/GAMERIP/OWNPC/Prisoner_Campfire.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Structure_IP_BreakfastNook_Table.asset
+- Assets/Owlk Ruins/Prefabs/Clean/NookTableFull_IP.prefab
+- Assets/GAMERIP/OWNPC/Gabbro.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Side_A.asset
+- Assets/Mesh/panel_lense_1.asset
+- Assets/GAMERIP/Scenes/DarkBramble/Streamingmeshes_characters/polySurface17.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Pillar 1.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Props_HEA_RockingChair_Props_HEA_RockingChair_textile
+  2.asset
+- Assets/Mesh/COL_Floor_0.asset
+- Assets/GAMERIP/Mesh/Base.asset
+- Assets/Mesh/COL_Side_A.asset
+- Assets/GAMERIP/Mesh/Ghostbird_Skin_01_Ghostbird_v004_Antler_Curvy_0.asset
+- Assets/GAMERIP/OWNPC/Villager_HEA_Hal_Outside.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Floor_IP.asset
+- Assets/GAMERIP/OWNPC/NomaiAdvanced_ANIM_SkyWatching_Idle.prefab
+- Assets/GAMERIP/Scenes/QuantumMoon/Streamingmeshes_characters/Props_NOM_Staff.asset
+- Assets/Prefabs/jam3/showroom_jam4.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_RailingPost_Collider.asset
+- Assets/GAMERIP/OWNPC/Chert.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Candle_Hanging_Structure.asset
+- Assets/GAMERIP/Mesh/Props_HEA_ArkoseRockPileCollider.asset
+- Assets/Mesh/Redwood_Trunk.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Roof_IP_10M_End_L.prefab
+- Assets/Owlk Ruins/Prefabs/Clean/Props_IP_Jug.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_characters/Ghostbird_Skin_01_Ghostbird_v004_Antler_Upward
+  1.asset
+- Assets/Mesh/Ghostbird_Skin_01_Ghostbird_v004_Bracelet_Right.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/panel_side.asset
+- Assets/GAMERIP/Mesh/NewDrum_polySurface2.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Effects_IP_SIM_GhostBirdIcon.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Prefab_IP_Chair.prefab
+- Assets/Owlk Ruins/Prefabs/Clean/Floor_IP_Beam.prefab
+- Assets/Mesh/Cover_04.asset
+- Assets/Prefabs/jam3/showroom_storymods.prefab
+- Assets/GAMERIP/Mesh/CenterDetail.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Props_IP_Chair_Seat.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Stilt.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Effects_IP_SIM_Artifact.asset
+- Assets/GAMERIP/OWNPC/Villager_HEA_Tektite.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/elevator_door02.asset
+- Assets/GAMERIP/Mesh/Props_HEA_SapwinePot_collider.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Hornfels_Skin_01_Hornfels_Mesh_Hornfels_Clothes.asset
+- Assets/Mesh/Redwood_Trunk_Collider.asset
+- Assets/Owlk Ruins/Prefabs/Rotted/Prefab_IP_Lantern_Railing.prefab
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/KnifeHandleBase1_pCylinder70.asset
+- Assets/HN2/Prefab/Tutle.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Stairs.asset
+- Assets/GAMERIP/Mesh/RoastingStick_Arm.asset
+- Assets/Mesh/Props_HEA_FuelTank_Geo.asset
+- Assets/GAMERIP/OWNPC/Villager_HEA_Esker.prefab
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Gossan_Skin_Gossan_Mesh_Gossan_Clothes.asset
+- Assets/GAMERIP/OWNPC/Villager_HEA_Slate.prefab
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Galena_Skin_01_Galena_Mesh_Galena_Clothes.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Marl_Skin_01_Marl_Mesh_Marl_Skin.asset
+- Assets/GAMERIP/Mesh/Gabbro_Hammock02_Props_GD_Hammock_V2_Geo.asset
+- Assets/Prefabs/props/Prefab_NOM_DockingTractorBeam.prefab
+- Assets/GAMERIP/Mesh/instrument_music_box.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Wall_IP_Archway_Railing.prefab
+- Assets/GAMERIP/Mesh/bow_geo.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Props_HEA_RockingChair_Props_HEA_RockingChair_wood
+  2.asset
+- Assets/Owlk Ruins/meshes/LongRoofs.fbx
+- Assets/Nomai Ruins/Prefabs/ShortColumn.prefab
+- Assets/GAMERIP/Mesh/Ghostbird_Skin_01_Ghostbird_v004_Antler_Sturdy_0.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Props_HEA_RockingChair_Props_HEA_RockingChair_textile
+  4.asset
+- Assets/HN2/Meshes/hearthian's neibor TWOOO.fbx
+- Assets/Owlk Ruins/Prefabs/Clean/Prefab_IP_Candle_CoveredWall.prefab
+- Assets/GAMERIP/Mesh/Ghostbird_Skin_01_Ghostbird_v004_Bracelet_Left.asset
+- Assets/Mesh/Ghostbird_Skin_01_Ghostbird_v004_Antler_Forward.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/hal_skin_HEA_Villagers_Hal_Skin.asset
+- Assets/Mesh/COL_Wall_Full_A.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Tektite_Skin_Tektite_Mesh_Tektite_Clothes.asset
+- Assets/Mesh/elevator_col.asset
+- Assets/GAMERIP/Mesh/Ghostbird_Instrument_geo.asset
+- Assets/Mesh/COL_IP_DoorWall.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/SIM_GhostBirdHead.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/rutile_skin_Traveller_Mesh_v01_Rutile_Clothes.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Props_HEA_RockingChair_Props_HEA_RockingChair_wood
+  5.asset
+- Assets/Scenes/RingWorld/Streamingmeshes_structures/Railing 1.asset
+- Assets/GAMERIP/Mesh/Ghostbird_Skin_01_Ghostbird_v004_Antler_Backward.asset
+- Assets/GAMERIP/OWNPC/Character_HEA_Hal_Museum.prefab
+- Assets/Mesh/COL_Archway.asset
+- Assets/GAMERIP/Mesh/NewDrum_polySurface1.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Candle_Wall_Structure.asset
+- Assets/Prefabs/jam3/mod_computer.prefab
+- Assets/Prefabs/jam3/showroom_jam5.prefab
+- Assets/Prefabs/jam3/showroom_jam1.prefab
+- Assets/Owlk Ruins/Prefabs/Clean/CurvedRoofSupport.prefab
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Props_HEA_RockingChair_Props_HEA_RockingChair_wood
+  3.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Slate_Skin_01_Slate_Mesh_Slate_Clothes.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_props/Prop_IP_DW_Rug_Round_4M.asset
+- Assets/Prefabs/props/angler_model.prefab
+- Assets/GAMERIP/Mesh/Ring6.asset
+- Assets/Scenes/RingWorld/Streamingmeshes_props/Props_IP_BoatPole.asset
+- Assets/Mesh/Cover_01.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Hornfels_Skin_01_Hornfels_Mesh_Hornfels_Skin.asset
+- Assets/Mesh/Ghostbird_Skin_01_Ghostbird_v004_Antler_Sturdy.asset
+- Assets/GAMERIP/OWNPC/Villager_HEA_Hornfels (1).prefab
+- Assets/GAMERIP/OWNPC/Villager_HEA_Rutile.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Stairs.asset
+- Assets/Prefabs/jam3/showroom_utility.prefab
+- Assets/Mesh/Ghostbird_Skin_01_Ghostbird_v004_Antler_Backward.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_props/Props_HEA_ArkoseRockPile.asset
+- Assets/Karvi/Buildings/importedStuff2/Mesh/Props_HEA_Spork1.asset
+- Assets/Prefabs/jam3/AnonDomain.prefab
+- Assets/GAMERIP/Mesh/Gabbro_Hammock02_polySurface2.asset
+- Assets/Scenes/RingWorld/Streamingmeshes_props/Props_IP_Jug.asset
+- Assets/Scenes/BrittleHollow/Streamingmeshes_props/Redwood_Leaves_1.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Structure_IP_HalfTable.prefab
+- Assets/Owlk Ruins/Prefabs/Clean/Prop_IP_Rug_Long_B_6M.prefab
+- Assets/Mesh/COL_Floor.asset
+- Assets/Mesh/Lantern_Flame.asset
+- Assets/Owlk Ruins/Prefabs/Clean/Stilt_IP_Corner_Out.prefab
+- Assets/GAMERIP/OWNPC/Villager_HEA_Galena.prefab
+- Assets/HearthsNeighbor/DevLumine.fbx
+- Assets/Mesh/panel_geo_0.asset
+- Assets/Scenes/DreamWorld/Streamingmeshes_structures/Side_B.asset
+- Assets/GAMERIP/Mesh/Effects_GM_ImpactMote.asset
+- Assets/Mesh/panel_geo_2.asset
+- Assets/GAMERIP/Scenes/QuantumMoon/Streamingmeshes_characters/Nomai_Mesh_Nomai_Robe.asset
+- Assets/Prefabs/props/display.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Side_B.asset
+- Assets/GAMERIP/OWNPC/NPC_Player.prefab
+- Assets/Owlk Ruins/Prefabs/Clean/Props_IP_BoatPole.prefab
+- Assets/Owlk Ruins/Prefabs/Clean/Prefab_IP_Candle_CoveredGround.prefab
+- Assets/Scenes/DreamWorld/Streamingmeshes_effects/Effects_IP_SIM_Plate.asset
+- Assets/GAMERIP/Mesh/Gabbro_Hammock02_polySurface1.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/rutile_skin_Esker_Mesh_Esker_Clothes.asset
+- Assets/GAMERIP/Mesh/Ring4.asset
+- Assets/Prefabs/props/plaque.prefab
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Props_HEA_RockingChair_Props_HEA_RockingChair_metal
+  2.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Galena_Skin_01_Galena_Mesh_Galena_Skin.asset
+- Assets/Mesh/Props_IP_PictureFrame.asset
+- Assets/GAMERIP/Mesh/Ghostbird_Skin_01_Ghostbird_v004_Necklace.asset
+- Assets/GAMERIP/Scenes/TimberHearth/Streamingmeshes_characters/Village_HEA_Mica_Mica_Mesh_Villager_HEA_Mica_Clothes.asset
+- Assets/GAMERIP/Prefab_NOM_Computer.prefab
+- Assets/GAMERIP/Mesh/Gabbro_Hammock02_polySurface1_0.asset
+Dependencies:
+- C:/Users/wesca/source/repos/JamHub/Mod/JamHub/assetbundles/cleric_jamhub_assets1
+- C:/Users/wesca/source/repos/JamHub/Mod/JamHub/assetbundles/cleric_jamhub_assets2
+- C:/Users/wesca/source/repos/JamHub/Mod/JamHub/assetbundles/cleric_jamhub_assets3
+- C:/Users/wesca/source/repos/JamHub/Mod/JamHub/assetbundles/cleric_jamhub_assets4
+- C:/Users/wesca/source/repos/JamHub/Mod/JamHub/assetbundles/cleric_jamhub_textandbanners

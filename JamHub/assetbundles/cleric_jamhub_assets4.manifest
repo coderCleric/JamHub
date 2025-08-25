@@ -1,0 +1,248 @@
+ManifestFileVersion: 0
+CRC: 2859264084
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 818e0556145cc41ec4dc5e2ebaa5da95
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ef7825def468927f1d89f1882a0ef3e2
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Steel_n.png
+- Assets/Nomai Ruins/Resources/Shaders/Standard (BRDF Lookup).asset
+- Assets/Materials/character/beasts/anglerfish/Beast_Anglerfish_AO.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Hal_Skin_d.png
+- Assets/GAMERIP/Texture2D/Structure_NOM_Whiteboard_n.png
+- Assets/GAMERIP/AnimationClip/GabbroHammock_IdleFlute.anim
+- Assets/AnimationClip/anglernew swim.anim
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Tuff_Clothes_d.png
+- Assets/GAMERIP/Texture2D/Props_NOM_Mask_Trim_s.png
+- Assets/GAMERIP/Shader/Outer Wilds_Environment_Foliage.asset
+- Assets/Shader/Outer Wilds_Blended_Detail_Mask 3x.asset
+- Assets/Materials/environment/invisiblePlanet/effects/Effects_IP_GhostDissolveLines.png
+- Assets/TurtleFinalChar/Structure_NOM_Porcelain_d.png
+- Assets/AnimationClip/Tektite_Duck.anim
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Slate_Clothes_ao.png
+- Assets/GAMERIP/Shader/Outer Wilds_Particles_Cutoff.asset
+- Assets/GAMERIP/Texture2D/Ghostbird_IP_Accessories_s.png
+- Assets/GAMERIP/AnimationClip/Tektite_Cower.anim
+- Assets/Shader/Outer Wilds_Environment_Foliage.asset
+- Assets/GAMERIP/Texture2D/Structure_NOM_SandStone_d.png
+- Assets/GAMERIP/Shader/Outer Wilds_Character_Skin.asset
+- Assets/Materials/environment/timberHearth/terrain/Terrain_TH_GrassV2_diffuse.png
+- Assets/GAMERIP/AnimationClip/NPC_Player_Idle.anim
+- Assets/owlk_planet/Materials/Ghostbird_DW_PURPELClothing_d 1.png
+- Assets/Nomai Ruins/Resources/Shaders/Outer Wilds_Environment_Foliage.asset
+- Assets/Texture2D/Structure_IP_DullGlass_t.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_Dark_s.png
+- Assets/Materials/character/gabblowe.png
+- Assets/GAMERIP/Shader/Standard.asset
+- Assets/Texture2D/Structure_NOM_Porcelain_n.png
+- Assets/Materials/character/beasts/anglerfish/Beast_Anglerfish_d.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_Light_s.png
+- Assets/GAMERIP/Texture2D/Effects_Impact_Bits_n.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_SandStone_s.png
+- Assets/GAMERIP/Texture2D/Props_NOM_Computer_n.png
+- Assets/GAMERIP/Texture2D/Effects_Impact_Bits_d.png
+- Assets/Texture2D/Structure_HEA_VillageMetal_n.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_Lacquer_n.png
+- Assets/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_Clothing_d.png
+- Assets/GAMERIP/Texture2D/Structure_NOM_TrimPattern_d.png
+- Assets/GAMERIP/Materials/environment/timberHearth/props/Tree_TH_Stump_n.png
+- Assets/GAMERIP/Materials/character/travellers/Traveller_HEA_Riebeck_Banjo_n.png
+- Assets/Texture2D/Structure_NOM_Grooves_n.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Mica_Clothes_n.png
+- Assets/Texture2D/Character_NOM_Nomai_v2_s.png
+- Assets/GAMERIP/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_Clothing_d.png
+- Assets/Avatar/Ghostbird_IP_ANIMAvatar.asset
+- Assets/Shader/Outer Wilds_Character_Ghostbird Clothes.asset
+- Assets/GAMERIP/Shader/Outer Wilds_Environment_Fabric.asset
+- Assets/GAMERIP/Shader/Standard (Translucent).asset
+- Assets/GAMERIP/Texture2D/Props_HEA_RoastingStick_s.png
+- Assets/Texture2D/Structure_NOM_WovenGrooves_d.png
+- Assets/Texture2D/Noise_d.png
+- Assets/GAMERIP/Texture2D/Props_NOM_Computer_s.png
+- Assets/Texture2D/Structure_HEA_VillageMetal_d.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Gossan_Clothes_d.png
+- Assets/AnimationClip/Tektite_Cower.anim
+- Assets/AnimationClip/anglernew swim start.anim
+- Assets/GAMERIP/Texture2D/Structure_NOM_SandStone_s.png
+- Assets/Shader/Outer Wilds_Character_Ghostbird Eyes.asset
+- Assets/Texture2D/Structure_NOM_TrimPattern_n.png
+- Assets/Materials/Textures/planettexture.png
+- Assets/Texture2D/Structure_NOM_SandStone_d.png
+- Assets/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_Accessories_d.png
+- Assets/GAMERIP/Materials/character/travellers/Traveller_HEA_Riebeck_Banjo_d.png
+- Assets/AnimationClip/anglernew look left.anim
+- Assets/GAMERIP/Shader/Outer Wilds_Character_Ghostbird Eyes.asset
+- Assets/GAMERIP/AnimationClip/Mica_Cower.anim
+- Assets/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_Accessories_t.png
+- Assets/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_Accessories_ao.png
+- Assets/GAMERIP/AnimationClip/Tektite_Idle_0.anim
+- Assets/GAMERIP/AnimationClip/Arkose_Cower.anim
+- Assets/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_Skin_d.png
+- Assets/Nomai Ruins/Resources/Shaders/Standard (Detail Blend).asset
+- Assets/GAMERIP/Texture2D/Structure_NOM_Whiteboard_s.png
+- Assets/GAMERIP/Texture2D/Props_NOM_Computer_d.png
+- Assets/GAMERIP/Materials/environment/timberHearth/props/Tree_TH_Stump_ao.png
+- Assets/Shader/Outer Wilds_Environment_Ship_Interior.asset
+- Assets/Texture2D/Structure_HEA_PlayerShip_SignsDecal_d.png
+- Assets/Texture2D/Structure_NOM_Copper_s.png
+- Assets/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_Clothing_ao.png
+- Assets/GAMERIP/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_Accessories_ao.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Tuff_Skin_d.png
+- Assets/GAMERIP/Shader/Outer Wilds_Character_Player Clone.asset
+- Assets/Texture2D/Structure_NOM_TrimPattern_d.png
+- Assets/GAMERIP/Shader/Standard (Detail Blend).asset
+- Assets/GAMERIP/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_Skin_COA_taos.png
+- Assets/GAMERIP/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_Accessories_d.png
+- Assets/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_Accessories_s.png
+- Assets/GAMERIP/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_Clothing_s.png
+- Assets/GAMERIP/Texture2D/Structure_NOM_SandStone_n.png
+- Assets/GAMERIP/Texture2D/Structure_HEA_VillageMetal_d.png
+- Assets/WalkerModJamHubNPC/Textures/Chime Redesign/GhostMetal1.png
+- Assets/GAMERIP/Texture2D/Structure_NOM_CopperOld_n.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_SandStone_n.png
+- Assets/Texture2D/Structure_NOM_Copper_d.png
+- Assets/Texture2D/Structure_NOM_Grooves_d.png
+- Assets/GAMERIP/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_Lacquer_s.png
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_IP_Trim_Wood_n.png
+- Assets/GAMERIP/Texture2D/Structure_NOM_TrimPattern_n.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Gossan_Clothes_n.png
+- Assets/GAMERIP/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_Accessories_t.png
+- Assets/GAMERIP/Shader/Legacy Shaders_Self-Illumin_Diffuse.asset
+- Assets/Karvi/Buildings/importedStuff2/Texture2D/Props_HEA_CampsiteProps_d.png
+- Assets/GAMERIP/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_Skin_d.png
+- Assets/Texture2D/NoiseRGB_d.png
+- Assets/GAMERIP/Materials/character/nomai/Character_NOM_Nomai_v2_s.png
+- Assets/GAMERIP/Texture2D/Props_NOM_Mask_Trim_n.png
+- Assets/GAMERIP/AnimationClip/Esker_DreamIdle_Rocker.anim
+- Assets/GAMERIP/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Trim_Wood_d.png
+- Assets/AnimationClip/anglernew look up.anim
+- Assets/GAMERIP/Avatar/Ghostbird_IP_ANIMAvatar.asset
+- Assets/WalkerModJamHubNPC/Textures/Chime Redesign/Effects_IP_ScreenFlickerMaskTriangles.png
+- Assets/Nomai Ruins/Resources/Shaders/Outer Wilds_Environment_Gravity Crystal.asset
+- Assets/GAMERIP/AnimationClip/Arkose_Duck.anim
+- Assets/GAMERIP/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_Dark_s.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Porcelain_s.png
+- Assets/Karvi/Buildings/importedStuff2/Texture2D/Props_HEA_CampsiteProps_s.png
+- Assets/GAMERIP/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_Light_s.png
+- Assets/GAMERIP/Materials/environment/timberHearth/props/Tree_TH_Stump_d.png
+- Assets/GAMERIP/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Steel_n.png
+- Assets/GAMERIP/Texture2D/Structure_HEA_VillageCabin_s.png
+- Assets/Texture2D/Structure_NOM_SilverPorcelain_d.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Trim_Wood_s.png
+- Assets/GAMERIP/Shader/Outer Wilds_Character_Ghostbird Antlers.asset
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_TrimPattern_n.png
+- Assets/GAMERIP/Texture2D/Structure_HEA_VillagePlanks_d.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Hornfels_Clothes_d.png
+- Assets/GAMERIP/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Steel_ao.png
+- Assets/GAMERIP/Materials/character/travellers/Traveller_HEA_Gabbro_ao.png
+- Assets/Texture2D/Effects_IP_SimulationGroundNoise.png
+- Assets/GAMERIP/Texture2D/Structure_HEA_VillageCabin_d.png
+- Assets/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_Clothing_s.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_TrimPattern_d.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_SandStone_d.png
+- Assets/GAMERIP/Avatar/Nomai_ANIM_SkyWatching_IdleAvatar.asset
+- Assets/Nomai Ruins/Resources/Materials/Props_Nom_GavityCrystal_h.png
+- Assets/GAMERIP/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_Skin_COA_d.png
+- Assets/GAMERIP/Shader/Outer Wilds_Environment_Ship_Exterior.asset
+- Assets/GAMERIP/Texture2D/Props_HEA_Jetpack_d.png
+- Assets/Materials/environment/timberHearth/terrain/Terrain_TH_Grass_d.png
+- Assets/GAMERIP/Texture2D/Structure_HEA_VillageMetal_n.png
+- Assets/AnimationClip/anglernew mouth closed.anim
+- Assets/GAMERIP/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_s.png
+- Assets/Texture2D/Structure_NOM_Copper_n.png
+- Assets/Shader/Outer Wilds_Blended_Detail_Mask 4x.asset
+- Assets/owlk_planet/Materials/Ghostbird_DW_ClothingPURPBase_d.png
+- Assets/GAMERIP/AnimationClip/Arkose_Hiding.anim
+- Assets/GAMERIP/Texture2D/Props_HEA_CampfireRocks_n.png
+- Assets/Cubemap/Effects_IP_SimulationRefractions.png
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_IP_Trim_Wood_s.png
+- Assets/Texture2D/Structure_NOM_WovenGrooves_n.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Arkose_Skin_n.png
+- Assets/Texture2D/Structure_NOM_SandStone_s.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_Lacquer_s.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Rutile_Skin_d.png
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_IP_Trim_Iron_d.png
+- Assets/GAMERIP/Texture2D/Props_HEA_CampsiteProps_d.png
+- Assets/GAMERIP/Texture2D/Props_NOM_Mask_Trim_d.png
+- Assets/TurtleFinalChar/Structure_NOM_Porcelain_n.png
+- Assets/GAMERIP/Materials/environment/invisiblePlanet/effects/Effects_IP_GhostDissolveLines.png
+- Assets/GAMERIP/Texture2D/Traveller_HEA_Player_Skin_s.png
+- Assets/GAMERIP/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_Skin_taos.png
+- Assets/GAMERIP/Texture2D/NoiseRGB_d.png
+- Assets/GAMERIP/Shader/Outer Wilds_Blended_Detail_Mask 3x.asset
+- Assets/Texture_Turtle/Props_NOM_Mask_Trim_d.png
+- Assets/Materials/environment/invisiblePlanet/Props/dreamWorldOnly/Props_IP_Rug_DW_Folds_n.png
+- Assets/GAMERIP/Shader/Outer Wilds_Environment_Water.asset
+- Assets/GAMERIP/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_Clothing_ao.png
+- Assets/Texture2D/Structure_NOM_SandStone_n.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Galena_Clothes_n.png
+- Assets/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_Skin_taos.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_TrimPatternLines_d.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Trim_Wood_n.png
+- Assets/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_ClothingLight_d.png
+- Assets/GAMERIP/Materials/character/travellers/Traveller_HEA_Chert_n.png
+- Assets/AnimationClip/anglernew look down.anim
+- Assets/Texture2D/Structure_NOM_SilverPorcelainGlow_e.png
+- Assets/GAMERIP/Texture2D/Ocean_GD_Chop_h.png
+- Assets/Texture2D/Structure_HEA_VillagePlanks_d.png
+- Assets/Materials/environment/timberHearth/props/Tree_TH_RedwoodLeaves_d.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Copper_n.png
+- Assets/GAMERIP/AnimationClip/Feldspar_DreamIdle.anim
+- Assets/GAMERIP/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Trim_Wood_n.png
+- Assets/Texture_Turtle/Props_NOM_Mask_Trim_n.png
+- Assets/GAMERIP/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Trim_Wood_s.png
+- Assets/GAMERIP/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Steel_s.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_WovenGrooves_d.png
+- Assets/GAMERIP/Shader/Outer Wilds_Environment_Giant's Deep_Cloud Layer Top.asset
+- Assets/GAMERIP/Materials/environment/giantsDeep/props/Tree_GD_CoralLeaves_t.png
+- Assets/GAMERIP/Materials/environment/giantsDeep/props/Tree_GD_CoralLeaves_d.png
+- Assets/Shader/Standard (Translucent).asset
+- Assets/Materials/environment/invisiblePlanet/Props/dreamWorldOnly/Foliage_DW_Ground_d.png
+- Assets/Shader/Outer Wilds_Environment_Giant's Deep_Cyclone.asset
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Steel_s.png
+- Assets/Texture2D/Structure_NOM_Porcelain_s.png
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Porphy_Skin_d.png
+- Assets/Materials/environment/timberHearth/props/Tree_TH_RedwoodLeaves_t.png
+- Assets/Texture2D/Structure_DW_Mangrove_Wood_s.png
+- Assets/GAMERIP/AnimationClip/GabbroHammock_Idle.anim
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_n.png
+- Assets/AnimationClip/anglernew look right.anim
+- Assets/Texture2D/Structure_HEA_VillageMetal_s.png
+- Assets/GAMERIP/Texture2D/Structure_HEA_VillageCabin_n.png
+- Assets/Shader/Outer Wilds_Character_Ghostbird Antlers.asset
+- Assets/TurtleFinalChar/Structure_NOM_SilverPorcelainGlow_e.png
+- Assets/GAMERIP/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_n.png
+- Assets/GAMERIP/Texture2D/Traveller_HEA_Player_Clothes_d.png
+- Assets/Shader/Standard.asset
+- Assets/GAMERIP/Materials/character/villagers/Villager_HEA_Porphy_Clothes_d.png
+- Assets/GAMERIP/Shader/Outer Wilds_Character_Ghostbird Clothes.asset
+- Assets/GAMERIP/Texture2D/Props_HEA_CampsiteProps_s.png
+- Assets/GAMERIP/Materials/character/ghost/dreamWorldOnly/Ghostbird_DW_Accessories_s.png
+- Assets/GAMERIP/AnimationClip/Tektite_Duck.anim
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_WovenGrooves_n.png
+- Assets/Materials/environment/invisiblePlanet/architecture/Structure_RW_Trim_Wood_d.png
+- Assets/shitandshit/Shader/Standard.asset
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Trim_Wood_d.png
+- Assets/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Steel_ao.png
+- Assets/GAMERIP/Materials/environment/invisiblePlanet/architecture/dreamWorldOnly/Structure_DW_Mangrove_Wood_Lacquer_n.png
+- Assets/GAMERIP/Materials/environment/timberHearth/props/Tree_TH_Stump_s.png
+- Assets/GAMERIP/Materials/character/travellers/Traveller_HEA_Riebeck_Banjo_ao.png
+- Assets/Texture2D/Props_HEA_MuseumWords_d.png
+Dependencies:
+- C:/Users/wesca/source/repos/JamHub/Mod/JamHub/assetbundles/cleric_jamhub_assets3
