@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1782535494
+CRC: 2346689059
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a3454b124c7f28b831c7b63212c4d2cb
+    Hash: ea78b2b56e8992d387311f340cc1a0a7
   TypeTreeHash:
     serializedVersion: 2
     Hash: f9eb05fb361b702eaeed6cef4d20c19b
@@ -132,6 +132,7 @@ Assets:
 - Assets/Materials/mod_banners/textures/arcanum.jpg
 - Assets/Dialogue/Plaques/guardian.xml
 - Assets/Materials/mod_banners/textures/eotp.jpg
+- Assets/Dialogue/Modders/Vambok.xml
 - Assets/Dialogue/Modders/xen.xml
 - Assets/Materials/mod_banners/wrongwarp_mat.mat
 - Assets/Dialogue/Modders/Lumine 0409.xml
