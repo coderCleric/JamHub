@@ -1,0 +1,23 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "name": "Central Station",
+  "starSystem": "Jam5",
+  "Props": {
+    "warpTransmitters": [
+      {
+        "position": {
+          "x": 10.66753,
+          "y": -11,
+          "z": 12.68544
+        },
+        "rotation": {
+          "x": 0,
+          "y": 313.6217,
+          "z": 0
+        },
+        "alignmentWindow": 360,
+        "frequency": "ClericJam5Hub"
+      }
+    ]
+  }
+}

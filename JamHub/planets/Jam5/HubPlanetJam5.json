@@ -18,8 +18,12 @@
   },
   "MapMarker": {"enabled": true},
   "Orbit": {
-    "primaryBody": "Jam Hub Star",
-    "semiMajorAxis": 1200
+    "isStatic": true,
+    "staticPosition": {
+      "x": 0,
+      "y": 1000,
+      "z": 0
+    }
   },
   "Atmosphere": {
     "atmosphereSunIntensity": 1,

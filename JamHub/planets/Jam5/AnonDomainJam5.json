@@ -15,11 +15,9 @@
   "MapMarker": {"enabled": false},
   "Orbit": {
     "isStatic": true,
-    "isMoon": true,
-    "primaryBody": "Mod Jam Hub",
     "staticPosition": {
       "x": 0,
-      "y": 500,
+      "y": 1500,
       "z": 0
     }
   },
