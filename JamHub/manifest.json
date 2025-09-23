@@ -4,7 +4,7 @@
   "author": "coderCleric and Anon",
   "name": "Jam Hub",
   "uniqueName": "coderCleric.JamHub",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "owmlVersion": "2.15.3",
   "dependencies": [ "xen.NewHorizons" ]
 }
