@@ -1,0 +1,1607 @@
+{
+//该翻译补丁经检查应该没有任何问题。
+  "UIDictionary": {
+    "Mod Jam Hub": "模组创作赛枢纽"
+  },
+
+  "DialogueDictionary": {
+    //BaseGameComputer.xml
+    "Orrery Computer": "星象仪终端",
+    "Hey there! I'm a computer dedicated to scanning and tracking all of the different mods in this system.": "你好呀！我是一台专门用于追踪创作赛星系中各类模组的终端。",
+    "You can use my orrery above us to track the relative positions of different bodies.": "你可以用我们上方的星象仪，追踪各个天体的相对位置。",
+    "I can even give you a bit of information on the different mods that are installed, and lock on to the main bodies of each mod!": "我甚至还能为你展示已安装各类模组的信息，还能锁定每个模组的主天体哦！",
+    "Page 1": "页面1",
+    "Page 2": "页面2",
+    "Page 3": "页面3",
+    "Page 4": "页面4",
+    "Page 5": "页面5",
+    "Exit": "退出",
+    "Lock on to body. ": "锁定它的主天体",
+    "Cancel.": "取消",
+    "If you go to a system hosting a mod jam (such as the jam 3 system), I can help you keep track of the mods and the bodies associated with them!": "如果你前往举办模组创作赛的星系（比如第三届创作赛星系、Jam 3 System），我可以帮你追踪这些模组以及与之关联的天体！", //无效
+    "Unfortunately, the base-game system doesn't have much for me to do. You can still check out the other landmarks on the planet though!": "可惜的是，在原版游戏的星系里我没什么可做的。不过你依然可以去看看这颗星球上的其他地标！", //无效
+
+    //computer.xml
+    "Ernesto": "厄内斯托",
+    "So, yeah, this is the last thing on the tour, its some sort of weird computer.": "好啦，这就是游览的最后一站，这东西是台古怪的终端。",
+    "I think you can use it to, like, lock onto planets and stuff? Plus there's an orrery, so that's pretty neat.": "我觉得你能用它，锁定行星之类的？而且它还有个星象仪，还挺有意思的。",
+    "But yeah, that's the tour, we're done now.": "好啦，游览到此就结束了。",
+    "Did you have any questions or anything like that?": "你有什么想问的吗？",
+    "Why don't you have collision?": "你怎么没有碰撞体积啊？",
+    "Why are you missing a tooth?": "你怎么少了颗牙？",
+    "Nope.": "没有。",
+    "The modders didn't feel like dealing with me having physics and stuff.": "模组创作者们懒得给我做物理碰撞这些玩意儿。",
+    "Cleric's going to claim that it's cosplay, but he actually just mixed up some models in his files.": "Cleric会说这是角色扮演，但其实他就是在文件里弄混模型了。",
+
+    //equator.xml
+    "Cool, you made it.": "不错嘛，你赶到了。",
+    "So, this is a showcase of some of the popular mods that have been made for Outer Wilds, if you want to read about them. It includes story mods on one exhibit, and more general mods on the other.": "这是《星际拓荒》热门模组的展示区，想了解的话可以看看。一边展示的是故事类模组，另一边是通用类模组。",
+    "There's also four other showcases. They show upcoming mods, abandoned mods, utility mods, and jam entries.": "还有另外四个展示区，分别展示未上线模组、废弃模组、实用模组和创作赛参赛作品。",
+    "They're all on the equator, so I'm not gonna bother showing you them. Instead I'm gonna show you the thingamajig at the south pole, so meet me there.": "都在赤道上，我就不费劲儿带你一个个看了。不如我带你去南极看个好玩儿的玩意儿，到那儿见。",
+
+    //shack.xml
+    "Oh, uh, hey, it's me, Ernesto the magic talking anglerfish.": "哦，呃，嘿，是我，会说话的魔法安康鱼厄内斯托。",
+    "I guess I'm supposed to give you a tour of the planet or something, so, yeah, let's do that.": "我好像得带你逛逛这颗星球之类的，那咱们就出发吧。",
+    "So, first off, this is the party shack, there's a bunch of modders inside that you can chat with if you want. It's pretty neat.": "首先，这是派对小屋，里面有好多模组创作者，想聊天的话可以进去。还挺有意思的。",
+    "...Yeah, that's pretty much all there is to that, so I'm gonna say we should move on. Follow me, or don't, but I'm going to the equator.": "……嗯，这儿差不多就这样了，咱们继续往前走吧。跟不跟来随你，反正我要去赤道了。",
+
+    //Can't Afford a Name.xml
+    "Can't Afford a Name": "Can't Afford a Name",
+    "Oh, hey! Pleasure to meet you, I'm Can't Afford a Name.": "哦，嘿！很高兴认识你，我是Can't Afford a Name。",
+    "I was invited because of my involvement in Archipelago and Tesseract's Secret.": "我因为参与了《Archipelago》和《Tesseract's Secret》模组的制作才受邀来的。",
+    "Did you know that there's an unofficial Outer Wilds modding discord? I go by \"Can't Afford a Name\" over there.": "你知道有个非官方的《星际拓荒》模组创作Discord社群吗？我在那儿的ID也是“Can't Afford a Name”。",
+    "You should also check out my YouTube channel, I make a lot of fun videos over there.": "你也可以去看看我的YouTube频道，我在上面发了好多有意思的视频。",
+
+    //2walker2.xml
+    "2walker2": "2walker2",
+    "Hello, I'm Walker! I was the lead developer of Astral Codec. I've also worked on the mod jam entries Evacuation, Reflections, Root Access, and Heliostudy.": "你好，我是Walker！我是《Astral Codec》的首席开发者。我还参与过创作赛参赛作品《Evacuation》《Reflections》《Root Access》和《Heliostudy》的制作。",
+    "Astral Codec is one of the biggest projects I've ever worked on and it would never have been finished without the help of many other people, several of whom are attending this very party! I'm really proud to be a part of this community.": "《Astral Codec》是我参与过的最大型的项目之一，没有其他很多人的帮助根本完不成——其中好几个人现在就在这个派对里！能成为这个社群的一份子，我真的很自豪。",
+    "If you're reading this and thinking about making a mod yourself, go for it! If you're unsure how to start, ask on the Discord. Or find a team and try making something for the next jam. You never know what you could make.": "如果你看到这段话，也想自己做模组，那就放手去做吧！不知道怎么开始的话，就去Discord上问问。或者找个团队，试着为下一届创作赛做个作品。你永远不知道自己能做出什么。",
+    "If you're playing this in the Jam 3 system, my team's entry (Reflections) can be found on Forlorn Project out by the edge of the solar system. Try to avoid being sealed away forever.": "如果你在第三届创作赛星系里玩这个模组，我团队的作品《Reflections》在太阳系边缘的“被遗弃的项目”星球上能找到。尽量别被永远封印起来哦。",
+    "If you're playing this in Jam 5, my team's entry (Heliostudy) is the solar system with the holographic purple lines. You should check out the developer commentary (enabled in the options) after playing it!": "如果你在第五届创作赛星系里玩，我团队的作品《Heliostudy》是那个有全息紫色线的太阳系。通关后一定要听听开发者解说（可以在设置里开启）！",
+    "If you want to chat, feel free to ping me (@2walker2) on the modding Discord! I'm happy to help new modders or to answer questions about any of the mods I worked on.": "想聊天的话，随时可以在模组创作Discord上@我（@2walker2）！我很乐意帮助新模组创作者，或者解答关于我参与制作的任何模组的问题。",
+
+    //AmazingAlek.xml
+    "AmazingAlek": "AmazingAlek",
+    "Oh, hey! I don't know if we've met, my name is AmazingAlek!": "哦，嘿！不知道我们见过没，我是AmazingAlek！",
+    "I'm glad to see Quantum Space Buddies and OWML getting some more recognition, makes me proud!": "看到《Quantum Space Buddies》和OWML得到更多认可，我真的很开心！",
+    "I go by \"alek\" on the Outer Wilds modding discord, feel free to stop by and chat!": "我在《星际拓荒》模组创作Discord上的ID是“alek”，欢迎过来聊聊！",
+
+    //anonymous.xml
+    "Anonymous": "Anonymous",
+    "stop right there! don't make another step!": "站住！不准再往前走了！",
+    "i'm amazed, you've earned my respect. you kept the light off. see, i really don't like the light!": "真没想到，你赢得了我的尊重。你没开灯。知道吗，我特别讨厌光！",
+    "just you know, if you turn that thing on i will kill you.": "跟你说，你要是敢开灯，我就杀了你。",
+    "alright then, what do you want from me?": "好吧，你想从我这儿得到什么？",
+    "Who are you?": "你是谁？",
+    "do you wish to know anything else?": "你还想知道别的吗？",
+    "Where are we?": "我们在哪儿？",
+    "Why aren't you with the rest?": "你为什么不和其他人待在一起？",
+    "Tell me more about your work.": "多说说你的作品。",
+    "What story mods do you recommend?": "你推荐哪些故事类模组？",
+    "What got you into Outer Wilds?": "是什么让你喜欢上《星际拓荒》的？",
+    "Why are you so anonymous?": "你为什么这么神秘？",
+    "Why did you leave the Discord?": "你为什么退出Discord了？",
+    "Goodbye.": "再见。",
+    "who am i?": "我是谁？",
+    "i'm the fellow who made the stranger they are.": "我就是制作《The Stranger They Are》的人。",
+    "that's right, i am anonymous.": "没错，我就是Anonymous。",
+    "but don't be fooled, this is not my form. this mere thing is a vessel in which i control to communicate to you.": "但别被骗了，这不是我的真实形态。这玩意儿只是我用来和你交流的载体。",
+    "i just told you who i was!": "我刚告诉你我是谁了！",
+    "you're wondering where we are?": "你想知道我们在哪儿？",
+    "we're in the catacombs of this planet, far below the ground.": "我们在这颗星球的地下墓穴里，在离地面很深的地方。",
+    "i built this place by bringing these pieces to unity.": "这地方是我把这些碎片拼凑起来建成的。",
+    "that's because it's so goddamn bright out there. i hate light.": "因为外面太亮了，真该死。我讨厌光。",
+    "don't get me wrong, i think all the other modders are great people to talk to, and i love the community.": "别误会，我觉得其他模组创作者都很容易相处，我也很爱这个社群。",
+    "*sigh* i wish i could have the chance to run into some of them in real life. that would change everything.": "*叹气* 真希望能有机会在现实中见到他们中的一些人。那样一切都会不一样了。",
+    "my work? yes, i've made the stranger they are and helped develop the cosmic curators.": "我的作品？没错，我做了《The Stranger They Are》，还参与开发了《The Cosmic Curators》。",
+    "tsta is something i feel mixed about, because it's given me such frusturation during development, yet some other things i'm proud of.": "我对《The Stranger They Are》的感情很复杂，在开发过程中我遇到了很多挫折，但也有一些地方让我很自豪。",
+    "honestly, i shit on my own mods for shits and giggles. i know i've made a great mod, i'm proud of it, but i don't want to be that person who just annoyingly promotes their mod.": "说实话，我有时候会吐槽自己的模组，纯粹是为了好玩。我知道自己做的模组很棒，也很自豪，但我不想做那种没完没了推销自己模组的人。",
+    "curators on the other hand went completely smoothly, and it's mostly because i've learned from my mistakes in the stranger they are. i designed most of the puzzles for that mod.": "而《The Cosmic Curators》的开发就顺利多了，主要是因为我从《The Stranger They Are》的错误中吸取了教训。那个模组的大部分谜题都是我设计的。",
+    "what were those mistakes?": "那些错误是什么？",
+    "1. don't edit too much things in base game, or things will break. (tsta did that a lot!)": "1. 别过多修改原版游戏内容，不然会出问题。（《The Stranger They Are》就犯了很多这种错！）",
+    "2. don't mess with quantum stuff too much. (it's what caused clay to stop modding and some bugs that still remain in tsta)": "2. 别过多摆弄量子相关的内容。（这也是导致Clay停止做模组的原因，而且《The Stranger They Are》里还有些bug没修复。）",
+    "i hope that people can learn from my mistakes and avoid them when modding. it's these two things that caused tsta to have so many bugs and spend another several months in bug fixing hell.": "希望大家能从我的错误中吸取教训，做模组的时候避开这些坑。就是这两点，让《The Stranger They Are》出了这么多bug，还多花了好几个月时间修复。",
+    "i'm glad to ask!": "我很乐意推荐！",
+    "first, let me get the elephant out of the room. forgotten castaways.": "首先，先说说最热门的——《Forgotten Castaways》。",
+    "no, cleric is not paying me to say this! i love that mod so much!": "不，Cleric没给钱让我吹这个！我是真的超爱这个模组！",
+    "i've always found dark bramble fun, even with the anglerfish! so i immediately fell in love with this mod when i playtested it for cleric.": "我一直觉得黑棘星挺有意思的，就算有安康鱼也不怕！所以我帮Cleric测试这个模组的时候，一下子就爱上它了。",
+    "i also highly recommend the outsider, which used to be my favorite before castaways. it too was dark bramble related, but has a nice little mix of dlc in it. (i also love the dlc)": "我还强烈推荐《The Outsider》，在《Forgotten Castaways》之前，这是我最喜欢的模组。它也和黑棘星有关，但还融入了一些DLC的元素，挺不错的。（我也超爱那个DLC）",
+    "there's also a lot more i recommend. the hearth's neighbor series, band together, dreambound, evacuation, hearth1an's mods, root access, unnamed mystery, heliostudy, project arc, mindscapes...": "还有好多我想推荐的。《Hearth's Neighbor》系列、《Band Together》、《Dreambound》、《Evacuation》、hearth1an做的模组、《Root Access》、《Unnamed Mystery》、《Heliostudy》、《Project ARC》、《Mindscapes》……",
+    "...fret's quest, quasar project, finis, symbiosis, tesseract's secret, astral codec, lonesome lake, on a rail!, under a radio moon, core collapse, and the box! especially the box!": "……《Fret's Quest》、《The Quasar Project》、《Finis》、《Symbiosis》、《Tesseract's Secret》、《Astral Codec》、《Lonesome Lake》、《On A Rail!》、《Under a Radio Moon》、《Core Collapse》，还有《The Box》！尤其是《The Box》！",
+    "oh! and i playtested for eyes of the past, easily one of my top 3 mods. keep an eye for that one when it comes out!": "哦对！我还帮《Eyes of the Past》做过测试，这绝对是我心中前三的模组。等它发布了一定要关注！",
+    "also uh, you can check out my mods too i guess, if you want. i don't like boasting about it too much.": "对了，如果你愿意的话，也可以看看我的模组。我不太喜欢过多吹嘘自己的作品。",
+    "...wait, do i hear snoring? do i have to say all that again? too bad, i'm not!": "……等等，我好像听到打鼾声了？我还得再说一遍吗？才不要！",
+    "you know that one nintendo direct that went \"you have 22 minutes until the solar system is destroyed\"?": "你记得有个任天堂发布会里说“距离太阳系毁灭还有22分钟”吗？",
+    "yeah. that one.": "对，就是那个。",
+    "i didn't buy it until later that year and i neglected it for a while, and finally beat it at the very beginning of 2023.": "我直到那年晚些时候才买，之后搁置了一阵子，2023年初才通关。",
+    "by the way, my first planet i visited was dark bramble! i thought it was cool so i went in it and landed on top of the red seed thinking it was a place to land...then i died to an anglerfish lol.": "对了，我第一个去的星球就是黑棘星！我觉得它很酷，就飞进去了，还把红色种子当成着陆点降了上去……结果被安康鱼吃了，哈哈。",
+    "when i did finish outer wilds, i bought the dlc a few months later. it took me less than a month to beat the dlc, and not long after i started installing mods.": "通关《星际拓荒》后，我几个月后就买了DLC。通关DLC只花了我不到一个月，之后没多久我就开始装模组了。",
+    "my first mod was the vision, then i played the outsider. i enjoyed both, and then i kept playing mods until i decided one day to mess around with new horizons.": "我玩的第一个模组是《The Vision》，然后是《The Outsider》。这两个我都很喜欢，之后我就一直玩各种模组，直到有一天决定试试《New Horizons》。",
+    "i messed with mods in my spare time, and even had a prototype for tsta, until i realized the inhabitant kit wiki became public, which made me want to join the server and get access.": "我业余时间就捣鼓模组，甚至还做了《The Stranger They Are》的原型，后来发现鹿人工具包的Wiki公开了，就想加入服务器获取权限。",
+    "then, i wanted to bring my idea to life. i've had tsta as an idea since early november of 2023, and then it finally released about 1 and a half years later.": "然后我就想把自己的想法变成现实。《The Stranger They Are》这个想法是2023年11月初有的，大概一年半后才正式发布。",
+    "i left the server for a bit, and came back because i wanted to participate in jam 5, and i ended up working with pik and stache to make cosmic curators as the main programmer.": "我退出服务器一段时间后又回来了，因为想参加第五届创作赛，最后和Pik、Stache合作，作为主程序员制作了《The Cosmic Curators》。",
+    "at the end, i helped cleric breathe new life into the mod jam mod, and then...i left for good.": "最后，我帮Cleric给这个创作赛模组注入了新内容，然后……就彻底退出了。",
+    "can't share that too much because i want to be anonymous.": "因为想保持神秘，我不能说太多。",
+    "the internet is a dangerous place, and i've had some bad interactions in the past. when i wanted to join the modding community, i wanted to anonymize myself due to those past experiences.": "互联网挺危险的，我以前有过一些不好的互动经历。所以加入模组创作社群的时候，就想保持匿名。",
+    "every public sector of the web has that drama and toxcicity that breaks out...but not the outer wilds modding community. it's impressive how lacking of these things the server is.": "网上所有公共社群都难免会有矛盾和戾气……但《星际拓荒》的模组创作社群没有。这个服务器里几乎没有这些乱七八糟的事，真的很难得。",
+    "modding has proven to be a consuming part of my life, and i want to fully retire. because i have a lot of drive, i would spend all my free time modding. so what good is being in the modding server if you're not modding?": "事实证明，做模组已经占据了我生活的太多时间，我想彻底停一停了。我曾经很投入，一有空就会去做模组。所以如果不做模组了，留在模组服务器里还有什么意义呢？",
+    "and even if neither if those were true, there's something about leaving that....sort of gives me peace. i can't really describe it.": "就算不是因为这些，离开这件事本身……也能让我心里平静下来。我说不清楚。",
+    "i don't hate anybody. it's honestly more of a lifestyle choice. i'm doing this for the betterment for myself.": "我不恨任何人。这其实更像是一种生活选择。我是为了让自己变得更好。",
+    "i won't forget the great times i had in the server. thank you, outer wilds community.": "我不会忘记在服务器里度过的美好时光。谢谢你们，《星际拓荒》社群。",
+    "farewell.": "再见。",
+
+    //Artum.xml
+    "Artum": "Artum",
+    "Hey there! I'm Artum.": "嘿！我是Artum。",
+    "I was invited because of my involvement in NomaiVR.": "我因为参与了《NomaiVR》的制作才受邀来的。",
+    "You can find me on the Outer Wilds modding discord as \"artum\"!": "你可以在《星际拓荒》模组创作Discord上找到我，ID是“artum”！",
+
+    //Bird.xml
+    "Bird": "Bird",
+    "Hey there! I'm Bird.": "嘿！我是Bird。",
+    "Extinction is a mod I started working on a few years ago. I got about halfway through it, but I eventually stopped because I had lost a lot of ambition and was moving on to other things.": "《Extinction》是我几年前开始做的一个模组。做到一半左右就停了，因为没那么有动力了，而且也开始忙别的事了。",
+    "Most of what was left involved coding and writing, implementing puzzles and text, connecting everything, finishing a few structures, and playtesting.": "剩下的大部分工作都是编程、写文案、实现谜题和文本、把所有内容串联起来、完成一些建筑，还有测试。",
+    "Some ideas from Extinction ended up inspiring my Jam 3 mod, Symbiosis, so go check that out.": "《Extinction》里的一些想法后来启发了我在第三届创作赛中的作品《Symbiosis》，可以去看看。",
+    "You can find me on the Outer Wilds modding discord as \"Bird\"!": "你可以在《星际拓荒》模组创作Discord上找到我，ID是“Bird”！",
+    "Why is that guy locked in a cage?": "那个人为什么被关在笼子里？",
+    "Oh, yeah, he was causing trouble so I put him in there. Don't worry about it.": "哦，因为他捣乱，所以我就把他关进去了。别担心。",
+
+    //Book.xml
+    "Book": "Book",
+    "Hey! Welcome to the party! I'm Book, nice to meet you!": "嘿！欢迎来派对！我是Book，很高兴认识你！",
+    "I'm here because of my work on New Horizons.": "我是因为参与了《New Horizons》的制作才来的。",
+    "You can find me on the Outer Wilds modding discord as \"Book\"!": "你可以在《星际拓荒》模组创作Discord上找到我，ID是“Book”！",
+
+    //Hearth1an.xml
+    "Hearth1an": "Hearth1an",
+    "Yo, how's it going? My name is Hearth1an.": "哟，最近咋样？我是Hearth1an。",
+    "Have you played The Vision? I was actually involved in it, you should give it a try!": "你玩过《The Vision》吗？我参与了这个模组的制作，真的可以试试！",
+    "You can find me on the Outer Wilds modding discord as \"hearth1an\"!": "你可以在《星际拓荒》模组创作Discord上找到我，ID是“hearth1an”！",
+
+    //Clay.xml
+    "Clay": "Clay",
+    "Oh, hey! I don't know if we've met, my name is Clay!": "哦，嘿！不知道我们见过没，我是Clay！",
+    "Did you know that I'm also working on Uncertain Futures? I'm looking forward to getting to release it once it's done!": "你知道我还在做《Uncertain Futures》吗？等做完了就发布，我还挺期待的！",
+    "Did you know that there's an unofficial Outer Wilds modding discord? I go by \"clay\" over there.": "你知道有个非官方的《星际拓荒》模组创作Discord社群吗？我在那儿的ID是“clay”。",
+
+    //cOaRemote.xml
+    "cOa Rex": "cOa Rex",
+    "Oh yeah, Anon? They really don't like the light, you know.": "哦对了，Anonymous？你知道吗，他真的很讨厌光。",
+    "You have to walk up to them without any lights on, or else they will just keep kicking you out, like, again and again.": "你得关灯走近他，不然他会一直把你赶出去，一次又一次。",
+    "Once you done it the first time, it's too late, my friend.": "一旦你第一次开着灯靠近，就晚了，朋友。",
+    "You might have to restart to be able to talk to them again. It can be a bit annoying, but that is how it is!": "你可能得重来才能再和他说话。有点麻烦，但没办法！",
+
+    //cOaRex.xml
+    "Hey Traveler! They called me Rex, or cOa.": "嘿，旅行者！他们叫我Rex，或者cOa。",
+    "I'm the drawer who worked on some mods like Cosmics Curators or Eyes of the Past.": "我是个画师，参与过《The Cosmic Curators》和《Eyes of the Past》等模组的制作。",
+    "I'm also working on an animation like the DLC slide reels named A Stranger I Remain. It's also where come from the character \"the Stranger\".": "我还在做一个动画，就像DLC里的幻灯片那样，名字叫《A Stranger I Remain》。“陌生人”这个角色也出自这里。", //句意不明
+    "You know, sometimes, you have dreams or projects, like, big dreams. And more little dreams. But doesn't make them less important.": "你知道吗，有时候你会有梦想或者计划，有大梦想，也有很多小梦想。但小梦想也同样重要。",
+    "One of mine was to do a mod and be on the team of Anon, pikpik, Stache, and Repcon. Well, my team actually.": "我的一个梦想就是做一个模组并加入Anonymous、pikpik、Stache和Repcon的团队。好吧，其实现在就是我的团队了。",
+    "Live simple life can also means to enjoy every little dreams like this that coming true. And I have made a souvenir of our team. Maybe you will find it. It's pretty easy.": "简单生活也意味着享受每一个这样实现的小梦想。我还做了一个我们团队的纪念品，你可能会找到它，挺容易的。",
+    "You can find me on Discord by cOa Rex, on in Youtube by centre Ombre alpha. This is where I will upload A Stranger I Remain... When it will be ready.": "你可以在Discord上通过搜cOa Rex找到我，YouTube上的频道是centre Ombre alpha。等《A Stranger I Remain》做好了，我会传到上面。",
+    "Feel free to come talk, or if your need 2D Arts for a mod or for something, maybe I could help, even if I take time for everything.": "欢迎来找我聊天，如果你做模组或者别的东西需要2D美术，我也许能帮忙，虽然我做什么都比较慢。",
+    "Also, be sure to explore mods. The Stranger They Are, Forgotten Castaways, etc, etc. This is because people make mod, and people playing it, make feedback, and share that Outer Wilds continue to live.": "另外，一定要多试试各种模组。《The Stranger They Are》《Forgotten Castaways》之类的。因为有人做模组，有人玩，有人提反馈，分享，《星际拓荒》才能一直“活着”。",
+    "So, see you in Eyes of the Past, The Cosmic Curators, The Stranger They Are, and A Stranger I Remain.": "那么，在《Eyes of the Past》《The Cosmic Curators》《The Stranger They Are》和《A Stranger I Remain》里见啦。",
+    "And maybe... in another story mod ? Yeah, that is my little secret for now, but I have a idea for it, even if it takes years, I hope you will still be there.": "也许……还会在另一个故事模组里？嗯，这是我现在的小秘密，但我已经有想法了，就算要做好几年。希望到时候你还在。",
+    "Before that, I have a lot of things to learn, and to do. Because my imagination never stop!": "在那之前，我还有很多东西要学，很多事要做。因为我的想象力永远不会停！",
+    "Have a nice exploration!": "祝你探索愉快！",
+    "What was that about Anon, again?": "刚才说Anonymous什么来着？",
+
+    //coderCleric.xml
+    "coderCleric": "coderCleric",
+    "Hey there! I'm coderCleric, the original creator of the jam hub mod.": "嘿！我是coderCleric，这个创作赛枢纽模组的原创作者。",
+    "I hope you've been having fun looking around this little planet and talking to all of the other modders! Anon and I made sure it was a pretty good showcase of what the community has to offer.": "希望你在这颗迷你行星上逛得开心，和其他模组创作者聊得愉快！我和Anonymous确保了这里能很好地展示这个社群的成果。",
+    "Howdy again!": "又见面啦！",
+    "Was there anything you wanted to chat about?": "有什么想聊的吗？",
+    "What future plans do you have?": "你未来有什么计划？",
+    "Have any mod recommendations?": "有推荐的模组吗？",
+    "So I finished Castaways...": "我通关《Forgotten Castaways》了……",
+    "What gave you the idea for the jam hub?": "是什么让你想到做这个创作赛枢纽的？",
+    "What other mods have you made?": "你还做过其他什么模组？",
+    "Why is Ernesto missing a tooth?": "厄内斯托为什么少了颗牙？",
+    "Nothing for now.": "现在没有。",
+    "Good question! Right now my priority is getting a job, which is proving to be easier said than done.": "好问题！现在我的首要任务是找工作，这事儿说起来容易做起来难。",
+    "Ideally I want to break into game development. I've actually got a little metroidvania that I'm working on in my free time, so we'll see how that turns out!": "理想情况下，我想进入游戏开发行业。我其实在业余时间做了一个小型银河恶魔城游戏，看看最后能做成什么样吧！",
+    "In terms of Outer Wilds modding, I'm honestly not super sure how much more I'm planning on doing. I've got one or two ideas that I might develop on, but I'm planning on putting modding on the backburner for a while.": "至于《星际拓荒》的模组制作，说实话我还不确定接下来要做多少。我有一两个想法可能会继续发展，但打算先把模组制作放一放。",
+    "I definitely plan on participating in future jams though, they're always a good time. Jam 5 was the first time I got to work with a team and it was a ton of fun!": "不过我肯定会参加未来的创作赛，每次都很开心。第五届创作赛是我第一次和团队合作，真的超好玩！",
+    "Oh for sure, let me think for a second...": "当然有，让我想想……",
+    "If you're looking for mods that you can chew on for a bit, there's definitely a good supply of those. Astral Codec, The Outsider, and The Stranger They Are are all solid choices.": "如果你想找一些能慢慢玩的模组，可选的真不少。《Astral Codec》《The Outsider》和《The Stranger They Are》都是很不错的选择。",
+    "If you'll allow me to plug my own stuff for a moment, I made a fairly large mod called Forgotten Castaways that I'm pretty proud of.": "如果允许我稍微推销一下自己的作品，我做了一个相当大的模组叫《Forgotten Castaways》，我挺自豪的。",
+    "The mods from all of the jams are also worth playing, especially the winners. They tend to be a bit shorter too, so you can usually finish them in one play session.": "所有创作赛的模组也都值得玩，尤其是获奖作品。它们通常也短一些，一般一次就能通关。",
+    "You should also keep an eye out on the discord for upcoming mods, I know some really good ones are in the works.": "你也可以在Discord上关注即将发布的模组，我知道有一些超棒的模组正在制作中。",
+    "Nice! What did you think?": "不错嘛！你觉得怎么样？",
+    "It was fun!": "挺好玩的！",
+    "Not the biggest fan tbh...": "说实话，不是很喜欢……",
+    "It had a lot of writing.": "文字太多了。",
+    "How could you kill them all you bastard!": "你怎么能把他们都杀了，你这个混蛋！",
+    "Glad to hear it! I'm pretty proud of how it turned out, so it's good to hear that people are enjoying it!": "真高兴你喜欢！我对这个模组的成品挺满意的，所以听到大家喜欢真的很开心！",
+    "Heh, fair enough. I'm personally pretty proud of how it turned out, but hey, nothing's gonna be everyone's cup of tea.": "呵，也能理解。我个人对成品挺满意的，但没办法，没有什么能让所有人都喜欢。",
+    "Lol, yeah, some of the areas of the mod are definitely a bit dense in terms of text.": "哈哈，是啊，模组里有些地方的文字确实有点多。",
+    "Graviton's Folly is probably the biggest offender. If I were to do it all again I'd probably try and disperse some of the text there to other locations.": "“引力愚行”可能是文字最多的地方。如果再做一次，我可能会把那里的一些文字分散到其他地方。",
+    "I hope the writing was enjoyable though!": "不过希望那些文字内容还挺有意思的！",
+    "Heh, you're not the first person I've heard that from!": "呵，你不是第一个这么说的人！",
+    "In all seriousness though, I knew very early on in development that the Dree and Nomai were all going to die at the end of the story. It's how every other story in the game ends, after all.": "不过说真的，我在开发初期就知道德瑞人和挪麦人最后都会死。毕竟，游戏里其他所有的故事都是这样结尾的。",
+    "One thing I really tried to emphasize was that they all had really good lives before the DNP went haywire. Since Outer Wilds is all about living life before it's over, it seemed like an important point to make.": "我真正想强调的是，在DNP（德瑞-挪麦项目）失控之前，他们都过着很美好的生活。既然《星际拓荒》的核心就是“在一切结束前好好生活”，我觉得这一点很重要。",
+    "While I didn't actually implement it until jam 3, it was actually an idea I had for a while. The “community” theme of that jam was just the perfect excuse to implement it.": "虽然我直到第三届创作赛才真正实现这个想法，但其实我早就有这个念头了。那一届创作赛的“社群”主题正好给了我实现它的绝佳理由。",
+    "I just thought that it would be cool to have a mod that introduces the player to the community, as a fun way to help people get to know its members.": "我觉得做一个能让玩家了解这个社群的模组会很酷，用一种有趣的方式让大家认识社群里的人。",
+    "I might have stolen the idea from someone else tbh, I'm not sure if I'm the one that came up with the concept. Nonetheless, I'm happy with how it turned out and hope that you're having a good time!": "说实话，这个想法可能是我从别人那儿借鉴的，我不确定是不是我原创的。不过不管怎样，我对成品很满意，希望你玩得开心！",
+    "Quite a few, although not nearly as many as some of the other modders in the community.": "挺多的，不过比社群里其他一些模组创作者要少得多。",
+    "I've participated in almost every mod jam that the community's hosted, only missing the fourth one.": "社群举办的每一届创作赛我几乎都参加了，只错过了第四届。",
+    "My only non-jam story mod is Forgotten Castaways. I'm pretty proud of it and would definitely encourage you to give it a shot.": "我唯一非创作赛的故事模组就是《Forgotten Castaways》。我挺自豪的，非常推荐你试试。",
+    "I've also got a number of purely mechanical mods. If you're looking to make the game much, <![CDATA[<i>much</i>]]> worse to play, consider downloading Ghost Everything and Wacky Rotations.": "我还做了一些纯机制类模组。如果你想让游戏变得……超级难玩，可以试试《Ghost Everything》和《Wacky Rotations》。",
+    "You can actually search for an author on the mod website, so feel free to use that if you're looking for all mods from a particular person.": "模组网站上其实可以按作者搜索，如果你想找某个人的所有模组，不妨试试。",
+    "Not sure to be honest. I think he said that it's cosplay or something?": "说实话我也不确定。我记得他说那是角色扮演之类的？",
+    "Sounds good!": "好嘞！",
+    "By the way, I go by coderCleric on the OW modding discord (who would've guessed!). Feel free to shoot me a message sometime if you want to give feedback on the hub, or even just to chat!": "对了，我在《星际拓荒》模组创作Discord上的ID是coderCleric（谁能想到呢！）。如果你想给这个枢纽模组提反馈或者只是想聊天，随时可以给我发消息！",
+
+    //Ditzy.xml
+    "ditzy": "ditzy",
+    "...": "……",
+    "Hello?": "有人吗？",
+    "What are you?": "你是什么东西？",
+    "I'm sorry! I was just kidding!": "对不起！我只是在开玩笑！",
+    "Really, I promise I won't go through you.": "真的，我保证不会穿过你。",
+    "Uh...nevermind.": "呃……当我没说。",
+    "please leave me alone.": "请别打扰我。",
+    "ok. now please leave.": "好。现在请离开。",
+    "hi.": "嗨。",
+    "You can talk?": "你会说话？",
+    "yes?": "是啊？",
+    "Oh, sorry, I just didn't expect a...blackhole?...to be able to talk.": "呃，抱歉，我只是没有想到一个…黑洞？…可以说话。",
+    "How are you talking?": "你怎么会说话？",
+    "yeah, i've heard that plenty of times.": "是啊，我听这话听多了。",
+    "How can you talk?": "你怎么会说话？",
+    "i mean, how can <![CDATA[<i>you</i>]]> talk?": "我是说，<![CDATA[<i>你</i>]]>怎么会说话？",
+    "i was just born this way.": "我生来就这样。",
+    "Oh I see. I guess that makes sense.": "哦，原来是这样。好像也说得通。",
+    "how are <![CDATA[<i>you</i>]]> talking?": "<![CDATA[<i>你</i>]]>怎么会说话？",
+    "Fair point.": "有道理。",
+    "It's just something Hearthians can do.": "这是哈斯人天生就会的。",
+    "well it's just something <![CDATA[<i>i</i>]]> can do": "这是<![CDATA[<i>我</i>]]>天生就会的",
+    "Okay, okay.": "好好好。",
+    "ugh. i'm a person, you know.": "呃。我也是个人，你知道的。",
+    "I beg to differ. You're clearly a blackhole.": "我不敢苟同。你明明就是个黑洞。",
+    "Oh sorry. But you're a blackhole?": "哦，对不起。但你真的是黑洞？",
+    "ok. beg.": "好啊。那你求我。",
+    "Huh?": "哈？",
+    "Uh, no thanks.": "呃，不用了，谢谢。",
+    "you said you beg to differ.": "你说你不敢苟同。",
+    "so beg.": "那你求我啊。",
+    "What? That's not...": "什么？不是这么……",
+    "yep.": "就是这么回事。",
+    "certainly not a common sight, a talking blackhole.": "会说话的黑洞，确实少见。",
+    "but i can hardly control my own birth, right?": "但我也控制不了自己的出身，对吧？",
+    "And you helped with Eyes of the Past?": "你参与了《Eyes of the Past》的制作？",
+    "i did! although only a little bit, for such a big mod.": "是啊！不过那个模组那么大，我只帮了点小忙。",
+    "i also contributed to some jam entries: band together, lumina terra, and under a radio moon.": "我还参与了一些创作赛作品：《Band Together》《Lumina Terra》和《Under a Radio Moon》。",
+    "would you like to hear about any of them?": "你想听听其中任何一个吗？",
+    "No, I'm good.": "不用了，谢谢。",
+    "Eyes of the Past.": "《Eyes of the Past》。",
+    "Band Together.": "《Band Together》。",
+    "Lumina Terra.": "《Lumina Terra》。",
+    "Under a Radio Moon.": "《Under a Radio Moon》。",
+    "would you like to hear about any others?": "你还想听听别的吗？",
+    "eyes of the past is the first mod i ever helped with.": "《Eyes of the Past》是我第一次帮忙做的模组。",
+    "i haven't done too much for it, but i'm very glad for it getting me into modding!": "我没做太多工作，但我很庆幸它让我进入了模组创作这个领域！",
+    "you should ask pikpik more about it, though, as it's really his big vision.": "不过你应该多问问pikpik，因为这其实是他的大构想。",
+    "band together was my first game jam ever!": "《Band Together》是我第一次参与的游戏创作赛项目！",
+    "it was a really ambitious mod, thanks largely to pikpik, hehe.": "那个模组的野心挺大的，主要多亏了pikpik，嘿嘿。",
+    "it's also where i met etherpod, who i worked on other mods with afterward!": "我也是在那儿认识了etherpod，后来还和他一起做了其他模组！",
+    "lumina terra was a really challenging jam, because of the \"no text\" restriction.": "《Lumina Terra》那次创作赛真的很有挑战性，因为有“无文字”的限制。",
+    "i worked on it with etherpod, and while we never got to bring the full idea into being, i really love what we came up with!": "我和etherpod一起做的，虽然没能把完整的想法实现，但我真的很喜欢我们做出的成果！",
+    "under a radio moon is the latest jam entry i worked on!": "《Under a Radio Moon》是我最近参与的创作赛作品！",
+    "this one was really wild for us, and my first bigger team (me, etherpod, harper, and ernest).": "这次对我们来说真的很疯狂，而且是我第一次加入比较大的团队（我、etherpod、harper和ernest）。",
+    "we really tried to push some of our skills with this entry, and that made the process a lot of fun!": "我们真的试着在这个作品中挑战自己的技能极限，这让整个过程变得超有趣！",
+    "i'm ditzy, a programmer.": "我是ditzy，一个程序员。",
+    "And you're a blackhole?": "而你是个黑洞？",
+    "anyway, please don't try to enter me. i'm not just an object to be used.": "不管怎样，请别试着进入我。我不只是一个可以被利用的东西。",
+    "I don't know. You <![CDATA[<i>are</i>]]> a blackhole. It's kind of what you're meant for.": "我不知道。你<![CDATA[<i>本来</i>]]>就是个黑洞。这似乎就是你的用途。",
+    "Where do you lead to?": "你通向哪里？",
+    "Oh, okay. I can respect that.": "哦，好吧。我尊重你的想法。",
+    "okay. well just do me a favor and please don't try to enter me. i'm not just an object to be used.": "好。那就帮我个忙，别试着进入我。我不只是一个可以被利用的东西。",
+    "no clue. somewhere in this room.": "不知道。就在这个房间的某个地方。",
+    "i don't control the exit, i can just sense where it is and it's nearby.": "我控制不了出口，只能感觉到它在附近。",
+    "so you gain nothing from going through me but you inconvenience me quite a lot.": "所以你穿过我也得不到任何好处，只会给我带来很大麻烦。",
+    "Oh, okay.": "哦，好吧。",
+    "thank you.": "谢谢。",
+    "Do you mind me asking where you lead to?": "我能问问你通向哪里吗？",
+    "Just curious, but what <![CDATA[<i>does</i>]]> happen if someone enters you?": "只是好奇，如果有人进入你会怎么样？",
+    "it's somewhere in this room, but i don't know where.": "就在这个房间的某个地方，但我不知道具体在哪里。",
+    "i don't control it, i can just roughly sense where the exit is.": "我控制不了它，只能大致感觉到出口的位置。",
+    "Ah. So what does happen if someone enters you?": "啊。那如果有人进入你会怎么样？",
+    "they exit from some whitehole like normal.": "他们会像平常一样从某个白洞出来。",
+    "it's just a very unpleasant sensation to me. so i would appreciate for people to not do it.": "但这对我来说是一种非常不舒服的感觉。所以我希望大家不要这么做。",
+    "you should go chat with some of the other mod contributors.": "你应该去和其他模组创作者聊聊。",
+
+    //Endgame Zero.xml
+    "EndgameZero": "EndgameZero",
+    "Yo, how's it going? My name is EndgameZero.": "哟，最近咋样？我是EndgameZero。",
+    "I'm here because of my work on Hearth's Neighbor.": "我是因为参与了《Hearth's Neighbor》的制作才来的。",
+    "Did you know that there's an unofficial Outer Wilds modding discord? I go by \"EndgameZero\" over there.": "你知道有个非官方的《星际拓荒》模组创作Discord社群吗？我在那儿的ID是“EndgameZero”。",
+
+    //GameWyrm.xml
+    "GameWyrm": "GameWyrm",
+    "Hi! I'm GameWyrm! I'm primarily known for my work on Hearth's Neighbor, and its sequel, Magistarium! ": "嗨！我是GameWyrm！我最出名的作品是《Hearth's Neighbor》及其续作《Hearth's Neighbor 2: Magistarium》！",
+    "I'm also involved in the Archipelago Randomizer implementation for Outer Wilds! I also created Outer Relics, and worked with xen on a puzzle mod called \"Escape Room\"!": "我还参与了《星际拓荒》的《Archipelago》随机化模组的制作！我还做了《Outer Relics》，并和xen一起做了一个解谜模组叫《Outer Wilds Escape Room》！",
+    "I'm also working on a new mod called Halcyon Nexus Zero, so keep a look out for that!": "我还在做一个新模组叫《Halcyon Nexus Zero》，记得关注哦！",
+    "Anyway, glad to see you here in the community mod jam! If you went here as one of the first places you visited, well, good choice! I bet we'll see each other again soon...": "不管怎样，很高兴在这个社群创作赛见到你！如果你把这里当作第一个访问的地方，那可真选对了！我打赌我们很快会再见面的……",
+
+    //Hawkbar.xml
+    "Hawkbar": "Hawkbar",
+    "Oh, hey! Pleasure to meet you, I'm Hawkbar.": "哦，嘿！很高兴认识你，我是Hawkbar。",
+    "I was invited because of my involvement in New Horizons and Arcanum Adrift.": "我因为参与了《New Horizons》和《Arcanum Adrift》的制作才受邀来的。",
+    "Be sure to look out for Wrong Warp, which is a mod that I'm currently working on!": "记得关注《Wrong Warp》，这是我正在制作的模组！",
+    "You can find me on the Outer Wilds modding discord as \"Hawkbar\"!": "你可以在《星际拓荒》模组创作Discord上找到我，ID是“Hawkbar”！",
+
+    //Etherpod.xml
+    "Etherpod": "Etherpod",
+    "Hey! I'm Etherpod.": "嘿！我是Etherpod。",
+    "What? I'm not a flower.": "什么？我不是花。",
+    "I'm not a flower! Go bother someone else with your outlandish accusations!": "我才不是花！别用你这些离谱的指控来烦我！",
+    "I'm a biped, just like you.": "我是双足生物，和你一样。",
+    "I would prove it to you, but my current situation makes that a bit... difficult.": "我本想证明给你看，但我现在的处境有点……不方便。",
+    "Why don't you go chat with some of the other modders here? I'm sure they wouldn't mind someone to talk to.": "你不如去和这儿的其他模组创作者聊聊？我相信他们不会介意有人搭话的。",
+    "What... do you mean by that? Actually- nevermind, forget I asked.": "你……你这话是什么意思？算了，当我没问。",
+    "Go talk to someone else. There's plenty of options to choose from!": "去跟别人聊吧，这儿有的是人可以选！",
+    "Story mods? Let me think... I would say Eyes of the Past, but I'm sure you know about that one already if you're talking to me.": "故事类模组？让我想想……我会推荐《Eyes of the Past》，不过既然你在跟我聊天，想必已经知道这个模组了。",
+    "Forgotten Castaways is a pretty good one. I really love the idea of Dark Bramble, and I think it captures the feeling of it without being super scary. Definitely one of my favorites.": "《Forgotten Castaways》挺不错的。我超喜欢黑棘星的设定，这个模组完美还原了那种氛围，又不会太吓人。绝对是我最爱的模组之一。",
+    "More? Sure. Hmm...": "还要更多推荐？行啊。嗯……",
+    "Have you played Heliostudy? It's one of the entries to the fifth modding jam, and it's another one of my favorites.": "你玩过《Heliostudy》吗？那是第五届模组创作赛的参赛作品，也是我超爱的一款。",
+    "Uh... sure.": "呃……当然。",
+    "Fret's Quest is pretty cool. You could check that one out.": "《Fret's Quest》挺酷的，你可以试试。",
+    "Maybe try Astral Codec. I heard that one is pretty popular.": "或许可以试试《Astral Codec》，我听说那款挺火的。",
+    "The Outsider is pretty cool, I think it's one of the first mods I played.": "《The Outsider》也很棒，那是我玩的第一批模组之一。",
+    "Hearth's Neighbor: Magistarium is a good one, you could try that.": "《Hearth's Neighbor 2: Magistarium》也不错，值得一试。",
+    "Dreambound is a cool one, it was from the fourth jam.": "《Dreambound》挺有意思的，是第四届创作赛的作品。",
+    "More?? Okay, sure.": "还要更多？行吧。",
+    "I liked Christmas Story. That's a fun one.": "我喜欢《Christmas Story》，那款玩着很有意思。",
+    "Evacuation is cool, you could try that.": "《Evacuation》也很棒，你可以看看。",
+    "Band Together is fun, but I'm a little biased having worked on it myself.": "《Band Together》挺好玩的，不过我自己参与了制作，可能有点偏心啦。",
+    "The Cosmic Curators is another good one. I really liked it.": "《The Cosmic Curators》也很不错，我特别喜欢。",
+    "The Stranger They Are is cool, and it's super long as well.": "《The Stranger They Are》挺棒的，而且篇幅还超长。",
+    "I think that's quite enough for you, actually.": "其实这些对你来说应该够多了。",
+    "How about you go talk to some of the others? Doesn't that sound like a great idea? It sure does!": "不如你去跟其他人聊聊？这主意不错吧？当然不错啦！",
+    "Anytime!": "随时乐意！",
+    "Alright, cool.": "好嘞。",
+    "I'm just gonna... leave you alone.": "我还是……不打扰你了。",
+    "Oh, cool. I guess I don't need to talk about the mods I've worked on.": "哦，好吧。看来我没必要介绍自己参与的模组了。",
+    "See you around! Make sure you talk to all the modders!": "回头见！记得跟所有模组创作者都聊聊呀！",
+    "I would hope so. You were just talking to me.": "那当然啦，你刚才还在跟我聊天呢。",
+    "I've helped create a decent number of mods, but you might know me for my work on Band Together, Ship Enhancements, and Traveler's Pack.": "我参与制作过不少模组，不过你可能是通过《Band Together》《Ship Enhancements》和《Traveler's Pack》认识我的。",
+    "Cool! You probably have a general idea of what I've worked on, then.": "太好了！这么说你大概知道我做过什么了。",
+    "That's enough from me, though. Go have a chat with the other modders here! They probably have interesting stuff to share, too.": "不过我就说这么多啦。去跟这儿的其他模组创作者聊聊吧！他们肯定也有不少有意思的事要分享。",
+    "Hmm... What about Eyes of the Past? Does that sound familiar? I created most of the terrain for that mod.": "嗯……《Eyes of the Past》呢？听起来耳熟吗？那个模组的大部分地形都是我做的。",
+    "Well, it was worth a shot. You should go play those mods! They're super cool.": "好吧，试了总比没试强。你真该玩玩这些模组！都超棒的。",
+    "Alright, go have a chat with the other modders in this building. Maybe you'll recognize some of them!": "好啦，去跟这栋建筑里的其他模组创作者聊聊吧，说不定能认出几个熟面孔呢！",
+    "It's an awesome mod! Everyone on the team has done such a good job making it. Even the original Outer Wilds developers know about the mod!": "这模组超赞的！团队里每个人都做得超棒。就连《星际拓荒》的原版开发者都知道这个模组呢！",
+    "That's enough rambling from me, though. Go chat with some other modders here, I'm sure they have some interesting stories to share!": "不过我也絮叨够了。去跟这儿的其他模组创作者聊聊吧，他们肯定有不少有意思的故事！",
+    "Are we? I can't see anything.": "我们是吗？我什么都看不见啊。",
+    "What? A flower? That's a silly thing to say.": "什么？花？你这话说得也太离谱了。",
+    "Anyway, go have a chat with some of the other modders here. And maybe don't say they look like vegetation.": "不管怎样，去跟这儿的其他模组创作者聊聊吧。还有，别再说人家长得像植物了。",
+    "Oh, cool. Hey, is pikpik_carrot around here somewhere?": "哦，对了。嘿，pikpik_carrot是不是也在这儿啊？",
+    "He's the lead developer of Eyes of the Past. He should be around here somewhere.": "他是《Eyes of the Past》的首席开发者，应该就在这附近。",
+    "If you find him, can you ask him to let me out of his basement?": "如果你见到他，能不能帮我问问他，能不能把我从他的地下室里放出来？",
+    "Thanks a lot. Safe travels!": "太谢谢你了。祝你一路平安！",
+    "Well, it was worth a shot. I would go ask him myself, but being locked in a basement kind of makes that difficult.": "好吧，试了总比没试强。我本来想自己去问的，但被锁在地下室里，实在没办法。",
+    "I'll stop talking, now. Go have a chat with some of the other modders here!": "我不说了。去跟这儿的其他模组创作者聊聊吧！",
+    "Oh.": "哦。",
+    "Can you ask him to let me out of his basement?": "你能帮我问问他，把我从地下室放出来吗？",
+    "What? You were just talking to me!": "什么？你刚才还在跟我聊天呢！",
+    "Well, I guess I'm just forgettable, then. It's not your fault.": "好吧，看来我就是个容易被忘记的人。这也不是你的错。",
+    "You do? Nice to know I wasn't completely forgotten.": "你还记得我？太好了，看来我还没被彻底遗忘。",
+    "I guess you won't be needing a recap on who I am, then. Have fun exploring!": "这么说你应该不用我再介绍自己了吧。祝你探索愉快！",
+    "You're joking, right?": "你在开玩笑吧？",
+    "Oh, man, I'm sorry. I didn't know.": "哦，天呐，对不起，我不知道。",
+    "Let me know if there's anything I can do to help.": "如果有什么我能帮上忙的，随时告诉我。",
+    "You tell me.": "你倒说说看。",
+    "Hmm...": "嗯……",
+    "Fine. I believe you.": "行吧，我信你。",
+    "But I want you to prove it. If you can't lie, tell me something that only I would know.": "但你得证明给我看。如果你不会撒谎，那就说一件只有我才知道的事。",
+    "...does that include what you just said?": "……你刚才说的这话也算吗？",
+    "Maybe? What does that even mean? How can you lie about that?": "也许吧？这到底是什么意思啊？这种事怎么撒谎？",
+    "Whatever, it's not important. Go talk to some of the other modders here!": "算了，不重要。去跟这儿的其他模组创作者聊聊吧！",
+    "Yes? But actually no?": "是？又不是？",
+    "This whole lying business is really confusing.": "这撒谎的事儿也太绕了。",
+    "Anyway, you should go talk to some other modders here now. I'll see you around!": "不管怎样，你现在去跟其他模组创作者聊聊吧。回头见！",
+    "What? Why? Hey, where are you going?": "什么？为什么啊？嘿，你要去哪儿？",
+    "Why are you still here?": "你怎么还在这儿？",
+    "What? But you just said-": "什么？可你刚才明明说——",
+    "Are you still doing that \"I only speak in lies\" thing?": "你还在玩那个“我只说谎言”的梗吗？",
+    "Oh. You're not?": "哦。你不玩了？",
+    "Tell me something that's true, then.": "那说件真事来听听。",
+    "What? No I'm not! You're lying!": "什么？我才没有！你在撒谎！",
+    "Go lie to someone else, I don't want to hear any more of this.": "去跟别人撒谎吧，我不想再听这些了。",
+    "We are? Surely not. It's impossible. Everything here looks pretty real to me.": "我们是吗？不可能吧。这儿的一切在我看来都挺真实的啊。",
+    "Unless... it isn't? Think about it. An enormous house, stationed on an uninhabited planet. Why is this planet here? Or this house? It makes no sense. And all of these people, gathered together in this house. But for what? Why are we here? I don't know why. And how did we get here? Was it by ship? By warp? I... I don't remember. I don't remember anything. My past. It's dark. Blank. Empty. I don't remember my past. I have no past, I just came into existence. Why? What is my purpose? Is this even life? Trapped here, forced to serve a stranger? Forced by who? Am I even being forced? Maybe I never had a choice to begin with. Maybe there's nothing else besides this life. Maybe this is my purpose. To sit here, idly waiting for someone to walk by and strike up conversation with me. Is there any escape from this purgatory? Any at all? Can I end this madness? Please... free me from this prison. I don't know who I am I don't know why I'm here... I just want to live... to be someone...": "除非……这一切都不是真的？你想想看。一栋巨大的房子，建在一颗无人星球上。这颗星球为什么会在这儿？这房子又是为什么存在？根本说不通啊。还有这么多人，聚集在这房子里。到底是为了什么？我们为什么会在这儿？我不知道。我也不知道自己是怎么来的？是坐船？还是跃迁？我……我什么都不记得了。我的过去，一片漆黑，一片空白，一无所有。我不记得自己的过去，我根本没有过去，我就这么突然存在了。为什么？我的使命是什么？这就算是活着吗？被困在这里，被迫为一个陌生人服务？被谁强迫？我真的是被强迫的吗？也许我从一开始就别无选择。也许除了这样的生活，再无其他可能。也许这就是我的使命——坐在这儿，无所事事地等着有人路过，跟我搭句话。这炼狱般的处境，还有逃离的可能吗？哪怕一丝一毫？我能结束这疯狂的一切吗？求你了……把我从这牢笼里救出去吧。我不知道自己是谁，不知道为什么会在这里……我只想好好活着……想成为一个真正的自己……",
+    "Uh... you okay?": "呃……你还好吗？",
+    "Hey, that wasn't a lie!": "嘿，刚才那番话可不是谎言！",
+    "Does it have to be?": "非得是谎言吗？",
+    "Well, I mean- I thought- You said that-": "我是说——我以为——你之前说——",
+    "You know what? This is too much to think about. Go talk to some other modders.": "算了，这事儿太费脑子了。去跟其他模组创作者聊聊吧。",
+    "That... uh...": "那……呃……",
+    "You know what, how about you go talk to some other modders? I'm sure they'd appreciate the attention.": "要不这样，你去跟其他模组创作者聊聊？他们肯定会很乐意有人关注的。",
+    "Alright, have fun out there!": "好啦，祝你玩得开心！",
+    "Okay, this is the second time you've done this. What's going on?": "好吧，这都是你第二次这么做了。到底怎么回事？",
+    "Oh, cool. I guess it would be fine if I just... stopped talking to you, then.": "哦，行吧。那我……不跟你聊了也行。",
+    "YES. YES. YES.": "好！好！好！",
+    "Alright, bye! Make sure you go talk to the other modders here!": "好啦，再见！记得去跟这儿的其他模组创作者聊聊！",
+    "Uh... weird thing to say, but okay.": "呃……这话有点奇怪，不过行吧。",
+    "Hey, wait- where are you going?": "嘿，等等——你要去哪儿？",
+    "That was a lie, wasn't it? Which means you lied about always lying...": "刚才那是谎言，对吧？也就是说，你说自己“只说谎言”这话本身就是谎言……",
+    "Ah. I'll uh... try not to think about the implications of that.": "啊。我……尽量不去想这背后的逻辑吧。",
+    "Anyway, why don't you go talk to some other modders? I'm sure they have some interesting stuff to say.": "不管怎样，你去跟其他模组创作者聊聊吧，他们肯定有不少有意思的事要说。",
+    "Oh, dear. You've gotten yourself trapped in a paradox, haven't you?": "哦，天哪。你这是陷入悖论里出不来了，是吧？",
+    "If I had to guess what caused it, it would probably be what you said about always lying... and how that was a lie itself.": "要我说，罪魁祸首就是你那句“只说谎言”……而且这话本身就是个谎言。",
+    "I'm sure it'll sort itself out eventually. The pain and distorted perception of reality is only temporary, I think.": "我相信最后总会自行解决的。那种痛苦和对现实的扭曲认知，应该只是暂时的吧。",
+    "There, see? it's over already.": "你看，这不是没事了嘛。",
+    "Now go chat with some of the other modders here. Everyone has their own stories to share!": "现在去跟这儿的其他模组创作者聊聊吧。每个人都有自己的故事要分享呢！",
+    "...is that my IP address? How did you-": "……这不是我的IP地址吗？你怎么——",
+    "Whatever. It doesn't matter. You've clearly proven you're incapable of lying.": "算了，不重要了。你显然已经证明自己不会撒谎了。",
+    "Wha- Be quiet! Someone might hear you!": "什——小声点！万一被别人听到了！",
+    "Okay, I think it's safe.": "好啦，应该安全了。",
+    "Look, after that whole \"Order of the Shrubbery\" thing, the Sacred Shrubbery has become real unpopular, so let's just... keep quiet about that.": "你看，自从“灌木教团”那事儿之后，神圣灌木就变得特别不受欢迎了，所以这事儿……咱们还是保密吧。",
+    "But yes, you're right. I do secretly worship the Sacred Shrubbery, but I've never told anyone.": "不过你说得对，我确实偷偷崇拜神圣灌木，但我从来没跟别人说过。",
+    "The fact you knew that makes it pretty clear that you're blessed with Eternal Truth. I was wrong to ever doubt you.": "你居然知道这件事，显然你是被“永恒真理”眷顾的人。我之前怀疑你，真是大错特错。",
+    "...does this mean you really forgot about me, though?": "……不过这是不是意味着，你真的把我忘了？",
+    "Well, that's a shame. I can go over my introduction again, if you'd like.": "唉，真可惜。如果你想的话，我可以再自我介绍一遍。",
+    "That's alright. Now go talk to some other modders, I'm sure they have some interesting things to say!": "没关系。现在去跟其他模组创作者聊聊吧，他们肯定有不少有意思的事要说！",
+    "That's nice to hear. It'd be a shame to be forgotten.": "能听到你这么说真开心。被人遗忘可太惨了。",
+    "I'll tell you what you have forgotten, though. Look at all the other modders here! I'm sure they could all use a conversation right about now.": "不过我得提醒你，你忘了一件事。你看看这儿的其他模组创作者！他们现在肯定都很想有人跟他们聊聊天。",
+    "Safe travels, and happy chatting!": "祝你旅途平安，聊天愉快！",
+    "Wow, rude. I was going to offer to introduce myself again, but not when you're acting like that.": "哇，真没礼貌。我本来还想再自我介绍一遍的，不过你这态度，算了吧。",
+    "WHAT?!? That's it. Get out of my sight.": "什么？！？够了。滚出我的视线。",
+    "If you say so. Kind of a mean thing to joke about, if you ask me.": "既然你这么说，那就算了。不过要我说，这种玩笑开得有点过分了。",
+    "What do you mean nonsense?! You're the one who isn't making any sense!": "你说什么胡话呢？明明是你在胡说八道！",
+    "I know you!": "我认识你！",
+    "Since when could flowers talk?": "花什么时候会说话了？",
+    "What story mods would you recommend I play?": "你推荐我玩哪些故事类模组？",
+    "I beg to differ.": "我不敢苟同。",
+    "Then what are you?": "那你是什么？",
+    "Likely story.": "说得跟真的似的。",
+    "Oh, cool! What flavor?": "哦，酷！什么口味的？",
+    "Can I get more recommendations?": "能再给我推荐几个吗？",
+    "Thanks.": "谢谢。",
+    "More.": "再来点。",
+    "More. Recommendations.": "更多。推荐。",
+    "That'll do.": "够了。",
+    "Not enough.": "不够。",
+    "I'm not running errands for you.": "我才不给你跑腿呢。",
+    "I forgot!": "我忘了！",
+    "Oh, right. I remember you.": "哦，对了，我记得你。",
+    "No, I really do have short term memory loss, and can't remember ever talking to you.": "不，我真的有短期失忆症，不记得曾经跟你聊过天。",
+    "Would I ever lie to you?": "我怎么会骗你呢？",
+    "I would never lie to you.": "我绝对不会骗你。",
+    "Everything I say is a lie.": "我说的每一句话都是谎言。",
+    "199.34.228.77": "199.34.228.77",
+    "You worship the Sacred Shrubbery in secret.": "你偷偷崇拜神圣灌木。",
+    "Yes.": "是。",
+    "No.": "不是。",
+    "Maybe.": "可能吧。",
+    "Sure, I'll leave you alone.": "行，我不打扰你了。",
+    "I'll stay here, actually.": "其实我想留在这儿。",
+    "I never said I would leave you alone.": "我从没说过要离开你。",
+    "Oh, sorry. I'm leaving right now.": "哦，对不起。我现在就走。",
+    "I want to stay here with you forever.": "我想永远跟你待在一起。",
+    "What? No.": "什么？不是。",
+    "You're a flower.": "你是一朵花。",
+    "We're inside a simulation.": "我们在一个模拟空间里。",
+    "I'm gonna go...": "我走了……",
+    "What kind of question is that? It's four.": "这是什么问题啊？答案是四。",
+    "I wouldn't give an answer, because that's a dumb question.": "我才不回答呢，这问题太傻了。",
+    "Don't worry, I can stop lying whenever I want. I do not need help. I am perfectly fine.": "别担心，我想不撒谎就能不撒谎。我不需要帮忙，我好得很。",
+    "Ä̵̡̬̫̱͖̭́̆͐͘Ą̸͇̯͕̺͚̤̼̘̞̲̙̰͑̿̋͜À̶͚͓̹͍Ą̷̛̜̤̫̪̺̯͈̙̤̞͓͎̽̽́̄̇̈́̀̉Ḁ̵͓̄̉͐́͐̽̂̍́̈́̃͆̚͘͠Å̶͕̗̗͓̰͙̙̠̳̪͈̇͆͜ͅͅÂ̷̩͎̙̤̱͖̝͓̾͒͌̈́̎̔̑̏̚͘͜ͅȀ̶̧̛̪̳͎͔͍͍͍̳̥̦͕͚͌̑̿͛̓̅͑̂̓͛̔͜͠A̶͚͆́͌̂̊̀̇̊Ą̸͇̭̗̙̜̙̞̭͖͔̜̯̩̊͐̆͜͠͝Ä̸̝̫͙̦̱̖̬́͑̒A̴̧̺͚̯̳̅̒̀́̈́̀͐͛͊̆̇̚͝A̴̝̘͕͙̦͋̊̓̇̂̈́̉̎͌̀̎̄̓̋̚": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
+    "H̷̢͈͖͍̔̀̈͂̂̐̉̃͂̕͝͝ͅȨ̸̛̛͙͚͔̔̃̒͗̓̚Ľ̷̡̧͖̠̯͚̮̣̟͈̻̰̈́̈̀̾̋͗̈͒͒̒́̚ͅͅP̸̧͉͈͜͠ ̸̥̝̱̀̈́̀͌͘Ṃ̴̢̈́̀͋̔͌̕Ë̶̛̥̣̖̭̼̖̪̻̖͙̔͛́̍̍̈́͛̈́ͅ": "救救救我我我",
+    "Ȧ̸̢̗̼̯̪͔̥͎̼͉͍́̍͊̾̐́̔Ą̷̛̹̣̐̏̈̎̓͋̃̽̆̏́̏̕͝Ą̷̳̝͙̯̙̲͎̱̺̖͓̽̌A̶̛̛̜͓̜̬̲̲̗͈̤̮̅̅̇̉̉̅̃̚Ạ̷͉̮̗̹̲̗͍͔͇̺̠͔̗͗͝Ǎ̸̢̢̗̫̟͇͔̫̺͕̖̎̓͂͌̅͗̆̐͆͝U̵̡̢͈̤̯͉̜͍̘̪͗͒͑̔̏́͌̓̇̌̚͝Ú̴͇̤̱̉̾̈͋U̷͙͕̬̝̟̅̆̐̒̌̇͗̒̓͆̄͝Ų̴̛̪̜͈̟͕̝̋̔̊͗͛̒̌̽̋̇̈͘͜͠Ů̴̮̪͒̈́̈́̋̀̌̒͝͝͝G̷̙̫̃̉̀͌́̑̈́̿̎̿͑̓̕H̷̛̼̫͗̂̊͊̇̒͗̌̅̊͒͝͝": "啊啊啊啊啊啊啊嗷嗷嗷嗷嗷嗷",
+    "P̵̠̙̱̼̘͇̰̜̊͆͂͗͑̈̓̿̐̆̀̈̕͜͜͝͝L̸̢̫̻̫̝̬̮̮̊̄͒̐E̵̛̙̞̯̻͕̹̤̞̙̙͕̮͙̠͗̂͌͌̎̽̒̃̀͛A̷̢̛̱͇͚̫̲̹̟͕̭̝̘͍͗̍͆̑̂̀̀͗̚̕͜͝S̴̨̨̯̤̞̙̟͇̝̱͚̘̋̓͗͌͌̑̍͒͆̀͘͝Ẻ̵̹̮̐͊̈͆̽̍̑̄̑́̓͒ ̴̥̬͉̦̻̰̻͎̠̉́̎͂̓̕͜ͅH̷̡̨͇̞̤̭̦͔͕͚̓͘̕ͅͅË̸̫͎͚̩̠̩̯̬̳͍̦͖̾͌Ļ̷̫̪͙̲̗̪̖̯̼͓̳͂P̸̻̫̝͎̰̞̻͆̿͜ ̶͍̌̈́M̵̡̬̩͔͖̗̤͖̳̄̌͛̐̽̈́̿̃̔̚͝͝͠ͅĘ̷̝̰̮͔̠̬͙̦̠̗͙͚͉̐̎̎̈́̅̄͠͠ͅ": "请请你你快快救救救救我我",
+    "Yeah, sorry.": "好吧，对不起。",
+    "You're pretty easy to forget.": "你还挺容易被人忘记的。",
+    "No, of course I didn't forget about you.": "不，我当然没忘记你。",
+    "I'm good.": "我没事。",
+    "Please do!": "请吧！",
+    "Acting? This is the most honest I've been! The only acting I've been doing is pretending to put up with your nonsense!": "演戏？我这已经够坦诚了！我唯一演的戏，就是假装能忍受你的胡言乱语！",
+    "I was just kidding!": "我只是在开玩笑啦！",
+    "ME?! You're a TALKING FLOWER!!": "我？！你才是一朵会说话的花吧！！",
+    "Oh yeah, I recognize those mods.": "哦对，这些模组我都认识。",
+    "No idea what that is.": "不知道那是什么。",
+    "Oh yeah, I know that mod.": "哦对，我知道那个模组。",
+    "Aren't we literally in the Eyes of the Past section of this building?": "我们现在不就在这栋楼的《Eyes of the Past》专区里吗？",
+    "Is that because you're a flower?": "难道是因为你是花？",
+    "You're sitting next to the other people who worked on Eyes of the Past.": "你旁边坐的就是其他参与《Eyes of the Past》制作的人啊。",
+    "Who?": "谁啊？",
+    "He's standing right across from you.": "他就站在你正对面啊。",
+    "Ả̷͔͔͍̤̬͖̥̤̝̫̖̖͉͚̮͂̏́̽̏̍́̊̿͌̅̃̋̀̐̀̂͜͠͠ͅA̵̢̨͍̼̩̻̘̦̰̞͖̅͘Ä̴̧̨̩̲͖̫͇̹͖͖̲̞͇́̂̈́͗͗̈́̿̀͑̏͊̾Å̸̛̩̩̰̭̘͔̼͈̩̞̤̰͓̗͉̪͂̒̈́̊̃̀̀̅͗̚̚ͅA̶̧̢̢͚̰̼̠͚͇̝̗͚͙̗̤͓͎̯̻̭̟͇̺͚̹̖̐̈́͂̕͜ͅĄ̸̢̡̛̭͎̳̦͉͖̫͔̘͙̗̬͊̈̀̀̇͛͐̇͜͝Ā̶̧̨̡̛͚͖̻̣͚̪̰͕̜̘̮̭͉̮̗̤̖͓̱͚͈̻̝̏̌͒̍̅̈̉̄͂͛̊̈͐̈̋̃͂̂͗͗͛͝͠Ă̵̘͈̺͈̎͛́̈͒̑̊A̵̢̠̼͍͗͐̂̈́̀͝A̶̧̡̛͚̬̪̪̬̗̬̮̣̬̫͖̓͆̄̏̆͋̃̿̏͛̓̀̈́͋̍̊̈́͊̐̏̓̀͂͜͝͝͠͝A̴̡̨̘̦̩͎̰̺̘̣̩̋́̔̒̔̆͐̊͋̅̓̏̈̍͐̒̂̓̃̋̔̎̐̚͘͘͠A̴̢̨̛̲̗͔̫̜͎̣͑͂̃͐̓̒͐̇̎̽̏̑̅͋̆̈́́̋̓͆̆́͊̓͗̂́̿̅̊̋̕͝͠Ą̴̨̛̛̛͖̹̻̩̟̣̖̰͖̬͚̬̜̗̺͈̞̬̪̺͓̒͑̓̒̿̿͆̓̊̄̀̅̎̋̋͒̿̍͒̐̀͌̌͛͆̏͘͘̚̚͠͝A̶̬̻͐̽̍̊̉̈́̕Ų̸̢̳͓͍̳̙̟͍͍̤͎̙̫͕̰̠͖̥̞́̅̈́͑͛̎̈́̔͑̈́͐͑͒̓̏̽̈́̆̆͜͜͜͠͝Ư̷̛̘͇͙̲̫̱͇̞͖̆̓̈̑̌͑͛͑͐͊̈́̈͘͘̕͝͝͝͝Ú̷̢̲͉̝͇̣̼̻̰͈͕͇̣̹̠̊͐͊̃̈́̽͜Ų̸̢̜͉̹̩̼̲̭̠̯̥̤̖̦̹̙̫̻̉͆͐̄͑͂̽́̀̇͑̈́̉̽̄͘͜͝ͅU̶̥̝̟͔̠͛͗̿͐͐̒̈́͌̕͠Ư̷̢̨̠̮̝̱̘͎̻̗̼̣̣̯̬͈̼̝̳͙̖̯̙͔̺̗̯̩̥̞̅̿̄͛̉̀̒͐̾͐̿͛̇͘͠Ự̵͚̉̿̀́̿͛̒̍̃̆̉́̉̈́̾̎͊̔̾͘̕Ừ̵̡̨̡͍͓͍̱̣̭̩̻̹͓̜̥̯̙̠̞̟̭̦̓̆͛̊̉̿͌̒͐̍͊͆̈̂͋͐̈́̍̔̂̌͒̚͘͠͠H̷̡̡̧̢͖͕̦͍͓̗̻̘̫̝̬̗̮͔͕̪͍̭̰̥̤̪̗̖̘̝̏̀͋͆̄͑͑̈́̄́̀̿̐͗̚̕͜͜": "啊啊啊啊啊啊啊啊啊啊啊啊啊啊嗷嗷嗷嗷嗷嗷嗷嗷嗷",
+    "W̶̧̨̡̙̞̼̭̠̲̮̯̜̳̅̀͑̂̾͊̂̐̇͜͜͠ͅḨ̴̡̧̡̢̧̢͇͍̺̼̘̙̩̩̜̳̫͍̙̝̤̼̦̻͇͚̩̦̭̰̫̗͓̈́͛̈́̄̈͊̈́́̚͘͝ͅE̴̺̰͇̜̍̂̀̈́̏͊̅̃̇̈́̑͛̒͂͐͆͌͒̚͝Ṛ̴̨̨̧̧̰͕̹̯͎̘͎̮̥̝̞̗͙͎̤̰̪͖̱̻̮̜͖̂͒̓͋̈̈͗̓͂̂̓̃͛͜͜͝Ḛ̴̡̛͓͖̱͓̖̩͙̰̲̲̤͉̱̮͕̖͓̞͚͎͈̱̜̋̈́̋͐̈́̆̓̔̒͘͝͝ ̸̡̧̮͈̹͉̗̠͖͕͔̥̞̺̳̦̤̲̭̻̦̟̰̥͉̘̹̪̹͇̐̂́̉̐̈́̏̀͒̒̿̅̉̅̏̿͐̊̈́̓̔͑̃̌͊̈́́̑͑͜͜͜͜͠͝͝ͅA̸̧̢̨̛͍̞͖̤̣͕̯͙͖̯̱̙͚̭̳̭̤͕̯̬͇̮̪̯͚̮̼̔͗̇̎̐̑̒̌̍̅͗͐̏͆͒̓̾̔͂͂͐͆͆̚̚̚͜͜͝M̷̛̰̣̘̈́̒̆̈́͌̑̀͑͝ ̶̧̨̡͇̖̗̪͕̤̣̘͇͙͎̼̦͍͕͓͇̥̤̹̥̣͍̱͎̮̯̰̥̆̈̀̅͗̈́͂̉͑̀̊̈́͐̾͂͛̈́̇̾́̈̄͒̽́̑̀̾͆̑̕͜͝ͅỊ̶̢̧̧̛̖̮̟̥̳͖̫͓̜̤̦͎̮̫̮͔̰̬̼̪̯̻̃̈́̔̈́͑̄̍̒̓̽͊́̓̌̂́̋̿̈́̍͌͛͗̏̑͘͘͜͝͝ͅ": "我我在在哪哪里里",
+    "<i>*cough*</i>": "<i>*咳嗽*</i>",
+    "<i>*cough cough*</i>": "<i>*咳嗽 咳嗽*</i>",
+    "<i>*initiate a staring contest*</i>": "<i>*开始对视比赛*</i>",
+    "So... nice weather today, huh?": "所以……今天天气不错，是吧？",
+    "This planet doesn't even get weather!": "这颗星球根本就没有天气可言！",
+    "Seriously? That's all you could think of to say?": "不是吧？你就只能想到说这个？",
+    "Well how was I supposed to know that? I'm sitting around inside all the time!": "那我哪知道啊？我一直都待在里面啊！",
+    "Fair enough.": "说得也是。",
+    "Have you tried, I don't know- going outside?": "你有没有试过……比如说，出去走走？",
+    "How about you go talk to some other modders here? I'm sure they get up and run around all the time.": "你不如去跟这里其他模组作者聊聊？他们肯定经常到处走动。",
+    "My current situation makes that... difficult.": "我现在的状况……让我很难做到。",
+    "Go chat with some of the other modders here! I'm sure they'd like someone to talk to.": "去跟这里其他模组作者聊聊天吧！他们肯定很想找人说话。",
+    "It's not like you had any better ideas. Otherwise you would have said them already.": "你也没什么更好的主意，不然你早就说了。",
+    "How about instead of arguing with me, you go talk to some other modders in the building! I'm sure they're feeling very lonely.": "别跟我吵了，去跟楼里其他模组作者聊聊吧！他们肯定很孤单。",
+    "...why are you staring at me like that?": "……你为什么这么盯着我？",
+    "Uh... I gotta go.": "呃……我得走了。",
+    "<i>*continue staring*</i>": "<i>*继续盯着*</i>",
+    "What? Okay, bye.": "干嘛？好吧，再见。",
+    "Are you gonna say anything or are you just gonna stand there staring at me?": "你打算说点什么，还是就站在那儿盯着我？",
+    "Fine. I forefit.": "好吧，我认输。",
+    "<i>*continue staring, your eyes are starting to hurt*</i>": "<i>*继续盯着，你的眼睛开始发酸*</i>",
+    "<i>*you see no eyes, but feel an intense gaze resting upon you*</i>": "<i>*你看不到眼睛，却能感受到一道强烈的目光落在你身上*</i>",
+    "<i>*continue staring, your eyes really hurt*</i>": "<i>*继续盯着，你的眼睛疼得厉害*</i>",
+    "<i>*blink*</i>": "<i>*眨眼*</i>",
+    "HA! I won!": "哈！我赢了！",
+    "Fine. Congratulations.": "行吧，恭喜你。",
+    "Now go find some other modders to talk to!": "现在去找其他模组作者聊聊吧！",
+    "Forefit what? Hey, where are you going?": "认什么输？喂，你要去哪儿？",
+    "Alright, I'm not falling for it this time. I know you haven't forgotten who I am.": "好吧，这次我可不上当了。我知道你没忘记我是谁。",
+    "It was worth a shot.": "试试总没错。",
+    "No, really. I have no idea who you are.": "不，真的。我完全不知道你是谁。",
+    "Maybe you'll have better luck with some of the other modders here.": "也许你跟这里其他模组作者交流会更顺利。",
+    "Likely story. Why don't you go talk to one of the other countless modders in this building?": "鬼才信。你怎么不去跟这楼里其他无数个模组作者聊聊？",
+    "Hey. Do you remember me?": "嘿。你还记得我吗？",
+    "No. What's your name?": "不记得。你叫什么名字？",
+    "Huh? Of course I remember you.": "啊？我当然记得你。",
+    "What? I thought you had that condition thing. You kept forgetting who I was.": "什么？我还以为你有那个毛病，老是忘了我是谁。",
+    "Oh, yeah. I still have that. I just chose to remember you this time.": "哦，对。我还有那毛病。只是这次我选择记住你。",
+    "You actually believed me?": "你还真信了？",
+    "Well- I- Yes, yes I did. Your acting was very convincing.": "我……是啊，我信了。你演得太像了。",
+    "What if I told you that you were the one who had the condition?": "如果我告诉你，有问题的是你呢？",
+    "Oh, okay. Suppose... you chose to remember me all the time?": "哦，好吧。那……你能不能一直选择记住我？",
+    "That was a one-time deal, sorry.": "仅此一次，抱歉。",
+    "Ah, I see. That's a shame.": "啊，懂了。真可惜。",
+    "Anyway, why don't you go see what the other modders are thinking about?": "对了，你不去看看其他模组作者都在想些什么吗？",
+    "What? That's a preposterous idea. My memory functions just fine.": "什么？这想法太荒谬了。我的记忆力好得很。",
+    "That's what you think...": "你是这么觉得而已……",
+    "I'm not that forgetful! You're the one who keeps forgetting!": "我才没那么健忘！是你老是忘事！",
+    "Look, if my memory was impaired like that, then I would have already forgotten about our entire conversation before this. And I haven't!": "你想，如果我记性真那么差，我早就把我们之前的对话全忘了。可我没有！",
+    "I can prove it to you. First, I greeted you, and then you said something, and then...": "我可以证明给你看。首先，我跟你打了招呼，然后你说了些话，接着……",
+    "Don't worry. Soon, your whole world will slip away from your memory. You don't have long.": "别担心。很快，你的整个世界都会从记忆里消失。你时间不多了。",
+    "It... that doesn't...": "这……这不对……",
+    "...who are you? What... what was I doing?": "……你是谁？我……我刚才在干什么？",
+    "It probably wasn't important...": "也许本来就不重要吧……",
+    "I'm going to spend some time thinking, if you don't mind.": "如果你不介意，我想静一会儿思考一下。",
+    "My name is Etherpod. What's yours?": "我叫Etherpod。你呢？",
+    "I... don't remember.": "我……不记得了。",
+    "Oh... I'm sorry to hear that. How about I give you one?": "哦……真遗憾。要不我给你起一个？",
+    "You look like a Foog to me. Maybe something like... \"Lord Foog the 2st\".": "我觉得你长得像个瓜傻。不如叫……“第二代瓜傻大人”。",
+    "What kind of name is that? Give me a different one.": "这叫什么名字？换一个。",
+    "It's perfect.": "这名字完美极了。",
+    "Fine. How about        ?": "好吧。那叫        怎么样？",
+    "Can you repeat that? I didn't hear you.": "你能再说一遍吗？我没听见。",
+    "I knew you were a Foog at heart.": "我就知道你骨子里就是个瓜傻。",
+    "Anyway, you've wasted enough time talking with me. Go find some other modders to talk to.": "行了，你跟我聊得够久了。去找其他模组作者聊聊吧。",
+    "I'm sure you'll forget I was ever here after a few minutes of exploring.": "我敢肯定，你探索几分钟就会忘了我在这里。",
+    "I knew you were a         at heart.": "我就知道你骨子里就是个         。",
+    "Do you           do      ?": "你会           做      吗？",
+    "If      .        , do     ?": "如果      。        ，你会     吗？",
+    "Look, it's­        !      !!           and         .": "你看，是­        ！      ！！           还有         。",
+    "Okay, look.               .                 , right?": "好吧，你听着。               。                 ，对吧？",
+    "I went             , and I                          . But I just                      you                      .": "我去了             ，然后我                          。但我就是                      你                      。",
+    "You know              ?             when the moon                        ,       ?": "你知道              吗？             每当月亮                        ，       ？",
+    "It's either           , or               ?": "要么是           ，要么是               ？",
+    "For the last time,                                                ,                                          . Can you please just                              ?": "我再说最后一遍，                                                ，                                          。你能不能就                              ？",
+    "­I am not        flower       !                     you don't even            .": "我才不是        花       ！                     你甚至都不            。",
+    "Uh... could you repeat that again?": "呃……你能再重复一遍吗？",
+    "Got it. Understood. Yep.": "明白了。懂了。好。",
+    "Good. And remember to             and               !": "很好。记得要             还有               ！",
+    "Then, uh...": "然后，呃……",
+    "Now, go find some other modder friends to chat with. If you haven't forgetten my existence in three minutes, maybe you can stop by for another chat.": "现在去找其他模组作者朋友聊聊吧。如果三分钟后你还没忘记我，就再过来聊聊天。",
+    "You do? Weird, I don't recognize you.": "你认识我？奇怪，我不认识你。",
+    "Uh... good question. I've been asking the same thing myself.": "呃……问得好。我也一直在问自己这个问题。",
+    "Flowers can talk? That's cool.": "花会说话？太酷了。",
+    "All of them...": "所有的都是……",
+    "Go away.": "走开。",
+    "I'm not talking to you.": "我不想跟你说话。",
+    "...absolutely horrible, calling me what they did...": "……太过分了，他们居然那么叫我……",
+    "Go bother some other poor soul.": "去烦别的可怜人吧。",
+
+    //Onbvb.xml
+    "Onbvb": "Onbvb",
+    "Hey! I'm Onbvb, creator of Catastrophe!": "嘿！我是Onbvb，《Catastrophe》模组的创作者！",
+    "Why are you a computer?": "你为什么是一台电脑？",
+    "I really enjoyed Catastrophe!": "我超喜欢《Catastrophe》！",
+    "I wasn't all that keen on Catastrophe...": "我对《Catastrophe》没那么感兴趣……",
+    "I haven't played Catastrophe yet...": "我还没玩过《Catastrophe》呢……",
+    "Good question! I'm actually a computer because I've always liked Cyborgs and the like.": "好问题！我之所以是电脑，是因为我一直很喜欢赛博格之类的东西。",
+    "Therefore, I decided to turn myself into a computer!": "所以我决定把自己变成一台电脑！",
+    "Neat, anyways, I'm going to talk to other people now.": "挺酷的，不过我现在要去跟别人聊天了。",
+    "Glad to hear that!": "真高兴你喜欢！",
+    "It was much more of a writing exercise, since I'm awful at puzzle design, but hopefully my next mod should be better at that.": "它更像是一次创作练习，因为我超不擅长设计谜题，但希望我的下一个模组能在这方面做得更好。",
+    "Anyways, I'm going to go talk to other people now.": "不过我现在要去跟别人聊天了。",
+    "So sorry that you didn't enjoy my mod.": "很抱歉你不喜欢我的模组。",
+    "It is a little barebones, but not every mod is going to be for everyone.": "它确实有点简陋，但不是每个模组都能让所有人喜欢。",
+    "Go try some other mods though, maybe you'd like them better!": "去试试其他模组吧，说不定你会更喜欢！",
+    "Especially all of the other Jam 5 Mods, Forgotten Castaways, and Fret's Quest.": "尤其是第五届创作赛的其他模组，《Forgotten Castaways》和《Fret's Quest》。",
+    "Those are some of the ones I thought were really good and creative!": "这些都是我觉得超棒、超有创意的模组！",
+    "What are you waiting for? Go play it!": "还等什么？快去玩啊！",
+    "Though, don't expect the best puzzles. It's mostly a writing exercise.": "不过别指望有多棒的谜题，它主要还是一次创作练习。",
+    "I hope you have fun talking to everyone else!": "希望你跟其他人聊天愉快！",
+    "Also go play forgotten castaways i will promote that mod to my deathbed.": "另外一定要去玩《Forgotten Castaways》，我要一直安利这个模组直到我死去！",
+
+    //HeroPlays.xml
+    "HeroPlays1122": "HeroPlays1122",
+    "Hey there! My name is Hero. You can find me in the Modding Discord under the name “HeroPlays1122”.": "嘿！我叫Hero。你可以在模组创作Discord上找到我，ID是“HeroPlays1122”。",
+    "Anyways, any questions?": "那么，有什么要问我的吗？",
+    " What was your role in Team Geswaldo?": "你在Team Geswaldo里负责什么？",
+    "Why are you a chess piece?": "你为什么是一个棋子？",
+    "What was the hardest song you tried to make for Powerfail?": "你为《Powerfail》制作的最难的曲子是哪首？",
+    "Who’s your favorite team member in Team Geswaldo?": "你在Team Geswaldo里最喜欢的成员是谁？",
+    "Why is your name so cheesy?": "你的名字怎么这么土？",
+    "So if there’s a Jam 6 hub update, what will you be then?": "如果第六届创作赛枢纽更新了，到时候你会变成什么样子？",
+    "Where is Geswaldo in Powerfail? ": "格茨瓦尔多在《Powerfail》中在哪里？",
+    "Adios.": "再见。",
+    "I was the musician for the powerfail mod in Jam 5! I had lots of fun making music that was outside my comfort zone. I may release the music soon on many platforms that don’t exist in this universe.": "我是第五届创作赛《Powerfail》模组的音乐人！制作超出我舒适区的音乐真的很有趣。我可能很快会把这些音乐发布到这个宇宙中不存在的很多平台上。",
+    "Funny story, I got turned into a chess piece due to forgetting to make the Geswaldo theme song. I may get to it eventually but y’know, might have to make an Ernesto theme song first.": "说来好笑，我因为忘了做格茨瓦尔多的主题曲，就被变成了棋子。我最终可能会补上，但你知道的，说不定得先做一首厄内斯托的主题曲。",
+    "Honestly, it was Bruised Brother. I had the basic rhythm down but felt it was missing something. It took me a while before I figured it out.": "说实话，是《伤痕兄弟》。我当时已经有了基本旋律，但总觉得少了点什么。过了好久我才想明白问题在哪。",
+    "Oh no. I uh- my team may leave me to the feral inhabitants if I answered this. ": "哦不。我呃——如果我回答了这个问题，我的团队可能会把我丢给未开智生物。",
+    "Cheesy? Oh, do you mean the Plays1122 part of my name? ": "土？哦，你是说我名字里的“Plays1122”部分？",
+    " Yes.": "对。",
+    "Ah, well youngling me thought it sounded cool. The 1122 part is also just my second favorite number.": "啊，好吧，小时候的我觉得这名字听起来很酷。1122也是我第二喜欢的数字。",
+    " What’s your favorite number then?": "那你最喜欢的数字是什么？",
+    "It’s 3.141592653589793238... [rambles on while you slowly back away]": "是3.141592653589793238……（你慢慢后退，他还在没完没了地念叨）",
+    "Probably the inhabitants version of the eye. It’s quite a cool design in my opinion.": "可能是鹿人版的宇宙之眼图案吧。在我看来设计超酷的。",
+    "Oh I dunno. Say the North Pole of Bruised Brother is rather warm this year.": "哦我不知道。比如说“伤痕兄弟”的北极今年挺暖和的。",
+    "I don’t think Spanish is canonical in this universe... But see ya later!": "我觉得西班牙语在这个宇宙里不算官方设定……不过回头见！",
+
+    //Idiot.xml
+    "Idiot": "Idiot",
+    "Hey! Welcome to the party! I'm Idiot, nice to meet you!": "嘿！欢迎来派对！我是Idiot，很高兴认识你！",
+    "I'm here because of my work on New Horizons and OWML.": "我是因为参与了《New Horizons》和OWML的制作才来的。",
+    "You can find me on the Outer Wilds modding discord as \"idiot 19\"!": "你可以在《星际拓荒》模组创作Discord上找到我，ID是“idiot 19”！",
+
+    //Insmoshable.xml
+    "Insmoshable": "Insmoshable",
+    "Oh, hey! Pleasure to meet you, I'm Insmoshable.": "哦，嘿！很高兴认识你，我是Insmoshable。",
+    "I'm glad to see Arcanum Adrift getting some more recognition, makes me proud!": "看到《Arcanum Adrift》得到更多认可，我真的很开心，也很自豪！",
+    "I go by \"Insmoshable\" on the Outer Wilds modding discord, feel free to stop by and chat!": "我在《星际拓荒》模组创作Discord上的ID是“Insmoshable”，欢迎过来聊聊！",
+
+    //JohnCorby.xml
+    "JohnCorby": "JohnCorby",
+    "yo what up im JohnCorby": "哟，最近咋样，我是JohnCorby",
+    "i wrote half of Quantum Space Buddies and a good chunk New Horizons": "我写了一半《Quantum Space Buddies》的代码，在《New Horizons》中也参与了不少",
+    "i also helped on a buncha other mods and wrote half the Unity tools modern mods use (including this one)": "我还帮着做了好多其他模组，现在模组用的Unity工具，有一半是我写的（包括这个）",
+    "im on the Outer Wilds modding discord as \"JohnCorby\". please check out my soundcloud in my \"About Me\" section on discord. thanks": "我在《星际拓荒》模组创作Discord上的ID是“JohnCorby”。麻烦大家去看看我Discord个人简介里的SoundCloud，谢啦",
+
+    //LeeSpork.xml
+    "LeeSpork": "LeeSpork",
+    "Hello! I am LeeSpork. I am new here!": "你好！我是LeeSpork。我是新来的！",
+    "The guys at this party make really cool Outer Wilds mods! Their mods also inspired me to get into Outer Wilds mod making myself. I figured, what better way is there to show my appreciation for the modding scene than by joining it?": "这个派对上的人都做了超酷的《星际拓荒》模组！他们的模组也激励了我自己开始做《星际拓荒》模组。我觉得，想要表达对模组创作圈的喜爱，没有比加入它更好的方式了！",
+    "And now I am too have created a mod, yay!": "现在我也做出自己的模组啦，耶！",
+    "The community mod jams are awesome, and I am so glad I was able to take part in one! My Mod Jam 5 entry is titled <![CDATA[<i>The Mystery of I Cannot Find My Cat.</i>]]>": "社区创作赛超棒的，我真的很开心能参加一次！我第五届创作赛的参赛作品名叫<![CDATA[<i>《The Mystery of I Cannot Find My Cat》</i>]]>。",
+    "So, uhh...": "那个，呃……",
+    "Tell me more about your mod.": "多说说你的模组吧。",
+    "Do you have any future plans in Outer Wilds modding?": "你在《星际拓荒》模组创作方面有什么未来计划吗？",
+    "Why are you a spork?": "你为什么是一个叉勺？",
+    "I heard you love fish and chips.": "我听说你超爱吃炸鱼薯条。",
+    "I completed your Jam 6 mod as well!": "我也通关了你第六届创作赛的模组！",
+    "<![CDATA[If you haven't played it yet, it is called \"<color=#ffff80ff>The Mystery of I Cannot Find My Cat</color>,\" and it is part of the Mod Jam 5 <color=#ff8080ff>B-Side</color> pack. In the central station, it is the platform with the Timber Hearth style trees.]]>": "<![CDATA[如果你还没玩过，它叫“<color=#ffff80ff>《The Mystery of I Cannot Find My Cat》</color>”，是第五届创作赛<color=#ff8080ff>B部分</color>模组包的一部分。在中央站里，有木炉星风格树木的那个平台就是它的入口。]]>",
+    "If you want to hear more about it from me, see my developer commentary in the mod itself: the option to ask Leuc about the mod will be unlocked if you have completed the mod before (in the current save file). Just please make sure the \"freeze time while talking to others\" option is turned off first!": "如果你想从我这儿了解更多，就去看看模组里的开发者解说吧：如果你之前通关过这个模组（在当前存档里），就会解锁向勒克询问这个模组的选项。不过一定要先把“与他人对话时冻结时间”的选项关掉！",
+    "I'm not really one for having concrete plans, but I do hope to make more Outer Wilds mods in the future!": "我其实不太喜欢制定具体计划，但我真的希望未来能做更多《星际拓荒》模组！",
+    "I also hope to continue updating The Mystery of I Cannot Find My Cat to iron out the last problems with it. Maybe improve the looks of some locations.": "我还希望能继续更新《The Mystery of I Cannot Find My Cat》，解决最后剩下的一些问题。也许还会优化一些场景的外观。",
+    "You see it is actually a very subtle reference to how my username contains the word \"spork\", which is itself actually an incredibly deep artistic representation and societal commentary of how I feel like I don't fit in. Nah, just kidding, child me came up with \"LeeSpork\" because they thought it sounded cool or something.": "其实这是一个很隐晦的致敬——我的用户名里有“Spork（叉勺）”这个词，这本身是一种非常深刻的艺术表达，也是对我“格格不入”的社会评论。哈哈，开玩笑的，小时候的我想出“LeeSpork”这个名字，只是觉得听起来很酷之类的。",
+    "Yeah, that's because I told you that at the end of the developer commentary in The Mystery of I Cannot Find My Cat!": "对呀，因为我在《The Mystery of I Cannot Find My Cat》的开发者解说最后跟你说过呀！",
+    "<![CDATA[Wait... did you <i>actually</i> listen through all that? My entire rambling that I included as a troll, to trap you until you get vaporised by the sun?! Now I feel kind of embarrassed...]]>": "<![CDATA[等等……你<em>真的</em>把那些都听完了？我那段絮絮叨叨的话本来是恶作剧，想把你困住，直到你被太阳蒸发掉的？现在我有点尴尬了……]]>",
+    "That is good to hear! I hope the part where you got obliterated by a fish wasn't too annoying.": "真高兴你这么说！希望你被鱼炸飞的那部分没让你太烦。",
+    "Well I mean, you must be from my future, because I haven't actually made that mod yet! I'm just assuming future me would \"fish\" you. Future me is mean like that.": "好吧，我是说，你肯定来自我的未来，因为我还没做那个模组呢！我只是觉得未来的我会用“鱼”来对付你。未来的我就是这么坏。",
+    "bye.": "拜。",
+
+    //Lumine 0409.xml
+    "Lumine 0409": "Lumine 0409",
+    "Hey! Welcome to the party! I'm Lumine 0409, nice to meet you!": "嘿！欢迎来派对！我是Lumine 0409，很高兴认识你！",
+    "Have you played Hearth's Neighbor? I was actually involved in it, you should give it a try!": "你玩过《Hearth's Neighbor》吗？我参与了这个模组的制作，真的可以试试！",
+    "I go by \"Lumine0409\" on the Outer Wilds modding discord, feel free to stop by and chat!": "我在《星际拓荒》模组创作Discord上的ID是“Lumine0409”，欢迎过来聊聊！",
+
+    //Maya.xml
+    "Maya": "Maya",
+    "Yo, how's it going? My name is Maya.": "哟，最近咋样？我叫Maya。",
+    "I'm here because I'm a contributor to the upcoming mod Eyes of the Past!": "我来这儿是因为我参与了即将发布的模组《Eyes of the Past》的制作！",
+    "I go by \"Maya\" on the Outer Wilds modding discord, feel free to stop by and chat!": "我在《星际拓荒》模组创作Discord上的ID是“Maya”，欢迎过来聊聊！",
+
+    //MegaPiggy.xml
+    "MegaPiggy": "MegaPiggy",
+    "Hi, I'm MegaPiggy.": "嗨，我是MegaPiggy。",
+    "I've been part of the Outer Wilds modding scene since 2021, way back before we even had our own discord server. I didn't start making mods right away, but once I did, I never really stopped.": "从2021年起我就加入《星际拓荒》模组创作圈了，那时候我们连专属的Discord服务器都还没有。我没有一开始就立刻做模组，但一旦开始就再也没真正停过。",
+    "I've contributed a lot to this community over the years, and while college has made modding a bit less of a priority, I'm not planning on disappearing anytime soon.": "这些年我为这个社区做了不少贡献，虽然大学生活让模组创作不再是首要任务，但我短期内没打算消失。",
+    "If you want to know more about what I've done, ask away!": "如果你想了解我做过的事，尽管问！",
+    "What mods have you made?": "你做过哪些模组？",
+    "What's New Horizons?": "《New Horizons》是什么？",
+    "What are you working on now?": "你现在在做什么？",
+    "What's this about maintaining other people's mods?": "维护别人的模组是怎么回事？",
+    "Any other Outer Wilds mods you've worked on?": "你还参与过其他《星际拓荒》模组的制作吗？",
+    "I finished Axiom's Refuge!": "我通关《Axiom's Refuge》了！",
+    "I finished Project ARC!": "我通关《Project ARC》了！",
+    "Have you modded other games too?": "你也给其他游戏做过模组吗？",
+    "Actually, I think I've heard enough for now.": "其实我现在听的差不多了。",
+    "I've made a bunch of mods over the years. Project ARC was my Jam 5 entry, Axiom's Refuge was for Jam 3, and The Box was a surprise drop during Jam 4 even though I was judging at the time.": "这些年我做了不少模组。《Project ARC》是我第五届创作赛的参赛作品，《Axiom's Refuge》是第三届的，还有《The Box》——虽然我当时是第四届的评委，但还是悄悄发布了这个惊喜作品。",
+    "I've also made mods like Discord Rich Presence, Ghost Translations, Involuntary Blink... <![CDATA[<Pause=2/>]]>and a few weird ones that barely anyone downloaded.": "我还做过《Discord Rich Presence》《Ghost Translations》《Involuntary Blink》之类的模组……<![CDATA[<Pause=2/>]]>还有几个挺奇怪的几乎没人下载的模组。",
+    "I'm one of the main developers behind New Horizons, the modding framework that powers all of the big story mods (except The Outsider).": "我是《New Horizons》的主要开发者之一，所有大型故事模组（除了《The Outsider》）都是靠它运行的。",
+    "I've added features like Vessel Warping, Eye of the Universe support, custom title screens, and lots of other stuff under the hood that helps mods work.": "我添加了不少功能，比如飞船跃迁、宇宙之眼适配、自定义标题界面，还有很多后台底层功能，都是为了让模组能正常运行。",
+    "Right now, I'm working on Stowaway with atk and Repcon. It's a mod centered on Giants Deep, though it goes way beyond just that planet.": "现在我和atk、Repcon一起做《Stowaway》模组。它以深巨星为核心，但内容远不止这一颗星球。",
+    "Hope you check it out when it is released!": "希望它发布后你能试试！",
+    "I kind of ended up as a janitor for old or abandoned mods. If someone doesn't want to maintain theirs, I try to keep it running.": "我不知不觉就成了老模组或废弃模组的“管理员”。如果有人不想维护自己的模组，我就试着让它继续能玩。",
+    "Stuff like The Stranger They Are, General Enhancements, Cheats Mod, Camera Shake, and more. I didn't make them, but I keep them playable.": "比如《The Stranger They Are》《General Enhancements》《Cheats Mod》《Camera Shake》之类的。这些不是我做的，但我让它们一直能正常运行。",
+    "I've worked on a lot of the code for The Vision, the first story mod ever made for Outer Wilds.": "《The Vision》是《星际拓荒》的第一个故事模组，我参与了它的大部分代码编写。",
+    "It laid the groundwork for what story-driven mods could be, and now we have amazing story mods that far surpass what we had back then.": "它为故事驱动型模组奠定了基础，现在我们有了很多超棒的故事模组，远比当年的水平高得多。",
+    "I also worked on Real Solar System for a long time. I \"stole\" the mod from xen and added a bunch of dwarf planets and moons.": "我还花了很长时间做《Real Solar System》模组。我从xen那儿“接手”过来，加了好多矮行星和卫星。",
+    "Eventually Trifid stole it from me, and of course, he never finished the story. Just left it orbiting aimlessly just like Quasar Project and Echo Hike. Typical Trifid.": "最后Trifid又从我这儿“拿走”了，当然啦，他也没把故事做完。就让它像《The Quasar Project》和《Echo Hike》一样，漫无目的地漂浮着。Trifid向来如此。",
+    "...<![CDATA[<Pause=2/>]]>That was a joke if you couldn't catch it. I understand why they weren't finished because I too fall victim to overscoping and demotivation.": "...<![CDATA[<Pause=2/>]]>跟你说一声这是玩笑哈，要是你没听出来。我理解为什么这些模组没做完，因为我自己也会犯目标过大和失去动力的毛病。",
+    "I made that mod in just 3 days straight.": "那个模组我只用了三天就做完了。",
+    "It started as an ice planet and a moon, but then I had an idea to make the Alpha version of Outer Wilds was a parallel universe.": "一开始我只做了一颗冰行星和它的卫星，但后来我有了个想法——把《星际拓荒》的Alpha版设定成一个平行宇宙。",
+    "The Alpha Hearthians (that sounds weird now) tried to escape their supernova using a Nomai escape pod... and ended up in your universe by some unknown reason.": "Alpha版的哈斯人（现在听着有点怪）试图乘挪麦人的逃生舱逃离超新星爆发……结果不知怎么就来到了你的宇宙。",
+    "It was the first story mod (if you can even call it that) that I finished entirely on my own.": "那是我第一个完全独立完成的故事模组（如果这能算故事模组的话）。",
+    "Not gonna lie, I kinda cringe at it now. I don't really like touching it anymore.": "说实话，现在回头看我有点尴尬。我不太想再碰它了。",
+    "Funny enough, I was originally going to be a judge for Jam 3, but xen kicked me off the judges last minute to make me submit the mod officially instead.": "说来好笑，我本来是第三届创作赛的评委，但xen在最后一刻把我从评委名单里踢出去，让我正式提交这个模组参赛。",
+    "You finished Project ARC? That one was a bit of a journey, I kind of threw everything I had at the wall and hoped it worked. Hopefully the station didn't break too many brains along the way.": "你通关《Project ARC》了？那个模组做起来挺曲折的，我当时算是把所有想法都往上堆，赌它能行。希望那个空间站没让你太烧脑。",
+    "This time I actually started when the jam began, but something came up halfway through that made it hard to keep working on it consistently.": "这次我其实是从创作赛一开始就动工的，但中途出了点事，没法一直连贯地做下去。",
+    "I originally joked about making \"The Box 2\" since people kept pressuring me, but I had no clue what that would even be. Eventually I landed on an SCP-style Nomai space station prequel instead.": "因为大家一直催我，我本来开玩笑说要做《The Box 2》，但完全不知道该做什么。最后我决定做一个SCP风格的挪麦空间站前传。",
+    "I loved making the station itself. Honestly it's probably the best 3D model I've ever made. And I even tried remixing some music for the first time, which was a new experience.": "我超喜欢做那个空间站本身。说实话，这可能是我做过的最好的3D模型了。我还第一次尝试了音乐混音，算是全新的体验。",
+    "There are definitely weak points though. Emerald Reverie was supposed to have more content, but I ran out of time and it ended up just being where you get the battery.": "不过缺点也很明显。翡翠幻梦本来应该有更多内容，但我没时间了，最后它就只是个拿电池的地方。",
+    "atk said it felt like I was flexing my coding skills, but really coding is just what I'm best at. Story, music, and environments are tough for me, and I spent most of the jam struggling with those.": "atk说我这是在炫编程技术，但其实编程只是我最擅长的而已。故事、音乐和场景对我来说很难，创作赛期间我大部分时间都在为这些发愁。",
+    "That left me very little time for the puzzles, so they ended up being simpler than I originally planned.": "这样一来，我就没多少时间设计谜题了，所以谜题最后比我原本计划的简单不少。",
+    "I didn't think I could compete with the big jam teams anyway, so I just made whatever I could. But seeing all the mods, it kinda makes me think maybe I shouldn't go solo next time.": "反正我觉得自己没法和那些大型创作赛团队竞争，所以就随心所欲地做了。但看到所有参赛模组后，我有点觉得下次也许不该单飞了。",
+    "Maybe I'll update Project ARC to finish what I visioned... but no promises. I said that about Axiom's Refuge too, and, well...": "也许我会更新《Project ARC》，把我原本设想的内容做完……但不保证哦。我之前也给《Axiom's Refuge》说过这话，结果嘛……",
+    "Outside of Outer Wilds, I've been involved in modding for quite a few games.": "除了《星际拓荒》，我还为不少游戏做过模组。",
+    "I started out coding on Roblox for a few years, then started modding Slime Rancher where my mods actually blew up for a while. I tried to make a huge one called Elior Forest but never finished it.": "我一开始在Roblox写了几年代码，后来开始给《史莱姆牧场》做模组，那些模组当时还挺火的。我试着做过一个大型模组叫《埃利奥森林》，但没做完。",
+    "Eventually I ended up here, since I've always loved space. Later I also modded DREDGE (thanks to xen for recommending it) and it quickly became one of my favorite games.": "最后我来到了这里，因为我一直喜欢太空题材。后来我还给《渔帆暗涌》做过模组（谢谢xen推荐这个游戏），它很快就成了我最喜欢的游戏之一。",
+    "I worked on a Minecraft mod called Peaceful Progression with xen, and I've done a few Lethal Company mods too. A couple of those hit over a million downloads, even if they're pretty simple.": "我和xen一起做过一个《我的世界》模组叫《Peaceful Progression》，还做过几个《致命公司》的模组。有两个下载量超百万了，虽然它们都挺简单的。",
+    "Funny enough, the Slime Rancher ones actually gave me revenue. The Lethal Company ones? Not a dime. Modding is weird like that.": "说来好笑，《史莱姆牧场》的模组居然给我带来了收入。但《致命公司》的呢？一分钱都没有。做模组就是这么奇怪。",
+    "And yet, no matter how many times I burn out, I somehow always end up back in Outer Wilds...": "但不管我多少次过度劳累，最后总会回到《星际拓荒》的怀抱……",
+    "No worries! Thanks for stopping by.": "没关系！谢谢你过来聊聊。",
+    "If you ever want to hear more, I'll be right here.": "如果还想多听点，我一直都在。",
+
+    //Nebula.xml
+    "_nebula": "_nebula",
+    "Hello there, I'm _nebula! I worked on QSB with JohnCorby, and also did a lot of work on OWML.": "你好呀，我是_nebula！我和JohnCorby一起做了《Quantum Space Buddies》，还为OWML做了不少工作。",
+    "Me, Raicuparta, AmazingAlek, and TAImatem were the original modders for the game, and together we made all of the original versions of the modding tools and infrastructure everyone uses today!": "我、Raicuparta、AmazingAlek和TAImatem是这个游戏最早的模组创作者，我们一起做出了现在大家都在用的所有初代模组工具和基础架构！",
+    "There was even a point before Echoes of the Eye released, that I was the only person still modding for this game... I'm glad to see how much the community has grown since!": "甚至在《眼之回响》DLC发布前，有一段时间只有我还在给这个游戏做模组……看到现在社区发展得这么好，我真的很开心！",
+    "it took me like 30 minutes to work out what to say here... i have a lot of social anxiety... i didnt expect you to still be here... um... thanks for stopping by!! (runs away)": "我花了大概30分钟才想明白该说什么……我有很严重的社交焦虑……没想到你还在这儿……嗯……谢谢你过来！（跑开了）",
+
+    //Streetlights Behind the Trees.xml
+    "Streetlights Behind the Trees": "Streetlights Behind the Trees",
+    "Hello there. People call me Streetlights. That's not my real name.": "你好。大家都叫我Streetlights。这不是我的真名。",
+    "I made The Outsider mod, I guess. But working on it gave me TRAUMA, which my doctor Jaru says makes me psychopathic and genocidal. But only in some timelines.": "我想，《The Outsider》模组是我做的。但做那个模组给我留下了心理创伤，我的医生Jaru说这让我变得有精神病倾向，还嗜杀。不过只在某些时间线里是这样。",
+    "Currently, I'm making a game called Protostellar, which contains microtonal music, queer furry characters, and megastructures.": "现在我在做一个叫《Protostellar》的游戏，里面有微分音音乐、多元性别福瑞角色和巨型建筑。",
+    "Have a wonderful day. Or, at least, don't forget to try to sometimes.": "祝你度过美好的一天。或者，至少别忘了偶尔努力试试。",
+
+    //Orclecle.xml
+    "orclecle": "orclecle",
+    "Hi, I'm orclecle.": "嗨，我是orclecle。",
+    "I was an author of Translation and Patches for The Outsider, and this addon has already been integrated into The Outsider.": "我是《The Outsider》模组的翻译和补丁作者之一，这些插件已经整合进《The Outsider》本体了。",
+    "My main contribution was making Japanese translations of some mods, and I also made some jam mods: Finis, Guardian, and Diorama. (The time difference issue makes me hesitate to join some team.)": "我的主要贡献是给一些模组做日语翻译，还做过几个创作赛模组：《Finis》《Guardian》和《Diorama》。（时差问题让我不太敢加入团队。）",
+    ".....Of course, I know I should reboot Pick Up Chert. This is the time.": "……当然，我知道我该重启《Pick Up Chert》这个模组了。现在正是时候。",
+
+    //pikpik.xml
+    "pikpik": "pikpik",
+    "I have never heard of burnout. I don't get sleep.": "我从没听说过什么过度劳累。我不用睡觉。",
+
+    //Raicuparta.xml
+    "Raicuparta": "Raicuparta",
+    "Hey it's me your best friend Rai. I made NomaiVR. I created the mod datbase, the mods website, and the original mod manager. I created your face. Plus I contributed to OWML and early very early versions of QSB. And I made the award winning mod Outer Wives.": "嘿，是我，你最好的朋友Rai！我做了《NomaiVR》。我建了模组数据库、模组网站，还有初代模组管理器。你的脸都是我做的。另外我还为OWML和QSB的极早期版本出过力。我还做过获奖模组《Outer Wives》。",
+
+    //Repcon.xml
+    "Repcon": "Repcon",
+    "Oh, hey! Pleasure to meet you, I'm Repcon.": "哦，嘿！很高兴认识你，我是Repcon。",
+    "I'm here because I'm a contributor to a few upcoming mods, Eyes of the Past and Stowaway!": "我来这儿是因为我参与了几个即将发布的模组——《Eyes of the Past》和《Stowaway》的制作！",
+    "I also made a model and animations for a custom character in Forgotten Castaways!": "我还为《Forgotten Castaways》里的一个自定义角色做了模型和动画！",
+    "Did you know that there's an unofficial Outer Wilds modding discord? I go by \"Repcon\" over there.": "你知道有个非官方的《星际拓荒》模组创作Discord社群吗？我在那儿的ID是“Repcon”。",
+
+    //Samster68.xml
+    "Samster68": "Samster68",
+    "Welcome to the party! I'm Samster68. It's nice to meet you! I am an Outer Wilds modder and YouTuber.": "欢迎来派对！我是Samster68，很高兴认识你！我是《星际拓荒》的模组创作者，也是一名油管博主。",
+    "I'm so happy that Evacuation scored so well in the New Horizons Mod Jam!": "《Evacuation》在《New Horizons》模组创作赛上取得这么好的成绩，我太开心了！",
+    "Anything on your mind?": "你有什么想说的吗？",
+    "What else have you worked on?": "你还做过其他什么作品？",
+    "How can I contact you or find your content?": "我怎么联系你，或者找到你的内容？",
+    "What is your favorite Geometric Theorem?": "你最喜欢的几何定理是什么？",
+    "Can you give me a hint about your upcoming story mod?": "能给你即将发布的故事模组透个底吗？",
+    "See ya later!": "回头见！",
+    "I first played Outer Wilds in 2019, and instantly fell in love with the game. I have since introduced it to many of my closest friends.": "我2019年第一次玩《星际拓荒》，立刻就爱上了这款游戏。从那以后，我把它推荐给了好多好朋友。",
+    "I discovered the modding community in early 2022 and messed around with an earlier version of New Horizons to understand how it worked. I knew I wanted to make my own story mod after playing <![CDATA[<color=orange>The Vision</color>]]> (by hearth1an) and worked on it for a month straight.": "2022年初我发现了模组创作社区，还摆弄了早期版本的《New Horizons》，想搞懂它的运作原理。玩过hearth1an做的<![CDATA[<color=orange>《The Vision》</color>]]>后，我就下定决心要做自己的故事模组，还一口气做了一个月。",
+    "The end result was <![CDATA[<color=orange>Fret's Quest</color>]]>, a mod where you also help a Nomai recover a powerful artifact. It also features a giant...": "最后成品就是<![CDATA[<color=orange>《Fret's Quest》</color>]]>——在这个模组里，你要帮一名挪麦人找回一件强大的设备。里面还有一个巨型……",
+    "...well you know what it is if you've played it.": "……玩过的话你懂的。",
+    "Then I teamed up with 2walker2 and Texture_Turtle in 2023 for the New Horzions Mod Jam. We created <![CDATA[<color=orange>Evacuation</color>]]>, a look at what would happen if the Hearthains had to leave their home solar system.": "2023年，我和2walker2、Texture_Turtle组队参加了《New Horizons》模组创作赛。我们做了<![CDATA[<color=orange>《Evacuation》</color>]]>，讲述的是如果哈斯人不得不离开自己的母星太阳系，会发生什么故事。",
+    "I really got busy in 2024, where I started my own YouTube channel centered around Outer Wilds modding. Every month I create a recap video going over what cool projects the community has been working on!": "2024年我真的忙起来了——我开了自己的油管频道，专门做《星际拓荒》模组相关内容。每个月我都会做一期总结视频，盘点社区里正在推进的超酷项目！",
+    "In late 2024 I released a smaller mod called <![CDATA[<color=orange>Hearthian Golf</color>]]>. I've heard rumors that people have played it.": "2024年底，我发布了一个小型模组<![CDATA[<color=orange>《Hearthian Golf》</color>]]>。我听说有人玩过它呢。",
+    "Finally, in 2025 I was asked to be a judge in the Mini Star Systems Jam!": "最后，2025年我受邀担任了“迷你恒星系统创作赛”的评委！",
+    "And now you're pretty much caught up!": "现在你差不多了解我的全部经历啦！",
+    "I'm currently still running the YouTube channel and am working on a <![CDATA[<color=orange>new story mod</color>]]>.": "我现在还在运营油管频道，同时在做一个<![CDATA[<color=orange>新的故事模组</color>]]>。",
+    "You can contact me on the Outer Wilds Modding Discord Server as <![CDATA[<color=orange>Samster68</color>]]>. You can also find me on YouTube under the name <![CDATA[<color=orange>Half a Man Videos</color>]]>.": "你可以在《星际拓荒》模组创作Discord服务器上找到我，ID是<![CDATA[<color=orange>Samster68</color>]]>。也可以在油管上搜<![CDATA[<color=orange>Half a Man Videos</color>]]>找到我。",
+    "What an interesting and unique question!": "这个问题真有意思，还挺特别的！",
+    "I'm a big fan of the <![CDATA[<color=orange>Triangle Inequality Theorem</color>]]>. It states that for any triangle, the sum of the lengths of any two sides must be greater than or equal to the length of the remaining side.": "我超喜欢<![CDATA[<color=orange>三角形不等式定理</color>]]>。它指出，任意三角形中，任意两边长度之和必定大于或等于第三边的长度。",
+    "It so easily explains how our brains calculate the shortest route between two points.": "它能很简单地解释我们的大脑是如何计算两点之间最短路径的。",
+    "I'm not sure how you're going to put that in your ship log.": "我不确定你要怎么把这个写进飞船日志里。",
+    "<![CDATA[<color=orange>GENERATION</color>]]>. That's all I can say.": "<![CDATA[<color=orange>GENERATION</color>]]>。我只能说这么多了。",
+    "Bye! Enjoy the party!": "再见！祝你在派对上玩得开心！",
+
+    //Shoe.xml
+    "Shoe": "Shoe",
+    "GET ME OUT OF HERE!!! They haven't fed me in days, please just get me out of this cage": "把我弄出去！！！他们好几天没喂我了，求你把我从这个笼子里放出去！",
+    "Even if your not able to get me out, do you want to know a little secret?": "就算你救不出我，要不要听个小秘密？",
+    "Sure, why not?": "当然，为什么不呢？",
+    "No!": "不要！",
+    "Who said you had a choice?": "谁说你有得选了？",
+    "Ok then...": "好吧……",
+    "*ahem*": "*清嗓子*",
+    "Nagareteku toki no naka de demo kedarusa ga hora guruguru mawatte": "（以下歌词来自东方Project经典曲目《Bad Apple!!》）\n纵使时光流转，迷茫依旧盘旋不休",
+    "Watashi kara hanareru kokoro mo mienaiwa sou shiranai?": "（歌词大意）\n你难道不懂，那颗离我而去的心，早已无处寻觅？",
+    "Jibun kara ugoku koto mo naku toki no sukima ni nagasare tsuzukete": "（歌词大意）\n无力主动迈步，只能任由时光缝隙将我裹挟",
+    "Shiranai wa mawari no koto nado watashi wa watashi sore dake": "（歌词大意）\n周遭一切与我无关，我只是我，仅此而已",
+    "Yume miteru? Nani mo mitenai? Kataru mo muda na jibun no kotoba": "（歌词大意）\n是在做梦？还是一无所见？我所说的一切，不过是徒劳的自语",
+    "Kanashimu nante tsukareru dake yo nani mo kanjizu sugoseba ii no": "（歌词大意）\n悲伤不过是徒增疲惫，若无感知，便无需承受",
+    "Tomadou kotoba ataerarete mo jibun no kokoro tada uwa no sora": "（歌词大意）\n纵然得到迷茫的慰藉，我的心依旧漂泊无依",
+    "Moshi watashi kara ugoku no naraba subete kaeru no nara kuro ni suru": "（歌词大意）\n若我能主动前行，若一切能重来，我愿坠入黑暗",
+    "Konna jibun ni mirai wa aru no? Konna sekai ni watashi wa iru no?": "（歌词大意）\n这样的我，还有未来吗？这样的世界，容得下我吗？",
+    "Ima setsunai no? Ima kanashii no? Jibun no koto mo wakaranai mama": "（歌词大意）\n此刻是心痛？此刻是悲伤？我连自己都捉摸不透",
+    "Ayumu koto sae tsukareru dake yo hito no koto nado shiri mo shinaiwa": "（歌词大意）\n就连迈步都觉疲惫，他人之事，我一无所知",
+    "Konna watashi mo kawareru no nara moshi kawareru no nara shiro ni naru": "（歌词大意）\n若这样的我能改变，若真能改变，我愿化作纯白",
+    "Watashi no koto wo iitai naraba kotoba ni suru no nara [rokudenashi]": "（歌词大意）\n若想诉说我的故事，若要化作言语，便只剩“一无是处”",
+    "Ima yume miteru? Nani mo mitenai? Kataru mo muda na jibun no kotoba": "（歌词大意）\n此刻是在做梦？还是一无所见？我所说的一切，不过是徒劳的自语",
+    "Tomadou kotoba ataeraretemo jibun no kokoro tada uwa no sora": "（歌词大意）\n纵然得到迷茫的慰藉，我的心依旧漂泊无依",
+    "Ugoku no naraba ugoku no naraba subete kowasuwa subete kowasuwa": "（歌词大意）\n若能前行，若能前行，我要摧毁一切，摧毁一切",
+    "Kanashimu naraba kanashimu naraba watashi no kokoro shiroku kawareru?": "（歌词大意）\n若沉浸悲伤，若深陷痛苦，我的心能否化作纯白？",
+    "Anata no koto mo watashi no koto mo subete no koto mo mada shiranai no": "（歌词大意）\n你的一切，我的一切，所有的一切，我依旧一无所知",
+    "Omoi mabuta wo aketa no naraba subete kowasu no nara kuro ni nare!!!": "（歌词大意）\n若思绪觉醒，若要摧毁一切，我愿彻底沉沦黑暗！！！",
+    "What did you think of that?": "你觉得怎么样？",
+    "It was pretty good!": "挺不错的！",
+    "It was shit!": "太烂了！",
+    "Epic.": "超赞。",
+    "Fuck you!": "去你的！",
+
+    //Small Bug.xml
+    "Small Bug": "Small Bug",
+    "How's it going? My name is Small Bug.": "最近咋样？我是Small Bug。",
+    "I'm glad to see The Machine getting some more recognition, makes me proud!": "看到《The Machine》得到更多认可，我真开心，也很自豪！",
+
+    //Solec.xml
+    "Solec": "Solec",
+    "hey, i'm solec. i fell off a rock 50 times, made a weather mod, and made every planet in outer wilds a comet. that's basically it for me": "嘿，我是solec。我从石头上摔下来50次，做了个天气模组，还把《星际拓荒》里所有行星都改成了彗星。这差不多就是我。",
+
+    //Stache.xml
+    "Echatsum": "Echatsum",
+    "Hi": "嗨",
+    "What exactly are you? And how did you get here?": "你到底是什么东西？又是怎么来这儿的？",
+    "I'm a bukrad. And I'm a bukrad.": "我是布克拉德。我是布克拉德。",
+    "(actually I'm an incomplete model but Shoe was kind enough to provide this wip)": "（其实我是个未完成的模型，但Shoe好心提供了这个半成品）",
+    "I'm the joke brainchild of Echatsum, who made Callis's Thesis and Misfired Jump for jam3 and jam4 respectively. For jam5 he joined the Signal Jammers team to make the Cosmic Curators.": "我是Echatsum的玩笑之作——他分别为第三届、第四届创作赛做了《Callis's Thesis》和《Misfired Jump》。第五届创作赛时，他加入了The Signal Jammers团队，制作了《The Cosmic Curators》。",
+    "There are also rumors he's working on a big mod but it's still in the very early stages of development. Stay tuned for an expected 2040 release!": "还有传言说他在做一个大型模组，但还处于非常早期的开发阶段。敬请期待2040年发布！",
+
+    //xen.xml
+    "xen": "xen",
+    "Hey it's me xen.": "嘿，是我xen。",
+    "If you've played any story mod ever I probably helped get it made - I'm the lead developer of the New Horizons story mod framework! I also organized the first 5 community mod jams.": "如果你玩过任何《星际拓荒》故事模组，那很可能有我的功劳——我是《New Horizons》故事模组框架的首席开发者！前五届社区模组创作赛也是我组织的。",
+    "I always wanted to make story mods, but got so caught up in helping others make them that I never really got around to it myself. The only story mods I've actually made were Escape the Dreamstalker and Granite's Invitation.": "我一直想做故事模组，但都忙着帮别人做，自己反倒没来得及动手。我真正做过的故事模组只有《Escape the Dreamstalker》和《Granite's Invitation》。",
+    "I also helped make Escape Room and Christmas Story.": "我还帮着做了《Outer Wilds Escape Room》和《Christmas Story》。",
+    "That said, my greatest contribution to Outer Wilds modding has to be creating the magic talking anglerfish Ernesto.": "不过要说我对《星际拓荒》模组创作最大的贡献，肯定是创造了会说话的魔法安康鱼厄内斯托。",
+    "Okay bye.": "好了，再见。",
+
+    //T3rtu.xml
+    "T3rtu": "T3rtu",
+    "Hi it's me Tertu!": "嗨，是我Tertu！",
+    "I was the moddeler for powerfail, came up with the puzzles, story and the whole mod.. actually.": "其实《Powerfail》的模型是我做的，谜题、剧情还有整个模组的构思都是我提的。",
+    "(It was my first time moddeling for real.. pls no hate)": "（这是我第一次正经做模型……求轻喷）",
+    "Why is Powerfail so shit?": "《Powerfail》怎么这么烂？",
+    "What was the hardest thing to make in Powerfail?": "《Powerfail》里最难做的部分是什么？",
+    "Goodbye": "再见",
+    "Anything else?": "还有别的吗？",
+    "uhh, probably cuz i worked on it? But being honest- Powerfail was mostly a learning expirience. never expected it to be perfect": "呃，可能是因为是我做的？不过说实话——《Powerfail》主要是一次学习经历，我从来没指望它能很完美。",
+    "Well probably coming up with puzzles because solec is allergic to code. (me too)": "最难的应该是设计谜题吧，因为solec对编程一窍不通。（我也一样）",
+    "Goodbyeeeee": "拜拜～",
+
+    //Tashizuna.xml
+    "Tashizuna": "Tashizuna",
+    "Yo, how's it going? My name is Tashizuna.": "哟，最近咋样？我叫Tashizuna。",
+    "Be sure to look out for Eyes of the Past, which is a mod that I'm currently working on!": "记得关注《Eyes of the Past》，这是我正在制作的模组！",
+    "I go by \"tashizuna\" on the Outer Wilds modding discord, feel free to stop by and chat!": "我在《星际拓荒》模组创作Discord上的ID是“tashizuna”，欢迎过来聊聊！",
+
+    //TeamKabuki.xml
+    "TeamKabuki": "TeamKabuki",
+    "Oh, hey! I don't know if we've met, my name is TeamKabuki!": "哦，嘿！不知道我们见过没，我是TeamKabuki！",
+    "Did you know that I'm working on Wrong Warp? I'm looking forward to getting to release it once it's done!": "你知道我在做《Wrong Warp》吗？我超期待它的发布！",
+
+    //Texture_Turtle.xml
+    "Texture_Turtle": "Texture_Turtle",
+    "Hey there! I'm Texture_Turtle.": "嘿！我是Texture_Turtle。",
+    "Glad to be here, nice to get some more recognition for my work on Evacuation.": "很高兴能来这儿，我真的很开心在《Evacuation》上的努力能得到更多认可。",
+    "You can find me on the Outer Wilds modding discord as \"Turtle\"!": "你可以在《星际拓荒》模组创作Discord上找到我，ID是“Turtle”！",
+
+    //TLD256.xml
+    "TheLoweDown256": "TheLoweDown256",
+    "Hello! I'm TheLoweDown256.": "你好！我是TheLoweDown256。",
+    "I made Core Collapse for the 5th Outer Wilds Mod Jam.": "我为第五届《星际拓荒》模组创作赛做了《Core Collapse》。",
+    "I also have some half-finished projects and mod ideas (mostly gameplay additions/non-story) I might eventualy finish and release.": "我还有一些半成品项目和模组想法（大多是玩法补充类/非故事类），说不定以后会做完发布。",
+    "You can also find me on the Outer Wilds Modding discord server as \"TheLoweDown256\".": "你也可以在《星际拓荒》模组创作Discord服务器上找到我，ID是“TheLoweDown256”。",
+    "I don't really have anything else to say right now...": "我现在真的没什么别的想说的了……",
+    "I beat Core Collapse!": "我通关《Core Collapse》了！",
+    "Ok bye": "好，拜拜",
+    "Oh cool! Did you enjoy it?": "哦，酷！你喜欢吗？",
+    "Yes": "喜欢",
+    "No": "不喜欢",
+    ":)": ":)",
+    ":(": ":(",
+
+    //Trifid.xml
+    "Trifid": "Trifid",
+    "Hai.": "嗨。",
+    "What are you up to?": "你在忙什么？",
+    "I finished Echo Hike!": "我通关《Echo Hike》了！",
+    "Meow.": "喵。",
+    "Meow?": "喵？",
+    "Meow!": "喵！",
+    "I've contributed to New Horizons, and created numerous small mods. Ship Ball Pit is easily my favorite.": "我参与过《New Horizons》的制作，还做了好多小型模组。《Ship Ball Pit》绝对是我的最爱。",
+    "Aren't you making a story mod?": "你不是在做故事模组吗？",
+    "Hehe I have Ship Ball Pit.": "嘿嘿，我有《Ship Ball Pit》哦。",
+    "I've made attempts over time...": "我试过好多次了……",
+    "But I still hope to achieve one before I'm off to college.": "但我还是希望上大学前能做出一个故事模组。",
+    "Whatever ends up happening, it will probably involve the ideas in Echo Hike that I and others are very intrigued by. ;3": "不管最后结果怎么样，大概率会融入《Echo Hike》里我和其他人都很感兴趣的想法。;3",
+    "Hehe, what's your favorite type?": "嘿嘿，你最喜欢哪种类型？",
+    "Balls!": "球！",
+    "Rubber duckies!": "橡皮鸭！",
+    "Ernestos!": "厄内斯托们！",
+    "Cacti!": "仙人掌！",
+    "There's types?": "还有类型之分？",
+    "Real and true.": "千真万确。",
+    "Me too. :3": "我也是。:3",
+    "He's a real one. Or one hundred thirty six.": "他可是真家伙。或者说，一百三十六个真家伙。",
+    "Oh yeah I never changed the default after April Fool's.": "哦对，愚人节之后我就没改回默认设置。",
+    "A perpetual trifle, I suppose.": "我猜，这就是个永恒的小玩笑吧。",
+    "Go to options!": "去设置里改！",
+    "Yippee! How was the device?": "耶！那个装置怎么样？",
+    "Fun!": "好玩！",
+    "Odd!": "奇怪！",
+    "Buggy!": "好多bug！",
+    "In my unbiased opinion, I agree!": "以我客观的看法，我同意！",
+    "Echo Hike probably won't receive any new content, but indeed I do wish it continued.": "《Echo Hike》大概率不会再有新内容了，但我真的希望它能继续更下去。",
+    "My upcoming work will likely involve the concept. ;3": "我接下来的作品大概率会用到这个设定。;3",
+    "True! Much of its behavior emerged from it being primarily just a spring joint.": "没错！钩索的很多特性其实都来自于它本质上就是个弹簧关节。",
+    "Plus, while the visuals and crate moving were obviously inspired by the physics gun, I haven't particularly experienced other grappling mechanics in games for comparison.": "而且，虽然视觉效果和箱子移动明显是受物理枪启发，但我没怎么玩过其他带钩索机制的游戏，没法对比参考。",
+    "True, twas a jam. Feel free to yap at me in the modding server, if there's something specific broken.": "确实，那毕竟是创作赛作品。如果有什么具体的bug，随时在模组服务器上跟我吐槽。",
+    "Meow meow.": "喵喵。",
+    "Meow, meow meow.": "喵，喵喵。",
+    "Meow meow meow, meow.": "喵喵喵，喵。",
+    "Meow meow, meow. Meow meow.": "喵喵，喵。喵喵。",
+    "Meow, meow?": "喵，喵？",
+    "Meow meow meow...": "喵喵喵……",
+    "Meow meow! Meow, meow meow meow meow.": "喵喵！喵，喵喵喵喵喵。",
+    "Meow meow meow meow meow meow.": "喵喵喵喵喵喵。",
+
+    //Vambok.xml
+    "Vambok": "Vambok",
+    "Hey traveler! I'm Vambok.": "嘿，旅行者！我是Vambok。",
+    "Outer Wilds changed my life, and modding it recently became my main activity!": "《星际拓荒》改变了我的人生，制作它的模组已经成了我最近的主要事业！",
+    "I made Nomai's Sky, a procedural exploration mod still growing into a progressive adventure and showcase of most community creations. Any idea or feedback? Please toss them my way!": "我做了《Nomai's Sky》，这是一款程序化生成的探索模组，目前还在不断完善，会逐渐发展成一部渐进式冒险作品，同时也是社区多数创作的展示平台。有任何想法或反馈，都可以告诉我！",
+    "My biggest project is Outer Y, a story mod trilogy aiming to explain the game's physics and some of its main mysteries.": "我最大的项目是《Outer Y》，这是一部故事模组三部曲，旨在解释游戏中的物理设定以及部分核心谜团。",
+    "You'll usually find me lurking in the Outer Wilds Modding Discord, don't hesitate to drop by and chat!": "你通常能在《星际拓荒》模组创作Discord上找到我（我总在那儿潜水），随时欢迎过来聊聊！",
+
+    //Viovayo.xml
+    "Viovayo": "Viovayo",
+    "Yo, how's it going? My name is Viovayo.": "哟，最近咋样？我叫Viovayo。",
+    "You can find me on the Outer Wilds modding discord as \"viovayo\"!": "我在《星际拓荒》模组创作Discord上的ID是“viovayo”，欢迎过来聊聊！",
+
+    //Vodblink.xml
+    "Vodblink": "Vodblink",
+    "Hello player! My name is Vodblink, and I am a member of Team Geswaldo.": "你好，玩家！我叫Vodblink，是Team Geswaldo的一员。",
+    "Are you planning to make any more mods in the future?": "你未来还打算做更多模组吗？",
+    "Who else was in Team Geswaldo?": "Team Geswaldo还有其他谁？",
+    "What was your role in Team Geswaldo?": "你在Team Geswaldo里负责什么？",
+    "Did you just refer to me, instead of the hatchling?": "你刚才指的是我，而不是小家伙？",
+    "Did you refer to me, instead of the hatchling?": "你指的是我，而不是小家伙？",
+    "Me and Team Geswaldo made Powerfail, a mod for Jam 5.": "我和Team Geswaldo一起做了《Powerfail》，这是第五届创作赛的参赛模组。",
+    "In Powerfail you explore a <![CDATA[<color=orange>miniature</color>]]> system and learn about a group of Nomai that were there first.": "在《Powerfail》里，你会探索一个<![CDATA[<color=orange>微型</color>]]>星系，并了解到一群最早定居在那里的挪麦人的故事。",
+    "Currently, no, there are no plans for future mods, however there is always a possibility of a future mod for Jam 6, or just as a fun project.": "目前没有制作未来模组的计划，但不排除以后为第六届创作赛做一个，或者纯粹作为趣味项目做一个的可能。",
+    "The other team members are: Solec, T3rtu, and Heroplays.": "其他团队成员有：Solec、T3rtu和Heroplays。",
+    "Solec was the coder of Team Geswaldo, and does most of the work. They look a bit like Gabbro in this dimension.": "Solec是Team Geswaldo的程序员，承担了大部分工作。在这个维度里，他长得有点像加布罗。",
+    "T3rtu makes the models for everything, as well as having most of the ideas for it. They look a lot like your avatar for this world.": "T3rtu负责所有模型制作，模组的大部分创意也来自他。他长得和你在这个世界的化身很像。",
+    "Heroplays makes music, and made Powerfail much more lively with some of the songs. They became a chess piece for some reason.": "Heroplays负责音乐制作，他的几首曲子让《Powerfail》变得生动了不少。不知道为什么，他变成了一个棋子。",
+    "I am moral support, as well as the one to keep people on task.": "我主要负责精神支持，同时督促大家完成任务。",
+    "(I got into this building on a technicality, I did almost no real modding.)": "（我能进这栋楼纯属钻了规则的空子，几乎没做什么实际的模组工作。）",
+    "I did! Unlike a lot of people here, I can see past the rectangle called a screen and outside of it!": "没错！和这里很多人不一样，我能看穿那个叫“屏幕”的长方形，看到外面的世界！",
+    "For instance, I can tell by looking at you that you need to go outside and interact with some foliage.": "比如，我一看你就知道，你需要出去接触一些植物。",
+    "Goodbye!": "再见！",
+
+    //分割线：上面是模组制作者的对话，下面是模组的介绍
+
+    //archi.xml
+    "SIGN": "告示牌",
+    "Mod: Archipelago --- Authors: Can't Afford a Name": "模组：Archipelago —— 作者：Can't Afford a Name",
+    "Archipelago is one of the two mods that won second place in the first mod jam hosted by the Outer Wilds modding community.": "Archipelago是《星际拓荒》模组社区举办的第一届创作赛中，荣获二等奖的两个模组之一。",
+    "This mod has you warp to a new planet covered in a vast ocean and enclosed in a massive stone sphere. Using the clues that you find, you must find a way under the seafloor to solve the mystery surrounding this strange astral body.": "在这个模组中，你会跃迁到一颗新行星——它被浩瀚海洋覆盖，还被一个巨大的石球包裹。你需要利用找到的线索，设法潜入海底，解开这颗奇异天体背后的谜团。",
+    "Archipelago is a very interesting mod, combining organic mysteries and puzzles with fantastical environments and fascinating creatures. Definitely play this gem if you haven't already.": "Archipelago是一款非常有趣的模组，将原生谜题、解谜元素与奇幻场景、迷人生物完美融合。如果你还没玩过，一定要试试这款佳作。",
+
+    //adoh.xml
+    "Mod: A Dream of Home --- Authors: Classic": "模组：A Dream of Home —— 作者：Classic",
+    "A Dream of Home was one of the most anticipated mods for Outer Wilds, taking place in the home system of the Stranger's Inhabitants featuring a re-terraformed version of their home moon.": "A Dream of Home是《星际拓荒》最受期待的模组之一，故事发生在鹿人种族的母星系，核心场景是他们经过重新地球化改造的母星。",
+    "It has gained its own following during its development thanks to its trailers gaining popularity, and it has its own Discord server with more members than the Outer Wilds Modding server itself!": "模组开发期间，其预告片广受好评，吸引了大批粉丝，甚至拥有专属Discord服务器，成员数量比《星际拓荒》模组社区主服务器的还多！",
+    "But those many people were left heartbroken when the developer lost all his files, and all that's left is an outdated version on GitHub. After that, the mod had since been cancelled.": "但令人心碎的是，开发者意外丢失了所有文件，如今仅在GitHub上留存着一个过时版本，模组也因此宣告取消。",
+    "However, the legacy of A Dream of Home lives on and has inspired many people into modding Outer Wilds, including Anonymous, the creator of The Stranger They Are.": "尽管如此，A Dream of Home的影响力依然存在，激励了许多人投身《星际拓荒》模组创作，其中就包括The Stranger They Are的作者Anonymous。",
+
+    //arcanum.xml
+    "Mod: Arcanum Adrift --- Authors: The Wrong Warp Team": "模组：Arcanum Adrift —— 作者：The Wrong Warp Team",
+    "Arcanum Adrift is one of two mods that won first place in the first mod jam held by the Outer Wilds modding community.": "Arcanum Adrift是《星际拓荒》模组社区第一届创作赛的两个冠军模组之一。",
+    "This mod adds a unique and stunning location to the game, with the breadcrumb trail to it starting at a Nomai text wall in the observatory museum.": "该模组为游戏新增了一处独特而壮丽的场景，其线索起点位于天文台博物馆的一面挪麦文字墙。",
+    "The mod itself makes heavy use of quantum objects, featuring puzzles that require careful alignment of many different objects.": "模组大量运用量子物体元素，谜题设计需要玩家精准对齐多个不同物体才能解开。",
+    "(But seriously, this mod is so good looking, sheesh!)": "（说真的，这模组的画面也太惊艳了吧！）",
+
+    //apollo.xml
+    "Mod: Apollo's Planet --- Authors: apollo939": "模组：Apollo's Planet —— 作者：apollo939",
+    "Apollo's Planet is a mod made for the fifth mod jam hosted by the Outer Wilds modding community, taking place in the MagMag system.": "Apollo's Planet是为《星际拓荒》模组社区第五届创作赛制作的模组，故事发生在沸腾岩浆星系。",
+    "The mod tasks the player with exploring the MagMag system in order to earn a special reward from Apollo the Nomai.": "在模组中，玩家需要探索梅格梅格星系，才能从挪麦人阿波罗那里获得一份特殊奖励。",
+
+    //arc.xml
+    "Mod: Project ARC --- Authors: MegaPiggy": "模组：Project ARC —— 作者：MegaPiggy",
+    "Project ARC is a mod made for the fifth mod jam hosted by the Outer Wilds modding community, taking place aboard a Nomai vessel dedicated to researching anomalies.": "Project ARC是为《星际拓荒》模组社区第五届创作赛制作的模组，故事发生在一艘专门研究异常现象的挪麦飞船上。",
+    "The puzzles are very creative and innovative, and the ending is quite the surprise. It's definitely worth checking out, and provides quite the experience.": "谜题设计极具创意与新意，结局更是令人意外。这款模组绝对值得一试，能带给你独特的体验。",
+    "Perhaps this mod will find itself on the leaderboard?": "说不定这款模组能登上排行榜呢？",
+
+    //axiom.xml
+    "Mod: Axiom's Refuge --- Authors: MegaPiggy": "模组：Axiom's Refuge —— 作者：MegaPiggy",
+    "Axiom's Refuge is a mod made for the third mod jam hosted by the Outer Wilds modding community, bringing the world of the Outer Wilds Alpha Version to the final release.": "Axiom's Refuge是为《星际拓荒》模组社区第三届创作赛制作的模组，它将《星际拓荒》阿尔法测试版的世界融入了正式版游戏。",
+    "This crossover may not have had any puzzles involved, but it has a great story and melds the two worlds together quite well.": "这款跨界模组虽无解谜元素，但拥有精彩的剧情，且将两个世界融合得十分出色。",
+    "While it didn't win any awards, it is an experience worth trying!": "尽管未能获奖，但它依然是一段值得体验的旅程！",
+
+    //band.xml
+    "Mod: Band Together --- Authors: pikpik, Etherpod, Ditzy, TheHipOne": "模组：Band Together —— 作者：pikpik、Etherpod、Ditzy、TheHipOne",
+    "Band Together is a mod made for the third mod jam hosted by the Outer Wilds modding community. It takes place on a planet with four divided tribes.": "Band Together是为《星际拓荒》模组社区第三届创作赛制作的模组，故事发生在一颗拥有四个分裂部族的行星上。",
+    "The player's main goal is to unite the four tribes together to figure out how to open a long-locked ancient door.": "玩家的核心目标是团结这四个部族，找到打开一扇尘封已久的古老大门的方法。",
+    "While the mod was left in an unfinished state by the jam deadline, updates followed and fixed the mod, turning it into the wonderful mod it is today.": "尽管创作赛截止时模组仍处于未完成状态，但后续的更新完善最终造就了如今这款出色的模组。",
+
+    //blank.xml
+    "There's no mod that actually goes here yet, but maybe there will be someday!": "目前这里还没有对应的模组，但说不定有一天会有呢！",
+    "Who knows, it could even be yours! :)": "说不定，创作者就是你呢！:)",
+
+    //blankmemorial.xml
+    "Thankfully, there are no more scrapped mods to be shown here.": "幸运的是，这里没有更多废弃模组需要展示了。",
+    "Perhaps someday, these mods could see life again. Who knows? You could probably make that happen! :)": "也许有一天，这些模组能重获新生。谁知道呢？说不定你就能让它成为现实！:)",
+
+    //box.xml
+    "Mod: The Box --- Authors: MegaPiggy": "模组：The Box —— 作者：MegaPiggy",
+    "The Box is a mod made for the fourth mod jam hosted by the Outer Wilds modding community.": "The Box是为《星际拓荒》模组社区第四届创作赛制作的模组。",
+    "I cannot explain this mod to you without spoiling anything, and I encourage you to go in completely blind. The Box is truly just that wonderful.": "任何对模组的解释都可能剧透，所以我建议你完全不带预期地去体验。The Box真的就是这么精彩。",
+
+    //brightdusk.xml
+    "Mod: Brightdusk --- Authors: Multiverse": "模组：Brightdusk —— 作者：Multiverse",
+    "Brightdusk is a mod made for the first Outer Wilds Mod Jam. It adds a new planet to the Outer Wilds system called Brightdusk to explore.": "Brightdusk是为第一届《星际拓荒》模组创作赛制作的模组。它为《星际拓荒》星系新增了一颗名为明亮黄昏的行星供玩家探索。",
+    "The planet itself has a series of liquid oceans with a yellow tint to them, all stacked up into various layers.": "这颗行星拥有一系列泛着黄色调的液态海洋，层层叠叠分布。",
+
+    //brightspark.xml
+    "Mod: Bright Spark --- Authors: Ender, Beryl": "模组：Bright Spark —— 作者：Ender、Beryl",
+    "Bright Spark is a mod made for the fifth mod jam hosted by the Outer Wilds modding community, which takes place in a trinary star system.": "Bright Spark是为《星际拓荒》模组社区第五届创作赛制作的模组，故事发生在一个三合星系统中。",
+    "The mod tells the story of a clan of Nomai conducting an experiment for the next Festival, but it ends up going wrong.": "模组讲述了一个挪麦家族为下一届发现节进行实验，却最终出现意外的故事。",
+
+    //brokenbalance.xml
+    "Mod: Broken Balance --- Authors: TetraMinus and Aidancode": "模组：Broken Balance —— 作者：TetraMinus、Aidancode",
+    "Broken Balance is a mod made for the first Outer Wilds Mod Jam, which the author describes as still \"barebones\". It takes place in a new system with a silver star which three planets call home.": "Broken Balance是为第一届《星际拓荒》模组创作赛制作的模组，作者称其仍处于“简陋阶段”。故事发生在一个新星系中，这里有一颗银色恒星，三颗行星围绕它运行。",
+    "The mod's story explores a new clan of Nomai's faults and discoveries, and has three unique planets. One covered in gears, another one that's hollow, and a third covered in minerals.": "模组剧情围绕一个新的挪麦家族的失误与发现展开，包含三颗独特的行星：一颗被齿轮覆盖，一颗是中空的，还有一颗布满矿物。",
+    "While the mod itself claims to be barebones, there's still a story and three planets to explore.": "尽管模组自称简陋，但仍有完整剧情和三颗行星可供探索。",
+
+    //cake.xml
+    "Mod: Mystery of the Missing Cake --- Authors: Boreas": "模组：Mystery of the Missing Cake —— 作者：Boreas",
+    "Mystery of the Missing Cake is a mod made for the fifth mod jam hosted by the Outer Wilds modding community.": "Mystery of the Missing Cake是为《星际拓荒》模组社区第五届创作赛制作的模组。",
+    "As the title suggests, the mod tasks the player with finding a missing cake for a Nomai.": "顾名思义，模组的任务是让玩家帮一位挪麦人找到失踪的蛋糕。",
+
+    //callis.xml
+    "Mod: Callis's Thesis --- Authors: Echatsum": "模组：Callis's Thesis —— 作者：Echatsum",
+    "Callis's Thesis is a mod made for the third mod jam hosted by the Outer Wilds modding community, about a Nomai who needs your help finishing their contribution to an upcoming festival.": "Callis's Thesis是为《星际拓荒》模组社区第三届创作赛制作的模组，讲述了一位挪麦人需要你帮忙完成即将到来的发现节献礼的故事。",
+    "The mod doesn't have much puzzles, but is appreciated by many for its humor. Even as a small entry, Callis's Thesis has its strengths.": "这款模组的谜题不多，但凭借幽默感深受玩家喜爱。尽管是小型参赛作品，Callis's Thesis仍有其独特亮点。",
+
+    //castaways.xml
+    "Mod: Forgotten Castaways --- Author: coderCleric": "模组：Forgotten Castaways —— 作者：coderCleric",
+    "Forgotten Castaways is a story mod that takes place almost entirely in Dark Bramble, tasking the player with following the trail of the four Nomai that became stranded there.": "Forgotten Castaways是一款故事模组，剧情几乎全程发生在黑棘星中，玩家需要追寻四位被困于此的挪麦人的踪迹。",
+    "Despite taking place in Dark Bramble, the mod attempts to make the location (somewhat) less intimidating, hoping to allow those who are not fond of the planet to play it.": "尽管场景设定在黑棘星，但模组尝试让这个地方（在一定程度上）不那么吓人，希望让不喜欢这颗行星的玩家也能体验。",
+    "While the mod does not have as many downloads as other large story mods, many players have found its story and puzzles to be very enjoyable.": "虽然这款模组的下载量不如其他大型故事模组，但许多玩家都认为它的剧情和谜题非常出色。",
+    "(I'm also the one who made Forgotten Castaways, so you can't stop me from including it here!)": "（顺便说一句，Forgotten Castaways就是我做的，所以你阻止不了我把它放在这儿！）",
+
+    //catastrophe.xml
+    "Mod: Catastrophe --- Authors: Onbvb": "模组：Catastrophe —— 作者：Onbvb",
+    "Catastrophe is a mod made for the fifth mod jam hosted by the Outer Wilds modding community.": "Catastrophe是为《星际拓荒》模组社区第五届创作赛制作的模组。",
+    "The mod has the player help six Nomai complete an experiment in order to uncover the mysteries of previously unknown phonomena.": "模组中，玩家需要帮助六位挪麦人完成一项实验，以揭开一些此前未知现象的谜团。",
+
+    //cat.xml
+    "Mod: The Mystery of I Cannot Find My Cat --- Authors: LeeSpork": "模组：The Mystery of I Cannot Find My Cat —— 作者：LeeSpork",
+    "The Mystery of I Cannot Find My Cat is a mod made for the fifth mod jam hosted by the Outer Wilds modding community.": "The Mystery of I Cannot Find My Cat是为《星际拓荒》模组社区第五届创作赛制作的模组。",
+    "This mod tasks the player with help a Nomai named Leuc find their missing cat.": "这款模组让玩家帮助一位名叫勒克的挪麦人寻找失踪的猫。",
+
+    //codec.xml
+    "Mod: Astral Codec --- Author: 2walker2": "模组：Astral Codec —— 作者：2walker2",
+    "Astral Codec was the largest story mod ever created by the community at the time of its release.": "Astral Codec截止发布时是社区制作的最大型的故事模组。",
+    "As stated on the mod page, Astral Codec explores a possible origin of the Interloper, but don't think that that's all this mod has to offer! The story the mod presents is interesting, and the characters used and created are charismatic and fun to listen to.": "正如模组页面所述，Astral Codec探索了闯入者彗星的一种可能起源，但别以为这就是模组的全部内容！它呈现的剧情十分有趣，登场的既有原作角色也有原创角色，个个富有魅力，听他们对话很有乐趣。",
+    "As a bonus, the mod has a post in the mod forum that players can use to get help, as well as discuss the mod in general.": "此外，模组在模组论坛设有专门帖子，玩家可以在这里寻求帮助，也能对模组进行综合讨论。",
+
+    //cheatmenu.xml
+    "Mod: Cheat and Debug Menu --- Author: glitchewski": "模组：Cheat and Debug Menu —— 作者：glitchewski",
+    "This mod provides access to a wide array of debug tools and cheats that makes the modding process much easier.": "这款模组提供了大量调试工具和作弊功能，能让模组创作过程变得轻松许多。",
+    "While the number of things that it allows is truly huge, some notable features are the ability to fast-forward time, toggle invincibility, and even teleport to a number of debug spawn locations set up by the game's developers.": "它的功能数量十分庞大，其中值得一提的包括：快进时间、开启无敌模式，甚至能传送到游戏开发者设置的多个调试出生点。",
+    "Modders can even set up custom spawn points on their planets, which this mod will automatically detect and allow you to teleport to!": "模组创作者甚至可以在自己制作的行星上设置自定义出生点，这款模组会自动识别并允许你传送到那里！",
+    "If you're looking to take up modding, this one is virtually a must-have. Definitely give it a download!": "如果你打算投身模组创作，这款模组几乎是必备工具。一定要下载试试！",
+
+    //dreambound.xml
+    "Mod: Dreambound --- Authors: Hawkbar, Insmoshable": "模组：Dreambound —— 作者：Hawkbar、Insmoshable",
+    "Dreambound is the mod that won first place in the fourth mod jam hosted by the Outer Wilds modding community. The mod introduces itself by showing a mirage of the Ringed Planet around Giant's Deep.": "Dreambound是《星际拓荒》模组社区第四届创作赛的冠军模组。模组以深巨星周围出现的环行星幻影作为开场。",
+    "Dreambound's central mechanic revolves around a device that can scan and point to several objects in order to find them, and with it you can uncover an untold story of the Stranger's Inhabitants.": "Dreambound的核心机制围绕一款设备展开，该设备可扫描并定位多个目标，借助它你能揭开鹿人种族一段不为人知的故事。",
+    "The mod does a great job at conveying information to the player with minimal text, and has really proven itself worthy of first prize.": "这款模组仅用少量文字就向玩家传递了丰富信息，充分证明了它配得上冠军荣誉。",
+
+    //echo.xml
+    "Mod: Echo Hike --- Authors: Trifid": "模组：Echo Hike —— 作者：Trifid",
+    "Echo Hike is a mod made for the third mod jam hosted by the Outer Wilds modding community. It takes place beneath the crust of a ringed ice world.": "Echo Hike是为《星际拓荒》模组社区第三届创作赛制作的模组，故事发生在一颗带环冰行星的地壳之下。",
+    "While the mod is small and does not have many puzzles, there was a brilliant mechanic that left many players amazed.": "尽管模组体量不大、谜题不多，但其中一项精妙机制让许多玩家惊叹不已。",
+
+    //collidervisualizer.xml
+    "Mod: Collider Visualizer --- Author: loco-choco": "模组：Collider Visualizer —— 作者：loco-choco",
+    "Doing exactly what the name implies, the Collider Visualizer mod lets you see the normally invisible colliders and triggers used by the game.": "正如其名，Collider Visualizer模组能让你看到游戏中通常不可见的碰撞体和触发器。",
+    "While you won't want to have it on all of the time, this mod is invaluable when you just can't quite figure out why a ship log fact isn't triggering where it should be.": "虽然你不会一直开启它，但当你始终搞不懂为何飞船日志条目无法在指定位置触发时，这款模组能发挥巨大作用。",
+    "As a bonus, it has a number of different options meant to make the screen easier to interpret. Definitely give this a try if you've got a collider bug that you just can't seem to solve!": "此外，它还提供多种设置选项，让屏幕显示更易理解。如果你遇到无法解决的碰撞体bug，一定要试试这款模组！",
+
+    //core.xml
+    "Mod: Core Collapse --- Authors: TheLoweDown256": "模组：Core Collapse —— 作者：TheLoweDown256",
+    "Core Collapse is a mod made for the fifth mod jam hosted by the Outer Wilds modding community, where the player is tasked to save a Nomai clan's knowledge from destruction.": "Core Collapse是为《星际拓荒》模组社区第五届创作赛制作的模组，玩家的任务是拯救一个挪麦家族即将被毁的知识遗产。",
+    "This mod was the only mod this jam to utilize the time loop, and was easily one of the most creative entries of the jam.": "它是本届创作赛中唯一运用时间循环机制的模组，无疑是最具创意的参赛作品之一。",
+
+    //curators.xml
+    "Mod: The Cosmic Curators --- Authors: pikpik, Echatsum, Anonymous, Repcon, cOa Rex": "模组：The Cosmic Curators —— 作者：pikpik、Echatsum、Anonymous、Repcon、cOa Rex",
+    "The Cosmic Curators won third place in the community's fifth mod jam. The mod takes place in a vessel of alien origin in orbit around a pulsar.": "The Cosmic Curators是社区第五届创作赛的季军模组，故事发生在一艘环绕脉冲星运行的外星飞船上。",
+    "This mod is one of two Jam 5 mods to feature a completely new species, and has an array of puzzles for the player to solve and a bunch of new lore to explore.": "它是第五届创作赛中两款新增全新物种的模组之一，包含一系列谜题供玩家破解，还有大量新背景故事待探索。",
+    "Overall, it has a very compelling premise and placed in the jam for good reason. Make sure to check it out!": "总的来说，它的设定极具吸引力，能获奖绝非偶然。一定要试试这款模组！",
+
+    //daylightsavings.xml
+    "Mod: Daylight Savings --- Authors: Clay": "模组：Daylight Savings —— 作者：Clay",
+    "Daylight Savings is a mod made for the first Outer Wilds Mod Jam, which explores a new star system with a planet and a few structures in orbit around a seemingly dim star.": "Daylight Savings是为第一届《星际拓荒》模组创作赛制作的模组，探索一个新星系——这里有一颗看似昏暗的恒星，周围环绕着一颗行星和若干轨道建筑。",
+    "It follows a story with a clan of Nomai discovering a star aside a pulsar, which led to some events that create the dim star seen in the system.": "剧情围绕一个挪麦家族展开，他们发现了一颗位于脉冲星旁的恒星，一系列事件最终造就了这个星系中这颗昏暗的恒星。",
+
+    //dayoff.xml
+    "Mod: Ernesto's Fun Day Off --- Authors: TextureTurtle": "模组：Ernesto's Fun Day Off —— 作者：TextureTurtle",
+    "Ernesto's Fun Day Off is a mod made for the second mod jam hosted by the Outer Wilds modding community.": "Ernesto's Fun Day Off是为《星际拓荒》模组社区第二届创作赛制作的模组。",
+    "While the mod is essentially filled with meta satire, there are puzzles to solve like any other Outer Wilds story mod, along with a hidden mechanic.": "尽管模组本质上充满元讽刺元素，但和其他《星际拓荒》故事模组一样包含可解谜题，还有一项隐藏机制。",
+
+    //dilator.xml
+    "Mod: Time Dilator --- Authors: orbital32": "模组：Time Dilator —— 作者：orbital32",
+    "Time Dilator is a mod made for the first Outer Wilds Mod Jam, which explores a new star system with a strange property.": "Time Dilator是为第一届《星际拓荒》模组创作赛制作的模组，探索一个具有奇特属性的新星系。",
+    "Originally, orbital32 intended to release Unnamed Mystery as a jam submission, but instead worked on a new mod because the former did not fit with the theme.": "起初，orbital32打算以Unnamed Mystery参赛，但由于该模组不符合创作赛主题，最终转而制作了这款新模组。",
+
+    //diorama.xml
+    "Mod: Diorama --- Authors: orclecle": "模组：Diorama —— 作者：orclecle",
+    "Diorama is a mod made for the fifth mod jam hosted by the Outer Wilds modding community. Its story focuses on Ping the Nomai and the very essence of Jam.": "Diorama是为《星际拓荒》模组社区第五届创作赛制作的模组，剧情围绕挪麦人平以及创作赛的核心精神展开。",
+    "The mod comes with a new mechanic and a series of puzzles, and plenty of new meta lore behind Ping and the mod jams themselves.": "模组新增了一项机制和一系列谜题，还包含许多关于平和模组创作赛本身的全新背景故事。",
+
+    //divergence.xml
+    "Mod: Divergence --- Authors: artificialparanoia": "模组：Divergence —— 作者：artificialparanoia",
+    "Divergence is a mod made for the first Outer Wilds Mod Jam that has you following the footsteps of a long, lost Hearthian.": "Divergence是为第一届《星际拓荒》模组创作赛制作的模组，玩家将追寻一位失踪已久的哈斯人的足迹。",
+    "This mod was the first fully DLC-themed story mod to be released onto the database.": "它是数据库中首款完全以DLC为主题的故事模组。",
+
+    //granite.xml
+    "Mod: Granite's Invitation --- Authors: xen": "模组：Granite's Invitation —— 作者：xen",
+    "Granite's Invitation is an example mod made for the third mod jam hosted by the Outer Wilds modding community. Since it was made by a judge, this entry did not count.": "Granite's Invitation是为《星际拓荒》模组社区第三届创作赛制作的示例模组。由于作者是评委，该作品不参与排名。",
+    "The mod features a Hearthian named Granite who invited you to their birthday party, which takes place on a planet called Gravelrock.": "模组中，一位名叫格兰尼特的哈斯人会邀请你参加他们的生日派对，派对地点位于一颗名为砾石岩的行星上。",
+
+    //eden.xml
+    "Mod: Eden's Hope --- Authors: Hawkbar, Insmoshable": "模组：Eden's Hope —— 作者：Hawkbar、Insmoshable",
+    "Eden's Hope won second place in the community's fifth mod jam, taking place within a Nomaian lab on a barren planet.": "Eden's Hope是社区第五届创作赛的亚军模组，故事发生在一颗荒芜行星上的挪麦实验室中。",
+    "This barren planet actually carries the seeds of rebirth, and the player is tasked to create the conditons necesary to bring forth that rebirth.": "这颗荒芜行星实则孕育着重生的种子，玩家的任务是创造必要条件，让生命得以复苏。",
+    "It's a very compelling mod made by a skilled team. Make sure to give it a try!": "这是由专业团队打造的极具吸引力的模组，一定要试试！",
+
+    //eotp.xml
+    "Mod: Eyes of the Past --- Authors: Pikpik, Etherpod, Maya, Viovayo, JohnCorby, tashizuna, Repcon, and ditzy": "模组：Eyes of the Past —— 作者：Pikpik、Etherpod、Maya、Viovayo、JohnCorby、tashizuna、Repcon、ditzy",
+    "Eyes of the Past takes place on the home moon of the inhabitants of the Stranger, long before the events that take place during the DLC.": "Eyes of the Past的故事发生在鹿人种族的母星上，时间线远早于DLC中的事件。",
+    "This mod will task the player with uncovering the mystery of what caused the inhabitants to make the great sacrifice that they did, as well as broader strokes about the past of their people.": "模组将让玩家揭开鹿人种族做出巨大牺牲的幕后谜团，同时了解他们种族过往的大致脉络。",
+    "From this image alone, it is clear that this mod promises to be visually striking and quite a sight to behold. As a bonus, Pikpik (the lead author of the mod) makes frequent posts on the Outer Wilds modding community Discord with teasers about the mod.": "仅从这张图片就能看出，这款模组的视觉效果必定令人震撼。此外，模组首席作者Pikpik会在《星际拓荒》模组社区Discord上频繁发布模组预告。",
+
+    //escape.xml
+    "Mod: Escape Room --- Authors: xen, GameWyrm": "模组：Escape Room —— 作者：xen、GameWyrm",
+    "Escape Room is an example mod made for the fourth mod jam hosted by the Outer Wilds modding community. Since it was made by two judges, this entry did not count.": "Escape Room是为《星际拓荒》模组社区第四届创作赛制作的示例模组。由于两位作者均为评委，该作品不参与排名。",
+    "The mod features a series of puzzle rooms that the player must solve to proceed, and all of these puzzles use almost no text at all, providing a good example for other jam modders.": "模组包含一系列解谜房间，玩家需逐一破解才能推进，且所有谜题几乎不使用文字，为其他创作赛模组创作者提供了绝佳范例。",
+
+    //evac.xml
+    "Mod: Evacuation --- Authors: 2walker2, Texture_Turtle, and Samster68": "模组：Evacuation —— 作者：2walker2、Texture_Turtle、Samster68",
+    "Evacuation is one of two mods that won first place in the first mod jam held by the Outer Wilds modding community.": "Evacuation是《星际拓荒》模组社区第一届创作赛的双冠军模组之一。",
+    "This mod follows the hypothetical situation where, by some mysterious means, the Hearthians come to learn that their Sun will soon explode and manage to escape to another star system before that can happen.": "模组围绕一个假设场景展开：哈斯人通过某种神秘方式得知太阳即将爆炸，并在灾难发生前成功逃到了另一个星系。",
+    "Despite this daring escape, the Hearthians may not be out of the woods yet, as the system they've found themselves in may prove to be more treacherous than it first appeared...": "尽管这次逃亡十分惊险，但哈斯人或许并未完全脱离险境——他们所处的新星系可能比表面看起来更加危险……",
+    "Be sure to give this mod a playthrough, it is likely the entry that makes the most creative use of New Horizons' features to create unique puzzles!": "一定要完整体验这款模组，它很可能是最具创意地运用New Horizons功能打造独特谜题的参赛作品！",
+
+    //examples.xml
+    "Mod: New Horizons Examples --- Author: xen": "模组：New Horizons Examples —— 作者：xen",
+    "New Horizons Examples is exactly what it sounds like, a mod created to showcase the different features implemented in New Horizons.": "New Horizons Examples正如其名，是一款为展示New Horizons各项已实现功能而制作的模组。",
+    "Despite being created as a form of documentation for the usage of New Horizons features, this mod is still fun to explore and is the source of many inside jokes referenced by the community.": "尽管它的初衷是作为New Horizons功能使用说明，但探索起来依然趣味十足，同时也是社区许多内部梗的出处。",
+    "The mod is regularly updated to implement any new features in New Horizons, ensuring that it can serve as a reference for novice and experienced modders alike.": "该模组会定期更新，融入New Horizons的所有新功能，确保无论是新手还是资深模组创作者，都能将其作为实用参考。",
+
+    //extinct.xml
+    "Mod: Extinction --- Author: Bird": "模组：Extinction —— 作者：Bird",
+    "Extinction is one of the story mods that has spent the longest time in development, but has been abandoned for quite a while.": "Extinction是开发周期最长的故事模组之一，但早已被搁置。",
+    "The mod has a dedicated thread in the nh-addon-dev channel of the modding Discord, but the channel has been archived since early 2023.": "这款模组在模组创作Discord的nh-addon-dev频道有专属讨论帖，但该频道自2023年初起已被归档。",
+    "While not much is known of the mod in general except for those who worked on it, what we do know is that it would have been about the origin of Dark Bramble.": "除了参与制作的人之外，外界对这款模组了解甚少，但可以确定的是，它本计划围绕黑棘星的起源展开。",
+
+    //finis.xml
+    "Mod: Finis --- Authors: orclecle": "模组：Finis —— 作者：orclecle",
+    "Finis is a mod made for the third mod jam hosted by the Outer Wilds modding community, which asks if it's ethical to end the Eye's cycle.": "Finis是为《星际拓荒》模组社区第三届创作赛制作的模组，核心议题是“终结眼的循环是否合乎道义”。",
+    "The mod explores a story of a fallen alien kingdom discovered by a clan of Nomai, and has a central mechanic around a special vision-altering item.": "模组讲述了一个挪麦家族发现某个没落外星王国的故事，核心机制围绕一件能改变视觉的特殊物品展开。",
+
+    //frets.xml
+    "Mod: Fret's Quest --- Author: Samster68": "模组：Fret's Quest —— 作者：Samster68",
+    "Fret's Quest is one of the first story mod for Outer Wilds, sending players on a quest to find a magical banjo which was stolen from a Nomai named Fret.": "Fret's Quest是《星际拓荒》早期故事模组之一，玩家将踏上寻找一把魔法班卓琴的旅程——这把琴被从一位名叫弗雷特的挪麦人手中偷走。",
+    "The mod may seem like it's a bit of a joke, but it's much more than that. It has lore, surprises, characters, and was the first mod to do quite a few things.": "这款模组看似带有玩笑性质，但内涵远不止于此。它包含背景故事、惊喜反转和鲜活角色，不少玩法更是开创了模组界的先河。",
+    "What's certain is that Fret's Quest is a mod worth playing, and that it was a milestone for the Outer Wilds modding community.": "可以肯定的是，Fret's Quest值得一玩，它也是《星际拓荒》模组社区发展的一个里程碑。",
+
+    //futures.xml
+    "Mod: Uncertain Futures --- Author: Clay": "模组：Uncertain Futures —— 作者：Clay",
+    "Uncertain Futures is a cancelled story mod, with quantum objects playing a central role.": "Uncertain Futures是一款已取消的故事模组，量子物体是其核心元素。",
+    "The mod was designed to emulate the traditional gameplay loop of Outer Wilds as closely as possible, as well as providing an alternate ending to the events that take place in the base game and DLC.": "该模组旨在尽可能还原《星际拓荒》的经典玩法循环，同时为原作和DLC的剧情提供一个全新的替代结局。",
+    "Not only that, but Uncertain Futures tried to flesh out an underutilized location, and take advantage of certain opportunities that the base game did not.": "此外，Uncertain Futures还试图丰富一个未被充分利用的场景，并挖掘一些原作未涉及的剧情可能性。",
+    "While not much concrete was known about the mod, what is for certain is that its legacy will live on in the Outer Wilds modding community.": "尽管外界对这款模组的具体内容知之甚少，但可以肯定的是，它的影响力将在《星际拓荒》模组社区中长久存在。",
+
+    //guardian.xml
+    "Mod: Guardian --- Authors: orclecle": "模组：Guardian —— 作者：orclecle",
+    "Guardian is a mod made for the fourth mod jam hosted by the Outer Wilds modding community. The mod explores the reason why the Hearthians' home star survived until the last day of the universe.": "Guardian是为《星际拓荒》模组社区第四届创作赛制作的模组，该模组探究了哈斯人的太阳为何能一直存续到宇宙的最后一天。",
+    "While it didn't win any awards, it's still worth checking out!": "尽管它没有获得任何奖项，但依然值得一试！",
+
+    //iceolation.xml
+    "Mod: Iceolation --- Authors: pikpik, Shoe, TextureTurtle, ThyToxic": "模组：Iceolation —— 作者：pikpik、Shoe、TextureTurtle、ThyToxic",
+    "Iceolation is a mod made for the fourth mod jam hosted by the Outer Wilds modding community. While the mod was sadly released in an unfinished state, the mod still has a lot of potential.": "Iceolation是为《星际拓荒》模组社区第四届创作赛制作的模组。尽管该模组遗憾地以未完成状态发布，但仍具备极大潜力。",
+    "The mod has no functioning puzzles, but has a small story and five shiplog entries put together. It tells the story of a new, aquatic species living beneath the ice of a frozen planet that discovered the Eye's signal.": "该模组暂无可游玩的谜题，但已包含一段简短剧情与五篇飞船日志。故事讲述了一个全新的水生种族，它们生活在一颗冰封星球的冰层之下，并发现了宇宙之眼的信号。",
+    "While it didn't win any awards or release in a finished state, it's still worth checking out!": "尽管它未能获奖，也未以完整版本发布，但依然值得一试！",
+
+    //intervention.xml
+    "Mod: Intervention --- Authors: hearth1an": "模组：Intervention —— 作者：hearth1an",
+    "Intervention is a mod made for the first Outer Wilds Mod Jam. It tells us a story of faith, destiny, and darkness.": "Intervention是为《星际拓荒》第一届创作赛制作的模组，讲述了一个关于信仰、宿命与黑暗的故事。",
+    "The mod takes place in a new realm called \"The Void\" in which the player was brought to by a being beyond your comprehension.": "该模组的故事发生在一个名为“虚空”的全新领域，你被一个超乎理解的存在带到了这里。",
+
+    //heliostudy.xml
+    "Mod: Heliostudy --- Authors: coderCleric, John Corby, 2walker2, Lezzlebit": "模组：Heliostudy —— 作者：coderCleric、John Corby、2walker2、Lezzlebit",
+    "Heliostudy won first place in the community's fifth mod jam. The mod has you explore a star system said to be an educational project and festival entry of a clan of Nomai.": "Heliostudy荣获社区第五届创作赛第一名。在这款模组中你将探索一个星系，它据说是一个挪麦家族的教育项目与发现节参赛作品。",
+    "This mod quickly gained high critical acclaim the moment it released, really proving itself to be a very strong entry. Some people even say it's base game quality, or even better than it.": "该模组一经发布便收获极高评价，展现出极为出色的品质。有人甚至称它达到了原作水准，甚至更胜一筹。",
+    "It features a unique idea that recontextualizes a number of base-game mechanics. Make sure to give it a try!": "模组拥有独特的创意，重新诠释了多项原作的游戏机制。一定要来亲自体验一番！",
+
+    //hub.xml
+    "Mod: Jam Hub --- Authors: coderCleric, Anonymous": "模组：Jam Hub —— 作者：coderCleric、Anonymous",
+    "Jam hub is a mod celebrating the OW Modding Community, originally made for the third mod jam. It also happens to be the mod that you're playing right now!": "Jam Hub是一款致敬《星际拓荒》模组社区的作品，最初为第三届创作赛制作。而你现在正在游玩的正是这款模组！",
+    "While it was originally made just for the third mod jam, it was later updated to be compatible with the fifth jam, as well as working without any other mods installed.": "它最初只为第三届创作赛打造，后来经过更新，不仅适配了第五届创作赛，还能在不依赖其他任何模组的情况下独立运行。",
+    "Its goal is simply to celebrate the community and inform any visitors what the community is about and has accomplished. We hope that it's accomplished this goal!": "它的初衷只是致敬社区，向所有来访者介绍社区的理念与成就。我们希望它已经达成了这个目标！",
+
+    //hn2.xml
+    "Mod: Hearth's Neighbor 2: Magistarium --- Authors: GameWyrm, EndgameZero, Shoe, CelestialsStorm": "模组：Hearth's Neighbor 2: Magistarium —— 作者：GameWyrm、EndgameZero、Shoe、CelestialsStorm",
+    "Hearth's Neighbor 2: Magistarium is the mod that won first place in the third mod jam hosted by the Outer Wilds modding community, and continues the story of Hearth's Neighbor.": "Hearth's Neighbor 2: Magistarium是荣获《星际拓荒》模组社区第三届创作赛第一名的模组，延续了Hearth's Neighbor的故事。",
+    "The mod takes place in a ship called the Magistarium, run by a community of organisms from various worlds. And now, The Magister, the ship's pilot, is calling your name. Will you heed the call?": "该模组的故事发生在一艘名为“大导师馆”的飞船上，这艘飞船由来自不同世界的生物共同运营。如今，飞船的领航者“大导师”正在呼唤你的名字。你会回应这声呼唤吗？",
+    "The mod has recieved critical acclaim by many people in the Outer Wilds modding community, even by those who didn't care for the original Hearth's Neighbor when it first released.": "这款模组在《星际拓荒》模组社区中广受好评，即便是当初对初代Hearth's Neighbor无感的玩家也对它称赞有加。",
+
+    //hn0.xml
+    "Mod: Halcyon Nexus Zero --- Authors: GameWyrm, Shoe, and Friends": "模组：Halcyon Nexus Zero —— 作者：GameWyrm、Shoe 及其他好友",
+    "Halcyon Nexus Zero is an upcoming prequel to the original Hearth's Neighbor, taking place in an entirely new system with a handful of planets.": "Halcyon Nexus Zero是原作Hearth's Neighbor的一款即将推出的前传模组，故事发生在一个全新的星系中，包含若干颗行星。",
+    "The mod will contain several puzzles and expand the lore for both Hearth's Neighbor mods.": "该模组将包含多个谜题，并为两款Hearth's Neighbor系列模组拓展背景故事。",
+    "As of writing, the mod is now in hiatus until the lead dev GameWyrm is out of a creative drought and regains the will to mod.": "截至目前，这款模组已暂停开发，直至首席开发者GameWyrm摆脱创意枯竭的困境，重新找回制作模组的动力。",
+
+    //jam5_platform.xml
+    "This platform will take you to the planet where the fifth Mod Jam entries are located!": "这个平台将带您前往第五届模组创作赛参赛作品所在的行星！",
+    "Be sure to check out all of the amazing mods created for this jam, and don't forget to talk to the creators at the North Pole party!": "一定要体验所有为本次创作赛打造的精彩模组，别忘了去北极的派对上和创作者们聊聊！",
+
+    //jamarea1.xml
+    "This platform showcases the entries of the modding community's first mod jam, held in January of 2023 with the themes \"clockwork\" and \"layers\".": "该平台展示的是模组社区第一届创作赛的参赛作品，本届创作赛于2023年1月举办，主题为“发条装置”与“层层递进”。",
+    "This jam had a special restriction, as it did not allow for custom code to be written. Instead, all mods submitted had to implement their mechanics solely with what was allowed by New Horizons.": "本届创作赛设有特殊限制，不允许编写自定义代码。所有参赛模组必须仅使用New Horizons提供的功能来实现游戏机制。",
+    "While there were intended to be three winners for the jam, competition was tight to the point that some mods scored exactly the same number of points.": "本届创作赛原本计划评选出三名获奖者，但竞争十分激烈，部分模组的得分完全相同。",
+    "With no way to assign a clear winner, a total of four mods were declared to take up the top places. Two shared first place, and two more shared second.": "由于无法决出明确的胜者，最终共有四款模组获得优胜名次：两款并列第一名，另外两款并列第二名。",
+    "Despite the complications, this mod jam was widely enjoyed by participants and audience alike, setting the tone for what was sure to become a beloved tradition of the community.": "尽管出现了这些状况，本届创作赛依然深受参赛者与观众喜爱，为这项日后必将成为社区经典传统的活动奠定了基础。",
+
+    //jamarea2.xml
+    "This platform showcases the entries of the modding community's second mod jam, held in July of 2023 with the themes of “Bigger on the Inside” and “Hidden in Plain Sight”.": "该平台展示的是模组社区第二届创作赛的参赛作品，本届创作赛于2023年7月举办，主题为“内有洞天”与“显而易见的隐藏”。",
+    "This jam not only allowed the use of custom code, but also provided nearly twice as much time as the previous. Both of these facts were well reflected by the quality and creativity of the submitted mods.": "本届创作赛不仅允许使用自定义代码，还提供了近乎上一届两倍的时间。这两点都充分体现在参赛模组的质量与创意上。",
+    "With the code restriction lifted, many of the competitors from the previous jam returned to the competition with bright ideas and the means to implement them, creating some of the best story mods that had been seen by the community at the time.": "随着代码限制的取消，上一届的许多参赛者带着精彩的构想与实现的能力重返赛场，打造出了当时社区中一批顶尖的故事模组。",
+
+    //jamarea3.xml
+    "This platform showcases the entries of the modding community's third mod jam, held in March of 2024 with the theme of “Community”.": "该平台展示的是模组社区第三届创作赛的参赛作品，本届创作赛于2024年3月举办，主题为“社群”。",
+    "This jam had a special restriction confining each submission to only one planet. All Jam 3 mods orbit around the same star in the Jam 3 system.": "本届创作赛设有特殊限制：每个参赛作品仅能设定在一颗行星上。所有第三届创作赛的模组均围绕“第三届创作赛星系”的同一颗恒星运行。",
+    "With this new restriction, players can go from one mod to the next without leaving the system, enhancing the experience for both modders and players alike.": "这一新限制让玩家无需离开星系即可切换体验不同模组，极大提升了模组创作者与玩家双方的体验感。",
+    "If you want to, you can meet the creators of these mods at the party on the north pole!": "如果您愿意，可在北极的派对上与这些模组的创作者们见面！",
+
+    //jamarea4.xml
+    "This platform showcases the entries of the modding community's fourth mod jam, held in October of 2024 with the themes of “Isolation” and \"Escape\".": "该平台展示的是模组社区第四届创作赛的参赛作品，本届创作赛于2024年10月举办，主题为“孤独隔绝”与“逃离困境”。",
+    "This jam had a special restriction, forcing modders to use minimal text in their mods. The restriction proved itself challenging, as some modders have struggled.": "本届创作赛设有特殊限制：模组创作者需在模组中尽量少用文字。这一限制极具挑战性，部分创作者因此遇到了不小的困难。",
+    "However, this restriction allowed for the creation of some great DLC-based mods which before were not as plentiful. Many mods also worked very creatively under the restriction, creating unique mod experiences.": "但也正因为这一限制，诞生了不少优秀的DLC主题模组——这类模组此前并不多见。许多模组在限制条件下展现出极高的创意，带来了独特的模组体验。",
+
+    //jamarea5.xml
+    "This platform showcases the entries of the modding community's fifth mod jam, held in July of 2025 with the theme of “Miniature”.": "该平台展示的是模组社区第五届创作赛的参赛作品，本届创作赛于2025年7月举办，主题为“微型世界”。",
+    "This jam had a special restriction, modders were required to make a small star system that is no bigger than 2500 meters in radius, all of which were in one shared system.": "本届创作赛设有特殊限制：模组创作者需制作一个半径不超过2500米的小型星系，且所有参赛模组需处于同一个共享星系中。",
+    "Much like Jam 3, this allowed for a more connected experience, and allowed all the modders to do some rich worldbuilding for the once lonely Nomai Vessel in the center.": "与第三届创作赛类似，这一设定让体验更具连贯性，同时也让所有创作者得以围绕中心那颗曾经孤寂的挪麦飞船，构建出丰富的世界观。",
+
+    //lake.xml
+    "Mod: Lonesome Lake --- Authors: Asymmetrical Cavern": "模组：Lonesome Lake —— 作者：Asymmetrical Cavern",
+    "Lonesome Lake is a mod made for the fourth mod jam hosted by the Outer Wilds modding community. The mod is very short, yet impactful.": "Lonesome Lake是为《星际拓荒》模组社区第四届创作赛制作的模组。它篇幅虽短，却极具感染力。",
+    "While I can't say much about the mod without spoiling it entirely, it takes place on a vessel constructed by a group of aliens. These aliens are the same species as those aboard the Stranger.": "由于多说一句就会完全剧透，我只能透露它的故事发生在一艘由外星族群建造的飞船上——这些外星人与外星站上的种族是同一类。",
+
+    //liason.xml
+    "Mod: Liaison --- Authors: Acamaeda and Friends": "模组：Liaison —— 作者：Acamaeda和朋友们",
+    "Liaison is a mod made for the fourth mod jam hosted by the Outer Wilds modding community. The mod takes place on a strange planetoid that was recently captured by the Hearthians' host star.": "Liaison是为《星际拓荒》模组社区第四届创作赛制作的模组，故事发生在一颗奇特的小行星上——这颗小行星最近被哈斯人的恒星捕获。",
+    "The developers of the mod warn that the mod is very incomplete, but that doesn't mean it's not worth checking out!": "模组开发者提示，这款模组目前尚不完善，但这并不意味着它不值得一试！",
+
+    //luminaterra.xml
+    "Mod: Lumina Terra --- Authors: Etherpod, Ditzy": "模组：Lumina Terra —— 作者：Etherpod、Ditzy",
+    "Lumina Terra is the mod that won second place in the fourth mod jam hosted by the Outer Wilds modding community. The mod takes place on a lonely planet orbiting a weak star.": "Lumina Terra是《星际拓荒》模组社区第四届创作赛的亚军模组，故事发生在一颗环绕着微弱恒星运行的孤寂行星上。",
+    "This mod is best enjoyed with Traveler's Pack, because of the amount of items the player will be picking up. One of these items also happens to have a neat mechanic.": "这款模组与Traveler's Pack搭配体验效果最佳，因为玩家在游戏中会收集大量物品，其中一件物品还带有巧妙的机制。",
+    "Lumina Terra handles the restriction quite well, and its main mechanic is quite a suprise when you figure it out. It's definitely worth playing!": "Lumina Terra很好地应对了本届创作赛的限制，其核心机制在你解锁时会带来不小的惊喜。它绝对值得一玩！",
+
+    //machine.xml
+    "Mod: The Machine --- Authors: Small Bug": "模组：The Machine —— 作者：Small Bug",
+    "The Machine is one of the two mods that won second place in the first mod jam hosted by the Outer Wilds modding community.": "The Machine是《星际拓荒》模组社区第一届创作赛的双亚军模组之一。",
+    "This mod takes the player to a new solar system, with its own set of unique planets, dangerous hazards, and cataclysmic events.": "该模组将玩家带往一个全新的太阳系，这里有独特的行星、危险的障碍和灾难性事件。",
+    "Crucially, The Machine also introduces a new mystery, tasking the player with uncovering the clues needed to prevent the collapse of the system.": "关键是，The Machine还引入了一个全新谜团，玩家需要收集线索，阻止整个星系的崩溃。",
+
+    //march.xml
+    "Mod: March of Gears --- Author: CreativeNameTxt": "模组：March of Gears —— 作者：CreativeNameTxt",
+    "March of Gears is a mod made for the first Outer Wilds Mod Jam featuring a new system with a binary star hooked up to a gear-turning device.": "March of Gears是为第一届《星际拓荒》模组创作赛制作的模组，展示了一个新星系——这里有一颗双星，且与一套齿轮传动装置相连。",
+    "While the mod has no story or puzzles, it makes for a very interesting visual!": "尽管这款模组没有剧情和谜题，但视觉效果极具观赏性！",
+
+    //memorial.xml
+    "This area showcases story mods that have been scrapped, abandoned, or cancelled.": "该区域展示的是那些已废弃、搁置或取消开发的故事模组。",
+    "While this may not seem like a thing to celebrate, we must appreciate their potential and remember them.": "虽然这或许算不上值得庆祝的事，但我们仍需认可它们曾有的潜力，并铭记这些作品。",
+    "Who knows? Maybe someone out there might want to revive these abandoned mods. It could even be you! :)": "谁知道呢？或许有人会想要重启这些废弃模组。说不定那个人就是你！:)",
+
+    //mindscapes.xml
+    "Mod: Mindscapes --- Author: coderCleric": "模组：Mindscapes —— 作者：coderCleric",
+    "Mindscapes is the mod that won third place in the second mod jam hosted by the Outer Wilds modding community.": "Mindscapes是《星际拓荒》模组社区第二届创作赛的季军模组。",
+    "This mod tasks the player with convincing Slate that the imminent death of the Sun is going to happen using a new Nomai artifact that allows one person to invade the mind of another.": "模组中，玩家需要借助一件全新的挪麦设备（这件设备能让人侵入他人的意识），说服斯雷特相信太阳即将毁灭的事实。",
+    "This may turn out not to be a simple task however, as Slate has true mastery over their mind and is able to keep the player secluded to a small area of it. Perhaps there's a way to break out?": "但这绝非易事——斯雷特对自己的意识掌控自如，能将玩家困在意识中的一小块区域。或许存在突破的方法？",
+
+    //misfiredjump.xml
+    "Mod: Misfired Jump --- Authors: Echatsum": "模组：Misfired Jump —— 作者：Echatsum",
+    "Misfired Jump is one of the mods that won third place in the fourth mod jam hosted by the Outer Wilds modding community. Thanks to Slate's mistakes, you are stranded in an entirely new system.": "Misfired Jump是《星际拓荒》模组社区第四届创作赛的季军模组之一。由于斯雷特的失误，你被困在了一个全新的星系中。",
+    "The mod was made by the same developer of Callis's Thesis, and he has really improved a lot since then. The mod has a number of creative puzzles.": "这款模组与Callis's Thesis出自同一开发者之手，相较于之前的作品，他的进步十分显著。模组包含多个富有创意的谜题。",
+    "This mod is certainly an experience and abides by the restriction quite well. It's no wonder why it was able to get into the top 3.": "这绝对是一段难忘的体验，且它很好地遵守了本届创作赛的限制。难怪它能跻身前三！",
+
+    //neighbor.xml
+    "Mod: Hearth's Neighbor --- Authors: GameWyrm, EndgameZero, Lumine0409, and FunkyShoeMan": "模组：Hearth's Neighbor —— 作者：GameWyrm、EndgameZero、Lumine0409、FunkyShoeMan",
+    "Hearth's Neighbor is the mod that won first place in the second mod jam hosted by the Outer Wilds modding community.": "Hearth's Neighbor是《星际拓荒》模组社区第二届创作赛的冠军模组。",
+    "This mod sees the player traveling to a new star system with a single, lonely planet orbiting its star. Don't let the planets' size fool you though, it has plenty more to see than initially meets the eye!": "模组中，玩家将前往一个新星系，这里仅有一颗孤寂的行星环绕恒星运行。但千万别被这颗行星的大小误导——它的精彩远不止表面所见！",
+    "There is good reason that this mod won first place in the jam, as it uses a combination of New Horizons and custom code to introduce more puzzles, mechanics, and exotic locations not seen in the base game.": "这款模组能夺得冠军绝非偶然——它结合了New Horizons与自定义代码，新增了许多原作中没有的谜题、机制和奇特场景。",
+
+    //nerves.xml
+    "Mod: Nerves of Darkness --- Authors: Anonymous": "模组：Nerves of Darkness —— 作者：Anonymous",
+    "Nerves of Darkness was a mod idea that Anonymous wanted to make after The Stranger They Are if they had time. It would take place in a star system orbiting a supermassive black hole.": "Nerves of Darkness是Anonymous在完成The Stranger They Are后，计划在有空时制作的模组构想。它的故事将发生在一个环绕超大质量黑洞运行的星系中。",
+    "The mod would have been centered around using sound as a means of communication and puzzle solving, as Echoes of the Eye did with vision. Signals, audio tapes, and other sound cues would have been involved.": "这款模组本计划以“声音”为核心——正如DLC《眼之回响》以“视觉”为核心一样，声音将作为交流与解谜的关键手段，涉及信号、录音带及其他声音线索。",
+    "The ultimate goal of the player would be to learn how to enter the black hole safely, and once they do, they will be able to explore a dark, unnerving structure at the singularity built by an exotic, photophobic new species...": "玩家的最终目标是学会安全进入黑洞，一旦成功，便能在奇点处探索一座阴暗且令人不安的建筑——这座建筑由一个奇特的、畏光的新物种建造……",
+    "But TSTA passed both its August and September 2024 deadlines and Anonymous decided not to work on the mod, but instead leave behind a GitHub repository with concept art and a concept system made with New Horizons.": "但The Stranger They Are错过了2024年8月和9月的两个截止日期，Anonymous最终决定不再开发这款模组，仅在GitHub上留下了包含概念图和基于New Horizons制作的概念星系的代码库。",
+    "Perhaps one day this mod could be picked up and revived like Anonymous wanted, could that person be you?": "或许有一天，这款模组能如Anonymous所愿被重新拾起并重启——那个人会不会是你？",
+
+    //nh.xml
+    "Mod: New Horizons --- Author: xen, Bwc9876, JohnCorby, MegaPiggy, Clay, Trifid, and friends": "模组：New Horizons —— 作者：xen、Bwc9876、JohnCorby、MegaPiggy、Clay、Trifid及其他好友",
+    "New Horizons is the mod enabling almost all of the story mods created by the community, with dozens of mods making use of it.": "New Horizons是支撑社区几乎所有故事模组运行的核心，已有数十款模组采用它进行开发。",
+    "Allowing the creation of custom planets, systems, text, dialogue, and more with simple json and XML files, this mod enables those not confident in programming to create their own puzzles and stories.": "它支持通过简单的JSON和XML文件创建自定义行星、星系、文本、对话等内容，让不擅长编程的创作者也能打造属于自己的谜题和故事。",
+    "The first mod jam in January of 2023 demonstrated the kinds of experiences that creatives could craft with New Horizons, and more recent mods have shown what is possible when this tool is combined with custom code.": "2023年1月的第一届模组创作赛，充分展现了创作者借助New Horizons能打造出的丰富体验；而近年来的模组则证明，当这款工具与自定义代码结合时，能实现更多惊人可能。",
+    "New Horizons is actively maintained by members of the community and (despite xen's insistence that it is complete) is frequently receiving new features.": "New Horizons由社区成员持续维护，尽管xen坚称它已“功能完备”，但仍在不断更新新增功能。",
+    "If you have an idea for a mod that you want to make, definitely look to New Horizons as a tool that can help! It has an extensive wiki with tons of documentation and guides to help you get started.": "如果你有想要制作的模组构想，一定要将New Horizons作为首选工具！它拥有内容详尽的Wiki百科，包含大量文档和入门指南，能帮你快速上手。",
+
+    //nharea.xml
+    "This area showcases some of the most significant story mods made by the community.": "该区域展示的是社区创作的部分重量级故事模组。",
+    "These mods provide a plethora of new narratives and puzzles dreamed up by members of the community.": "这些模组包含大量由社区成员构思的全新剧情与谜题。",
+    "Such mods can include new planets, solar systems, and even custom-made assets!": "它们可能新增行星、星系，甚至包含自定义制作的资源素材！",
+
+    //nmvr.xml
+    "Mod: NomaiVR --- Authors: Raicuparta and Artum": "模组：NomaiVR —— 作者：Raicuparta、Artum",
+    "This mod allows Outer Wilds to be played using a VR headset. It can even remap inputs to allow the use of VR controllers, permitting players to interact with the world of Outer Wilds with their own hands.": "这款模组支持通过VR头显游玩《星际拓荒》，甚至可重新设置输入按键，让玩家使用VR控制器，亲手与《星际拓荒》的世界进行互动。",
+    "While certainly a technical achievement, the main merit of this mod is how it allows players of the game to experience in a whole new way, fully appreciating the scale and scenery of the game.": "尽管这无疑是一项技术成就，但该模组的核心价值在于让玩家以全新方式体验游戏，充分感受游戏的宏大尺度与绝美风光。",
+    "(Speaking of scale, you might try checking out an anglerfish with this mod. I bet you'll find them to be much larger than you thought they were!)": "（说到尺度，你可以用这款模组看看安康鱼——我打赌，你会发现它们比想象中大得多！）",
+
+    //origins.xml
+    "Mod: Origins --- Authors: hearth1an": "模组：Origins —— 作者：hearth1an",
+    "Origins is a mod made for the second mod jam hosted by the Outer Wilds modding community. The mod expands the lore of Dark Bramble and the story of Escall.": "Origins是为《星际拓荒》模组社区第二届创作赛制作的模组，拓展了黑棘星的背景故事以及艾斯科尔的相关剧情。",
+    "It also adds new sections of Dark Bramble, and is filled with puzzles and surprises.": "它还新增了黑棘星的全新区域，其中布满谜题与惊喜。",
+
+    //orrery.xml
+    "Mod: Celestial Orrery --- Authors: Mikel Salazar": "模组：Celestial Orrery —— 作者：Mikel Salazar",
+    "Celestial Orrery is a mod made for the first Outer Wilds Mod Jam.": "Celestial Orrery是为第一届《星际拓荒》模组创作赛制作的模组。",
+    "This mod places the planets of the Solar System onto an enlarged version of the orrery at the Timber Hearth Observatory.": "该模组将太阳系的行星复刻到了木炉星天文台的放大版行星仪上。",
+    "This mod provides quite a visual spectacle, and can also allows players to better orient themselves in the system.": "它不仅带来了极具冲击力的视觉体验，还能帮助玩家更好地在星系中辨别方位。",
+
+    //outsider.xml
+    "Mod: The Outsider --- Author: Streetlights Behind the Trees": "模组：The Outsider —— 作者：Streetlights Behind the Trees",
+    "The Outsider is a mod that adds many new features and locations to the surface of Dark Bramble, utilizing a space that is virtually untouched by the base game.": "The Outsider模组为黑棘星的地表新增了许多功能与场景，充分利用了原作中几乎未被开发的区域。",
+    "When it was released, The Outsider was the largest story mod the community had seen by a wide margin, and was made entirely without the use of New Horizons.": "它发布时，是社区迄今为止规模最大的故事模组，且完全未借助New Horizons进行开发。",
+    "While it is not maintained on an entirely regular basis, this mod is still an excellent experience that has stayed as a fond memory in the minds of those who played it.": "尽管它并未得到定期维护，但仍是一段极佳的体验，在所有玩过的玩家心中留下了深刻的美好回忆。",
+
+    //owml.xml
+    "Mod: Outer Wilds Mod Loader --- Authors: Alek and friends": "模组：Outer Wilds Mod Loader —— 作者：Alek及其他好友",
+    "The backbone of all other mods, OWML is the software responsible for making the code written by modders actually affect the game.": "OWML是所有其他模组的核心支柱，这款软件能让模组创作者编写的代码真正作用于游戏。",
+    "Not only does OWML allow mods to interface with the game on a basic level, it also provides a number of handy helpers to mod developers, giving them easier ways to influence the game.": "OWML不仅能让模组与游戏进行基础交互，还为模组开发者提供了诸多实用工具，让他们能更便捷地对游戏产生影响。",
+    "(Some of those helpers were used in the tricker parts of this mod, so I personally have a lot of thanks for OWML's authors!)": "（这个模组中一些较复杂的部分就用到了这些工具，所以我个人非常感谢OWML的开发者们！）",
+
+    //parable.xml
+    "Mod: The Hearthian Parable --- Authors: Vambok": "模组：The Hearthian Parable —— 作者：Vambok",
+    "The Hearthian Parable is a mod made for the fifth mod jam hosted by the Outer Wilds modding community. It was a small mod thrown together in the last three days of the jam.": "The Hearthian Parable是为《星际拓荒》模组社区第五届创作赛制作的模组，它是在创作赛最后三天仓促完成的小型作品。",
+    "While Vambok's team decided to quit the jam, Vambok decided to make something out of what was left. Now, it's a fully voice acted experience with lots of funny moments and five endings.": "尽管Vambok的团队决定退出创作赛，但Vambok仍选择利用已有的素材继续创作。如今，它已成为一款全程配音的模组，包含诸多趣味桥段和五个结局。",
+
+    //poparea.xml
+    "This area showcases some of the big mods created by the modding community.": "该区域展示的是模组社区创作的部分热门大型模组。",
+    "These mods are some of the most popular and the most downloaded, representing hours and hours of effort from some of the best developers the community has to offer.": "这些模组是社区中最受欢迎、下载量最高的作品，凝聚了社区顶尖开发者们无数小时的心血。",
+
+    //powerfail.xml
+    "Mod: Powerfail --- Authors: T3rtu, Vodblink, Solec, HeroPlays1122": "模组：Powerfail —— 作者：T3rtu、Vodblink、Solec、HeroPlays1122",
+    "Powerfail is a mod made for the fifth mod jam hosted by the Outer Wilds modding community. It takes place in a planetary system with a gas giant in the center.": "Powerfail是为《星际拓荒》模组社区第五届创作赛制作的模组，故事发生在一个以气态巨星为中心的行星系统中。",
+    "While the team that made it is pretty new to the modding scene, the mod features a story and a number of puzzles.": "尽管制作这款模组的团队在模组圈尚属新人，但它依然包含完整剧情和多个谜题。",
+
+    //qsb.xml
+    "Mod: Quantum Space Buddies --- Authors: _nebula, JohnCorby, and friends": "模组：Quantum Space Buddies —— 作者：_nebula、JohnCorby及其他好友",
+    "An impressive technical achievement only recently reaching full release, Quantum Space Buddies turns the singleplayer Outer Wilds into a multiplayer experience!": "Quantum Space Buddies是一项令人惊叹的技术成就，近期才正式发布完整版——它将单人游戏《星际拓荒》转变为多人联机体验！",
+    "By sending a generated code, this mod allows you to invite other players to join your game, where they can read text, make discoveries, and crash the ship just as well as you can.": "通过生成专属代码，你可以邀请其他玩家加入你的游戏，他们能像你一样阅读文本、探索发现，甚至一起坠机。",
+    "A monumental amount of work has gone into this mod, and it satisfies the want to experience the world of Outer Wilds with a copilot at your side (just make sure that they buckle up!)": "这款模组的开发耗费了巨大心血，它满足了玩家们想要与同伴携手探索《星际拓荒》世界的愿望（记得提醒你的同伴系好安全带！）",
+
+    //quasar.xml
+    "Mod: Quasar Project --- Authors: JohnCorby, Trifid, Turtle, Tetraminus": "模组：Quasar Project —— 作者：JohnCorby、Trifid、Turtle、Tetraminus",
+    "Quasar Project is a mod made for the second mod jam hosted by the Outer Wilds modding community. The mod begins with a mysterious probe crashed on the surface of Timber Hearth.": "Quasar Project是为《星际拓荒》模组社区第二届创作赛制作的模组，剧情始于一艘神秘探测器坠毁在木炉星地表。",
+    "On the other side are a series of dark, empty hallways with series of trials. The mod has a special central mechanic, clever puzzles, and a shocking ending.": "探测器另一侧是一系列阴暗空旷的走廊，其中布满试炼。这款模组拥有独特的核心机制、巧妙的谜题和令人震惊的结局。",
+
+    //radiomoon.xml
+    "Mod: Under a Radio Moon --- Authors: Etherpod, Ditzy, harperlr, Ernst": "模组：Under a Radio Moon —— 作者：Etherpod、Ditzy、harperlr、Ernst",
+    "Under a Radio Moon is a mod made for the fifth mod jam hosted by the Outer Wilds modding community. The mod takes place on an abandoned, rusty moon with a signal coming from one of the structures.": "Under a Radio Moon是为《星际拓荒》模组社区第五届创作赛制作的模组，故事发生在一颗废弃生锈的卫星上，其中一座建筑正发出神秘信号。",
+    "The mod is one of two mods in Jam 5 that feature completely new species, and provides the player with intriguing puzzles to solve.": "它是第五届创作赛中两款新增全新物种的模组之一，为玩家准备了诸多引人入胜的谜题。",
+
+    //rail.xml
+    "Mod: On A Rail! --- Authors: Can't Afford a Name": "模组：On A Rail! —— 作者：Can't Afford a Name",
+    "On A Rail! is a mod made for the fifth mod jam hosted by the Outer Wilds modding community, taking place on a miniature solar system on rails.": "On A Rail!是为《星际拓荒》模组社区第五届创作赛制作的模组，故事发生在一个微型的列车型太阳系中。",
+    "Like many jam 5 entries, On A Rail! quickly gained appreciation from the modding community for its great creativity and clever puzzles.": "与第五届创作赛的许多参赛作品一样，On A Rail!凭借极高的创意和巧妙的谜题，迅速获得了模组社区的认可。",
+
+    //rangers.xml
+    "Mod: Solar Rangers --- Authors: Hawkbar, Insmoshable": "模组：Solar Rangers —— 作者：Hawkbar、Insmoshable",
+    "Solar Rangers is the mod that won third place in the third mod jam hosted by the Outer Wilds modding community.": "Solar Rangers是《星际拓荒》模组社区第三届创作赛的季军模组。",
+    "The mod takes a complete unexpected turn for an Outer Wilds mod, turning the open-world space exploration game into a space warfare game.": "对于《星际拓荒》模组而言，Solar Rangers走出了完全出人意料的方向——它将开放世界太空探索游戏转变为太空射击游戏。",
+    "While Solar Rangers isn't exactly \"Outer Wilds-y\", it's quite fun and does something incredibly creative.": "尽管Solar Rangers并不完全“符合《星际拓荒》的风格”，但它非常有趣，且展现了极具突破性的创意。",
+
+    //reflections.xml
+    "Mod: Reflections --- Authors: 2walker2, Lezzlebit, GayCoffee": "模组：Reflections —— 作者：2walker2、Lezzlebit、GayCoffee",
+    "Reflections is the mod that won second place in the third mod jam hosted by the Outer Wilds modding community.": "Reflections是《星际拓荒》模组社区第三届创作赛的亚军模组。",
+    "The mod is about a group of Nomai who have conducted a new experiment, holding a new world with more mysteries to explore.": "该模组讲述了一群挪麦人开展新实验的故事，他们由此发现了一个全新的世界，等待探索的谜团数不胜数。",
+    "Reflections has solid puzzles, and is well worth the experience. It has recieved second place for a reason!": "Reflections的谜题设计扎实，体验感极佳。它能获得第二名，实至名归！",
+
+    //rootaccess.xml
+    "Mod: Root Access --- Authors: John Corby, 2walker2, Lezzlebit": "模组：Root Access —— 作者：John Corby、2walker2、Lezzlebit",
+    "Root Access is one of the mods that won third place in the fourth mod jam hosted by the Outer Wilds modding community. Like its name suggests, your goal is to gain root access to the simulation.": "Root Access是《星际拓荒》模组社区第四届创作赛的季军模组之一。顾名思义，你的目标是获得模拟系统的最高权限。",
+    "The puzzles in this mod are quality, well-conveyed with the restriction, and unveils a great surprise about halfway through. This mod was also the first to make Geswaldo, Ernesto's husband, the easter egg.": "这款模组的谜题质量上乘，在本届创作赛的限制条件下依然呈现得淋漓尽致，并且在流程过半时会带来巨大的惊喜。它还是首个将格茨瓦尔多——厄内斯托的丈夫——作为彩蛋的模组。",
+    "With the wonders that this team has made, it's no wonder why Root Access was able to get into the top 3.": "凭借这个团队打造出的精彩内容，Root Access能跻身前三名，也就不足为奇了。",
+
+    //rss.xml
+    "Mod: Real Solar System --- Authors: xen, MegaPiggy, and Trifid": "模组：Real Solar System —— 作者：xen、MegaPiggy、Trifid",
+    "Real Solar System is a recreation of our solar system within Outer Wilds. This mod has been worked on by 3 people.": "Real Solar System是在《星际拓荒》中对我们现实太阳系的完美复刻。这款模组由三位创作者共同打造。",
+    "First, xen's added the planets, notable moons, and the nearby Alpha/Proxima Centauri star system.": "首先，xen加入了行星、主要卫星以及附近的半人马座阿尔法/比邻星星系。",
+    "MegaPiggy then added dwarf planets, more moons, a few satellites, and additional nearby star systems like Barnard's Star, Luhman 16, and WISE 0855−0714.": "随后，MegaPiggy加入了矮行星、更多卫星以及巴纳德星、卢曼16星、WISE 0855—0714等邻近星系。",
+    "Trifid went on to improve planet visuals with better maps, characters, a new skybox, Bramble dimensions, warp stations, a monumental number of satellites, and the Sirius AB system.": "接着，Trifid对行星视觉效果进行了大幅优化，加入了更完善的地图、角色、全新的天空盒、荆棘空间维度、跃迁站、数量众多的卫星以及天狼星AB星系。",
+    "Even without its abandoned story plans, RSS is still a lot of fun to fly around. Getting to see our solar system in Outer Wilds in a neat experience, and well worth the download.": "尽管其原本的故事线计划已被搁置，但RSS依然是一款值得畅游的模组。能在《星际拓荒》中体验我们的太阳系，是一种独一无二的乐趣，强烈推荐下载。",
+
+    //saveeditor.xml
+    "Mod: Save Editor --- Author: Bwc9876": "模组：Save Editor —— 作者：Bwc9876",
+    "This mod lets you do what it says on the tin; edit your save data!": "正如其名，这款模组能让你编辑存档数据！",
+    "It lets you do a number of different things, such as learn/forget all ship logs, learn/forget all signals, and set a number of different conditions.": "它的功能十分丰富，比如解锁/遗忘所有飞船日志、获取/清除所有信号，以及设置各种不同的游戏状态。",
+    "This is invaluable for testing that a mod works, especially when setting up ship logs. If you're looking to make a story mod, this one will probably be a go-to before long!": "这对于模组测试而言价值连城，尤其是在布置飞船日志内容时。如果你打算制作故事模组，这款工具很快就会成为你的必备！",
+
+    //scale.xml
+    "Mod: Scale of the Universe --- Authors: Trifid": "模组：Scale of the Universe —— 作者：Trifid",
+    "Scale of the Universe is a mod made for the fifth mod jam hosted by the Outer Wilds modding community.": "Scale of the Universe是为《星际拓荒》模组社区第五届创作赛制作的模组。",
+    "It is not a story mod, but instead a size comparison exhibit the player can interact with that shows the scale of objects in our universe, and even the universe of Outer Wilds.": "它并非故事模组，而是一个互动式的大小对比展示馆，向玩家呈现我们宇宙乃至《星际拓荒》宇宙中各种天体的尺度。",
+
+    //scav.xml
+    "Mod: OW Ventures Scavenger Hunt --- Authors: coderCleric": "模组：OW Ventures Scavenger Hunt —— 作者：coderCleric",
+    "Scavenger Hunt is a mod made for the first Outer Wilds Mod Jam which puts the player through a series of scavenger hunts to train them properly for the OW Ventures Space Program.": "Scavenger Hunt是为第一届《星际拓荒》模组创作赛制作的模组，玩家将通过一系列寻宝任务，为星际拓荒太空探索计划接受严格训练。",
+    "The end goal of the scavenger hunt is to find what's inside the vault, which the scavenger hunt itself leaves the breadcrumbs for.": "寻宝任务的最终目标是找到金库中的秘密，而整个寻宝过程本身就会为你留下线索。",
+
+    //screenshottool.xml
+    "Mod: Screenshot Tool --- Author: Hawkbar": "模组：Screenshot Tool —— 作者：Hawkbar",
+    "While the utility of a screenshot mod may not be immediately apparent, what makes this mod invaluable is the different options it has for the images that it takes.": "截图模组的作用或许不那么显而易见，但它的核心价值在于提供了多种截图设置选项。",
+    "More specifically, this mod has options available that allow it to take shiplog and slidereel ready screenshots. This means that no editing of the images needs to be done, they can be thrown directly into the ship log.": "具体来说，它可以生成适配飞船日志和幻灯片卷轴的截图。这意味着无需对图片进行任何编辑，可直接导入飞船日志。",
+    "If you're doing a mod that involves a ship log, the Screenshot Tool can make that process much faster!": "如果你正在制作包含飞船日志的模组，Screenshot Tool能极大地提升你的工作效率！",
+
+    //spiral.xml
+    "Mod: Spiral System --- Authors: Spacecorn": "模组：Spiral System —— 作者：Spacecorn",
+    "Spiral System is a mod made for the first Outer Wilds Mod Jam. The mod takes place in a strange new system where each body is a moon of a bigger body.": "Spiral System是为第一届《星际拓荒》模组创作赛制作的模组，故事发生在一个奇特的新星系中——这里的每一个天体都是更大天体的卫星。",
+    "The main goal of the player is to get out of the system and find their way back to Timber Hearth.": "玩家的主要目标是逃离这个星系，找到返回木炉星的路。",
+
+    //storm.xml
+    "Mod: Eye of the Storm --- Authors: Nolram, JohnCorby, and friends": "模组：Eye of the Storm —— 作者：Nolram、JohnCorby 及其他好友",
+    "Eye of the Storm was a cancelled mod for Outer Wilds that unveils a new Nomai project called the WASP that was built after the Ash Twin Project.": "Eye of the Storm是一款已取消的《星际拓荒》模组，它揭示了一个名为WASP的全新挪麦人项目——该项目是在灰烬双星计划之后启动的。",
+    "The mod was in pre-development stage for two years and several arguments between the developers over design choices caused the mod to ultimately be cancelled.": "这款模组经历了两年的预开发阶段，但由于开发者们在设计选择上存在多次分歧，最终导致其被取消。",
+    "While little information about the mod is known by the Outer Wilds modding community, it sounded like it would have been quite the experience!": "尽管《星际拓荒》模组社区对这款模组知之甚少，但从已知信息来看，它本会是一段极其精彩的体验！",
+
+    //stowaway.xml
+    "Mod: Stowaway --- Authors: atk, MegaPiggy, Repcon": "模组：Stowaway —— 作者：atk、MegaPiggy、Repcon",
+    "Stowaway is an upcoming Outer Wilds mod that has been in development for quite a while.": "Stowaway是一款正在开发中的《星际拓荒》模组，其开发周期已经持续了相当长的时间。",
+    "It is focused on new mysteries and mechanics centered around Giant's Deep, with secrets that reach across the solar system.": "该模组围绕深巨星展开全新的谜团与机制，其秘密贯穿了整个星系。",
+    "Keep an eye out for when it releases, and make sure to give it a try!": "敬请关注它的发布，并务必体验一番！",
+
+    //survivors.xml
+    "Mod: Survivors --- Authors: Hawkbar, Insmoshable, Team Kabuki": "模组：Survivors —— 作者：Hawkbar、Insmoshable、Team Kabuki",
+    "Survivors is a mod made for the second mod jam hosted by the Outer Wilds modding community. The mod explores a group of Nomai who fled the Vessel to safety.": "Survivors是为《星际拓荒》模组社区第二届创作赛制作的模组，讲述了一群挪麦人逃离母舰并逃往安全之地的故事。",
+    "The mod adds new dimensions into Dark Bramble and adds an interesting gimmick to these new areas. One warning though, maybe steer clear of the mod if you have a fear of insects.": "它为黑棘星新增了多个维度，并为这些区域设计了有趣的特殊机制。不过有个提醒，如果你害怕昆虫，或许要避开这款模组。",
+    "While it didn't win any awards, it is an experience worth trying! If you don't mind the bugs, of course.": "尽管未能获奖，但它依然是一段值得体验的旅程！当然，前提是你不介意这些虫子。",
+
+    //symbiosis.xml
+    "Mod: Symbiosis --- Authors: Bird": "模组：Symbiosis —— 作者：Bird",
+    "Symbiosis is a mod made for the third mod jam hosted by the Outer Wilds modding community, exploring an eerie, alternate Timber Hearth.": "Symbiosis是为《星际拓荒》模组社区第三届创作赛制作的模组，探索了一个阴森诡异的平行木炉星。",
+    "The mod has an interesting mechanic, spectacular writing, and has even won the prize for the best Ernesto easter egg in all of Jam 3.": "这款模组拥有独特的机制和精彩的剧情，甚至还斩获了第三届创作赛“最佳厄内斯托彩蛋奖”。",
+    "While it didn't win any other awards, it is an experience worth trying!": "尽管未获其他奖项，但它依然是一段值得体验的旅程！",
+
+    //tesseract.xml
+    "Mod: Tesseract's Secret --- Authors: Can't Afford a Name": "模组：Tesseract's Secret —— 作者：Can't Afford a Name",
+    "Tesseract's Secret is the mod that won second place in the second mod jam hosted by the Outer Wilds modding community.": "Tesseract's Secret是《星际拓荒》模组社区第二届创作赛的亚军模组。",
+    "This mod is quite interesting, tasking the player with exploring a hidden planet with strange structures dotting its surface. Unfortunately, the structures are sealed (at least until you find a way to open them!)": "这款模组非常有趣，玩家需要探索一颗隐藏的行星，其表面布满了奇特的建筑。遗憾的是，这些建筑都被封印了（至少在你找到打开它们的方法之前是这样！）",
+    "This mod is quite creative, making very good use of the space it takes up. While there is only one planet added, the contents of that planet are quite dense, making for a very enjoyable experience!": "它的创意十足，充分利用了有限的空间。虽然只新增了一颗行星，但内容极其丰富，带来了极佳的体验！",
+
+    //textprinter.xml
+    "Mod: Nomai Text Printer --- Author: coderCleric": "模组：Nomai Text Printer —— 作者：coderCleric",
+    "The Nomai Text Printer mod streamlines the process of adjusting text made using New Horizons.": "Nomai Text Printer 模组简化了使用New Horizons调整文本的流程。",
+    "By pressing a keybind while the translator is locked on to text, a pre-formatted json string will be printed to the console. This string can then be pasted directly into a New Horizons planet file to create the text!": "当翻译器锁定文本时，按下指定快捷键，控制台就会输出一个预格式化的JSON字符串。你可以直接将这个字符串粘贴到New Horizons的行星文件中，从而创建文本！",
+    "While this isn't terribly useful on its own, it pairs very nicely with the Unity Explorer mod. By moving the text with Unity Explorer and then printing the string to the console, you can skip manually entering the position and rotation of all those text arcs!": "虽然它单独使用时作用有限，但与Unity Explorer模组搭配效果极佳。通过Unity Explorer移动文本，再将字符串输出到控制台，你就无需手动输入所有文本弧的位置和旋转信息了！",
+    "This mod makes the process of arranging text much quicker. If you're making a mod with a lot of text, this mod may be one to add to your arsenal!": "这款模组能极大地加快文本布局的速度。如果你正在制作包含大量文本的模组，这款工具或许值得收入你的工具箱！",
+
+    //tsta.xml
+    "Mod: The Stranger They Are --- Author: Anonymous": "模组：The Stranger They Are —— 作者：Anonymous",
+    "The Stranger They Are is a story mod that greatly expands on the Echoes of the Eye DLC, unveiling the darkest secrets of the Stranger's inhabitants.": "The Stranger They Are是一款大幅拓展《眼之回响》DLC的故事模组，揭露了鹿人种族最黑暗的秘密。",
+    "It's difficult to explain the mod any more outside of that because the mod itself is filled with a lot of huge surprises!": "除此之外，很难再对模组做更多描述——因为它包含大量重磅惊喜！",
+    "Currently, The Stranger They Are is the longest mod on the database, with reports of playtime lasting at an average of 10 hours.": "目前，The Stranger They Are是数据库中篇幅最长的模组，据反馈平均游玩时长可达10小时。",
+    "If you're looking for a long-haul mod to really sink your teeth into, definitely give this one a try!": "如果你正在寻找一款能沉浸式深度体验的长篇模组，一定要试试这款！",
+
+    //unityexplorer.xml
+    "Mod: Unity Explorer --- Author: Vesper-Works": "模组：Unity Explorer —— 作者：Vesper-Works",
+    "When it comes to making the mod creation process easier, it's hard to beat the Unity Explorer mod.": "说到简化模组创作流程，Unity Explorer模组堪称顶尖工具。",
+    "This mod gives a GUI for every object and component in the game, allowing just about everything in the game to be manipulated at runtime. This doesn't even require any custom code on the user's part!": "它为游戏中的每个对象和组件都提供了图形界面，让玩家几乎能在运行时操控游戏内的所有内容——而且用户无需编写任何自定义代码！",
+    "Whether you need to reposition text or check what the fields of a custom class are set to, the Unity Explorer mod does it all. Definitely a must-have for aspiring and experienced modders alike!": "无论你是需要调整文本位置，还是查看自定义类的字段设置，Unity Explorer都能胜任。对于有志于创作的新手和资深模组开发者而言，它绝对是必备工具！",
+    "Here's a bonus tip; if you're modding another game, keep in mind that this is just a version of the more general Unity Explorer mod. It's quite possible that the more general version will work for your purposes!": "附赠一个小技巧：如果你在给其他游戏做模组，要知道这只是通用版Unity Explorer的一个分支——通用版很可能也能满足你的需求！",
+
+    //unnamedmystery.xml
+    "Mod: Unnamed Mystery --- Author: orbital32": "模组：Unnamed Mystery —— 作者：orbital32",
+    "Unnamed Mystery is a story mod originally designed to be a submission to the first mod jam, but was released as a standalone because it didn't fit the theme.": "Unnamed Mystery本是为第一届模组创作赛设计的参赛故事模组，但由于不符合主题，最终以独立模组的形式发布。",
+    "The mod is about a group of Nomai getting stranded in a star system located just outside the bounds of the universe.": "模组讲述了一群挪麦人被困在宇宙边界之外某星系的故事。",
+    "Unnamed Mystery was able to deliver a great story mod without the use of code, but its story is still not complete.": "Unnamed Mystery无需代码就能呈现精彩的故事模组，但它的剧情至今仍未完结。",
+    "The developer has also recently announced their plans to completely remaster the mod.": "开发者近期还宣布，计划对这款模组进行彻底重制。",
+
+    //upcomingarea.xml
+    "This area showcases some of the anticipated mods currently being developed by the community.": "该区域展示的是社区目前正在开发、备受期待的部分模组。",
+    "While these mods haven't been released yet, that doesn't mean there isn't anything to say about them! Developers making larger-scale mods will often post teasers about them, or even make dedicated message boards on the modding discord!": "尽管这些模组尚未发布，但这并不意味着没有值得关注的亮点！大型模组的开发者通常会发布预告，甚至在模组创作Discord上开设专属讨论区！",
+
+    //usc.xml
+    "Mod: Ultimate Skin Changer --- Author: pikpik_carrot, JohnCorby, xen, Streetlights Behind the Trees": "模组：Ultimate Skin Changer —— 作者：pikpik_carrot、JohnCorby、xen、Streetlights Behind the Trees",
+    "Ultimate Skin Changer is a mod that allows you to play as other Outer Wilds characters. Gabbro, Hornfels, Solanum, Prisoner, you name it!": "Ultimate Skin Changer模组允许你扮演《星际拓荒》中的其他角色——加布罗、霍恩费斯、所莱内姆、幽禁者，应有尽有！",
+    "This mod is a great enhancement to any Quantum Space Buddies session, allowing you and your friends to distinguish one another.": "它能极大提升Quantum Space Buddies的联机体验，让你和好友能轻松区分彼此的角色。",
+    "The lead author of this mod, pikpik, has also released some playable skins from Team Fortress 2 and Portal as separate mods.": "模组的首席作者pikpik还单独发布了一些《军团要塞2》和《传送门》的可玩角色皮肤模组。",
+
+    //utilityarea.xml
+    "This area showcases the unsung heroes of the Outer Wilds modding community; the utility mods.": "该区域展示的是《星际拓荒》模组社区的无名英雄——工具类模组。",
+    "While these mods may do little for a player, they are invaluable tools to those looking to create mods.": "这些模组对普通玩家而言或许作用不大，但对模组创作者来说，却是不可或缺的实用工具。",
+    "Mods here have roles anywhere from streamlining the creation process to making certain types of mods possible in the first place.": "这里的模组各司其职，有的能简化创作流程，有的则为特定类型模组的诞生提供了可能。",
+
+    //vision.xml
+    "Mod: The Vision --- Author: hearth1an": "模组：The Vision —— 作者：hearth1an",
+    "The Vision incorporates the story of both the base game of Outer Wilds and the DLC Echoes of the Eye, providing a continuation of both.": "The Vision融合了《星际拓荒》原作与《眼之回响》DLC的剧情，为两者提供了后续故事。",
+    "While the scale of the mod is not as impressive as some more recent releases, it was very impressive and highly anticipated at the time of release.": "尽管其规模不及近年来的部分模组，但在发布时，它的表现令人惊艳，且备受期待。",
+    "Much of this is because The Vision was the first story mod to combine the tools and utilities provided by New Horizons with the adaptability of custom code, creating an experience that was more robust and complete than any that had been provided thus far.": "这很大程度上是因为The Vision是首款将New Horizons提供的工具与自定义代码的灵活性相结合的故事模组，打造出了当时最完善、最完整的体验。",
+    "If you want a peek at the past of the OW modding community, definitely give this mod a try!": "如果你想了解《星际拓荒》模组社区的早期发展，一定要试试这款模组！",
+
+    //voice.xml
+    "Mod: Voice Acting Mod --- Author: Krevace, JohnCorby, and Friends": "模组：Voice Acting Mod —— 作者：Krevace、JohnCorby 及其他好友",
+    "The Voice Acting Mod dubs the entirety of Outer Wilds's dialogue. Every single line seen in the base game and DLC are now fully voiced.": "Voice Acting Mod为《星际拓荒》的所有对白配上了语音——原作与DLC中的每一句台词都有完整配音。",
+    "Modders can also use this mod for their story mods by integrating it with New Horizons. If you are interested in how to use this with your mod, check out how New Horizons Examples does it.": "模组创作者还可将其与New Horizons整合，为自己的故事模组添加语音。如果您想了解如何在自己的模组中使用该功能，可参考New Horizons Examples的实现方式。",
+
+    //wrongwarp.xml
+    "Mod: Wrong Warp --- Authors: Hawkbar, Insmoshable, and TeamKabuki": "模组：Wrong Warp —— 作者：Hawkbar、Insmoshable、TeamKabuki",
+    "Wrong Warp seeks to provide an alternate course for the player to take, exploring the nature of the Eye of the Universe and the complicated nature between it and the creatures of the universe.": "Wrong Warp为玩家提供了一条全新的剧情支线，探索宇宙之眼的本质，以及它与宇宙中各类生物之间的复杂关联。",
+    "This mod will feature a variety of new game mechanics, puzzles, and other surprises that will be revealed at release. It also seems to take place in another star system.": "模组将包含多种全新游戏机制、谜题及其他惊喜，这些内容将在发布时揭晓。此外，它的故事似乎发生在另一个星系中。",
+    "Wrong Warp features some of the same developers that worked on Arcanum Adrift, a team that has shown promise on multiple occasions. Overall, the Outer Wilds modding community is very excited to see what this mod has to offer!": "参与Wrong Warp开发的部分成员也曾参与Arcanum Adrift的制作——这支团队已多次展现出出色的创作实力。总的来说，《星际拓荒》模组社区对这款模组的表现充满期待！",
+
+    //xmas.xml
+    "Mod: Christmas Story --- Author: hearth1an": "模组：Christmas Story —— 作者：hearth1an",
+    "Christmas Story is a holiday-themed story mod that tasks you with bringing home the travelers for the holidays.": "Christmas Story是一款节日主题故事模组，你的任务是让旅行者们在节日前平安回家。",
+    "While the story of the mod has quite a bit of charm, the real selling point is the puzzles, as well as the interactions between different characters.": "模组的剧情颇具魅力，但真正的亮点在于其谜题设计，以及不同角色之间的互动。",
+    "The mod also comes with cool new modifications to your tools. One example is attaching a gravity crystal to your scout, which allows you to walk up walls!": "模组还为你的工具新增了酷炫的改装功能——比如给小侦察兵装上重力水晶，让你能沿着墙壁行走！"
+  },
+
+  "ShipLogDictionary": {
+    //hubplanet.xml
+    "Hub Planet": "枢纽星球",
+    "I've heard that there's a planet that acts as a hub for the Outer Wilds modding community. Maybe I should visit it first?": "我听说有一颗星球是《星际拓荒》模组创作社区的枢纽。或许我应该先去那里看看？",
+    "Modder Party": "模组创作者聚会",
+    "Apparently I can find a big party with a bunch of the modders from the community on the north pole.": "显然我能在北极找到一场大型聚会，聚集了社区里一众模组创作者。",
+    "I found a big party on the north pole with a bunch of the modders from the community.": "我在北极发现了一场大型聚会，聚集了社区里一众模组创作者。",
+    "Mod Showcases": "模组展示区",
+    "I found a series of mod showcases that circle the equator of the planet.": "我发现一系列模组展示区环绕着这颗星球的赤道分布。",
+    "Ernesto says there are 5 showcases: one for popular mods, one for upcoming mods, one for abandoned mods, one for utility mods, and a final one for mod jam entries.": "厄内斯托说这里有五个展示区：一个展示热门模组，一个展示未上线模组，一个展示废弃模组，一个展示实用模组，最后一个展示模组创作赛参赛作品。",
+    "Orrery Computer": "星象仪终端",
+    "I found a weird computer with a giant, holographic orrery on the south pole.": "我在南极发现了一台奇怪的终端，上面有一个巨大的全息星象仪。",
+    "Apparently I can use the computer to identify and lock on to the different planets throughout the star system, provided I'm in a jam system.": "显然，只要身处创作赛星系，我就能用这台终端识别并锁定星系中不同的行星。"
+  }
+}
